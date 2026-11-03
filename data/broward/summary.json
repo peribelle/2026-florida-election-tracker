@@ -2,13 +2,13 @@
  "county": "BROWARD",
  "precincts": 346,
  "eligible_voters_allreg": 1366692,
- "ballots": 601551,
- "turnout_pct_allreg": 44.02,
+ "ballots": 618896,
+ "turnout_pct_allreg": 45.28,
  "types": {
-  "Mail": 151886,
+  "Mail": 152198,
   "EarlyVoting": 314109,
-  "ElectionDay": 135556,
-  "Provisional": 107
+  "ElectionDay": 152589,
+  "Provisional": 125
  },
  "ev_locations": 30,
  "ed_locations": 281,
