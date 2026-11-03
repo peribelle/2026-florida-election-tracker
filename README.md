@@ -135,7 +135,8 @@ pull (`validate.py`, started by `after_pull.py`), detached, so a pull never wait
   pull.** A count that went down is flagged however small, and the tier says how big. Parts must add up to their totals,
   nothing may be negative, a candidate cannot have more votes than the county has ballots, probabilities stay between 0 and
   1, and a race that was called stays called. Rows that only changed their key while the numbers carried over are a
-  notice, not an alarm.
+  notice, not an alarm. The thresholds are tuned so a county correcting its own count by a ballot or two is one notice
+  per county, not a page of alerts.
 - A flag is **raised once**. If it stays true it is escalated one tier after 3 pulls and **cleared** when it goes away, so a
   broken county is one alert, not a hundred.
 - **The watchdog** (`validate.py --watch`) is a small loop that raises an alert when a scheduled pull never arrives at all,
@@ -150,7 +151,8 @@ notification. On the site, the **Data checks** card (Snapshots → Pipeline heal
 ```bash
 .venv/bin/python validate.py --status     # what is open right now
 .venv/bin/python validate.py --replay     # what the saved history would have been flagged (writes nothing)
-.venv/bin/python validate.py --selftest   # prove the validators fire: runs 46 checks on a copy of the real data
+.venv/bin/python validate.py --selftest   # prove the validators fire: runs 65 checks on a copy of the real data
+.venv/bin/python validate.py --ack --tier 3 --events --note "why"   # take reviewed notices off the board (logged)
 NO_VALIDATE=1 ./refresh.sh                # skip the validators for one run
 touch logs/.validate_quiet                # mute the desktop popups (alerts are still logged and on the site); rm to unmute
 ```
@@ -167,8 +169,11 @@ Log: `logs/validate.log`.
   `collect_broward.py` pulls the summary KPIs, the ballot-type mix, the party table, all 346 precincts
   and the 281 Election Day locations. Broward publishes turnout against *all* registered voters;
   the workbook maps it onto active registered so the 67 counties compare like for like. Its dashboard is a separate
-  site that can fail on its own: if it does, the run keeps Broward's last complete numbers, says so in the run's note
-  and in `data/broward/status.json`, and the validators raise it, so the other 66 counties still get their pull.
+  site that can fail on its own, so it is collected in parallel with the other 66 counties and checked separately: if it
+  fails, the run keeps Broward's last complete numbers, says so in the run's note and in `data/broward/status.json`, and
+  the validators raise it, and no other county is delayed or changed. While it is down, `blend_broward.py` fills in
+  Broward's **Election Day total** from the state's `ElectionDayTurnout` page (the party, precinct and location detail
+  stay frozen at the last good collection, because the state page has only a total).
 - **Denominators**: FL Division of Elections book-closing report (Oct 5, 2026), active registered
   voters by county / party / precinct.
 

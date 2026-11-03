@@ -44,7 +44,7 @@ immutable archive of every pull.
 |---|---|---|---|---|
 | 1 | **VR Systems "Turnout Quick View"** | `https://s3.amazonaws.com/turnoutquickview.electionsfl.org/data/FL/<CODE>/index.json` then `.../<election>/data.json` | 66 counties: turnout by date×type, party×type, precinct×type×eligible, location×party, location×day | none |
 | 2 | **Broward TED dashboard** | `https://my.browardvotes.gov/TEDElectionLink/api/v1/widgets/chart?tile=<id>&dashboard=<view>` and `.../TurnOutWidget/dashboard/view/<view>` (Blazor HTML tables) | Broward only: KPIs, ballot-type pie, party table, 346 precincts, EV/ED locations | none |
-| 3 | **Florida Election Watch** (Division of Elections) | `https://floridaelectionwatch.gov/CountyReportingStatus`, `/ElectionDayTurnout`, `/ContestResultsByCounty/<id>`, office pages under `/StateOffices`, `/FederalOffices`, `/DistrictOffices/*`, `/JudicialOffices/*`, `/Amendments` | Official state feed: county turnout + precincts reporting, and ~172 state/federal/judicial/amendment contests | none |
+| 3 | **Florida Election Watch** (Division of Elections) | `https://floridaelectionwatch.gov/CountyReportingStatus`, `/ElectionDayTurnout`, `/ContestResultsByCounty/<id>`, office pages under `/StateOffices`, `/FederalOffices`, `/DistrictOffices/*`, `/JudicialOffices/*`, `/Amendments` | Official state feed: county turnout + precincts reporting, and ~172 state/federal/judicial/amendment contests. `/ElectionDayTurnout` also supplies Broward's Election Day count while its own dashboard is down (§9) | none |
 | 4 | **County Clarity ENR (contests)** | `https://enr.electionsfl.org/<CODE>/<id>/Summary/` (also `results.enr.clarityelections.com/FL/<Name>/<id>/`) | Every contest on that county's ballot, including county commission, sheriff, school board, city races, local charter amendments | none |
 | 5 | **County Clarity ENR (precinct CSV)** | `.../<id>/Reports/` → "Candidate Results by Precinct and Party (CSV)" on S3 | Whole precinct-level ballot in one file | none |
 | 6 | **County Clarity ENR (precinct pages)** | `.../<id>/Precincts/<contest>/` | Same data for counties that don't publish the CSV export; one request per contest | none |
@@ -113,8 +113,9 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 
 ```
                         ┌─ collect.py ────────► raw/tqv/<CODE>_<n>.json   (66 counties)
-                        ├─ collect_broward.py ► data/broward/*.csv         (Broward)
-  every hour / 18:59    └─ parse_broward.py ──► data/broward_ev_by_location.csv (PDF fallback)
+                        ├─ collect_broward.py ► data/broward/*.csv         (Broward: in parallel with collect.py, own time limit)
+  every hour / 18:59    ├─ blend_broward.py ──► data/broward/blend.json    (Broward's Election Day total from the state's page, only while its dashboard is down)
+                        └─ parse_broward.py ──► data/broward_ev_by_location.csv (PDF fallback)
 
           normalize.py ── merges TQV + Broward ──► data/*.csv  (tidy tables)
                      │
@@ -172,6 +173,7 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 │
 ├── collect.py               66 county TQV feeds
 ├── collect_broward.py       Broward dashboard API
+├── blend_broward.py         Broward's Election Day total from the state's page while its dashboard is down (§9)
 ├── parse_broward.py         Broward early-vote PDF (fallback only)
 ├── normalize.py             TQV + Broward -> data/*.csv
 ├── build_workbook.py        the Excel workbook (16 tabs, 9 charts)
@@ -190,12 +192,13 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── validate.py              the two validators: engine, alerts, notifications, watchdog, --selftest (§13)
 ├── validate_checks.py       source checks, metrics, tiers, schedule port
 ├── validate_data.py         data checks: the generic table comparer and the invariants
-├── validate_selftest.py     runs 46 checks on a copy of the real history: the right alert fires, a clean pull stays silent
+├── validate_selftest.py     runs 65 checks on a copy of the real history: the right alert fires, a clean pull stays silent
 ├── publish.py               after every pull: rebuild viewer, refresh docs/, commit the outputs, push (§12)
 ├── github_known_hosts       GitHub's published SSH host keys, so unattended pushes never prompt
 │
 ├── raw/                     downloaded source material (see §3)
-│   └── tqv/                 latest county feed JSON, overwritten each pull
+│   ├── tqv/                 latest county feed JSON, overwritten each pull
+│   └── broward_last_good/   Broward's last complete, readable set; normalize.py falls back to it (§9)
 ├── data/                    latest tidy turnout tables (overwritten each pull)
 ├── data/broward/            Broward's raw-normalized pieces
 ├── Reports/                 latest deliverables (mirror, overwritten)
@@ -456,12 +459,26 @@ active basis so the 67 counties compare like for like. Broward's own headline (3
 
 **Broward's dashboard is its own site, and it fails on its own.** On election morning it went to "No dashboard loaded": its widget
 API returned 404 at 08:00 and hung at 09:00, and because `refresh.sh` runs under `set -e` the 08:00 and 09:00 turnout runs were
-never archived. `collect_broward.py` now retries (not on a 4xx), has a 120 s budget, collects into a staging directory and moves
-it into place only if complete, so a failure can never leave a mix of fresh and stale files. On failure the last complete set stays
-in `data/broward/`, `data/broward/status.json` records `ok: false` and when those numbers were really collected, `archive.py` puts
-that in the run's `note` in `runs/INDEX.csv`, and the validators raise `broward_stale`. The statewide numbers for that run
-therefore **omit everything Broward added since** (about 8% of ballots): never present them as complete. The collector retries every
-run, so the next healthy pull restores it by itself. The 08:00 and 09:00 snapshots cannot be recreated (the feeds are live).
+never archived. Those two snapshots cannot be recreated (the feeds are live). Broward is now its own failure domain:
+
+- `refresh.sh` collects it **in parallel** with the other 66 counties (own process, `timeout 75`), so its hang or 404 costs them nothing.
+- `collect_broward.py` retries (not on a 4xx), has a 60 s budget, collects into a staging directory and moves it into place only if
+  complete, so a failure can never leave a mix of fresh and stale files. `data/broward/status.json` records `ok` and when the numbers
+  were really collected; `archive.py` puts that in the run's `note` in `runs/INDEX.csv`; the validators raise `broward_stale`.
+- `normalize.py` reads Broward inside a guard. If its files can't be parsed it falls back to `raw/broward_last_good/` (its last complete,
+  readable set); if even that fails Broward is left out and the other 66 counties are unchanged. A scratch suite (hang, 404, crash,
+  corrupt file, both sources down) showed the other 66 counties byte-identical to a healthy run.
+- **The blend.** While Broward's own collection is more than 15 minutes old, `blend_broward.py` reads Broward's Election Day turnout from
+  `floridaelectionwatch.gov/ElectionDayTurnout` and writes `data/broward/blend.json` (`active`, `election_day`, `reported_at`). `normalize.py`
+  uses it for exactly two numbers: Broward's `ElectionDay` ballots in `by_type.csv` and Election Day's `All` row in `by_date.csv` (the viewer's
+  daily chart needs both). Each is the larger of the state's figure and the dashboard's, so a blend can only add. **Party, precinct, location
+  and mail/early detail stay frozen** at the last good collection (the state page has only a total) and nothing is estimated or spread across
+  parties. `counties.csv` `last_updated` says `dashboard down: details carried over from HH:MM`. The figure is county-reported turnout on the
+  state page's basis, not the dashboard's. When the dashboard is healthy, `blend.json` says `active: false` and nothing changes. If the state's
+  page is down too, the run carries Broward over unchanged and `blend.json` records the error.
+
+Without a blend, the statewide numbers **omit everything Broward added since its last good collection** (about 8% of ballots): never
+present them as complete. The collector and the blend retry every run, so the next healthy pull restores it by itself.
 
 **Turnout feeds die at polls close.** County dashboards are switched off at 19:00. That is why the
 last turnout pull is 18:59 and results start at 19:00. Do not expect `refresh.sh` to return useful
@@ -489,7 +506,9 @@ precinct's eligible count is below ballots cast — a reporting artefact, not a 
 .venv/bin/python publish.py       # publish now: viewer, docs/, commit, push (what every pull asks for)
 .venv/bin/python validate.py --status    # what the validators have open right now
 .venv/bin/python validate.py --replay    # what the saved history would have been flagged (writes nothing)
-.venv/bin/python validate.py --selftest  # prove the validators fire (46 checks, touches nothing real)
+.venv/bin/python validate.py --selftest  # prove the validators fire (65 checks, touches nothing real)
+.venv/bin/python validate.py --ack --tier 3 --events --note "why"   # take reviewed notices off the board (logged; a condition that gets worse returns)
+.venv/bin/python blend_broward.py        # Broward's Election Day count from the state's page -> data/broward/blend.json
 nohup .venv/bin/python validate.py --watch >> logs/validate_watch.log 2>&1 &   # the watchdog: a scheduled pull that never arrives
 .venv/bin/python publish.py --status   # last result, pending request, unpushed commits
 ```
@@ -597,10 +616,13 @@ a count that went down is flagged at any size.
 | votes: smaller | 3 |
 | ballots (hourly turnout totals): d >= 2000, or d >= 200 and 2% of p / d >= 50 / smaller | 1 / 2 / 3 |
 
-The thresholds are `vote_tier` and `ballot_tier` in `validate_checks.py`. A pile of 10+ small drops in one place is raised to 2;
-a statewide total is at least 2. Tune them there and re-run `--selftest`.
+The thresholds are `vote_tier` and `ballot_tier` in `validate_checks.py`. A pile of 10+ small drops in one place is raised to 2 only when
+the pile adds up (10 votes; 50 ballots in the hourly turnout tables); a statewide total is at least 2. Tune them there and re-run `--selftest`.
 
-**What is compared.** Everything the pipeline saves, with one generic comparer (`table_events`): the state feed's per-county
+**What is compared.** Everything the pipeline saves, with one generic comparer (`table_events`). Calibrated on election day: a county's small
+correction usually shows up in several turnout tables at once, so those are merged into one alert per county and kind
+(`TQV|county|<COUNTY>|<kind>`, every row still in `findings.csv`); registered-voter changes under 3 voters (or 0.02%) are roll upkeep and not
+flagged; new rows in the hourly turnout tables are growth and not announced (a county coming online in the results still is): the state feed's per-county
 votes, every county contest, county status and turnout, every precinct file (fast and slow), the turnout tables, and the
 forecasts and calls. Findings are grouped (per race and county; per county for precincts and turnout), and a table that
 produces more than 25 groups collapses to one alert per source. **Nothing is dropped:** every row behind an alert is in
@@ -614,7 +636,7 @@ produces more than 25 groups collapses to one alert per source. **Nothing is dro
 | `rows_missing` | rows vanished; tier by the votes they carried | 2 or by size |
 | `shape_changed` | half a table vanished in one pull | 1 |
 | `rows_rekeyed` | keys changed but the numbers carried over (Broward's location ids did this) | 3 |
-| `rows_new` | new rows, one notice per table (counties coming online) | 3 |
+| `rows_new` | new rows, one notice per table (counties coming online; results tables only) | 3 |
 | `negative_value`, `exceeds_ballots`, `total_mismatch`, `parts_mismatch`, `pct_mismatch` | within one pull: negative, more votes than ballots, statewide != county sum, total != parts, percent wrong | 1 / 1-2 / 2 / 3 / 3 |
 | `precincts_regressed`, `count_changed` | precincts reporting went backwards; a denominator moved | 1-2 / 2-3 |
 | `prob_out_of_range`, `prob_sum_off`, `prob_jump`, `two_winners`, `call_made`, `call_retracted` | forecasts and calls | 1, 2, 2-3, 1, 3, 1 |
@@ -623,7 +645,7 @@ produces more than 25 groups collapses to one alert per source. **Nothing is dro
 | source: `precinct_file_lost`, `precinct_file_short`, `precinct_file_corrupt` | a county that had a precinct file lost, truncated or broke it | 2 |
 | source: `wrong_election` | an election date that is not 11/3/2026, or primary contests | 1 |
 | source: `source_down`, `race_pages_failed`, `markets_short` | DDHQ down (1: it is the only call authority); Kalshi/Polymarket down (2) | 1 / 2 |
-| source: `broward_stale` | Broward's dashboard is down and its numbers are carried over (T2 after 15 min, T1 after 3 h) | 2 / 1 |
+| source: `broward_stale` | Broward's dashboard is down. Scope `TQV|broward|blended` when its Election Day total is blended in from the state's page (T2 while that figure is under 2 h old); `TQV|broward|stale` when nothing could be blended (T2 after 15 min, T1 after 3 h). Two situations, two conditions: a blend taking over clears one and raises the other. A crash inside this check is `validator_error` (`TQV|broward|check`) and the other turnout checks still run | 2 / 1 |
 | source: `county_feeds_failed`, `counties_short`, `feed_stale`, `counties_stale` | turnout feeds; staleness is measured from poll open | 1-3 |
 | source: `county_stalled` | a county that had started reporting has not moved for 3 pulls (T3) or 6 (T2) | 3 / 2 |
 | source: `pull_gap`, `pull_missing`, `pull_stuck`, `site_stale` | a scheduled pull never ran; never arrived; never finished; the site is 20+ min behind | 1-2 |
@@ -636,7 +658,12 @@ one. On the first run the validators learn the history and judge only the latest
 **Two kinds of alert.** An *event* is a change between two pulls (`votes_down`); it is raised once. A *condition* stays true
 until fixed (`county_site_failed`); it is raised once, escalated one tier after 3 pulls (or at once if it gets worse while open: a
 feed an hour stale that becomes three hours stale), and cleared when it goes. Alerts
-`raised`, `escalated` and `cleared` are rows in `validation/alerts.csv`.
+`raised`, `escalated`, `cleared` and `acknowledged` are rows in `validation/alerts.csv`.
+
+**Acknowledging.** `validate.py --ack` (needs `--note` and one of `--tier`, `--alert-kind`, `--events`, so it never clears the board by accident)
+takes what you have looked at off the board and writes an `acknowledged` row carrying the note; the log keeps everything. Events leave
+for good. A condition is hidden while it stays as it is and comes back by itself the moment it escalates (gets worse, or persists 3 pulls),
+so acknowledging cannot bury a growing problem. `state.json` keeps the `acked` marker.
 
 **Files** (all under `validation/`; none of it touches `runs/`, `results/` or `projections/`, and the viewer only reads it):
 
@@ -665,6 +692,6 @@ and `site_stale`. It is silent outside the election window. It also validates an
 a chip in the Overview status strip. Tiers use text labels and border weight as well as color, never the party colors (§7.6).
 
 **Rules.** Validators read snapshots and write only `validation/` and `logs/`. A validator that cannot run must never delay or
-fail a pull. After changing any `validate*.py`, run `validate.py --selftest` (it runs 46 checks on a copy of the real history
+fail a pull. After changing any `validate*.py`, run `validate.py --selftest` (it runs 65 checks on a copy of the real history
 and checks the right alert fires, a clean pull stays silent, and the schedule matches). To add a check: write it as a function that
 returns findings, call it from `source_checks` or `data_checks`, and add a scenario to `validate_selftest.py`.
