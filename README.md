@@ -3,10 +3,11 @@
 > **Working on this repo? Read [`AGENTS.md`](AGENTS.md) first.** It documents every data source,
 > schedule slot, file and schema, the immutability rules, and the audit.
 
-**Live viewer: <https://peribelle.github.io/2026-florida-election-tracker/>** — *Taro Tally*, one page, nothing to install.
-The page is a snapshot of `Reports/viewer.html` and is refreshed by hand (see [Publishing the page](#publishing-the-page)).
+**[Live viewer →](https://peribelle.github.io/2026-florida-election-tracker/)** — *Taro Tally*, one page, nothing to install.
+It keeps itself current: every pull is committed and the page is rebuilt and pushed within a few minutes
+(see [Publishing](#publishing)).
 
-![Turnout chart preview](Reports/charts_preview.png)
+[![Taro Tally, the overview page, re-rendered after every pull](docs/preview.png)](https://peribelle.github.io/2026-florida-election-tracker/)
 
 Pulled live from all 67 counties. Election Day is Tuesday, November 3, 2026. The project tracks turnout (`runs/`),
 the vote count (`results/`) and forecasts (`projections/`), and keeps the three apart.
@@ -29,7 +30,8 @@ Built and run on Python 3.14. Every source is public and needs no credentials.
 
 Re-pulls every feed, rebuilds the CSV tables, workbook, county/site lists and chart preview,
 prints the change since the last archived run, archives the run, then rebuilds the viewer
-(that last step is guarded: a viewer failure can never fail a refresh).
+(that last step is guarded: a viewer failure can never fail a refresh) and asks for a GitHub update
+(see [Publishing](#publishing); also guarded).
 
 Optional alias:
 
@@ -44,6 +46,8 @@ echo 'alias flturnout="$HOME/Code/election-tracking/refresh.sh"' >> ~/.bashrc
 | `Reports/Florida_2026_General_Turnout.xlsx` | Latest workbook: 16 tabs, 9 native charts |
 | `Reports/viewer.html` | **Taro Tally**: interactive viewer, one file, opens offline (see below) |
 | `Reports/charts_preview.png` | Chart contact sheet |
+| `docs/index.html` | The published copy of the viewer (GitHub Pages serves `docs/`) |
+| `docs/preview.png` | Screenshot of the viewer's top, rendered from the page itself: the image at the top of this README |
 | `Reports/counties_and_election_sites.md` | All 67 counties: website, turnout link, eligible voters, ballots, % |
 | `Reports/county_election_sites.csv` | Same, as data |
 | `runs/<timestamp>/` | **Immutable archive of every run** |
@@ -88,17 +92,28 @@ Source lives in `viewer/`: `template.html`, `style.css`, `js/*.js` (concatenated
 `fonts/` (Fredoka and Nunito, OFL) and `fl_counties.json` (county outlines from Census boundaries via us-atlas;
 regenerate with `viewer/make_geo.py`, one-time). Edit those, then re-run `build_viewer.py`.
 
-## Publishing the page
+## Publishing
 
-GitHub Pages serves `docs/` from `main`, and `docs/index.html` is a copy of `Reports/viewer.html`.
-The pipeline never touches it, so the public page only moves when you run:
+Every pull ends by asking `publish.py` for an update: `refresh.sh`, `results.py`, `results_precinct_slow.py` and
+`projections.py` all do. It runs detached, so a pull never waits on it or fails because of it. One publish:
+
+1. rebuilds `Reports/viewer.html` (skipped if nothing is newer than it),
+2. copies it to `docs/index.html` and renders `docs/preview.png` from it, the image at the top of this README,
+3. commits `data/`, `raw/`, `Reports/`, `runs/`, `results/`, `projections/` and `docs/`, and never code,
+4. pushes `main`. GitHub Pages serves `docs/` and redeploys by itself.
+
+Asks that arrive while a publish is running collapse into one more. It waits for the files to stop changing before it
+commits, and spaces pushes 5 minutes apart because Pages soft-limits builds to 10 an hour, so the site trails a pull
+by a minute or a few. A failed push is retried, and local commits go out with the next successful one. Pushes use
+`github_known_hosts` (GitHub's published host keys), so nothing ever waits on a prompt.
 
 ```bash
-./publish_pages.sh     # copy the newest viewer to docs/index.html, commit that one file, push
+.venv/bin/python publish.py           # publish now, in the foreground
+.venv/bin/python publish.py --status  # last result, pending request, unpushed commits
+NO_PUBLISH=1 ./refresh.sh             # skip publishing for one run
 ```
 
-It stages nothing else and never touches `runs/`, `results/` or `projections/`, so it is safe to run while
-`election_day.sh` is running. Pages takes a minute or so to redeploy after a push.
+Log: `logs/publish.log`. A night of 49 results pulls adds roughly 250 MB of archives to the repo.
 
 ## Where the data comes from
 
@@ -134,6 +149,8 @@ nohup ./election_day.sh &        # runs the whole day, logs to logs/
 | Projections | **:20 and :50**, 7:00 PM – 3:00 AM, backgrounded | `projections.py` (forecasts, calls, markets) |
 
 Started before election day, the scheduler idles until 07:00 on Nov 3 and does nothing before then.
+
+Every pull above ends by asking for a GitHub update, so the repo and the site follow the data (see [Publishing](#publishing)).
 
 The 6:59 PM pull exists because the county turnout widgets are switched off at polls close;
 that run captures the last state of the feeds one minute before they go dark.

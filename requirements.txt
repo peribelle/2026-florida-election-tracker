@@ -5,3 +5,4 @@ lxml~=6.1
 openpyxl~=3.1
 xlsxwriter~=3.3
 matplotlib~=3.11
+pillow~=13.0   # publish.py renders the README preview with it (matplotlib pulls it in too)

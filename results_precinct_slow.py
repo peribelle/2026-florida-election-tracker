@@ -156,6 +156,14 @@ def main():
 
     print(f"  slow precinct: {ok}/{len(targets)} counties, {total:,} rows -> results/slow/{stamp}/")
 
+    # Publish the new snapshot. publish.py runs detached behind its own lock, so this can never delay or break the pull.
+    # NO_PUBLISH=1 skips it.
+    try:
+        from publish import queue_publish
+        queue_publish()
+    except Exception as e:
+        print(f"  ! publish not queued: {str(e)[:80]}")
+
 
 if __name__ == "__main__":
     main()

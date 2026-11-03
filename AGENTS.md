@@ -32,7 +32,8 @@ immutable archive of every pull.
 | **Don't rename CSV columns without updating consumers** | `build_workbook.py` and `build_viewer.py` both read `data/*.csv`. |
 | **Timestamps are local (America/New_York)** unless the column says `_utc`. | Run ids are local, e.g. `20261102-195829`. |
 | **The viewer never writes into `runs/`, `results/` or `projections/`** | It is a reader. `Reports/viewer.html` is a mirror and is overwritten on purpose. |
-| **Never hand-edit `docs/index.html`** | It is a copy of `Reports/viewer.html`; `./publish_pages.sh` replaces it. See §12. |
+| **Never hand-edit `docs/`** | `publish.py` regenerates `docs/index.html` (a copy of `Reports/viewer.html`) and `docs/preview.png` on every publish. See §12. |
+| **A pull never waits on publishing** | Collectors only *ask* `publish.py`, which runs detached behind a lock. Keep it that way: a publish may fail, hang or be switched off without touching a pull. |
 
 ---
 
@@ -89,6 +90,9 @@ Guards built into the scheduler:
   up their results pages late.
 - Projections fire **inside** the results phase at :20 and :50, backgrounded behind a file lock
   (`logs/.projections.lock`), so a slow or failed projections pull can never delay `results.py`.
+- Every collector (`refresh.sh`, `results.py`, `results_precinct_slow.py`, `projections.py`) ends by asking
+  `publish.py` for a GitHub update (§12). The ask is detached and returns at once, and it lives in the collectors, not in
+  `election_day.sh`, so changing how publishing works never needs a scheduler restart.
 - `./election_day.sh --test` replays `phase_for()` minute by minute — trust that, not a hand-written list.
 - `./election_day.sh --status` shows the last tick and both indexes.
 
@@ -134,6 +138,13 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
                      └─ projections_polymarket.py ──► market prices per party
                      ──► projections/<ts>/{predictions,calls,divergence,coverage}.csv
                          each source isolated: its own process, its own timeout
+
+  after every pull above (refresh.sh, results.py, results_precinct_slow.py, projections.py)
+     publish.py --queue ──► detached worker (lock logs/.publish.lock, log logs/publish.log)
+        waits for quiet files and >= 5 min since the last push, then:
+        build_viewer.py ──► Reports/viewer.html ──► docs/index.html + docs/preview.png (headless Chromium)
+        git commit  data/ raw/ Reports/ runs/ results/ projections/ docs/   (never code)
+        git push origin main ──► GitHub Pages redeploys docs/
 ```
 
 `refresh.sh` runs the whole turnout chain in order and is what the scheduler calls.
@@ -171,7 +182,8 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── results_precinct.py      precinct CSV -> one xlsx per county
 ├── results_precinct_slow.py precinct pages for counties without the CSV
 ├── schedule_check.sh        replays phase_for() over every minute
-├── publish_pages.sh         copies Reports/viewer.html to docs/index.html, commits only that, pushes
+├── publish.py               after every pull: rebuild viewer, refresh docs/, commit the outputs, push (§12)
+├── github_known_hosts       GitHub's published SSH host keys, so unattended pushes never prompt
 │
 ├── raw/                     downloaded source material (see §3)
 │   └── tqv/                 latest county feed JSON, overwritten each pull
@@ -183,7 +195,7 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── results/slow/<ts>/       immutable slow precinct snapshot
 ├── projections/<ts>/        immutable projections snapshot
 ├── logs/                    per-day run logs
-├── docs/                    GitHub Pages source; index.html is a copy of Reports/viewer.html
+├── docs/                    GitHub Pages source, written by publish.py: index.html (copy of the viewer), preview.png (README image)
 └── viewer/                  map outlines + template for build_viewer.py
 ```
 
@@ -455,7 +467,8 @@ precinct's eligible count is below ballots cast — a reporting artefact, not a 
 .venv/bin/python audit.py         # verify ids + snapshots (exit 1 on failure)
 .venv/bin/python discover_links.py# refresh county HE-ENR map from SOE homepages
 .venv/bin/python build_viewer.py  # rebuild Reports/viewer.html
-./publish_pages.sh                # copy the newest viewer to docs/ and push (GitHub Pages)
+.venv/bin/python publish.py       # publish now: viewer, docs/, commit, push (what every pull asks for)
+.venv/bin/python publish.py --status   # last result, pending request, unpushed commits
 ```
 
 First-time setup:
@@ -512,16 +525,32 @@ replay. Stop the scheduler first.
 
 ## 12. Git and GitHub
 
-The repo is `peribelle/2026-florida-election-tracker` (public), branch `main`. GitHub Pages serves `docs/` from `main`.
+The repo is `peribelle/2026-florida-election-tracker`, branch `main`. GitHub Pages serves `docs/` from `main`, at
+`https://peribelle.github.io/2026-florida-election-tracker/`.
 
-- `docs/index.html` is a **copy** of `Reports/viewer.html`. Don't hand-edit it: `./publish_pages.sh` replaces it,
-  commits only that file and pushes. The pipeline never writes to `docs/`, so the public page only moves when someone
-  runs the script.
-- `runs/`, `results/` and `projections/` are committed as the historical record. Commit between pulls, not during one:
-  a snapshot directory takes seconds to write, and a commit in the middle records half of it.
+**Publishing is automatic.** Every collector ends by asking `publish.py` for an update (it only *asks*; see §2). One
+publish rebuilds the viewer, refreshes `docs/index.html` and `docs/preview.png`, commits the pipeline's output paths and
+pushes `main`.
+
+- **Only outputs are auto-committed:** `data/ raw/ Reports/ runs/ results/ projections/ docs/`. Code, docs and config
+  never are; commit those yourself. The publisher's commits are path-limited, so anything you have staged elsewhere stays
+  staged. If you commit by hand at the same moment, one of you sees an `index.lock` error and the publisher retries.
+- **Pulls never wait on it.** Asks coalesce behind `logs/.publish.lock`; the worker waits until the files have been
+  still for 15 s before it stages them (a snapshot directory takes seconds to write, and projections run beside
+  results), and spaces pushes 5 minutes apart because Pages soft-limits builds to 10 an hour. The site therefore trails
+  a pull by a minute or a few. A failed push is retried four times and then left for the next pull; local commits are
+  never lost and go out with the next push that works.
+- **It stays out of the way.** It does nothing unless the repo is on `main` with no rebase or merge in progress.
+  `NO_PUBLISH=1` turns the ask off (use it when testing a collector). Check it with `publish.py --status` and
+  `logs/publish.log`.
+- **`docs/` is generated:** don't hand-edit it. The preview is a headless-Chromium screenshot of the page (Playwright's
+  cache or `PUBLISH_BROWSER`), cropped to the header, hero and stat tiles. With no browser the old image stays.
+- **Pushes never prompt.** They use `github_known_hosts` (GitHub's host keys from `gh api meta`) through
+  `GIT_SSH_COMMAND`, so no `~/.ssh/known_hosts` is needed. If GitHub rotates its keys:
+  `gh api meta --jq '.ssh_keys[]' | sed 's/^/github.com /' > github_known_hosts`.
 - `.gitignore` keeps out `.venv/`, `logs/`, `runs/latest` (an absolute symlink) and verbatim third-party captures
   (`projections/*/raw/`, `senate_rsc.txt`, `raw/TQV.js`). They stay on disk. Don't force-add them: they are DDHQ's and the
-  vendor's pages and code, and the repo is public.
-- Pushes go over SSH. `Host key verification failed` means this machine has never trusted GitHub's host key. Add the
-  keys GitHub publishes (fetched over the authenticated API, not trusted on first use):
-  `gh api meta --jq '.ssh_keys[]' | sed 's/^/github.com /' >> ~/.ssh/known_hosts`
+  vendor's pages and code, and the repo is meant to be public.
+- Your own `git push` also goes over SSH. `Host key verification failed` there means this machine has never trusted
+  GitHub's host key: `gh api meta --jq '.ssh_keys[]' | sed 's/^/github.com /' >> ~/.ssh/known_hosts`.
+- Size: a full results pull is ~5 MB, so election night adds a few hundred MB of archives to the repo.

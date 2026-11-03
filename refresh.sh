@@ -48,4 +48,9 @@ $PY archive.py
 step "viewer: building Reports/viewer.html"
 $PY build_viewer.py || echo "!! viewer build failed; the workbook and the archive above are unaffected"
 
+# Publish: commit this run, rebuild the site, push. publish.py hands off to a detached worker and returns at once, so a
+# publishing problem can never delay or fail a refresh. NO_PUBLISH=1 skips it.
+step "publish: asking for a GitHub update"
+$PY publish.py --queue || echo "!! publish not queued; the refresh above is unaffected"
+
 step "done"

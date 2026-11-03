@@ -311,6 +311,14 @@ def main():
     except Exception as e:
         print(f"  ! viewer rebuild not started: {str(e)[:80]}")
 
+    # Then publish: commit this pull and the rebuilt page and push them. publish.py runs detached, waits for the files to
+    # settle and takes a lock, so it can never delay or break a pull. NO_PUBLISH=1 skips it.
+    try:
+        from publish import queue_publish
+        queue_publish()
+    except Exception as e:
+        print(f"  ! publish not queued: {str(e)[:80]}")
+
 
 if __name__ == "__main__":
     main()

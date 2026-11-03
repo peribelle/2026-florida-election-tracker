@@ -233,6 +233,15 @@ def main():
         print(f"  widest divergence {div[0]['spread']:.3f} on {div[0]['race_key']} "
               f"({div[0]['sources']})")
     print(f"  -> {'projections/' + run_id if not selected else os.path.basename(dest)}/")
+
+    # Publish the new snapshot (ad-hoc --dest runs never touch the repo). publish.py runs detached behind its own lock,
+    # so this can never delay or break the pull. NO_PUBLISH=1 skips it.
+    if not ad_hoc:
+        try:
+            from publish import queue_publish
+            queue_publish()
+        except Exception as e:
+            print(f"  ! publish not queued: {str(e)[:80]}")
     return 0
 
 
