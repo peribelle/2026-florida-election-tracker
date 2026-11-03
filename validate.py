@@ -256,8 +256,11 @@ def build_current(state, now, last_run):
 
 
 def notify(rows):
-    """A desktop notification for new tier-1 and tier-2 alerts, once per run. Never raises."""
-    if os.environ.get("VALIDATE_NOTIFY", "1") == "0":
+    """A desktop notification for new tier-1 and tier-2 alerts, once per run. Never raises.
+
+    Muted by VALIDATE_NOTIFY=0, or, with nothing to restart, by `touch logs/.validate_quiet` (and unmuted by removing it).
+    Muting only silences the popup: the alert is still logged and still on the site."""
+    if os.environ.get("VALIDATE_NOTIFY", "1") == "0" or os.path.exists(os.path.join(LOGS, ".validate_quiet")):
         return
     hot = [r for r in rows if r["event"] in ("raised", "escalated") and int(r["tier"]) <= 2]
     if not hot:

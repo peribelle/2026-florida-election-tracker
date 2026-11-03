@@ -359,6 +359,7 @@ def main():
         check("a validator that crashes says so (tier 2 validator_error)", has(rows, "validator_error", 2), summarize(rows))
         check("...and the other validator still ran in the same pull", has(rows, "table_missing", 1, contains="ed_turnout", validator="source"), summarize(rows))
 
+        check_notify()
         check_schedule()
     finally:
         for T in trees:
@@ -366,6 +367,32 @@ def main():
     ok, total = sum(RESULTS), len(RESULTS)
     print(f"\n{ok}/{total} checks passed in {time.time() - t0:.0f}s")
     return 0 if ok == total else 1
+
+
+def check_notify():
+    """A tier-1 alert pops a desktop notification, a lone tier-3 does not, and the quiet file mutes it. notify-send is faked."""
+    print("\nthe desktop notification")
+    sys.path.insert(0, HERE)
+    import validate
+    calls, real_run, real_logs = [], validate.subprocess.run, validate.LOGS
+    tmp = tempfile.mkdtemp(prefix="validate-notify-")
+    saved = os.environ.pop("VALIDATE_NOTIFY", None)
+    try:
+        validate.subprocess.run = lambda cmd, *a, **k: calls.append(cmd)
+        validate.LOGS = tmp
+        critical = [{"event": "raised", "tier": 1, "headline": "votes dropped"}, {"event": "raised", "tier": 3, "headline": "a notice"}]
+        validate.notify(critical)
+        check("a new tier-1 alert pops one critical desktop notification", len(calls) == 1 and calls[0][:3] == ["notify-send", "-u", "critical"], str(calls))
+        validate.notify([{"event": "raised", "tier": 3, "headline": "a notice"}, {"event": "cleared", "tier": 1, "headline": "fixed"}])
+        check("a lone notice, or a cleared alert, pops nothing", len(calls) == 1, str(calls))
+        open(os.path.join(tmp, ".validate_quiet"), "w").close()
+        validate.notify(critical)
+        check("touching logs/.validate_quiet mutes the popup", len(calls) == 1, str(calls))
+    finally:
+        validate.subprocess.run, validate.LOGS = real_run, real_logs
+        if saved is not None:
+            os.environ["VALIDATE_NOTIFY"] = saved
+        shutil.rmtree(tmp, ignore_errors=True)
 
 
 def check_schedule():

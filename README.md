@@ -150,9 +150,9 @@ notification. On the site, the **Data checks** card (Snapshots → Pipeline heal
 ```bash
 .venv/bin/python validate.py --status     # what is open right now
 .venv/bin/python validate.py --replay     # what the saved history would have been flagged (writes nothing)
-.venv/bin/python validate.py --selftest   # prove the validators fire: breaks a copy of the real data in 38 ways
+.venv/bin/python validate.py --selftest   # prove the validators fire: runs 41 checks on a copy of the real data
 NO_VALIDATE=1 ./refresh.sh                # skip the validators for one run
-VALIDATE_NOTIFY=0 ...                     # no desktop notifications
+touch logs/.validate_quiet                # mute the desktop popups (alerts are still logged and on the site); rm to unmute
 ```
 
 Log: `logs/validate.log`.

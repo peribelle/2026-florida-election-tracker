@@ -190,7 +190,7 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── validate.py              the two validators: engine, alerts, notifications, watchdog, --selftest (§13)
 ├── validate_checks.py       source checks, metrics, tiers, schedule port
 ├── validate_data.py         data checks: the generic table comparer and the invariants
-├── validate_selftest.py     breaks a copy of the real history in 38 ways and checks the right alert fires
+├── validate_selftest.py     runs 41 checks on a copy of the real history: the right alert fires, a clean pull stays silent
 ├── publish.py               after every pull: rebuild viewer, refresh docs/, commit the outputs, push (§12)
 ├── github_known_hosts       GitHub's published SSH host keys, so unattended pushes never prompt
 │
@@ -480,7 +480,7 @@ precinct's eligible count is below ballots cast — a reporting artefact, not a 
 .venv/bin/python publish.py       # publish now: viewer, docs/, commit, push (what every pull asks for)
 .venv/bin/python validate.py --status    # what the validators have open right now
 .venv/bin/python validate.py --replay    # what the saved history would have been flagged (writes nothing)
-.venv/bin/python validate.py --selftest  # prove the validators fire (38 checks, touches nothing real)
+.venv/bin/python validate.py --selftest  # prove the validators fire (41 checks, touches nothing real)
 nohup .venv/bin/python validate.py --watch >> logs/validate_watch.log 2>&1 &   # the watchdog: a scheduled pull that never arrives
 .venv/bin/python publish.py --status   # last result, pending request, unpushed commits
 ```
@@ -639,7 +639,9 @@ until fixed (`county_site_failed`); it is raised once, escalated one tier after 
 
 A snapshot is only validated once it is in its `INDEX.csv` (the collectors append that last), so a half-written pull is never read.
 
-**Notifications.** A new tier 1 or 2 alert pops one desktop notification per run (`notify-send`). `VALIDATE_NOTIFY=0` silences it.
+**Notifications.** A new tier 1 or 2 alert pops one desktop notification per run (`notify-send`). `touch logs/.validate_quiet` mutes it
+with nothing to restart (`rm` to unmute); `VALIDATE_NOTIFY=0` mutes a single command. Muting only silences the popup: the alert is still
+logged and still on the site.
 
 **The watchdog** (`validate.py --watch`, a loop; start it with `nohup`; only one runs at a time, and it retires itself 40 minutes
 after the last scheduled pull, so it is never left running for days) is the only thing that can see a pull that never
@@ -652,6 +654,6 @@ and `site_stale`. It is silent outside the election window. It also validates an
 a chip in the Overview status strip. Tiers use text labels and border weight as well as color, never the party colors (§7.6).
 
 **Rules.** Validators read snapshots and write only `validation/` and `logs/`. A validator that cannot run must never delay or
-fail a pull. After changing any `validate*.py`, run `validate.py --selftest` (it breaks a copy of the real history in 38 known ways
+fail a pull. After changing any `validate*.py`, run `validate.py --selftest` (it runs 41 checks on a copy of the real history
 and checks the right alert fires, a clean pull stays silent, and the schedule matches). To add a check: write it as a function that
 returns findings, call it from `source_checks` or `data_checks`, and add a scenario to `validate_selftest.py`.
