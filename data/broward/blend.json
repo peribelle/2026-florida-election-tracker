@@ -1,9 +1,9 @@
 {
  "active": true,
- "election_day": 99290,
+ "election_day": 106047,
  "dashboard_election_day": 0,
- "reported_at": "2026-11-03T13:29:00",
- "fetched_at": "2026-11-03T13:42:35",
+ "reported_at": "2026-11-03T13:57:00",
+ "fetched_at": "2026-11-03T14:01:03",
  "date": "11/03/2026",
  "source": "https://floridaelectionwatch.gov/ElectionDayTurnout",
  "basis": "county-reported Election Day turnout from the state's page; the party, precinct and location detail are NOT updated"

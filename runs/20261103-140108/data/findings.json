@@ -1,0 +1,377 @@
+{
+ "state_turnout": 50.656513189639924,
+ "total_ballots": 6940343,
+ "total_elig": 13700791,
+ "mail": 2030892,
+ "early": 3467805,
+ "top": [
+  [
+   "Sumter",
+   66.92098847091579
+  ],
+  [
+   "Sarasota",
+   58.0965688093158
+  ],
+  [
+   "Indian River",
+   57.37633726125554
+  ],
+  [
+   "Collier",
+   57.059784408780224
+  ],
+  [
+   "Charlotte",
+   56.89976001950644
+  ]
+ ],
+ "bottom": [
+  [
+   "Hardee",
+   40.62120423390595
+  ],
+  [
+   "Okaloosa",
+   40.3067860921841
+  ],
+  [
+   "Santa Rosa",
+   39.371880199667224
+  ],
+  [
+   "Lake",
+   36.944902765438364
+  ],
+  [
+   "Holmes",
+   35.575746985846585
+  ]
+ ],
+ "median_county": 48.233354500066994,
+ "median_precinct": 48.09,
+ "peak": [
+  "11/03/2026",
+  1469042
+ ],
+ "gap_top": [
+  {
+   "county": "Liberty",
+   "r_rate": 49.763353617308994,
+   "d_rate": 41.64502164502164,
+   "gap": 8.11833197228735
+  },
+  {
+   "county": "Calhoun",
+   "r_rate": 45.07845934379458,
+   "d_rate": 38.03349540788763,
+   "gap": 7.044963935906949
+  },
+  {
+   "county": "Dixie",
+   "r_rate": 48.37303893085416,
+   "d_rate": 41.56664560960202,
+   "gap": 6.806393321252138
+  },
+  {
+   "county": "Lafayette",
+   "r_rate": 46.24138963761605,
+   "d_rate": 41.31534569983137,
+   "gap": 4.926043937784684
+  },
+  {
+   "county": "Gulf",
+   "r_rate": 53.550863723608444,
+   "d_rate": 50.0669344042838,
+   "gap": 3.483929319324645
+  }
+ ],
+ "gap_bottom": [
+  {
+   "county": "Palm Beach",
+   "r_rate": 53.546546065011015,
+   "d_rate": 64.80277499323755,
+   "gap": -11.256228928226534
+  },
+  {
+   "county": "Sarasota",
+   "r_rate": 57.77109996801892,
+   "d_rate": 69.097391814008,
+   "gap": -11.326291845989083
+  },
+  {
+   "county": "Alachua",
+   "r_rate": 49.252389901135714,
+   "d_rate": 62.15440722962645,
+   "gap": -12.902017328490736
+  },
+  {
+   "county": "Lake",
+   "r_rate": 35.28996069078221,
+   "d_rate": 48.322891360866045,
+   "gap": -13.032930670083836
+  },
+  {
+   "county": "Broward",
+   "r_rate": 36.81129426747905,
+   "d_rate": 51.98288573874668,
+   "gap": -15.171591471267632
+  }
+ ],
+ "busiest": [
+  {
+   "county": "Miami-Dade",
+   "id": "10",
+   "name": "Westchester Reg Lib",
+   "address": "9445 SW 24th St, Miami, FL 33165-8115",
+   "ballots": 25012
+  },
+  {
+   "county": "Broward",
+   "id": "EV79668",
+   "name": "NORTHWEST REGIONAL LIBRARY",
+   "address": "",
+   "ballots": 23774
+  },
+  {
+   "county": "Broward",
+   "id": "EVNWRL",
+   "name": "NORTHWEST REGIONAL LIBRARY",
+   "address": "",
+   "ballots": 23774
+  },
+  {
+   "county": "Broward",
+   "id": "EV10740",
+   "name": "SOUTHWEST REGIONAL LIBRARY",
+   "address": "",
+   "ballots": 22532
+  },
+  {
+   "county": "Broward",
+   "id": "EVSWRL",
+   "name": "SOUTHWEST REGIONAL LIBRARY",
+   "address": "",
+   "ballots": 22531
+  }
+ ],
+ "broward_ev": 314113,
+ "party": [
+  {
+   "code": "REP",
+   "party": "Republican",
+   "reg": 5687032,
+   "reg66": 5687032,
+   "bal": 2896024,
+   "rate": 50.923293556287355,
+   "share_reg": 41.4975670391357,
+   "share_bal": 42.37501814384912,
+   "mail": 681397,
+   "early": 1423712
+  },
+  {
+   "code": "DEM",
+   "party": "Democratic",
+   "reg": 4146172,
+   "reg66": 4146172,
+   "bal": 2411132,
+   "rate": 58.153207344027216,
+   "share_reg": 30.254102759714968,
+   "share_bal": 35.280012267583146,
+   "mail": 778841,
+   "early": 1051353
+  },
+  {
+   "code": "NPA",
+   "party": "No Party Affiliation",
+   "reg": 3354272,
+   "reg66": 3354272,
+   "bal": 1344537,
+   "rate": 40.0843163583633,
+   "share_reg": 24.47570669331486,
+   "share_bal": 19.67344875942895,
+   "mail": 373358,
+   "early": 594867
+  },
+  {
+   "code": "IND",
+   "party": "Independent Party of Florida",
+   "reg": 331548,
+   "reg66": 331548,
+   "bal": 132708,
+   "rate": 40.02678345216982,
+   "share_reg": 2.419264628138432,
+   "share_bal": 1.9418015554546264,
+   "mail": 39868,
+   "early": 63723
+  },
+  {
+   "code": "CSV",
+   "party": "Conservative",
+   "reg": 41122,
+   "reg66": 41122,
+   "bal": 8486,
+   "rate": 20.636155828996642,
+   "share_reg": 0.3000621328987314,
+   "share_bal": 0.12416830936784488,
+   "mail": 1509,
+   "early": 4423
+  },
+  {
+   "code": "LPF",
+   "party": "Libertarian",
+   "reg": 34415,
+   "reg66": 34415,
+   "bal": 11547,
+   "rate": 33.55223013220979,
+   "share_reg": 0.2511219858885716,
+   "share_bal": 0.1689572788440378,
+   "mail": 2400,
+   "early": 5535
+  },
+  {
+   "code": "AMF",
+   "party": "America First",
+   "reg": 32210,
+   "reg66": 32210,
+   "bal": 4645,
+   "rate": 14.420987271033841,
+   "share_reg": 0.2350323744143801,
+   "share_bal": 0.06796627351091675,
+   "mail": 702,
+   "early": 2450
+  },
+  {
+   "code": "BPP",
+   "party": "Boricua",
+   "reg": 20237,
+   "reg66": 20237,
+   "bal": 2366,
+   "rate": 11.691456243514354,
+   "share_reg": 0.14766687864091307,
+   "share_bal": 0.03461963468823014,
+   "mail": 354,
+   "early": 1270
+  },
+  {
+   "code": "CPF",
+   "party": "Constitution",
+   "reg": 17703,
+   "reg66": 17703,
+   "bal": 3206,
+   "rate": 18.10992487149071,
+   "share_reg": 0.12917659497850886,
+   "share_bal": 0.04691062925209883,
+   "mail": 518,
+   "early": 1652
+  },
+  {
+   "code": "CPP",
+   "party": "Coalition With A Purpose",
+   "reg": 10972,
+   "reg66": 10972,
+   "bal": 2108,
+   "rate": 19.21254101348888,
+   "share_reg": 0.08006132294550072,
+   "share_bal": 0.03084454350075619,
+   "mail": 398,
+   "early": 1123
+  },
+  {
+   "code": "GRE",
+   "party": "Green",
+   "reg": 9648,
+   "reg66": 9648,
+   "bal": 2918,
+   "rate": 30.244610281923716,
+   "share_reg": 0.07040025918503381,
+   "share_bal": 0.04269657397305814,
+   "mail": 776,
+   "early": 1400
+  },
+  {
+   "code": "ASP",
+   "party": "American Solidarity",
+   "reg": 8981,
+   "reg66": 8981,
+   "bal": 1436,
+   "rate": 15.989310767175148,
+   "share_reg": 0.06553324292504029,
+   "share_bal": 0.021011747849661238,
+   "mail": 233,
+   "early": 788
+  },
+  {
+   "code": "ECO",
+   "party": "Ecology",
+   "reg": 4567,
+   "reg66": 4567,
+   "bal": 996,
+   "rate": 21.8086271075104,
+   "share_reg": 0.03332483247284924,
+   "share_bal": 0.014573607840015733,
+   "mail": 214,
+   "early": 501
+  },
+  {
+   "code": "PSL",
+   "party": "Party for Socialism & Liberation",
+   "reg": 2435,
+   "reg66": 2435,
+   "bal": 923,
+   "rate": 37.90554414784394,
+   "share_reg": 0.017767892943154784,
+   "share_bal": 0.013505461883870001,
+   "mail": 181,
+   "early": 515
+  },
+  {
+   "code": "FFP",
+   "party": "Florida Forward",
+   "reg": 2396,
+   "reg66": 2396,
+   "bal": 565,
+   "rate": 23.580968280467445,
+   "share_reg": 0.017483314781026226,
+   "share_bal": 0.00826715705784025,
+   "mail": 168,
+   "early": 286
+  },
+  {
+   "code": "WTP",
+   "party": "We the People",
+   "reg": 574,
+   "reg66": 574,
+   "bal": 0,
+   "rate": 0.0,
+   "share_reg": 0.004188406796456199,
+   "share_bal": 0.0,
+   "mail": 0,
+   "early": 0
+  },
+  {
+   "code": "JEF",
+   "party": "Jeffersonian",
+   "reg": 132,
+   "reg66": 132,
+   "bal": 34,
+   "rate": 25.757575757575758,
+   "share_reg": 0.0009631876256658855,
+   "share_bal": 0.0004974926371089708,
+   "mail": 11,
+   "early": 14
+  },
+  {
+   "code": "MGT",
+   "party": "MGTOW",
+   "reg": 79,
+   "reg66": 79,
+   "bal": 13,
+   "rate": 16.455696202531644,
+   "share_reg": 0.0005764532002091285,
+   "share_bal": 0.00019021777301225353,
+   "mail": 4,
+   "early": 7
+  }
+ ]
+}
