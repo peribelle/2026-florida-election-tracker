@@ -1,12 +1,36 @@
 {
  "counts": {
   "1": 0,
-  "2": 0,
+  "2": 1,
   "3": 7
  },
- "generated_local": "2026-11-03T07:01:11",
- "generated_utc": "2026-11-03T12:01:11Z",
+ "generated_local": "2026-11-03T08:10:12",
+ "generated_utc": "2026-11-03T13:10:12Z",
  "items": [
+  {
+   "alert_id": "A-W20261103-081012-001",
+   "checks": 1,
+   "count": 1,
+   "curr": null,
+   "delta": null,
+   "detail": "due 08:00, now 08:10. The scheduler may be stopped, or the collector crashed before saving.",
+   "event": "raised",
+   "fingerprint": "source|pull_missing|watch|turnout|0800",
+   "first_seen": "2026-11-03 08:10:12",
+   "headline": "No turnout pull arrived for the 08:00 slot",
+   "kind": "pull_missing",
+   "last_seen": "2026-11-03 08:10:12",
+   "prev": null,
+   "prev_snapshot": "",
+   "raised_local": "2026-11-03 08:10:12",
+   "raised_utc": "2026-11-03T13:10:12Z",
+   "scope": "watch|turnout|0800",
+   "snapshot": "W20261103-081012",
+   "source": "watchdog",
+   "state": "open",
+   "tier": 2,
+   "validator": "source"
+  },
   {
    "alert_id": "A-20261103-070033-001",
    "count": 6,
@@ -163,26 +187,26 @@
   }
  ],
  "last_run": {
-  "cleared": 1,
+  "cleared": 0,
   "escalated": 0,
   "pulls": [
    "watchdog"
   ],
-  "raised": 0,
-  "ran_local": "2026-11-03 07:01:11",
-  "run_id": "20261103-070111",
+  "raised": 1,
+  "ran_local": "2026-11-03 08:10:12",
+  "run_id": "20261103-081012",
   "seconds": 0,
   "tier1": 0,
-  "tier2": 0,
+  "tier2": 1,
   "tier3": 0
  },
  "schema": 1,
- "status": "notice",
+ "status": "warning",
  "totals": {
   "1": 0,
-  "2": 1,
+  "2": 2,
   "3": 7,
-  "alerts": 8
+  "alerts": 9
  },
  "validated": {
   "projections": "20261102-224747",

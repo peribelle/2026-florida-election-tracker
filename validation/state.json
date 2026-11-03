@@ -1168,7 +1168,36 @@
    "precinct_rows": 8618
   }
  },
- "open": {},
+ "open": {
+  "source|pull_missing|watch|turnout|0800": {
+   "last": "2026-11-03 08:10:12",
+   "n": 1,
+   "origin": "watch",
+   "row": {
+    "alert_id": "A-W20261103-081012-001",
+    "count": 1,
+    "curr": null,
+    "delta": null,
+    "detail": "due 08:00, now 08:10. The scheduler may be stopped, or the collector crashed before saving.",
+    "event": "raised",
+    "fingerprint": "source|pull_missing|watch|turnout|0800",
+    "first_seen": "2026-11-03 08:10:12",
+    "headline": "No turnout pull arrived for the 08:00 slot",
+    "kind": "pull_missing",
+    "prev": null,
+    "prev_snapshot": "",
+    "raised_local": "2026-11-03 08:10:12",
+    "raised_utc": "2026-11-03T13:10:12Z",
+    "scope": "watch|turnout|0800",
+    "snapshot": "W20261103-081012",
+    "source": "watchdog",
+    "tier": 2,
+    "validator": "source"
+   },
+   "source": "watchdog",
+   "tier": 2
+  }
+ },
  "recent": [
   {
    "alert_id": "A-20261103-070033-001",
@@ -1321,9 +1350,9 @@
  "stale": {},
  "totals": {
   "1": 0,
-  "2": 1,
+  "2": 2,
   "3": 7,
-  "alerts": 8
+  "alerts": 9
  },
  "validated": {
   "projections": "20261102-224747",
