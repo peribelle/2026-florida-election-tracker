@@ -1,0 +1,270 @@
+{
+ "ALA": {
+  "site": "https://www.votealachua.gov",
+  "office": ""
+ },
+ "BAK": {
+  "site": "https://votebakerfl.gov",
+  "office": ""
+ },
+ "BAY": {
+  "site": "https://www.bayvotesfl.gov",
+  "office": ""
+ },
+ "BRA": {
+  "site": "https://www.votebradfordfl.gov",
+  "office": ""
+ },
+ "BRE": {
+  "site": "https://www.votebrevard.gov",
+  "office": ""
+ },
+ "BRO": {
+  "site": "https://www.browardvotes.gov",
+  "office": ""
+ },
+ "CAL": {
+  "site": "https://www.votecalhounfl.gov",
+  "office": ""
+ },
+ "CHA": {
+  "site": "https://www.soecharlottecountyfl.gov",
+  "office": ""
+ },
+ "CIT": {
+  "site": "https://www.votecitrus.gov",
+  "office": ""
+ },
+ "CLA": {
+  "site": "https://www.clayelections.gov",
+  "office": ""
+ },
+ "CLL": {
+  "site": "https://www.CollierVotes.gov",
+  "office": ""
+ },
+ "CLM": {
+  "site": "https://www.votecolumbiafl.gov",
+  "office": ""
+ },
+ "DES": {
+  "site": "https://www.votedesotofl.gov",
+  "office": ""
+ },
+ "DIX": {
+  "site": "https://www.dixievotes.com",
+  "office": ""
+ },
+ "DUV": {
+  "site": "https://www.duvalelections.com",
+  "office": ""
+ },
+ "ESC": {
+  "site": "https://escambiavotes.gov",
+  "office": ""
+ },
+ "FLA": {
+  "site": "https://www.flaglerelections.gov",
+  "office": ""
+ },
+ "FRA": {
+  "site": "https://www.votefranklinfl.gov",
+  "office": ""
+ },
+ "GAD": {
+  "site": "https://www.gadsdensoefl.gov",
+  "office": ""
+ },
+ "GIL": {
+  "site": "https://www.votegilchrist.com",
+  "office": ""
+ },
+ "GLA": {
+  "site": "https://www.voteglades.gov",
+  "office": ""
+ },
+ "GUL": {
+  "site": "https://www.votegulf.gov",
+  "office": ""
+ },
+ "HAM": {
+  "site": "https://www.hamiltonvotesFL.gov",
+  "office": ""
+ },
+ "HAR": {
+  "site": "https://hardeeflvotes.gov",
+  "office": ""
+ },
+ "HEN": {
+  "site": "https://www.hendryelections.gov",
+  "office": ""
+ },
+ "HER": {
+  "site": "https://www.hernandovotes.gov",
+  "office": ""
+ },
+ "HIG": {
+  "site": "https://www.votehighlands.gov",
+  "office": ""
+ },
+ "HIL": {
+  "site": "https://www.votehillsborough.gov",
+  "office": ""
+ },
+ "HOL": {
+  "site": "https://www.holmeselectionsfl.gov",
+  "office": ""
+ },
+ "IND": {
+  "site": "https://www.voteindianriver.gov",
+  "office": ""
+ },
+ "JAC": {
+  "site": "https://www.votejacksonfl.gov",
+  "office": ""
+ },
+ "JEF": {
+  "site": "https://www.jeffersonvotesfl.gov",
+  "office": ""
+ },
+ "LAF": {
+  "site": "https://www.lafayettevotes.net",
+  "office": ""
+ },
+ "LAK": {
+  "site": "https://www.lakevotes.gov",
+  "office": ""
+ },
+ "LEE": {
+  "site": "https://www.lee.vote",
+  "office": ""
+ },
+ "LEO": {
+  "site": "https://www.leonvotes.gov",
+  "office": ""
+ },
+ "LEV": {
+  "site": "https://www.votelevy.com",
+  "office": ""
+ },
+ "LIB": {
+  "site": "https://libertycountyflsoe.gov",
+  "office": ""
+ },
+ "MAD": {
+  "site": "https://www.votemadison.com",
+  "office": ""
+ },
+ "MAN": {
+  "site": "https://www.votemanatee.gov",
+  "office": ""
+ },
+ "MRN": {
+  "site": "https://votemarion.gov",
+  "office": ""
+ },
+ "MRT": {
+  "site": "https://www.martinvotes.gov",
+  "office": ""
+ },
+ "DAD": {
+  "site": "https://www.votemiamidade.gov",
+  "office": ""
+ },
+ "MON": {
+  "site": "https://votemonroeflkeys.gov",
+  "office": ""
+ },
+ "NAS": {
+  "site": "https://www.votenassaufl.gov",
+  "office": ""
+ },
+ "OKA": {
+  "site": "https://www.voteokaloosa.gov",
+  "office": ""
+ },
+ "OKE": {
+  "site": "https://www.voteokeechobee.gov",
+  "office": ""
+ },
+ "ORA": {
+  "site": "https://www.voteorangefl.gov",
+  "office": ""
+ },
+ "OSC": {
+  "site": "https://www.voteosceola.gov",
+  "office": ""
+ },
+ "PAL": {
+  "site": "https://www.votepalmbeach.gov",
+  "office": ""
+ },
+ "PAS": {
+  "site": "https://www.pascovotes.gov",
+  "office": ""
+ },
+ "PIN": {
+  "site": "https://www.votepinellas.gov",
+  "office": ""
+ },
+ "POL": {
+  "site": "https://www.polkelections.gov",
+  "office": ""
+ },
+ "PUT": {
+  "site": "https://www.voteputnamflorida.gov",
+  "office": ""
+ },
+ "SAN": {
+  "site": "https://www.votesantarosa.gov",
+  "office": ""
+ },
+ "SAR": {
+  "site": "https://www.sarasotavotes.gov",
+  "office": ""
+ },
+ "SEM": {
+  "site": "https://www.voteseminole.gov",
+  "office": ""
+ },
+ "STJ": {
+  "site": "https://www.votesjc.gov",
+  "office": ""
+ },
+ "STL": {
+  "site": "https://www.stlucievotes.gov",
+  "office": ""
+ },
+ "SUM": {
+  "site": "https://elections.sumtercountyfl.gov",
+  "office": ""
+ },
+ "SUW": {
+  "site": "https://www.suwanneevotes.com",
+  "office": ""
+ },
+ "TAY": {
+  "site": "https://www.taylorelectionsfl.gov",
+  "office": ""
+ },
+ "UNI": {
+  "site": "https://www.unionflvotes.com",
+  "office": ""
+ },
+ "VOL": {
+  "site": "https://VolusiaElections.gov",
+  "office": ""
+ },
+ "WAK": {
+  "site": "https://www.wakullavotes.gov",
+  "office": ""
+ },
+ "WAL": {
+  "site": "https://www.votewalton.gov",
+  "office": ""
+ },
+ "WAS": {
+  "site": "https://www.wcsoe.gov",
+  "office": ""
+ }
+}

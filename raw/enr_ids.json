@@ -1,0 +1,232 @@
+{
+ "ALA": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4097",
+  "key": "ALA"
+ },
+ "BAY": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4078",
+  "key": "BAY"
+ },
+ "BRA": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4113",
+  "key": "BRA"
+ },
+ "CIT": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4070",
+  "key": "CIT"
+ },
+ "CLA": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4086",
+  "key": "CLA"
+ },
+ "CLL": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4083",
+  "key": "CLL"
+ },
+ "CLM": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4069",
+  "key": "CLM"
+ },
+ "DAD": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4087",
+  "key": "DAD"
+ },
+ "DES": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4094",
+  "key": "DES"
+ },
+ "DIX": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4125",
+  "key": "DIX"
+ },
+ "DUV": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4076",
+  "key": "DUV"
+ },
+ "FLA": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4088",
+  "key": "FLA"
+ },
+ "GAD": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4066",
+  "key": "GAD"
+ },
+ "GIL": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4055",
+  "key": "GIL"
+ },
+ "GLA": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4065",
+  "key": "GLA"
+ },
+ "GUL": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4084",
+  "key": "GUL"
+ },
+ "HAM": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4101",
+  "key": "HAM"
+ },
+ "HAR": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4063",
+  "key": "HAR"
+ },
+ "HEN": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4077",
+  "key": "HEN"
+ },
+ "HER": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4106",
+  "key": "HER"
+ },
+ "HIL": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4074",
+  "key": "HIL"
+ },
+ "IND": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4096",
+  "key": "IND"
+ },
+ "JAC": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4118",
+  "key": "JAC"
+ },
+ "JEF": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4115",
+  "key": "JEF"
+ },
+ "LAK": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4079",
+  "key": "LAK"
+ },
+ "LEO": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4072",
+  "key": "LEO"
+ },
+ "LEV": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4058",
+  "key": "LEV"
+ },
+ "LIB": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4098",
+  "key": "LIB"
+ },
+ "MAN": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4126",
+  "key": "MAN"
+ },
+ "MON": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4109",
+  "key": "MON"
+ },
+ "MRN": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4099",
+  "key": "MRN"
+ },
+ "NAS": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4080",
+  "key": "NAS"
+ },
+ "OKE": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4060",
+  "key": "OKE"
+ },
+ "PAS": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4085",
+  "key": "PAS"
+ },
+ "POL": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4000",
+  "key": "POL"
+ },
+ "PUT": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4081",
+  "key": "PUT"
+ },
+ "SAN": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4093",
+  "key": "SAN"
+ },
+ "SAR": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4105",
+  "key": "SAR"
+ },
+ "SEM": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4119",
+  "key": "SEM"
+ },
+ "STJ": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4082",
+  "key": "STJ"
+ },
+ "STL": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4089",
+  "key": "STL"
+ },
+ "SUM": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4056",
+  "key": "SUM"
+ },
+ "UNI": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4121",
+  "key": "UNI"
+ },
+ "WAK": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4128",
+  "key": "WAK"
+ },
+ "WAL": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4091",
+  "key": "WAL"
+ },
+ "WAS": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4104",
+  "key": "WAS"
+ }
+}

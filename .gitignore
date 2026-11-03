@@ -1,0 +1,25 @@
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime state: scheduler logs, the tick file and the projections lock. election_day.sh recreates logs/.
+logs/
+
+# Absolute symlink to this machine's newest run. archive.py recreates it.
+runs/latest
+
+# Verbatim copies of third-party pages and code. They stay on disk as the local record but are not
+# republished. The tidy CSV/JSON in each projections snapshot is what the viewer reads.
+projections/*/raw/
+senate_rsc.txt
+raw/TQV.js
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+.~lock.*#
+~$*

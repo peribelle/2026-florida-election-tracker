@@ -1,0 +1,4 @@
+# Keep GitHub's language bar about the code: built pages and saved third-party captures don't count.
+Reports/viewer.html linguist-generated
+docs/index.html linguist-generated
+raw/*.html linguist-vendored

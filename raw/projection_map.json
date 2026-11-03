@@ -1,0 +1,39 @@
+{
+  "_note": "Hand-maintained projection sources. DDHQ races are NOT listed here -- they are discovered from its forecast index pages so a race added or dropped upstream shows up on its own.",
+  "election_date": "2026-11-03",
+  "ddhq": {
+    "base": "https://votes.decisiondeskhq.com",
+    "index_pages": [
+      "/forecast/2026/governor",
+      "/forecast/2026/senate",
+      "/forecast/2026/house"
+    ],
+    "slug_prefix": "florida-"
+  },
+  "kalshi": {
+    "base": "https://api.elections.kalshi.com/trade-api/v2",
+    "series": [
+      { "race_key": "FL-GOV", "series": "GOVPARTYFL" },
+      { "race_key": "FL-SEN", "series": "SENATEFLS" },
+      { "race_key": "FL-CFO", "series": "KXFLCFO" },
+      { "race_key": "FL-H01", "series": "HOUSEFL1" },
+      { "race_key": "FL-H06", "series": "HOUSEFL6" },
+      { "race_key": "FL-H13", "series": "HOUSEFL13" },
+      { "race_key": "FL-H23", "series": "HOUSEFL23" }
+    ]
+  },
+  "polymarket": {
+    "base": "https://gamma-api.polymarket.com",
+    "events": [
+      { "race_key": "FL-GOV", "slug": "florida-governor-winner-2026" },
+      { "race_key": "FL-SEN", "slug": "florida-senate-election-winner" }
+    ]
+  },
+  "race_names": {
+    "FL-GOV": { "race": "Governor", "office": "Governor", "district": "" },
+    "FL-SEN": { "race": "United States Senator (special)", "office": "US Senate", "district": "" },
+    "FL-CFO": { "race": "Chief Financial Officer", "office": "CFO", "district": "" },
+    "FL-AG": { "race": "Attorney General", "office": "Attorney General", "district": "" },
+    "FL-AGR": { "race": "Commissioner of Agriculture", "office": "Agriculture Commissioner", "district": "" }
+  }
+}

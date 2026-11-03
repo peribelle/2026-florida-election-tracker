@@ -1,0 +1,1201 @@
+[
+ {
+  "code": "ALA",
+  "county": "Alachua",
+  "election_numbers": [
+   463
+  ],
+  "status": "ok",
+  "election_number": 463,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/ALA_463.json",
+  "summary": {
+   "TotalRegisteredVoters": 166906,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.4776483+00:00",
+   "CountyName": "ALACHUA",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "BAK",
+  "county": "Baker",
+  "election_numbers": [
+   92
+  ],
+  "status": "ok",
+  "election_number": 92,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/BAK_92.json",
+  "summary": {
+   "TotalRegisteredVoters": 17886,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.3378977+00:00",
+   "CountyName": "BAKER",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "BAY",
+  "county": "Bay",
+  "election_numbers": [
+   227
+  ],
+  "status": "ok",
+  "election_number": 227,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/BAY_227.json",
+  "summary": {
+   "TotalRegisteredVoters": 128622,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:03.4296219+00:00",
+   "CountyName": "BAY",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "BRA",
+  "county": "Bradford",
+  "election_numbers": [
+   97
+  ],
+  "status": "ok",
+  "election_number": 97,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/BRA_97.json",
+  "summary": {
+   "TotalRegisteredVoters": 16908,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.7707948+00:00",
+   "CountyName": "BRADFORD",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "BRE",
+  "county": "Brevard",
+  "election_numbers": [
+   105
+  ],
+  "status": "ok",
+  "election_number": 105,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/BRE_105.json",
+  "summary": {
+   "TotalRegisteredVoters": 447098,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:05.6806807+00:00",
+   "CountyName": "BREVARD",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "BRO",
+  "county": "Broward",
+  "election_numbers": [
+   237
+  ],
+  "status": "no_2026_general"
+ },
+ {
+  "code": "CAL",
+  "county": "Calhoun",
+  "election_numbers": [
+   96
+  ],
+  "status": "ok",
+  "election_number": 96,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/CAL_96.json",
+  "summary": {
+   "TotalRegisteredVoters": 7602,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.5807737+00:00",
+   "CountyName": "CALHOUN",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "CHA",
+  "county": "Charlotte",
+  "election_numbers": [
+   106
+  ],
+  "status": "ok",
+  "election_number": 106,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/CHA_106.json",
+  "summary": {
+   "TotalRegisteredVoters": 155846,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:07.0856531+00:00",
+   "CountyName": "CHARLOTTE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "CIT",
+  "county": "Citrus",
+  "election_numbers": [
+   117
+  ],
+  "status": "ok",
+  "election_number": 117,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/CIT_117.json",
+  "summary": {
+   "TotalRegisteredVoters": 121391,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.0406252+00:00",
+   "CountyName": "CITRUS",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "CLA",
+  "county": "Clay",
+  "election_numbers": [
+   189
+  ],
+  "status": "ok",
+  "election_number": 189,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/CLA_189.json",
+  "summary": {
+   "TotalRegisteredVoters": 156154,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.6564072+00:00",
+   "CountyName": "CLAY",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "CLL",
+  "county": "Collier",
+  "election_numbers": [
+   132
+  ],
+  "status": "ok",
+  "election_number": 132,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/CLL_132.json",
+  "summary": {
+   "TotalRegisteredVoters": 265688,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.8471021+00:00",
+   "CountyName": "COLLIER",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "CLM",
+  "county": "Columbia",
+  "election_numbers": [
+   91
+  ],
+  "status": "ok",
+  "election_number": 91,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/CLM_91.json",
+  "summary": {
+   "TotalRegisteredVoters": 41614,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.0509611+00:00",
+   "CountyName": "COLUMBIA",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "DES",
+  "county": "DeSoto",
+  "election_numbers": [
+   72
+  ],
+  "status": "ok",
+  "election_number": 72,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/DES_72.json",
+  "summary": {
+   "TotalRegisteredVoters": 16075,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.5172702+00:00",
+   "CountyName": "DeSOTO",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "DIX",
+  "county": "Dixie",
+  "election_numbers": [
+   94
+  ],
+  "status": "ok",
+  "election_number": 94,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/DIX_94.json",
+  "summary": {
+   "TotalRegisteredVoters": 10055,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-02T14:10:02.8221761+00:00",
+   "CountyName": "DIXIE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "DUV",
+  "county": "Duval",
+  "election_numbers": [
+   171
+  ],
+  "status": "ok",
+  "election_number": 171,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/DUV_171.json",
+  "summary": {
+   "TotalRegisteredVoters": 655219,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.7545836+00:00",
+   "CountyName": "DUVAL",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "ESC",
+  "county": "Escambia",
+  "election_numbers": [
+   180
+  ],
+  "status": "ok",
+  "election_number": 180,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/ESC_180.json",
+  "summary": {
+   "TotalRegisteredVoters": 207353,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:04.9550521+00:00",
+   "CountyName": "ESCAMBIA",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "FLA",
+  "county": "Flagler",
+  "election_numbers": [
+   179
+  ],
+  "status": "ok",
+  "election_number": 179,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/FLA_179.json",
+  "summary": {
+   "TotalRegisteredVoters": 100526,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:04.9423294+00:00",
+   "CountyName": "FLAGLER",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "FRA",
+  "county": "Franklin",
+  "election_numbers": [
+   100
+  ],
+  "status": "ok",
+  "election_number": 100,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/FRA_100.json",
+  "summary": {
+   "TotalRegisteredVoters": 7604,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.9466133+00:00",
+   "CountyName": "FRANKLIN",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "GAD",
+  "county": "Gadsden",
+  "election_numbers": [
+   230
+  ],
+  "status": "ok",
+  "election_number": 230,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/GAD_230.json",
+  "summary": {
+   "TotalRegisteredVoters": 26882,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.4034962+00:00",
+   "CountyName": "GADSDEN",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "GIL",
+  "county": "Gilchrist",
+  "election_numbers": [
+   119,
+   121
+  ],
+  "status": "ok",
+  "election_number": 119,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/GIL_119.json",
+  "summary": {
+   "TotalRegisteredVoters": 12992,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.3884212+00:00",
+   "CountyName": "GILCHRIST",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "GLA",
+  "county": "Glades",
+  "election_numbers": [
+   40
+  ],
+  "status": "ok",
+  "election_number": 40,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/GLA_40.json",
+  "summary": {
+   "TotalRegisteredVoters": 6870,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T01:00:00.6949634+00:00",
+   "CountyName": "GLADES",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "GUL",
+  "county": "Gulf",
+  "election_numbers": [
+   107
+  ],
+  "status": "ok",
+  "election_number": 107,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/GUL_107.json",
+  "summary": {
+   "TotalRegisteredVoters": 11196,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.2223534+00:00",
+   "CountyName": "GULF",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "HAM",
+  "county": "Hamilton",
+  "election_numbers": [
+   121
+  ],
+  "status": "ok",
+  "election_number": 121,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/HAM_121.json",
+  "summary": {
+   "TotalRegisteredVoters": 7162,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.866777+00:00",
+   "CountyName": "HAMILTON",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "HAR",
+  "county": "Hardee",
+  "election_numbers": [
+   159
+  ],
+  "status": "ok",
+  "election_number": 159,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/HAR_159.json",
+  "summary": {
+   "TotalRegisteredVoters": 11526,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.6826146+00:00",
+   "CountyName": "HARDEE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "HEN",
+  "county": "Hendry",
+  "election_numbers": [
+   112
+  ],
+  "status": "ok",
+  "election_number": 112,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/HEN_112.json",
+  "summary": {
+   "TotalRegisteredVoters": 19437,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.9940676+00:00",
+   "CountyName": "HENDRY",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "HER",
+  "county": "Hernando",
+  "election_numbers": [
+   99
+  ],
+  "status": "ok",
+  "election_number": 99,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/HER_99.json",
+  "summary": {
+   "TotalRegisteredVoters": 138036,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:03.4844543+00:00",
+   "CountyName": "HERNANDO",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "HIG",
+  "county": "Highlands",
+  "election_numbers": [
+   116
+  ],
+  "status": "ok",
+  "election_number": 116,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/HIG_116.json",
+  "summary": {
+   "TotalRegisteredVoters": 63355,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.4504937+00:00",
+   "CountyName": "HIGHLANDS",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "HIL",
+  "county": "Hillsborough",
+  "election_numbers": [
+   192
+  ],
+  "status": "ok",
+  "election_number": 192,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/HIL_192.json",
+  "summary": {
+   "TotalRegisteredVoters": 823235,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.1940197+00:00",
+   "CountyName": "HILLSBOROUGH",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "HOL",
+  "county": "Holmes",
+  "election_numbers": [
+   155
+  ],
+  "status": "ok",
+  "election_number": 155,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/HOL_155.json",
+  "summary": {
+   "TotalRegisteredVoters": 11446,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:03.9081326+00:00",
+   "CountyName": "HOLMES",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "IND",
+  "county": "Indian River",
+  "election_numbers": [
+   103
+  ],
+  "status": "ok",
+  "election_number": 103,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/IND_103.json",
+  "summary": {
+   "TotalRegisteredVoters": 119741,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.9914962+00:00",
+   "CountyName": "INDIAN RIVER",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "JAC",
+  "county": "Jackson",
+  "election_numbers": [
+   248
+  ],
+  "status": "ok",
+  "election_number": 248,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/JAC_248.json",
+  "summary": {
+   "TotalRegisteredVoters": 27498,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.282169+00:00",
+   "CountyName": "JACKSON",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "JEF",
+  "county": "Jefferson",
+  "election_numbers": [
+   92
+  ],
+  "status": "ok",
+  "election_number": 92,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/JEF_92.json",
+  "summary": {
+   "TotalRegisteredVoters": 10026,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.254574+00:00",
+   "CountyName": "JEFFERSON",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "LAF",
+  "county": "Lafayette",
+  "election_numbers": [
+   68
+  ],
+  "status": "ok",
+  "election_number": 68,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/LAF_68.json",
+  "summary": {
+   "TotalRegisteredVoters": 4271,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.1124381+00:00",
+   "CountyName": "LAFAYETTE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "LAK",
+  "county": "Lake",
+  "election_numbers": [
+   131
+  ],
+  "status": "ok",
+  "election_number": 131,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/LAK_131.json",
+  "summary": {
+   "TotalRegisteredVoters": 283644,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:06.5251779+00:00",
+   "CountyName": "LAKE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "LEE",
+  "county": "Lee",
+  "election_numbers": [
+   144
+  ],
+  "status": "ok",
+  "election_number": 144,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/LEE_144.json",
+  "summary": {
+   "TotalRegisteredVoters": 504450,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.5414716+00:00",
+   "CountyName": "LEE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "LEO",
+  "county": "Leon",
+  "election_numbers": [
+   89
+  ],
+  "status": "ok",
+  "election_number": 89,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/LEO_89.json",
+  "summary": {
+   "TotalRegisteredVoters": 184522,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:04.8324776+00:00",
+   "CountyName": "LEON",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "LEV",
+  "county": "Levy",
+  "election_numbers": [
+   258
+  ],
+  "status": "ok",
+  "election_number": 258,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/LEV_258.json",
+  "summary": {
+   "TotalRegisteredVoters": 30440,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.6708274+00:00",
+   "CountyName": "LEVY",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "LIB",
+  "county": "Liberty",
+  "election_numbers": [
+   74
+  ],
+  "status": "ok",
+  "election_number": 74,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/LIB_74.json",
+  "summary": {
+   "TotalRegisteredVoters": 4611,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:03.5371816+00:00",
+   "CountyName": "LIBERTY",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "MAD",
+  "county": "Madison",
+  "election_numbers": [
+   99
+  ],
+  "status": "ok",
+  "election_number": 99,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/MAD_99.json",
+  "summary": {
+   "TotalRegisteredVoters": 10543,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:03.0524623+00:00",
+   "CountyName": "MADISON",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "MAN",
+  "county": "Manatee",
+  "election_numbers": [
+   245
+  ],
+  "status": "ok",
+  "election_number": 245,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/MAN_245.json",
+  "summary": {
+   "TotalRegisteredVoters": 287882,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.0269198+00:00",
+   "CountyName": "MANATEE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "MRN",
+  "county": "Marion",
+  "election_numbers": [
+   182
+  ],
+  "status": "ok",
+  "election_number": 182,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/MRN_182.json",
+  "summary": {
+   "TotalRegisteredVoters": 271264,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:03.8237371+00:00",
+   "CountyName": "MARION",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "MRT",
+  "county": "Martin",
+  "election_numbers": [
+   183
+  ],
+  "status": "ok",
+  "election_number": 183,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/MRT_183.json",
+  "summary": {
+   "TotalRegisteredVoters": 117228,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.3750764+00:00",
+   "CountyName": "MARTIN",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "DAD",
+  "county": "Miami-Dade",
+  "election_numbers": [
+   914
+  ],
+  "status": "ok",
+  "election_number": 914,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/DAD_914.json",
+  "summary": {
+   "TotalRegisteredVoters": 1312820,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:03.440441+00:00",
+   "CountyName": "MIAMI-DADE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "MON",
+  "county": "Monroe",
+  "election_numbers": [
+   140
+  ],
+  "status": "ok",
+  "election_number": 140,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/MON_140.json",
+  "summary": {
+   "TotalRegisteredVoters": 54683,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.719267+00:00",
+   "CountyName": "MONROE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "NAS",
+  "county": "Nassau",
+  "election_numbers": [
+   127
+  ],
+  "status": "ok",
+  "election_number": 127,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/NAS_127.json",
+  "summary": {
+   "TotalRegisteredVoters": 82005,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:05.7831803+00:00",
+   "CountyName": "NASSAU",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "OKA",
+  "county": "Okaloosa",
+  "election_numbers": [
+   193
+  ],
+  "status": "ok",
+  "election_number": 193,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/OKA_193.json",
+  "summary": {
+   "TotalRegisteredVoters": 148377,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:04.3605548+00:00",
+   "CountyName": "OKALOOSA",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "OKE",
+  "county": "Okeechobee",
+  "election_numbers": [
+   66
+  ],
+  "status": "ok",
+  "election_number": 66,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/OKE_66.json",
+  "summary": {
+   "TotalRegisteredVoters": 20872,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.0731899+00:00",
+   "CountyName": "OKEECHOBEE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "ORA",
+  "county": "Orange",
+  "election_numbers": [
+   301
+  ],
+  "status": "ok",
+  "election_number": 301,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/ORA_301.json",
+  "summary": {
+   "TotalRegisteredVoters": 820192,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-02T22:00:03.7727121+00:00",
+   "CountyName": "ORANGE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "OSC",
+  "county": "Osceola",
+  "election_numbers": [
+   139
+  ],
+  "status": "ok",
+  "election_number": 139,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/OSC_139.json",
+  "summary": {
+   "TotalRegisteredVoters": 238028,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:03.4022511+00:00",
+   "CountyName": "OSCEOLA",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "PAL",
+  "county": "Palm Beach",
+  "election_numbers": [
+   578
+  ],
+  "status": "ok",
+  "election_number": 578,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/PAL_578.json",
+  "summary": {
+   "TotalRegisteredVoters": 889214,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.6374021+00:00",
+   "CountyName": "PALM BEACH",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "PAS",
+  "county": "Pasco",
+  "election_numbers": [
+   150
+  ],
+  "status": "ok",
+  "election_number": 150,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/PAS_150.json",
+  "summary": {
+   "TotalRegisteredVoters": 407550,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.5735852+00:00",
+   "CountyName": "PASCO",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "PIN",
+  "county": "Pinellas",
+  "election_numbers": [
+   414
+  ],
+  "status": "ok",
+  "election_number": 414,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/PIN_414.json",
+  "summary": {
+   "TotalRegisteredVoters": 613601,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.8112484+00:00",
+   "CountyName": "PINELLAS",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "POL",
+  "county": "Polk",
+  "election_numbers": [
+   221
+  ],
+  "status": "ok",
+  "election_number": 221,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/POL_221.json",
+  "summary": {
+   "TotalRegisteredVoters": 459905,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.2468538+00:00",
+   "CountyName": "POLK",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "PUT",
+  "county": "Putnam",
+  "election_numbers": [
+   166
+  ],
+  "status": "ok",
+  "election_number": 166,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/PUT_166.json",
+  "summary": {
+   "TotalRegisteredVoters": 45212,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:03.5086023+00:00",
+   "CountyName": "PUTNAM",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "SAN",
+  "county": "Santa Rosa",
+  "election_numbers": [
+   103
+  ],
+  "status": "ok",
+  "election_number": 103,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/SAN_103.json",
+  "summary": {
+   "TotalRegisteredVoters": 144240,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.2288557+00:00",
+   "CountyName": "SANTA ROSA",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "SAR",
+  "county": "Sarasota",
+  "election_numbers": [
+   196
+  ],
+  "status": "ok",
+  "election_number": 196,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/SAR_196.json",
+  "summary": {
+   "TotalRegisteredVoters": 334228,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.7141904+00:00",
+   "CountyName": "SARASOTA",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "SEM",
+  "county": "Seminole",
+  "election_numbers": [
+   257
+  ],
+  "status": "ok",
+  "election_number": 257,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/SEM_257.json",
+  "summary": {
+   "TotalRegisteredVoters": 343306,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:07.3770741+00:00",
+   "CountyName": "SEMINOLE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "STJ",
+  "county": "St. Johns",
+  "election_numbers": [
+   82
+  ],
+  "status": "ok",
+  "election_number": 82,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/STJ_82.json",
+  "summary": {
+   "TotalRegisteredVoters": 243704,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.3099251+00:00",
+   "CountyName": "ST. JOHNS",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "STL",
+  "county": "St. Lucie",
+  "election_numbers": [
+   99
+  ],
+  "status": "ok",
+  "election_number": 99,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/STL_99.json",
+  "summary": {
+   "TotalRegisteredVoters": 246078,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:04.7824371+00:00",
+   "CountyName": "ST. LUCIE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "SUM",
+  "county": "Sumter",
+  "election_numbers": [
+   135
+  ],
+  "status": "ok",
+  "election_number": 135,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/SUM_135.json",
+  "summary": {
+   "TotalRegisteredVoters": 130019,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.0159479+00:00",
+   "CountyName": "SUMTER",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "SUW",
+  "county": "Suwannee",
+  "election_numbers": [
+   92
+  ],
+  "status": "ok",
+  "election_number": 92,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/SUW_92.json",
+  "summary": {
+   "TotalRegisteredVoters": 27003,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.9585605+00:00",
+   "CountyName": "SUWANNEE",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "TAY",
+  "county": "Taylor",
+  "election_numbers": [
+   85
+  ],
+  "status": "ok",
+  "election_number": 85,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/TAY_85.json",
+  "summary": {
+   "TotalRegisteredVoters": 11743,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.214625+00:00",
+   "CountyName": "TAYLOR",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "UNI",
+  "county": "Union",
+  "election_numbers": [
+   80
+  ],
+  "status": "ok",
+  "election_number": 80,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/UNI_80.json",
+  "summary": {
+   "TotalRegisteredVoters": 7311,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:04.1767337+00:00",
+   "CountyName": "UNION",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "VOL",
+  "county": "Volusia",
+  "election_numbers": [
+   179,
+   183
+  ],
+  "status": "ok",
+  "election_number": 179,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/VOL_179.json",
+  "summary": {
+   "TotalRegisteredVoters": 401544,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.6879405+00:00",
+   "CountyName": "VOLUSIA",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "WAK",
+  "county": "Wakulla",
+  "election_numbers": [
+   92
+  ],
+  "status": "ok",
+  "election_number": 92,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/WAK_92.json",
+  "summary": {
+   "TotalRegisteredVoters": 25929,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.2219806+00:00",
+   "CountyName": "WAKULLA",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "WAL",
+  "county": "Walton",
+  "election_numbers": [
+   141
+  ],
+  "status": "ok",
+  "election_number": 141,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/WAL_141.json",
+  "summary": {
+   "TotalRegisteredVoters": 63917,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:01.0174333+00:00",
+   "CountyName": "WALTON",
+   "FvrsElectionNumber": 49894
+  }
+ },
+ {
+  "code": "WAS",
+  "county": "Washington",
+  "election_numbers": [
+   117,
+   124
+  ],
+  "status": "ok",
+  "election_number": 117,
+  "file": "/home/peribelle/Code/election-tracking/raw/tqv/WAS_117.json",
+  "summary": {
+   "TotalRegisteredVoters": 14961,
+   "ElectionName": "2026 General Election",
+   "ElectionDate": "11/03/2026",
+   "LastUpdatedTime": "2026-11-03T00:50:02.0216548+00:00",
+   "CountyName": "WASHINGTON",
+   "FvrsElectionNumber": 49894
+  }
+ }
+]

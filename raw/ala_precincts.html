@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Precinct Results - Election Night Reporting</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Content/Site.css" />
+    <link rel="stylesheet" href="//s3.amazonaws.com/vr-enr/ALA/county.css" />
+    <link rel="stylesheet" href="//s3.amazonaws.com/vr-enr/ALA/4097/election.css" />
+
+
+    <!--Google Analytics-->
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-84151603-4', 'electionsfl.org');
+        ga('send', 'pageview');
+
+        function showFullSite() {
+            setCookie("fullSite", "true", 365);
+            location.reload();
+        }
+
+        function showMobileSite() {
+            viewport = document.querySelector("meta[name=viewport]");
+            viewport.setAttribute('content', 'width=device-width, initial-scale=1');
+            $("#ShowMobileSite").html("");
+            setCookie("fullSite", "", 365);
+        }
+
+        function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + "; " + expires;
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1);
+                if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+            }
+            return "";
+        }
+    </script>
+    
+    <script src="//s3.amazonaws.com/vr-enr/ALA/county.js"></script>
+    <script src="//s3.amazonaws.com/vr-enr/ALA/4097/election.js"></script>
+</head>
+
+    <body >
+        <!--[if lt IE 9]>
+            <div class="ie8-warning">
+                You are using a browser that does not support many of the newer technologies employed by this website. Consider changing your browser.
+                <br/>
+                <a href="https://whatbrowser.org/">Learn More</a>
+            </div>
+        <![endif]-->
+
+        <div id="summaryresults">
+            <script src="//vrcdn.electionsfl.org/common/js/googletranslate.js" type="text/javascript"></script>
+            <style>
+                div#google_translate_element div.goog-te-gadget{color:black;}
+                div#google_translate_element a.goog-logo-link{color:black;}
+            </style>
+            <div id="google_translate_element" style="height: 50px"></div>
+            <div class="container-fluid">
+                    <div class="row" id="header">
+                        <img class="img-responsive" alt="County Banner" src="//s3.amazonaws.com/vr-enr/ALA/wf_banner.jpg">
+                    </div>
+                <div id="ElectionStats">
+    <div class="row" id="TopStats">
+        <div class="col-xs-12" id="ElectionName">
+            <h1>2026 General Election</h1>
+        </div>
+        <div class="col-sm-3 col-sm-push-9 col-xs-12" id="ElectionDate">
+            <h2>Election Date: 11/3/2026</h2>
+        </div>
+        <div class="col-sm-9 col-sm-pull-3 col-xs-12" id="LastUpdated">
+            (Website last updated at: 10/08/2026 8:44:56 am)
+        </div>
+    </div>
+    <div class="row" id="BottomStats">
+        <div class=" col-md-6 col-xs-12" id="LeftStats">
+            <div class="row">
+                <div class="col-sm-4 col-xs-8 col-sm-offset-2 TurnoutLabel">Registered Voters: </div>
+                <div class="col-xs-4 notranslate TurnoutValue">163,369</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-xs-8 col-sm-offset-2 TurnoutLabel">Ballots Cast: </div>
+                <div class="col-xs-4 notranslate TurnoutValue">0</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-xs-8 col-sm-offset-2 TurnoutLabel">Voter Turnout: </div>
+                <div class="col-xs-4 notranslate TurnoutValue">0%</div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xs-12" id="RightStats">
+            <div class="row">
+                <div class="col-md-7 col-xs-12 PrecinctsLabel">Precincts Reporting: </div>
+                <div class="col-md-5 col-xs-11 PrecinctsValue">0 / 63</div>
+            </div>
+                    <div class="row">
+                        <div class="col-md-7 col-xs-12 PrecinctsLabel">Election Day: </div>
+                        <div class="col-md-5 col-xs-11 PrecinctsValue">
+                                    <span class="voteTypeNotReported">Not Reported</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 col-xs-12 PrecinctsLabel">Early Votes: </div>
+                        <div class="col-md-5 col-xs-11 PrecinctsValue">
+                                    <span class="voteTypeNotReported">Not Reported</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-7 col-xs-12 PrecinctsLabel">Vote By Mail: </div>
+                        <div class="col-md-5 col-xs-11 PrecinctsValue">
+                                    <span class="voteTypeNotReported">Not Reported</span>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    <div class="row" id="BottomMessage">
+        <div class="col-xs-12">
+            
+        </div>
+    </div>
+</div>
+                    <div class="row">
+                        <ul class="visible-sm visible-xs">
+                            <tr>
+                                <form name="tabForm">
+                                    <label id="tabsSelectLabel">
+                                    <select name="tabsSelect" id="tabsSelect">
+                                        <option value="/ALA/4097/Summary">Summary Results</option>
+                                            <option value="/ALA/4097/Precincts">Precinct Results</option>
+                                                                                                                        <option value="/ALA/4097/Summary/?favorites=1">Favorite Races</option>
+
+                                    </select>
+                                    </label>
+                                </form>
+                            </tr>
+                        </ul>
+                        <ul class="tabs hidden-sm hidden-xs">
+                            <li class="tab tab1 ">
+                                <div class="BackgroundImage"></div>
+                                <div class="Text">
+                                    <a id="summary_link" href="/ALA/4097/Summary">Summary Results</a>
+                                </div>
+                            </li>
+                            <li class="tab tab2 activetab">
+                                <div class="BackgroundImage"></div>
+                                <div class="Text">
+                                    <a href="/ALA/4097/Precincts">Precinct Results</a>
+                                </div>
+                            </li>
+                                                                                    <li class="tab tab5 ">
+                                <div class="BackgroundImage"></div>
+                                <div class="Text">
+                                    <a id="favorite_link" href="/ALA/4097/Summary/?favorites=1">Favorite Races</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <section id="content">
+                        
+        <fieldset id="FilterBox">
+            <legend><img alt="Filter" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAQDAwMDAwQDAwQGBAMEBgcFBAQFBwgGBgcGBggKCAkJCQkICgoMDAwMDAoMDA0NDAwRERERERQUFBQUFBQUFBT/2wBDAQQFBQgHCA8KCg8UDg4OFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wgARCAARABoDAREAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAABggABAcF/8QAGAEBAQEBAQAAAAAAAAAAAAAABAUCAwH/2gAMAwEAAhADEAAAAe8wwb15U9eMpNctVecRkQGuJCoK8a10iMAeRk5zf//EAB4QAAEDBQEBAAAAAAAAAAAAAAUCAwQAAQYUNRIT/9oACAEBAAEFAsuMeXo2RvxIgEuobJ2Y9OquiSCGbQqymLRvmVrMuvj3GJ9iv//EAB4RAAEEAgMBAAAAAAAAAAAAAAABAgMRMUEQISIy/9oACAEDAQE/AZnaI3UgjlRSyS7I08mzsmyNwO+uP//EACERAAIBAwMFAAAAAAAAAAAAAAACAQMEERAiMRIhMkGh/9oACAECAQE/AbdPclVIaRkiVMFLHSVW3QdsG36W/A/Inhp//8QALhAAAQIEAQgLAAAAAAAAAAAAAQACAwQREiEFExQiMVGDwTIzNGFyc4KRoaTR/9oACAEBAAY/AmZMgxCwDXmS3v2Nw91PSzIrqvYNFcMbXVx+EI8WM4scaRmkk1BXWDoZ30b1MieB0q919d6yvFEAOdEbbLkjG5oJNqsprLZE7P8AV/Fw2qU8HNTHnc1wV//EACMQAAIBAgUFAQAAAAAAAAAAAAERACExEEFhcYFRobHR8PH/2gAIAQEAAT8hT6IIF9Vsq4hCUJcNDBJpszg1DgAvCXRi893/AGNYz0O31eElpKfiKkm4ObIFM5ZiqSn7Xjhb7tU7nhf/2gAMAwEAAgADAAAAEB+Qut6v/8QAGxEBAQEAAgMAAAAAAAAAAAAAAQARMUEQobH/2gAIAQMBAT8QTMSuMZeu7ENdnVIzPW4Ljvv4/8QAHBEAAgICAwAAAAAAAAAAAAAAAAERMRBBIXGx/9oACAECAQE/EENkgtKrG5b0SGigUubsTCStLzwx/8QAIBABAQACAQMFAAAAAAAAAAAAAREAITFR4fAQQWGh0f/aAAgBAQABPxBT0j1RU7BwPe4TOfIYFJtqQ6DMR0UbqOpWhd0z8E51vyyNto77CmsABWbKACmzfByZUIdmEhImdm+R0zk8dOfYZ+b6PT//2Q==" /> Filter Races</legend>
+            <div class="row">
+                <div class="col-xs-4 col-sm-3"><label for="raceSelect">Select a race:</label></div>
+                <div>
+                    <select class="col-xs-8" id="raceSelect" style="max-width:100%;">
+                        <option value='default'>Select a race</option>
+                                <option value="61524">United States Senator</option>
+                                <option value="61525">Representative in Congress District 3</option>
+                                <option value="61526">Governor and Lieutenant Governor</option>
+                                <option value="61527">Attorney General</option>
+                                <option value="61528">Chief Financial Officer</option>
+                                <option value="61529">Commissioner of Agriculture</option>
+                                <option value="61530">State Senator District 6</option>
+                                <option value="61531">State Representative District 10</option>
+                                <option value="61532">State Representative District 22</option>
+                                <option value="61533">County Commissioner District 4</option>
+                                <option value="61534">Supreme Court Retention Carlos</option>
+                                <option value="61535">First District Retention Joseph </option>
+                                <option value="61536">First District Retention Rachel</option>
+                                <option value="61537">First District Retention Tim</option>
+                                <option value="61538">First District Retention Clay</option>
+                                <option value="61539">First District Retention Raymond</option>
+                                <option value="61540">School Board District 1</option>
+                                <option value="61541">High Springs City Commissioner Seat 1</option>
+                                <option value="61542">High Springs City Commissioner Seat 2</option>
+                                <option value="61543">No.1 Constitutional Amendment Article III, Section 19</option>
+                                <option value="61544">No.2 Constitutional Amendment Article VII, Section 3  Article XII </option>
+                                <option value="61545">No.3 Constitutional Amendment Article VII, Sections 4, 6 and 9  Article XII</option>
+                                <option value="61546">City of Gainesville Charter Amendment</option>
+                                <option value="61547">City of Archer Charter Amendment No. 1</option>
+                                <option value="61548">City of Archer Charter Amendment No. 2</option>
+                                <option value="61549">City of Archer Charter Amendment No. 3</option>
+                                <option value="61550">City of Archer Charter Amendment No. 4</option>
+                    </select>
+                </div>
+            </div>
+                                        <div class="row">
+                    <div class="col-xs-4 col-sm-3"> <label for="viewSelect">Vote Type View:</label></div>
+                    <div>
+                        <select class="col-xs-8" id="viewSelect">
+                            <option value="Graphical" selected>Graphical</option>
+                            <option value="Detailed" >Detailed</option>
+                        </select>
+                    </div>
+                </div>
+        </fieldset>
+            <div id="suppressionMessage" class="row RaceStats" style="display: none; padding: 5px;">A dash ( - ) represents detailed groups (Election Day, Vote By Mail, Early Votes, Provisional) with between 1 and 29 votes in accordance with Florida Statute 98.0981(3)(a)</div>
+
+    <div class="SelectARace">Please select a race to view the results.</div>
+
+                    </section>
+            </div>
+            
+
+            <script>
+        document.addEventListener("DOMContentLoaded", load);
+        function load() {
+
+            foreachPrecinctView(function () {
+                var val = $('#viewSelect').val();
+                if (val === "Graphical") {
+                    $('.GraphicalResults').hide();
+                    $('.DetailResults').show();
+                    $('#suppressionMessage').show();
+                    $('#viewSelect')[0].selectedIndex = 1;
+                } else {
+                    $('.DetailResults').hide();
+                    $('#suppressionMessage').hide();
+                    $('.GraphicalResults').show();
+                    $('#viewSelect')[0].selectedIndex = 0;
+                }
+            });
+
+        }
+        function foreachPrecinctView(f1) {
+            var viewSelectHeader = document.getElementsByClassName('viewSelectHeader');
+            for (var i = 0; i !== viewSelectHeader.length; i++) {
+                viewSelectHeader[i].addEventListener("click", f1);
+            }
+        }
+            </script>
+
+                <script>
+                    var message = document.getElementById('suppressionMessage');
+                    var offset = 777;
+                    $('#viewSelect').ready(function() {
+                        if ($('#viewSelect').val() === "Detailed") {
+                            $('#suppressionMessage').show();
+                            adjustWidth();
+                        }
+                        $('#viewSelect').change(function() {
+                            var val = $('#viewSelect').val();
+                            if (val === "Detailed") {
+                                $('#suppressionMessage').show();
+                                adjustWidth();
+                            } else {
+                                $('#suppressionMessage').hide();
+                            }
+                        });
+                    });
+                    function adjustWidth() {
+                        var parentwidth = $("body").width() - 50;
+                        offset = $('#suppressionMessage').offset().top;
+                        $("#suppressionMessage").width(parentwidth);
+                    }
+                    $(window).resize(
+                        function() {
+                            adjustWidth();
+                        });
+                    $(window).scroll(
+                        function() {
+                            makeMessageFixedHeader();
+                        });
+
+                    function makeMessageFixedHeader() {
+                        if (window.pageYOffset > offset) {
+                            message.classList.add("sticky");
+                        } else {
+                            message.classList.remove("sticky");
+                        }
+                    }
+
+                </script>
+
+        
+        <script>
+                var lastUpdateTime = "1791463516";
+                function setButtonText() {
+                    var viewSelectHeader = document.getElementsByClassName('viewSelectHeader');
+                    var graphicalViewEnabled = $('#viewSelect').val() === "Graphical";
+                    for (var i = 0; i !== viewSelectHeader.length; i++) {
+                        if (graphicalViewEnabled) {
+                            viewSelectHeader[i].innerText = "Show Detailed View";
+                        } else {
+                            viewSelectHeader[i].innerText = "Show Graphical View";
+                        }
+                    }
+                }
+
+                function makePrecinctURL(raceVal, precinctVal, viewVal, precinctCandidateVal) {
+                    var urlParts = ['/ALA/4097/Precincts'];
+                    if (precinctCandidateVal !== null) {
+                        urlParts[0] += precinctCandidateVal === 'byCandidate' ? '' : 'ByParty';
+                    }
+                    if (!(raceVal === undefined || raceVal === 'default')) {
+                        urlParts.push(raceVal);
+                        if (!(precinctVal === undefined || precinctVal === 'default')) {
+                            urlParts.push(precinctVal);
+                        }
+                    }
+                    var viewPart = viewVal === undefined ? '' : '?view=' + viewVal;
+
+                    return urlParts.join('/') + viewPart;
+                }
+
+                function onPrecinctSelectionChange() {
+                    var usesPrecinctCandidateList = false;
+                    var raceVal = $('#raceSelect').val();
+                    var precinctVal = $('#precinctSelect').val();
+                    var viewVal = $('#viewSelect').val();
+                    var precinctCandidateVal = usesPrecinctCandidateList ? $('#precinctCandidateListView').val() : null;
+
+                    var location = makePrecinctURL(raceVal, precinctVal, viewVal, precinctCandidateVal);
+                    window.location = location;
+                }
+
+                function makePrecinctURL(raceVal, precinctVal, viewVal, precinctCandidateVal, raceChanged) {
+                    var urlParts = ['/ALA/4097/Precincts'];
+                    if (precinctCandidateVal !== null) {
+                        urlParts[0] += precinctCandidateVal === 'byCandidate' ? '' : 'ByParty';
+                    }
+                    if (!(raceVal === undefined || raceVal === 'default')) {
+                        urlParts.push(raceVal);
+                        if (!raceChanged && precinctVal !== undefined && precinctVal !== 'default') {
+                            urlParts.push(precinctVal);
+                        }
+                    }
+                    var viewPart = viewVal === undefined ? '' : '?view=' + viewVal;
+
+                    return urlParts.join('/') + viewPart;
+                }
+
+                function onPrecinctSelectionChange(raceChanged) {
+                    var usesPrecinctCandidateList = false;
+                    var raceVal = $('#raceSelect').val();
+                    var precinctVal = $('#precinctSelect').val();
+                    var viewVal = $('#viewSelect').val();
+                    var precinctCandidateVal = usesPrecinctCandidateList ? $('#precinctCandidateListView').val() : null;
+
+                    var location = makePrecinctURL(raceVal, precinctVal, viewVal, precinctCandidateVal, raceChanged);
+                    window.location = location;
+                }
+
+                $(document).ready(function () {
+                    $("#tabsSelect > option").each(function() {
+                        if (this.value === sessionStorage.getItem("selected")) {
+                            this.selected = true;
+                        }
+                    });
+                    $(".GraphicalResults .Results").each(function () { $(this).find(".ResultsRow:even").addClass("oddrow"); });
+                    $(".DetailResults").each(function () { $(this).find("tbody tr:even").addClass("oddrow"); });
+                    var val = getQueryVariable('view', 'Graphical');
+                    $('#viewSelect').val(val);
+                    if (val === "Detailed") {
+                        $('.GraphicalResults').hide();
+                        $('.DetailResults').show();
+                    } else {
+                        $('.DetailResults').hide();
+                        $('.GraphicalResults').show();
+                    }
+                    setButtonText();
+
+                    if (getCookie("fullSite") === "true") {
+                        viewport = document.querySelector("meta[name=viewport]");
+                        viewport.setAttribute('content', 'width=1024');
+                        $('#ShowMobileSite').html('<a onclick="showMobileSite()">Show Mobile Site</a>');
+                    }
+                    checkForUpdate();
+                });
+                $('#summaryViewSelect').ready(function () {
+                    $('#summaryViewSelect').change(function () {
+                        window.location = '/ALA/4097/SummaryByCandidate/' + $('#summaryViewSelect').val();
+                    });
+                });
+                $('#viewSelect').ready(function () {
+                    $('#viewSelect').change(function () {
+                        var val = $('#viewSelect').val();
+                        if (val === "Detailed") {
+                            $('.GraphicalResults').hide();
+                            $('.DetailResults').show();
+                        } else {
+                            $('.DetailResults').hide();
+                            $('.GraphicalResults').show();
+                        }
+                        setButtonText();
+                    });
+                });
+                $('#tabsSelect').ready(function () {
+                    $('#tabsSelect').change(function () {
+                        window.location = this.options[this.selectedIndex].value;
+                        sessionStorage.setItem("selected", this.options[this.selectedIndex].value);
+                    });
+                });
+
+                $('#raceSelect').ready(function () {
+                    $('#raceSelect').change(function () {onPrecinctSelectionChange(true);});
+                });
+
+                $('#precinctSelect').ready(function () {
+                    $('#precinctSelect').change(function () {
+                        if ($('#raceSelect').val() === 'default') {
+                            return;
+                        }
+                        onPrecinctSelectionChange(false);
+                    });
+                });
+
+                function checkForUpdate() {
+                    var randTag = Math.floor((Math.random() * 100000) + 1);
+                    $.ajax({
+                        url: '/ALA/4097/stampedtime.js?random='+randTag
+                    }).done(function (data) {
+                        if (lastUpdateTime === "") {
+                            lastUpdateTime = data;
+                            scheduleCheckForUpdate();
+                        } else if (lastUpdateTime !== data) {
+                            location.reload();
+                        } else {
+                            scheduleCheckForUpdate();
+                        }
+                    });
+                }
+
+                function scheduleCheckForUpdate() {
+                    window.setTimeout(checkForUpdate, 60000);
+                }
+
+                function getQueryVariable(variable, defaultVal) {
+                    var query = window.location.search.substring(1);
+                    var vars = query.split("&");
+                    for (var i = 0; i < vars.length; i++) {
+                        var pair = vars[i].split("=");
+                        if (pair[0] == variable) {
+                            return pair[1];
+                        }
+                    }
+                    return defaultVal;
+                }
+        </script>
+        </div>
+    </body>
+</html>
+
