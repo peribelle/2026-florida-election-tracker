@@ -1,0 +1,21 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|ballots_down|TQV|by_type|MANATEE|20261103-134241,3,data,ballots_down,TQV|by_type|MANATEE,20261103-134241,MANATEE | EarlyVoting,ballots,72246,72245,-1
+data|parts_down|TQV|by_party|MANATEE|20261103-134241,3,data,parts_down,TQV|by_party|MANATEE,20261103-134241,MANATEE | NPA,earlyvoting,12956,12955,-1
+data|rows_new|TQV|by_party|new|20261103-134241,3,data,rows_new,TQV|by_party|new,20261103-134241,BRADFORD | OTH,(row),,1,
+data|rows_new|TQV|by_party|new|20261103-134241,3,data,rows_new,TQV|by_party|new,20261103-134241,HAMILTON | WPF,(row),,1,
+data|rows_new|TQV|by_party|new|20261103-134241,3,data,rows_new,TQV|by_party|new,20261103-134241,MADISON | FFP,(row),,1,
+data|rows_new|TQV|by_party|new|20261103-134241,3,data,rows_new,TQV|by_party|new,20261103-134241,MARTIN | WPF,(row),,1,
+data|rows_new|TQV|by_party|new|20261103-134241,3,data,rows_new,TQV|by_party|new,20261103-134241,PINELLAS | UNK,(row),,1,
+data|parts_down|TQV|by_precinct|GADSDEN|20261103-134241,3,data,parts_down,TQV|by_precinct|GADSDEN,20261103-134241,GADSDEN | 7,mail,91,90,-1
+data|parts_down|TQV|by_precinct|MANATEE|20261103-134241,3,data,parts_down,TQV|by_precinct|MANATEE,20261103-134241,MANATEE | 329.1,earlyvoting,389,388,-1
+data|parts_down|TQV|by_precinct|PASCO|20261103-134241,3,data,parts_down,TQV|by_precinct|PASCO,20261103-134241,PASCO | 017.4,mail,149,147,-2
+data|rows_new|TQV|by_precinct|new|20261103-134241,3,data,rows_new,TQV|by_precinct|new,20261103-134241,ALACHUA | 32.0,(row),,1,
+data|rows_new|TQV|by_precinct|new|20261103-134241,3,data,rows_new,TQV|by_precinct|new,20261103-134241,LEE | 516.2,(row),,1,
+data|rows_new|TQV|by_precinct|new|20261103-134241,3,data,rows_new,TQV|by_precinct|new,20261103-134241,PALM BEACH | 8439,(row),,1,
+data|rows_new|TQV|by_precinct|new|20261103-134241,3,data,rows_new,TQV|by_precinct|new,20261103-134241,PALM BEACH | 7612,(row),,1,
+data|rows_new|TQV|by_precinct|new|20261103-134241,3,data,rows_new,TQV|by_precinct|new,20261103-134241,PINELLAS | 533.0,(row),,1,
+data|ballots_down|TQV|by_date|MANATEE|20261103-134241,3,data,ballots_down,TQV|by_date|MANATEE,20261103-134241,MANATEE | 10/27/2026 | EarlyVoting,ballots,5579,5578,-1
+data|rows_new|TQV|by_date|new|20261103-134241,3,data,rows_new,TQV|by_date|new,20261103-134241,GILCHRIST | 11/03/2026 | Provisional,(row),,1,
+data|ballots_down|TQV|location_day|MANATEE|20261103-134241,3,data,ballots_down,TQV|location_day|MANATEE,20261103-134241,MANATEE | EVSOE | 10/27/2026,ballots,514,513,-1
+data|ballots_down|TQV|location_party|MANATEE|20261103-134241,3,data,ballots_down,TQV|location_party|MANATEE,20261103-134241,MANATEE | EVSOE | NPA,ballots,960,959,-1
+data|ballots_down|TQV|statewide|early|20261103-134241,3,data,ballots_down,TQV|statewide|early,20261103-134241,statewide,early,3467806,3467805,-1
