@@ -1201,34 +1201,6 @@
    },
    "source": "turnout",
    "tier": 1
-  },
-  "source|pull_missing|watch|turnout|0800": {
-   "last": "2026-11-03 09:45:44",
-   "n": 3,
-   "origin": "watch",
-   "row": {
-    "alert_id": "A-W20261103-081012-001",
-    "count": 1,
-    "curr": null,
-    "delta": null,
-    "detail": "due 08:00, now 09:45. The scheduler may be stopped, or the collector crashed before saving.",
-    "event": "raised",
-    "fingerprint": "source|pull_missing|watch|turnout|0800",
-    "first_seen": "2026-11-03 08:10:12",
-    "headline": "No turnout pull arrived for the 08:00 slot",
-    "kind": "pull_missing",
-    "prev": null,
-    "prev_snapshot": "",
-    "raised_local": "2026-11-03 08:10:12",
-    "raised_utc": "2026-11-03T13:10:12Z",
-    "scope": "watch|turnout|0800",
-    "snapshot": "W20261103-081012",
-    "source": "watchdog",
-    "tier": 2,
-    "validator": "source"
-   },
-   "source": "watchdog",
-   "tier": 2
   }
  },
  "recent": [
