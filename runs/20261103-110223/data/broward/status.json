@@ -1,0 +1,6 @@
+{
+ "ok": false,
+ "attempted_at": "2026-11-03T11:00:13",
+ "data_collected_at": "2026-11-03T07:00:28",
+ "error": "TimeoutError: Broward collection exceeded its 120s budget"
+}
