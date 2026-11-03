@@ -11,14 +11,26 @@ are also embedded in the dashboard pages.
 
 Outputs land in data/broward/ using the same column names as the TQV tables so
 normalize.py can merge them without special-casing.
+
+Broward's dashboard is a separate site and fails on its own (on election morning it went to "No dashboard loaded"), so
+this collector never lets that cost anyone else their pull:
+  * every request is retried, and the whole collection has a time budget (BUDGET seconds), so a slow site cannot hang a refresh
+  * everything is collected into a staging directory and moved into place only when it is all there, so a partial failure
+    can never leave a mix of fresh and stale files
+  * on failure the last complete set stays in place and data/broward/status.json says so (ok false, when the numbers in the
+    files were really collected), which the archive notes and the validators raise. Exit status 1 on failure.
 """
-import csv, html, json, os, re
+import csv, html, json, os, re, shutil, sys, tempfile, time
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "data", "broward")
 os.makedirs(OUT, exist_ok=True)
+FINAL = OUT                       # run() points OUT at a staging directory while collecting, and back here when done
+BUDGET = 120                      # seconds for the whole collection
+T0 = time.time()
 
 BASE = "https://my.browardvotes.gov/TEDElectionLink"
 H = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -32,9 +44,22 @@ PARTY = {"Florida Democratic Party": "DEM", "Republican Party Of Florida": "REP"
 
 
 def _get(url, timeout=90):
-    r = requests.get(url, headers=H, timeout=timeout)
-    r.raise_for_status()
-    return r
+    """GET with retries for network errors and 5xx. A 4xx is deterministic (Broward's 404 on election morning), so no retry."""
+    last = None
+    for attempt in range(3):
+        left = BUDGET - (time.time() - T0)
+        if left <= 0:
+            raise TimeoutError(f"Broward collection exceeded its {BUDGET}s budget")
+        try:
+            r = requests.get(url, headers=H, timeout=min(timeout, max(5, left)))
+            if r.status_code < 500:
+                r.raise_for_status()
+                return r
+            last = requests.HTTPError(f"{r.status_code} server error for url: {url}", response=r)
+        except (requests.ConnectionError, requests.Timeout) as e:
+            last = e
+        time.sleep(2 * (attempt + 1))
+    raise last
 
 
 def tile(tid, dash):
@@ -109,6 +134,8 @@ def main():
             key = {"Vote By Mail": "Mail", "Early Vote": "EarlyVoting",
                    "Election Day": "ElectionDay", "Provisional": "Provisional"}.get(nm, nm)
             types[key] = types.get(key, 0) + int(d.get("value") or 0)
+    if not types:
+        raise RuntimeError("Broward's ballot-type chart came back empty")
     with open(os.path.join(OUT, "by_type.csv"), "w", newline="") as fh:
         w = csv.writer(fh); w.writerow(["county", "ballot_type", "ballots"])
         for k, v in types.items():
@@ -130,6 +157,8 @@ def main():
             "electionday": i(r[4]), "provisional": 0, "total": i(r[5]),
             "eligible_allreg": i(r[1]),
         })
+    if not party_rows:
+        raise RuntimeError("Broward's party table came back empty")
     with open(os.path.join(OUT, "by_party.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(party_rows[0]))
         w.writeheader(); w.writerows(party_rows)
@@ -147,6 +176,8 @@ def main():
             "electionday": i(r[5]), "provisional": 0, "total": i(r[6]),
             "turnout_pct": f(r[7]),
         })
+    if not prow:
+        raise RuntimeError("Broward's precinct table came back empty")
     with open(os.path.join(OUT, "by_precinct.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(prow[0]))
         w.writeheader(); w.writerows(prow)
@@ -214,5 +245,58 @@ def main():
     print(f"  -> {OUT}")
 
 
+NEED = ("by_type.csv", "by_party.csv", "by_precinct.csv", "by_location.csv", "location_party.csv", "by_date.csv", "summary.json")
+
+
+def _iso(t):
+    return t.strftime("%Y-%m-%dT%H:%M:%S")
+
+
+def _previously_collected():
+    """When the numbers now sitting in data/broward/ were really collected: the last status, else the age of summary.json."""
+    try:
+        with open(os.path.join(FINAL, "status.json")) as fh:
+            when = json.load(fh).get("data_collected_at")
+        if when:
+            return when
+    except (OSError, ValueError):
+        pass
+    try:
+        return _iso(datetime.fromtimestamp(os.path.getmtime(os.path.join(FINAL, "summary.json"))))
+    except OSError:
+        return None
+
+
+def run():
+    """Collect into a staging directory, move it into place only if complete, and always leave status.json behind."""
+    global OUT, T0
+    T0 = time.time()
+    now = datetime.now()
+    staging = tempfile.mkdtemp(prefix=".staging-", dir=FINAL)
+    OUT = staging
+    ok, err = True, None
+    try:
+        main()
+        missing = [n for n in NEED if not os.path.exists(os.path.join(staging, n))]
+        if missing:
+            raise RuntimeError(f"Broward collection incomplete: missing {', '.join(missing)}")
+        for n in NEED:
+            os.replace(os.path.join(staging, n), os.path.join(FINAL, n))
+        collected = _iso(datetime.now())
+    except Exception as e:
+        ok, err = False, f"{type(e).__name__}: {str(e)[:220]}"
+        collected = _previously_collected()
+        print(f"!! Broward unavailable ({err}); keeping the numbers collected at {collected}")
+    finally:
+        OUT = FINAL
+        shutil.rmtree(staging, ignore_errors=True)
+    status = {"ok": ok, "attempted_at": _iso(now), "data_collected_at": collected, "error": err}
+    tmp = os.path.join(FINAL, "status.json.tmp")
+    with open(tmp, "w") as fh:
+        json.dump(status, fh, indent=1)
+    os.replace(tmp, os.path.join(FINAL, "status.json"))
+    return 0 if ok else 1
+
+
 if __name__ == "__main__":
-    main()
+    sys.exit(run())

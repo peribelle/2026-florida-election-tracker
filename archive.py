@@ -53,6 +53,19 @@ def feed_time():
     return best
 
 
+def broward_note():
+    """If Broward's dashboard failed, say so on the run: its numbers are carried over from an earlier pull."""
+    try:
+        with open(os.path.join(HERE, "data", "broward", "status.json")) as f:
+            st = json.load(f)
+    except (OSError, ValueError):
+        return ""
+    if st.get("ok", True):
+        return ""
+    when = (st.get("data_collected_at") or "an earlier pull")[11:16] or "an earlier pull"
+    return f"Broward dashboard failed; its numbers are carried over from {when}"
+
+
 def main():
     os.makedirs(RUNS, exist_ok=True)
     now_local = datetime.now()
@@ -118,7 +131,7 @@ def main():
            "feed_time": ft, **{k: totals[k] for k in ("ballots", "mail", "early",
                                                       "election_day", "provisional",
                                                       "eligible", "turnout_pct")},
-           "note": ""}
+           "note": broward_note()}
     with open(INDEX, "a", newline="") as f:
         w = csv.DictWriter(f, fieldnames=list(row))
         if new:

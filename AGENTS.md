@@ -190,7 +190,7 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── validate.py              the two validators: engine, alerts, notifications, watchdog, --selftest (§13)
 ├── validate_checks.py       source checks, metrics, tiers, schedule port
 ├── validate_data.py         data checks: the generic table comparer and the invariants
-├── validate_selftest.py     runs 41 checks on a copy of the real history: the right alert fires, a clean pull stays silent
+├── validate_selftest.py     runs 46 checks on a copy of the real history: the right alert fires, a clean pull stays silent
 ├── publish.py               after every pull: rebuild viewer, refresh docs/, commit the outputs, push (§12)
 ├── github_known_hosts       GitHub's published SSH host keys, so unattended pushes never prompt
 │
@@ -454,6 +454,15 @@ everyone else uses active registered (1,103,545 for Broward). The workbook maps 
 active basis so the 67 counties compare like for like. Broward's own headline (33.90%) and ours
 (41.99%) differ for that reason, not because of a bug.
 
+**Broward's dashboard is its own site, and it fails on its own.** On election morning it went to "No dashboard loaded": its widget
+API returned 404 at 08:00 and hung at 09:00, and because `refresh.sh` runs under `set -e` the 08:00 and 09:00 turnout runs were
+never archived. `collect_broward.py` now retries (not on a 4xx), has a 120 s budget, collects into a staging directory and moves
+it into place only if complete, so a failure can never leave a mix of fresh and stale files. On failure the last complete set stays
+in `data/broward/`, `data/broward/status.json` records `ok: false` and when those numbers were really collected, `archive.py` puts
+that in the run's `note` in `runs/INDEX.csv`, and the validators raise `broward_stale`. The statewide numbers for that run
+therefore **omit everything Broward added since** (about 8% of ballots): never present them as complete. The collector retries every
+run, so the next healthy pull restores it by itself. The 08:00 and 09:00 snapshots cannot be recreated (the feeds are live).
+
 **Turnout feeds die at polls close.** County dashboards are switched off at 19:00. That is why the
 last turnout pull is 18:59 and results start at 19:00. Do not expect `refresh.sh` to return useful
 numbers after close.
@@ -480,7 +489,7 @@ precinct's eligible count is below ballots cast — a reporting artefact, not a 
 .venv/bin/python publish.py       # publish now: viewer, docs/, commit, push (what every pull asks for)
 .venv/bin/python validate.py --status    # what the validators have open right now
 .venv/bin/python validate.py --replay    # what the saved history would have been flagged (writes nothing)
-.venv/bin/python validate.py --selftest  # prove the validators fire (41 checks, touches nothing real)
+.venv/bin/python validate.py --selftest  # prove the validators fire (46 checks, touches nothing real)
 nohup .venv/bin/python validate.py --watch >> logs/validate_watch.log 2>&1 &   # the watchdog: a scheduled pull that never arrives
 .venv/bin/python publish.py --status   # last result, pending request, unpushed commits
 ```
@@ -614,6 +623,7 @@ produces more than 25 groups collapses to one alert per source. **Nothing is dro
 | source: `precinct_file_lost`, `precinct_file_short`, `precinct_file_corrupt` | a county that had a precinct file lost, truncated or broke it | 2 |
 | source: `wrong_election` | an election date that is not 11/3/2026, or primary contests | 1 |
 | source: `source_down`, `race_pages_failed`, `markets_short` | DDHQ down (1: it is the only call authority); Kalshi/Polymarket down (2) | 1 / 2 |
+| source: `broward_stale` | Broward's dashboard is down and its numbers are carried over (T2 after 15 min, T1 after 3 h) | 2 / 1 |
 | source: `county_feeds_failed`, `counties_short`, `feed_stale`, `counties_stale` | turnout feeds; staleness is measured from poll open | 1-3 |
 | source: `county_stalled` | a county that had started reporting has not moved for 3 pulls (T3) or 6 (T2) | 3 / 2 |
 | source: `pull_gap`, `pull_missing`, `pull_stuck`, `site_stale` | a scheduled pull never ran; never arrived; never finished; the site is 20+ min behind | 1-2 |
@@ -624,7 +634,8 @@ sites that come online) is never an alarm for growing, and a county that never h
 one. On the first run the validators learn the history and judge only the latest pull.
 
 **Two kinds of alert.** An *event* is a change between two pulls (`votes_down`); it is raised once. A *condition* stays true
-until fixed (`county_site_failed`); it is raised once, escalated one tier after 3 pulls, and cleared when it goes. Alerts
+until fixed (`county_site_failed`); it is raised once, escalated one tier after 3 pulls (or at once if it gets worse while open: a
+feed an hour stale that becomes three hours stale), and cleared when it goes. Alerts
 `raised`, `escalated` and `cleared` are rows in `validation/alerts.csv`.
 
 **Files** (all under `validation/`; none of it touches `runs/`, `results/` or `projections/`, and the viewer only reads it):
@@ -654,6 +665,6 @@ and `site_stale`. It is silent outside the election window. It also validates an
 a chip in the Overview status strip. Tiers use text labels and border weight as well as color, never the party colors (§7.6).
 
 **Rules.** Validators read snapshots and write only `validation/` and `logs/`. A validator that cannot run must never delay or
-fail a pull. After changing any `validate*.py`, run `validate.py --selftest` (it runs 41 checks on a copy of the real history
+fail a pull. After changing any `validate*.py`, run `validate.py --selftest` (it runs 46 checks on a copy of the real history
 and checks the right alert fires, a clean pull stays silent, and the schedule matches). To add a check: write it as a function that
 returns findings, call it from `source_checks` or `data_checks`, and add a scenario to `validate_selftest.py`.

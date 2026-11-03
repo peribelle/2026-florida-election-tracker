@@ -21,7 +21,10 @@ step "1/9 collecting 67 shared county feeds"
 $PY collect.py | tail -3
 
 step "2/9 collecting Broward (own dashboard)"
-$PY collect_broward.py
+# Broward's dashboard is a separate site and fails on its own (election morning: "No dashboard loaded"). One county's outage must not
+# cost the other 66 their pull: on failure the collector keeps Broward's last complete numbers and flags them in data/broward/status.json,
+# which the archive note and the validators raise. The timeout is a last resort; the collector has its own 120 s budget.
+timeout 170 $PY collect_broward.py || echo "!! Broward's dashboard failed; this run carries over its last numbers (flagged in data/broward/status.json)"
 
 step "3/9 normalizing (merges Broward)"
 $PY normalize.py

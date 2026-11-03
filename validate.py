@@ -219,10 +219,11 @@ def apply_findings(state, findings, source, snap_id, prev_id, now, origin, seq, 
             o["n"] += 1
             o["last"] = f"{now:%Y-%m-%d %H:%M:%S}"
             o["row"].update({"headline": fd["headline"], "detail": fd.get("detail", ""), "count": fd.get("count", 1), "curr": fd.get("curr"), "prev": fd.get("prev"), "delta": fd.get("delta")})
-            if escalate and o["n"] == ESCALATE_AFTER and o["tier"] > 1:
-                o["tier"] -= 1
+            worse = fd["tier"] < o["tier"]                 # its own severity grew (a feed that was an hour stale is now three)
+            if escalate and (worse or (o["n"] == ESCALATE_AFTER and o["tier"] > 1)):
+                o["tier"] = fd["tier"] if worse else o["tier"] - 1
                 o["row"]["tier"] = o["tier"]
-                fd2 = dict(fd, tier=o["tier"], headline=f"{fd['headline']} (still true after {o['n']} pulls)")
+                fd2 = dict(fd, tier=o["tier"], headline=fd["headline"] if worse else f"{fd['headline']} (still true after {o['n']} pulls)")
                 seq[0] += 1
                 rows.append(_row(fd2, "escalated", o["row"]["alert_id"], now, snap_id, prev_id, source, o["row"]["first_seen"]))
                 shown.append(fd2)
@@ -370,7 +371,8 @@ def watch_findings(now, state):
         ok = datetime.strptime(ps["last_ok"], "%Y-%m-%d %H:%M:%S") if ps.get("last_ok") else None
     except ValueError:
         ok = None
-    if ps and newest_any and ok and newest_any - ok > timedelta(minutes=20):
+    # the publisher waits for quiet files, the validators and a 5-minute spacing, so a pull is only "unpublished" once it is a while old
+    if ps and newest_any and ok and newest_any - ok > timedelta(minutes=20) and now - newest_any > timedelta(minutes=12):
         out.append(C.finding("source", "site_stale", 2, "condition", "watch|site", f"The site is {int((newest_any - ok).total_seconds() // 60)} minutes behind the data",
                              f"last publish {ok:%H:%M}, newest pull {newest_any:%H:%M}. " + (f"Last error: {ps.get('last_error', '')[:140]}" if ps.get("last_error") else "No error recorded."), count=1))
     return out

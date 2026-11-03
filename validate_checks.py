@@ -256,6 +256,20 @@ def metrics_projections(snap):
     }
 
 
+def broward_status(run_dir):
+    """What Broward's collector said about itself in this run: {ok, collected (ISO, local), error}, or None if nothing was archived.
+
+    collect_broward.py writes data/broward/status.json. Runs from before that existed fall back to the age of summary.json."""
+    base = os.path.join(run_dir, "data", "broward")
+    st = j(os.path.join(base, "status.json"))
+    if st and st.get("data_collected_at"):
+        return {"ok": st.get("ok"), "collected": st["data_collected_at"], "error": st.get("error")}
+    try:
+        return {"ok": None, "collected": datetime.fromtimestamp(os.path.getmtime(os.path.join(base, "summary.json"))).strftime("%Y-%m-%dT%H:%M:%S"), "error": None}
+    except OSError:
+        return None
+
+
 def metrics_turnout(snap):
     d = snap.path
     man = j(os.path.join(d, "manifest.json")) or {}
@@ -275,6 +289,7 @@ def metrics_turnout(snap):
         "county_codes": sorted({r["code"] for r in (counties or [])}), "ok_codes": ok_codes,
         "_failed": failed, "_last_updated": last, "_feed_time": man.get("feed_time"),
         "_broward_files": os.path.isdir(os.path.join(d, "data", "broward")) and bool(os.listdir(os.path.join(d, "data", "broward"))),
+        "_broward": broward_status(d),
         "_files": {"counties.csv": counties is not None, "by_precinct.csv": prec is not None},
     }
 
@@ -516,6 +531,17 @@ def source_turnout(snap, m, hwm, ever, prev):
                 pass
         if old:
             out.append(_S("counties_stale", 2 if len(old) > 15 else 3, "TQV|stale", f"{pl(len(old), 'county feed')} not updated in 3+ hours", ", ".join(sorted(old)[:12]), count=len(old)))
+    b = m.get("_broward")
+    if b and b.get("collected"):
+        try:
+            age = (t - datetime.fromisoformat(b["collected"])).total_seconds() / 60
+        except ValueError:
+            age = 0
+        if age > 15:                                       # a healthy hourly pull collects Broward within a couple of minutes of the run
+            hours = f"{int(age // 60)} h {int(age % 60):02d} min" if age >= 90 else f"{int(age)} min"
+            out.append(_S("broward_stale", 1 if age > 180 else 2, "TQV|broward|stale", f"Broward's numbers are {hours} old: its dashboard is not answering",
+                          f"carried over from {b['collected'][11:16]}, so statewide turnout is missing everything Broward has added since. "
+                          + (f"Last error: {b['error']}" if b.get("error") else "No error recorded."), curr=int(age), count=1))
     if not m["_broward_files"] and (prev or {}).get("_broward_files", True):
         out.append(_S("broward_missing", 2, "TQV|broward", "No Broward dashboard files in this run", "data/broward/ is empty; Broward is on its own feed."))
     return out

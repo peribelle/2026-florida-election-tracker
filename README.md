@@ -150,7 +150,7 @@ notification. On the site, the **Data checks** card (Snapshots → Pipeline heal
 ```bash
 .venv/bin/python validate.py --status     # what is open right now
 .venv/bin/python validate.py --replay     # what the saved history would have been flagged (writes nothing)
-.venv/bin/python validate.py --selftest   # prove the validators fire: runs 41 checks on a copy of the real data
+.venv/bin/python validate.py --selftest   # prove the validators fire: runs 46 checks on a copy of the real data
 NO_VALIDATE=1 ./refresh.sh                # skip the validators for one run
 touch logs/.validate_quiet                # mute the desktop popups (alerts are still logged and on the site); rm to unmute
 ```
@@ -166,7 +166,9 @@ Log: `logs/validate.log`.
 - **Broward**: its own dashboard at `my.browardvotes.gov/TEDElectionLink`, backed by a JSON/HTML API.
   `collect_broward.py` pulls the summary KPIs, the ballot-type mix, the party table, all 346 precincts
   and the 281 Election Day locations. Broward publishes turnout against *all* registered voters;
-  the workbook maps it onto active registered so the 67 counties compare like for like.
+  the workbook maps it onto active registered so the 67 counties compare like for like. Its dashboard is a separate
+  site that can fail on its own: if it does, the run keeps Broward's last complete numbers, says so in the run's note
+  and in `data/broward/status.json`, and the validators raise it, so the other 66 counties still get their pull.
 - **Denominators**: FL Division of Elections book-closing report (Oct 5, 2026), active registered
   voters by county / party / precinct.
 

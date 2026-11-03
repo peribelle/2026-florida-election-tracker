@@ -86,11 +86,14 @@ class Tree:
                 cols, rows = rd.fieldnames, list(rd)
             ok = [r for r in rows if os.path.isdir(os.path.join(src_base, r["run_id"])) and len(r["run_id"]) == 15]
             last = ok[-1]
+            # Copy the newest real pull but give it a fixed id from before the election. The real history now reaches into the
+            # schedule (today's runs), and a test must not depend on how old the real data is.
+            base_id = "20261102-120000"
             os.makedirs(dst_base, exist_ok=True)
-            shutil.copytree(os.path.join(src_base, last["run_id"]), os.path.join(dst_base, last["run_id"]),
+            shutil.copytree(os.path.join(src_base, last["run_id"]), os.path.join(dst_base, base_id),
                             ignore=shutil.ignore_patterns("raw") if kind == "projections" else None)
-            self._index(kind, cols, [last])
-            self.latest[kind] = last["run_id"]
+            self._index(kind, cols, [{**{c: "" for c in cols}, "run_id": base_id, "created_local": "2026-11-02T12:00:00"}])
+            self.latest[kind] = base_id
 
     def _index(self, kind, cols, rows):
         path = os.path.join(self.tmp, DIRS[kind], "INDEX.csv")
@@ -108,6 +111,10 @@ class Tree:
             self.clock += timedelta(minutes=10)
         new = t.strftime("%Y%m%d-%H%M%S")
         shutil.copytree(os.path.join(base, self.latest[kind]), os.path.join(base, new))
+        if kind == "turnout":                              # a healthy Broward, collected as this pull ran, unless the scenario says otherwise
+            os.makedirs(os.path.join(base, new, "data", "broward"), exist_ok=True)
+            with open(os.path.join(base, new, "data", "broward", "status.json"), "w") as fh:
+                json.dump({"ok": True, "attempted_at": t.isoformat(timespec="seconds"), "data_collected_at": t.isoformat(timespec="seconds"), "error": None}, fh)
         if mutate:
             mutate(os.path.join(base, new))
         with open(os.path.join(base, "INDEX.csv"), newline="") as fh:
@@ -302,12 +309,35 @@ def main():
         check("12 of 67 counties vanish from the turnout feed -> flagged", has(rows, "counties_short", validator="source"), summarize(rows))
 
         T = tree()
-        T.pull("turnout", at=datetime(2026, 11, 3, 7, 0, 0))
+        old_feed = lambda d: ejson(f"{d}/manifest.json", lambda m: m.update(feed_time="2026-11-03T01:00:00+00:00"))        # last touched the evening before
+        T.pull("turnout", old_feed, at=datetime(2026, 11, 3, 7, 0, 0))
         rows = T.run()
         check("07:00 on election morning: feeds untouched since last night are not stale yet", not has(rows, "feed_stale") and not has(rows, "counties_stale"), summarize(rows))
-        T.pull("turnout", at=datetime(2026, 11, 3, 10, 30, 0))
+        T.pull("turnout", old_feed, at=datetime(2026, 11, 3, 10, 30, 0))
         rows = T.run()
         check("10:30 and still untouched since last night -> feed_stale, measured from when polls opened", has(rows, "feed_stale", validator="source"), summarize(rows))
+
+        def broward(collected, ok=False, err="HTTPError: 404"):
+            return lambda d: json.dump({"ok": ok, "attempted_at": "2026-11-03T10:00:00", "data_collected_at": collected, "error": err}, open(f"{d}/data/broward/status.json", "w"))
+
+        T = tree()
+        T.pull("turnout", broward("2026-11-03T10:00:30", ok=True, err=None), at=datetime(2026, 11, 3, 10, 0, 0))
+        rows = T.run()
+        check("Broward collected on time -> no broward_stale", not has(rows, "broward_stale"), summarize(rows))
+        T.pull("turnout", broward("2026-11-03T10:00:30"), at=datetime(2026, 11, 3, 11, 0, 0))
+        rows = T.run()
+        check("Broward's dashboard fails for one hour -> tier 2 broward_stale", has(rows, "broward_stale", 2, validator="source", contains="TQV|broward"), summarize(rows))
+        T.pull("turnout", broward("2026-11-03T10:00:30"), at=datetime(2026, 11, 3, 13, 30, 0))
+        rows = T.run()
+        check("...and for three and a half hours -> tier 1", has(rows, "broward_stale", 1) or has(rows, "broward_stale", 1, event="escalated"), summarize(rows))
+
+        T = tree()
+        os.makedirs(f"{T.tmp}/logs", exist_ok=True)
+        json.dump({"last_ok": "2026-11-03 18:00:00"}, open(f"{T.tmp}/logs/.publish_state.json", "w"))
+        rows = T.run("--watch-once", VALIDATE_NOW="2026-11-03T19:05:00")
+        check("a pull that is 5 minutes old is not a stale site (the publisher is allowed its spacing)", not has(rows, "site_stale"), summarize(rows))
+        rows = T.run("--watch-once", VALIDATE_NOW="2026-11-03T19:20:00")
+        check("the same pull 20 minutes on, still unpublished -> site_stale", has(rows, "site_stale", 2), summarize(rows))
 
         print("\nlifecycle: a condition is raised once, escalated if it persists, cleared when fixed")
         T = tree()
