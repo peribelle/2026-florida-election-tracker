@@ -1,0 +1,87 @@
+fetched_utc,source,race_key,race,office,district,candidate,party,winner,called_at_utc,votes,percent,precincts_in,precincts_total,source_url
+2026-11-03T03:47:48+00:00,ddhq,FL-GOV,Governor,Governor,,Byron Donalds,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-governor-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-GOV,Governor,Governor,,David Jolly,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-governor-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-GOV,Governor,Governor,,Scott Jewett,LIB,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-governor-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-GOV,Governor,Governor,,Charles Burkett,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-governor-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-GOV,Governor,Governor,,Dean Abrams,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-governor-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-GOV,Governor,Governor,,Frank Russo,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-governor-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-GOV,Governor,Governor,,Jeffrey Datto,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-governor-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-GOV,Governor,Governor,,Moliere Dimanche,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-governor-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H01,US House 1,US House,1,Jimmy  Patronis,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-1-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H01,US House 1,US House,1,Gay Valimont,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-1-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H01,US House 1,US House,1,Tyler Davis,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-1-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H10,US House 10,US House,10,Maxwell Frost,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-10-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H11,US House 11,US House,11,James Pericola,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-11-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H11,US House 11,US House,11,Joe Strada,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-11-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H11,US House 11,US House,11,Ralph Groves,LIB,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-11-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H12,US House 12,US House,12,Gus Bilirakis,GOP,False,,0,0,0,390,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-12-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H12,US House 12,US House,12,Kimberly Overman,DEM,False,,0,0,0,390,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-12-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H12,US House 12,US House,12,Branden Scrivener,NPA,False,,0,0,0,390,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-12-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H13,US House 13,US House,13,Anna Paulina Luna,GOP,False,,0,0,0,111,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-13-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H13,US House 13,US House,13,Leela Gray,DEM,False,,0,0,0,111,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-13-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H13,US House 13,US House,13,Tony D'Arrigo,NPA,False,,0,0,0,111,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-13-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H14,US House 14,US House,14,Kathy Castor,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-14-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H14,US House 14,US House,14,Mike Beltran,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-14-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H14,US House 14,US House,14,Brian Lambert,LIB,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-14-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H15,US House 15,US House,15,Laurel Lee,GOP,False,,0,0,0,63,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-15-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H15,US House 15,US House,15,Robert People,DEM,False,,0,0,0,63,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-15-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H16,US House 16,US House,16,Kelly Kirschner,DEM,False,,0,0,0,596,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-16-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H16,US House 16,US House,16,Sydney Gruters,GOP,False,,0,0,0,596,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-16-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H16,US House 16,US House,16,Mark Davis,NPA,False,,0,0,0,596,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-16-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H17,US House 17,US House,17,Greg Steube,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-17-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H17,US House 17,US House,17,Matthew Montavon,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-17-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H17,US House 17,US House,17,Michael Quirk,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-17-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H18,US House 18,US House,18,Scott Franklin,GOP,False,,0,0,0,98,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-18-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H18,US House 18,US House,18,Curtis Gibson,DEM,False,,0,0,0,98,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-18-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H18,US House 18,US House,18,Deva Simmons,NPA,False,,0,0,0,98,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-18-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H19,US House 19,US House,19,Jim Schwartzel,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-19-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H19,US House 19,US House,19,Victor Arias,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-19-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H19,US House 19,US House,19,Seth Haskin,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-19-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H02,US House 2,US House,2,Amanda Green,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-2-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H02,US House 2,US House,2,Austin Rogers,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-2-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H20,US House 20,US House,20,Debbie Wasserman Schultz,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-20-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H20,US House 20,US House,20,Brent Andersen,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-20-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H20,US House 20,US House,20,Kedner Maxime,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-20-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H21,US House 21,US House,21,Brian Mast,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-21-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H21,US House 21,US House,21,James Martin,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-21-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H21,US House 21,US House,21,Alexander Cooke,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-21-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H22,US House 22,US House,22,Casey Askar,GOP,False,,0,0,0,648,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-22-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H22,US House 22,US House,22,Pia Dandiya,DEM,False,,0,0,0,648,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-22-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H23,US House 23,US House,23,Lois Frankel,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-23-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H23,US House 23,US House,23,Deborah Adeimy,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-23-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H24,US House 24,US House,24,Oliver Gilbert,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-24-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H24,US House 24,US House,24,Te Brown,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-24-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H25,US House 25,US House,25,Jared Moskowitz,DEM,False,,0,0,0,1738,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-25-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H25,US House 25,US House,25,Scott Singer,GOP,False,,0,0,0,1738,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-25-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H25,US House 25,US House,25,Peter Jassenoff,LIB,False,,0,0,0,1738,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-25-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H26,US House 26,US House,26,Mario Diaz-Balart,GOP,False,,0,0,0,577,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-26-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H26,US House 26,US House,26,Nicole  Locklin,DEM,False,,0,0,0,577,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-26-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H26,US House 26,US House,26,Deborah Meidinger Hosey,NPA,False,,0,0,0,577,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-26-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H27,US House 27,US House,27,Maria Salazar,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-27-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H27,US House 27,US House,27,Eliott Rodriguez,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-27-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H28,US House 28,US House,28,Carlos Gimenez,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-28-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H28,US House 28,US House,28,Phil Ehr,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-28-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H28,US House 28,US House,28,Eddy Rojas,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-28-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H03,US House 3,US House,3,Kat Cammack,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-3-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H03,US House 3,US House,3,Seth Harp,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-3-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H03,US House 3,US House,3,Mike Klein,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-3-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H04,US House 4,US House,4,Aaron Bean,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-4-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H04,US House 4,US House,4,LaShonda Holloway,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-4-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H04,US House 4,US House,4,Mike Sell,FP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-4-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H04,US House 4,US House,4,Todd Schaefer,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-4-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H05,US House 5,US House,5,John Rutherford,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-5-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H05,US House 5,US House,5,Rachel Grage,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-5-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H06,US House 6,US House,6,Randy Fine,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-6-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H06,US House 6,US House,6,Eric Yonce,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-6-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H06,US House 6,US House,6,Andrew Parrott,LIB,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-6-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H06,US House 6,US House,6,Michael Gist,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-6-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H07,US House 7,US House,7,Bale Dalton,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-7-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H07,US House 7,US House,7,Ryan Elijah,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-7-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H07,US House 7,US House,7,Christopher Dennison,LIB,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-7-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H08,US House 8,US House,8,Mike Haridopolos,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-8-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H08,US House 8,US House,8,Jennifer Jenkins,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-8-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H09,US House 9,US House,9,Darren Soto,DEM,False,,0,0,0,596,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-9-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-H09,US House 9,US House,9,Dan Green,GOP,False,,0,0,0,596,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-house-9-general-election/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-SEN,United States Senator (special),US Senate,,Ashley Moody,GOP,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-senate-special-election-general/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-SEN,United States Senator (special),US Senate,,Angie Nixon,DEM,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-senate-special-election-general/forecast
+2026-11-03T03:47:48+00:00,ddhq,FL-SEN,United States Senator (special),US Senate,,Neil Gillespie,NPA,False,,0,0,0,0,https://votes.decisiondeskhq.com/races/2026-11-03/florida-us-senate-special-election-general/forecast

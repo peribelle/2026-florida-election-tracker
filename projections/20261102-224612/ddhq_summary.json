@@ -1,0 +1,10 @@
+{
+ "races_discovered": 30,
+ "races_ok": 30,
+ "races_with_forecast": 30,
+ "prediction_rows": 60,
+ "call_rows": 86,
+ "called_candidates": 0,
+ "races_certified": 0,
+ "failures": {}
+}

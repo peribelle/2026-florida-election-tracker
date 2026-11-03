@@ -1,0 +1,11 @@
+fetched_utc,source,race_key,race,office,district,candidate,party,win_probability,price_cents,bid_cents,ask_cents,volume,source_updated_at,source_url
+2026-11-03T03:45:51+00:00,kalshi,FL-GOV,Governor,Governor,,David Jolly,DEM,0.38,38.0,37.0,38.0,4942488.25,2026-09-15T21:48:12.905807Z,https://api.elections.kalshi.com/trade-api/v2/events/GOVPARTYFL-26
+2026-11-03T03:45:51+00:00,kalshi,FL-GOV,Governor,Governor,,Byron Donalds,GOP,0.63,63.0,62.0,63.0,7499674.18,2026-10-16T16:30:36.492307Z,https://api.elections.kalshi.com/trade-api/v2/events/GOVPARTYFL-26
+2026-11-03T03:45:51+00:00,kalshi,FL-SEN,United States Senator (special),US Senate,,Ashley Moody,GOP,0.85,85.0,84.0,85.0,1844325.44,2026-10-19T16:49:36.923573Z,https://api.elections.kalshi.com/trade-api/v2/events/SENATEFLS-26
+2026-11-03T03:45:51+00:00,kalshi,FL-SEN,United States Senator (special),US Senate,,Angie Nixon,DEM,0.17,17.0,15.0,16.0,2902328.11,2026-10-19T16:49:36.923573Z,https://api.elections.kalshi.com/trade-api/v2/events/SENATEFLS-26
+2026-11-03T03:45:51+00:00,kalshi,FL-CFO,Chief Financial Officer,CFO,,Annette Taddeo,DEM,0.19,19.0,25.0,34.0,154.38,2026-10-13T04:32:49.060328Z,https://api.elections.kalshi.com/trade-api/v2/events/KXFLCFO-26NOV03
+2026-11-03T03:45:51+00:00,kalshi,FL-CFO,Chief Financial Officer,CFO,,Blaise Ingoglia,GOP,0.75,75.0,67.0,76.0,696.06,2026-10-16T16:34:18.63583Z,https://api.elections.kalshi.com/trade-api/v2/events/KXFLCFO-26NOV03
+2026-11-03T03:45:51+00:00,kalshi,FL-H13,US House 13,US House,13,Leela Gray,DEM,0.34,34.0,33.0,34.0,34569.64,2026-09-15T21:20:50.850615Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL13-26
+2026-11-03T03:45:51+00:00,kalshi,FL-H13,US House 13,US House,13,Anna Paulina Luna,GOP,0.68,68.0,67.0,68.0,116090.69,2026-10-16T16:31:41.533151Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL13-26
+2026-11-03T03:45:51+00:00,kalshi,FL-H23,US House 23,US House,23,Lois Frankel,DEM,0.973,97.3,97.9,98.0,12032.90,2026-09-15T21:21:49.361417Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL23-26
+2026-11-03T03:45:51+00:00,kalshi,FL-H23,US House 23,US House,23,Deborah Adeimy,GOP,0.019,1.9,1.1,1.9,10375.41,2026-10-16T16:31:43.345239Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL23-26
