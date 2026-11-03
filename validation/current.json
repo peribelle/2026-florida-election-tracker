@@ -1,36 +1,12 @@
 {
  "counts": {
   "1": 0,
-  "2": 1,
+  "2": 0,
   "3": 7
  },
- "generated_local": "2026-11-03T07:00:41",
- "generated_utc": "2026-11-03T12:00:41Z",
+ "generated_local": "2026-11-03T07:01:11",
+ "generated_utc": "2026-11-03T12:01:11Z",
  "items": [
-  {
-   "alert_id": "A-W20261103-070041-001",
-   "checks": 1,
-   "count": 1,
-   "curr": null,
-   "delta": null,
-   "detail": "last publish 03:58, newest pull 07:00. No error recorded.",
-   "event": "raised",
-   "fingerprint": "source|site_stale|watch|site",
-   "first_seen": "2026-11-03 07:00:41",
-   "headline": "The site is 182 minutes behind the data",
-   "kind": "site_stale",
-   "last_seen": "2026-11-03 07:00:41",
-   "prev": null,
-   "prev_snapshot": "",
-   "raised_local": "2026-11-03 07:00:41",
-   "raised_utc": "2026-11-03T12:00:41Z",
-   "scope": "watch|site",
-   "snapshot": "W20261103-070041",
-   "source": "watchdog",
-   "state": "open",
-   "tier": 2,
-   "validator": "source"
-  },
   {
    "alert_id": "A-20261103-070033-001",
    "count": 6,
@@ -187,21 +163,21 @@
   }
  ],
  "last_run": {
-  "cleared": 0,
+  "cleared": 1,
   "escalated": 0,
   "pulls": [
    "watchdog"
   ],
-  "raised": 1,
-  "ran_local": "2026-11-03 07:00:41",
-  "run_id": "20261103-070041",
+  "raised": 0,
+  "ran_local": "2026-11-03 07:01:11",
+  "run_id": "20261103-070111",
   "seconds": 0,
   "tier1": 0,
-  "tier2": 1,
+  "tier2": 0,
   "tier3": 0
  },
  "schema": 1,
- "status": "warning",
+ "status": "notice",
  "totals": {
   "1": 0,
   "2": 1,
