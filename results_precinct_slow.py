@@ -156,13 +156,13 @@ def main():
 
     print(f"  slow precinct: {ok}/{len(targets)} counties, {total:,} rows -> results/slow/{stamp}/")
 
-    # Publish the new snapshot. publish.py runs detached behind its own lock, so this can never delay or break the pull.
-    # NO_PUBLISH=1 skips it.
+    # Validate and publish the new snapshot. Both run detached behind their own locks, so neither can delay or break the pull.
+    # NO_VALIDATE=1 / NO_PUBLISH=1 skip them.
     try:
-        from publish import queue_publish
-        queue_publish()
+        from after_pull import after_pull
+        after_pull()
     except Exception as e:
-        print(f"  ! publish not queued: {str(e)[:80]}")
+        print(f"  ! after_pull failed: {str(e)[:80]}")
 
 
 if __name__ == "__main__":

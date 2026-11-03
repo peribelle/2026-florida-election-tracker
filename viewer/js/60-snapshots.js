@@ -382,7 +382,7 @@ VIEWS.snapshots = {
       { id: 'sn-cmp', nav: 'Compare two', title: 'Compare any two pulls', lead: 'Pick an A and a B. Choosing a county in the menu narrows the turnout and results comparisons to it.',
         cards: () => [...(RUNS.length ? [turnoutCmpCard().el] : []), ...(HAS_RESULTS ? [resultsCmpCard().el, marginMoversCard().el] : []), ...(HAS_PROJ ? [projCmpCard().el] : [])] },
       ...(REPLAY_MODES().length ? [{ id: 'sn-replay', nav: 'Replay', title: 'Replay the night', lead: 'Step through the saved pulls like frames of a film.', cards: () => [replayCard().el] }] : []),
-      { id: 'sn-health', nav: 'Pipeline health', title: 'How well did the pipeline see?', lead: 'Coverage and freshness of the data behind every chart.', cards: () => [...(HAS_RESULTS ? [coverageCard().el] : []), ...(RUNS.some(r => r.feed) ? [freshCard().el] : [])] },
+      { id: 'sn-health', nav: 'Pipeline health', title: 'How well did the pipeline see?', lead: 'What the checkers flagged, and the coverage and freshness of the data behind every chart.', cards: () => [...(HAS_CHECKS ? [checksCard().el] : []), ...(HAS_RESULTS ? [coverageCard().el] : []), ...(RUNS.some(r => r.feed) ? [freshCard().el] : [])] },
     ];
     const sub = CH.map(c => ({ id: c.id, label: c.nav }));
     const root = h('div', null, viewHead('Snapshots', () => `Every pull the pipeline saved, and how any two of them differ. ${plural(allPulls().length, 'pull')} so far${have('results') ? `, the latest results pull at ${pullClock('results', RLAST)} ET` : ''}.`), inlineSubnav(sub), ...CH.map((ch, i) => chapter(ch.id, String(i + 1), ch.title, ch.lead, ch.cards())));

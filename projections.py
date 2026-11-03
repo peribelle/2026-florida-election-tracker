@@ -234,14 +234,14 @@ def main():
               f"({div[0]['sources']})")
     print(f"  -> {'projections/' + run_id if not selected else os.path.basename(dest)}/")
 
-    # Publish the new snapshot (ad-hoc --dest runs never touch the repo). publish.py runs detached behind its own lock,
-    # so this can never delay or break the pull. NO_PUBLISH=1 skips it.
+    # Validate and publish the new snapshot (ad-hoc --dest runs never touch the repo). Both run detached behind their own
+    # locks, so neither can delay or break the pull. NO_VALIDATE=1 / NO_PUBLISH=1 skip them.
     if not ad_hoc:
         try:
-            from publish import queue_publish
-            queue_publish()
+            from after_pull import after_pull
+            after_pull()
         except Exception as e:
-            print(f"  ! publish not queued: {str(e)[:80]}")
+            print(f"  ! after_pull failed: {str(e)[:80]}")
     return 0
 
 

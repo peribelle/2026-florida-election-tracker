@@ -35,6 +35,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 LOGS = os.path.join(HERE, "logs")
 LOG = os.path.join(LOGS, "publish.log")
 LOCK = os.path.join(LOGS, ".publish.lock")
+VALIDATE_LOCK = os.path.join(LOGS, ".validate.lock")
 PENDING = os.path.join(LOGS, ".publish_pending")
 STATE = os.path.join(LOGS, ".publish_state.json")
 KNOWN_HOSTS = os.path.join(HERE, "github_known_hosts")
@@ -44,7 +45,7 @@ PREVIEW = os.path.join(HERE, "docs", "preview.png")
 
 BRANCH = "main"
 # Only these are ever committed: the pipeline's outputs and the site. Never code, so an edit in progress is never swept up.
-PATHS = ["data", "raw", "Reports", "runs", "results", "projections", "docs"]
+PATHS = ["data", "raw", "Reports", "runs", "results", "projections", "validation", "docs"]
 MIN_INTERVAL = int(os.environ.get("PUBLISH_MIN_INTERVAL", "300"))
 QUIET = int(os.environ.get("PUBLISH_QUIET", "15"))
 QUIET_MAX = 120          # stop waiting for quiet after this long and publish anyway
@@ -362,12 +363,26 @@ def newest_mtime(tops, skip=()):
     return newest
 
 
+def validator_busy():
+    """True while validate.py is mid-run: its verdict on this pull belongs in this commit, so wait for it."""
+    try:
+        with open(VALIDATE_LOCK, "a+") as fh:
+            try:
+                fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                fcntl.flock(fh, fcntl.LOCK_UN)
+                return False
+            except BlockingIOError:
+                return True
+    except OSError:
+        return False
+
+
 def wait_for_quiet(skip=()):
     """A pull may still be writing (projections run beside results). Commit only once the files have settled."""
     deadline = time.time() + QUIET_MAX
     while True:
         age = time.time() - newest_mtime([p for p in PATHS if p != "docs"], skip)
-        if age >= QUIET:
+        if age >= QUIET and not validator_busy():
             return
         if time.time() >= deadline:
             log(f"files still changing after {QUIET_MAX}s; publishing anyway")

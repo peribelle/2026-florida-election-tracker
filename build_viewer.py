@@ -256,6 +256,11 @@ def main():
     payload["results"] = res if res and res["snaps"] else None
     proj = SN.load_projections(PROJECTIONS, (res or {}).get("races")) if os.path.isdir(PROJECTIONS) else None
     payload["projections"] = proj if proj and proj["snaps"] and proj["races"] else None
+    try:                                                    # what the validators flagged (validation/, read only); a failure here only costs the page its checks card
+        payload["checks"] = SN.load_checks(os.path.join(HERE, "validation"))
+    except Exception as e:
+        print(f"validation checks not loaded: {str(e)[:80]}")
+        payload["checks"] = None
 
     # ---- reconcile before writing
     tot = lambda f: sum(c[f] for c in counties)

@@ -48,9 +48,10 @@ $PY archive.py
 step "viewer: building Reports/viewer.html"
 $PY build_viewer.py || echo "!! viewer build failed; the workbook and the archive above are unaffected"
 
-# Publish: commit this run, rebuild the site, push. publish.py hands off to a detached worker and returns at once, so a
-# publishing problem can never delay or fail a refresh. NO_PUBLISH=1 skips it.
-step "publish: asking for a GitHub update"
-$PY publish.py --queue || echo "!! publish not queued; the refresh above is unaffected"
+# Validate and publish: validate.py checks this run for failed sources and abnormal numbers, publish.py commits it and
+# pushes the site. Each hands off to a detached worker and returns at once, so neither can delay or fail a refresh.
+# NO_VALIDATE=1 / NO_PUBLISH=1 skip them.
+step "validate + publish: asking for the checks and the GitHub update"
+$PY after_pull.py || echo "!! after_pull failed; the refresh above is unaffected"
 
 step "done"

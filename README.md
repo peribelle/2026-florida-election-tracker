@@ -94,16 +94,17 @@ regenerate with `viewer/make_geo.py`, one-time). Edit those, then re-run `build_
 
 ## Publishing
 
-Every pull ends by asking `publish.py` for an update: `refresh.sh`, `results.py`, `results_precinct_slow.py` and
-`projections.py` all do. It runs detached, so a pull never waits on it or fails because of it. One publish:
+Every pull ends with `after_pull.py`, which asks two detached workers for a job: `validate.py` (next section) and
+`publish.py`. `refresh.sh`, `results.py`, `results_precinct_slow.py` and `projections.py` all do. Neither can make a pull
+wait or fail. One publish:
 
 1. rebuilds `Reports/viewer.html` (skipped if nothing is newer than it),
 2. copies it to `docs/index.html` and renders `docs/preview.png` from it, the image at the top of this README,
-3. commits `data/`, `raw/`, `Reports/`, `runs/`, `results/`, `projections/` and `docs/`, and never code,
+3. commits `data/`, `raw/`, `Reports/`, `runs/`, `results/`, `projections/`, `validation/` and `docs/`, and never code,
 4. pushes `main`. GitHub Pages serves `docs/` and redeploys by itself.
 
-Asks that arrive while a publish is running collapse into one more. It waits for the files to stop changing before it
-commits, and spaces pushes 5 minutes apart because Pages soft-limits builds to 10 an hour, so the site trails a pull
+Asks that arrive while a publish is running collapse into one more. It waits for the files to stop changing, and for the
+validators to finish, before it commits, and spaces pushes 5 minutes apart because Pages soft-limits builds to 10 an hour, so the site trails a pull
 by a minute or a few. A failed push is retried, and local commits go out with the next successful one. Pushes use
 `github_known_hosts` (GitHub's published host keys), so nothing ever waits on a prompt.
 
@@ -114,6 +115,45 @@ NO_PUBLISH=1 ./refresh.sh             # skip publishing for one run
 ```
 
 Log: `logs/publish.log`. A night of 49 results pulls adds roughly 250 MB of archives to the repo.
+
+## Validators
+
+Two validators check every pull, so a problem is flagged in minutes and not found the next morning. They run after each
+pull (`validate.py`, started by `after_pull.py`), detached, so a pull never waits on them.
+
+| Tier | Means | Examples |
+|---|---|---|
+| **1 Critical** | look now | votes dropped by hundreds; a source is down; a county page is for the wrong election; a race call was taken back |
+| **2 Warning** | look soon | one county site failed; a smaller drop in votes; a table came back short; a scheduled pull never ran |
+| **3 Notice** | good to know | a few votes of correction; a county came online; a race was called |
+
+- **Source validator** asks *did it pull?* It compares each pull with the best this pipeline has managed before: the state
+  results site (Florida Election Watch), every county results site, the precinct files, the turnout feeds, and DDHQ, Kalshi
+  and Polymarket. A county that never had a precinct file is structure; one that had it and lost it is news. County sites
+  *appearing* during the night is normal and only ever a notice.
+- **Data validator** asks *do the numbers make sense?* **Every race, county, precinct and number is compared with the last
+  pull.** A count that went down is flagged however small, and the tier says how big. Parts must add up to their totals,
+  nothing may be negative, a candidate cannot have more votes than the county has ballots, probabilities stay between 0 and
+  1, and a race that was called stays called. Rows that only changed their key while the numbers carried over are a
+  notice, not an alarm.
+- A flag is **raised once**. If it stays true it is escalated one tier after 3 pulls and **cleared** when it goes away, so a
+  broken county is one alert, not a hundred.
+- **The watchdog** (`validate.py --watch`) is a small loop that raises an alert when a scheduled pull never arrives at all,
+  which no after-the-pull check can see.
+
+Where it lands: `validation/alerts.csv` (append-only log), `validation/<run>/findings.csv` (every row behind an alert, so
+nothing is summarised away), `validation/current.json` (what is open now). A tier 1 or 2 alert also pops a desktop
+notification. On the site, the **Data checks** card (Snapshots → Pipeline health) and a chip on the Overview show the same.
+
+```bash
+.venv/bin/python validate.py --status     # what is open right now
+.venv/bin/python validate.py --replay     # what the saved history would have been flagged (writes nothing)
+.venv/bin/python validate.py --selftest   # prove the validators fire: breaks a copy of the real data in 38 ways
+NO_VALIDATE=1 ./refresh.sh                # skip the validators for one run
+VALIDATE_NOTIFY=0 ...                     # no desktop notifications
+```
+
+Log: `logs/validate.log`.
 
 ## Where the data comes from
 

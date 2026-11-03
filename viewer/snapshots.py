@@ -211,6 +211,32 @@ def match_candidate(name, party, cands):
 
 
 # ---------------------------------------------------------------- results snapshots
+def load_checks(val_dir):
+    """What the two validators (validate.py) have flagged: the open alerts, and the recent alert log. None until they have run.
+
+    Reads validation/ only. Never raises: a problem here must cost the page its checks card, never the page itself."""
+    try:
+        with open(os.path.join(val_dir, "current.json"), encoding="utf-8") as f:
+            cur = json.load(f)
+    except (OSError, ValueError):
+        return None
+
+    def slim(r):
+        return {"t": int(r.get("tier") or 3), "v": r.get("validator", ""), "k": r.get("kind", ""), "h": r.get("headline", ""),
+                "d": (r.get("detail") or "")[:260], "u": r.get("raised_utc", ""), "e": r.get("event") or r.get("state") or "", "s": r.get("source", "")}
+    log = []
+    try:
+        with open(os.path.join(val_dir, "alerts.csv"), newline="", encoding="utf-8") as f:
+            log = [slim(r) for r in list(csv.DictReader(f))[-150:]]
+    except (OSError, ValueError):
+        pass
+    try:
+        return {"status": cur.get("status", "clear"), "counts": cur.get("counts", {}), "asOf": cur.get("generated_utc", ""), "window": cur.get("window_hours", 3),
+                "totals": cur.get("totals", {}), "items": [slim(i) for i in cur.get("items", [])], "log": log, "validated": cur.get("validated", {})}
+    except (AttributeError, TypeError, ValueError):
+        return None
+
+
 def list_snapshot_dirs(results_dir):
     return sorted(d for d in os.listdir(results_dir) if RUN_ID.match(d) and os.path.isdir(os.path.join(results_dir, d)))
 

@@ -21,6 +21,7 @@ function statusStrip() {
       h('span', { class: 'spill' }, `Turnout: ${RUNS.length ? `${plural(RUNS.length, 'run')}, latest ${pullClock('turnout', RUNS.length - 1)}` : 'no archived runs'}`)];
     if (HAS_RESULTS) chips.push(h('span', { class: 'spill' }, `Results: ${plural(RSNAPS.length, 'pull')}, latest ${pullClock('results', RLAST)}`));
     if (HAS_PROJ) chips.push(h('span', { class: 'spill' }, `Forecasts: ${plural(PSNAPS.length, 'pull')}, latest ${pullClock('proj', PLAST)}`));
+    if (HAS_CHECKS) chips.push(checksChip());
     return h('div', null, h('div', { class: 'chips' }, chips), h('p', { class: 'mini-note', style: { marginTop: '10px' } }, 'All numbers are unofficial. ', viewLink('snapshots', 'snap-timeline', 'See every saved pull'), '.'));
   }));
 }

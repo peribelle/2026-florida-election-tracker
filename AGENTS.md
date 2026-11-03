@@ -33,7 +33,8 @@ immutable archive of every pull.
 | **Timestamps are local (America/New_York)** unless the column says `_utc`. | Run ids are local, e.g. `20261102-195829`. |
 | **The viewer never writes into `runs/`, `results/` or `projections/`** | It is a reader. `Reports/viewer.html` is a mirror and is overwritten on purpose. |
 | **Never hand-edit `docs/`** | `publish.py` regenerates `docs/index.html` (a copy of `Reports/viewer.html`) and `docs/preview.png` on every publish. See §12. |
-| **A pull never waits on publishing** | Collectors only *ask* `publish.py`, which runs detached behind a lock. Keep it that way: a publish may fail, hang or be switched off without touching a pull. |
+| **A pull never waits on publishing or validating** | Collectors only *ask* (`after_pull.py`) `publish.py` and `validate.py`, which run detached behind locks. Keep it that way: either may fail, hang or be switched off without touching a pull. |
+| **Validators only read** | `validate.py` reads snapshots and writes only `validation/` and `logs/`; the viewer reads `validation/` and never writes it. `validation/alerts.csv` and `runs.csv` are append-only. See §13. |
 
 ---
 
@@ -90,9 +91,9 @@ Guards built into the scheduler:
   up their results pages late.
 - Projections fire **inside** the results phase at :20 and :50, backgrounded behind a file lock
   (`logs/.projections.lock`), so a slow or failed projections pull can never delay `results.py`.
-- Every collector (`refresh.sh`, `results.py`, `results_precinct_slow.py`, `projections.py`) ends by asking
-  `publish.py` for a GitHub update (§12). The ask is detached and returns at once, and it lives in the collectors, not in
-  `election_day.sh`, so changing how publishing works never needs a scheduler restart.
+- Every collector (`refresh.sh`, `results.py`, `results_precinct_slow.py`, `projections.py`) ends by calling `after_pull.py`,
+  which asks `validate.py` (§13) and `publish.py` (§12) for a detached job each. The asks return at once, and they live in the
+  collectors, not in `election_day.sh`, so changing them never needs a scheduler restart.
 - `./election_day.sh --test` replays `phase_for()` minute by minute — trust that, not a hand-written list.
 - `./election_day.sh --status` shows the last tick and both indexes.
 
@@ -139,11 +140,14 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
                      ──► projections/<ts>/{predictions,calls,divergence,coverage}.csv
                          each source isolated: its own process, its own timeout
 
-  after every pull above (refresh.sh, results.py, results_precinct_slow.py, projections.py)
+  after every pull above (refresh.sh, results.py, results_precinct_slow.py, projections.py): after_pull.py asks two workers
+     validate.py ──► detached worker (lock logs/.validate.lock, log logs/validate.log)
+        source check (did it pull?) + data check (do the numbers make sense?) on every new pull
+        ──► validation/{alerts.csv,runs.csv,current.json,state.json,<run>/findings.csv}   desktop notification for tier 1-2
      publish.py --queue ──► detached worker (lock logs/.publish.lock, log logs/publish.log)
-        waits for quiet files and >= 5 min since the last push, then:
+        waits for quiet files, for the validator to finish, and >= 5 min since the last push, then:
         build_viewer.py ──► Reports/viewer.html ──► docs/index.html + docs/preview.png (headless Chromium)
-        git commit  data/ raw/ Reports/ runs/ results/ projections/ docs/   (never code)
+        git commit  data/ raw/ Reports/ runs/ results/ projections/ validation/ docs/   (never code)
         git push origin main ──► GitHub Pages redeploys docs/
 ```
 
@@ -182,6 +186,11 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── results_precinct.py      precinct CSV -> one xlsx per county
 ├── results_precinct_slow.py precinct pages for counties without the CSV
 ├── schedule_check.sh        replays phase_for() over every minute
+├── after_pull.py            what every collector calls last: asks validate.py and publish.py for a detached job
+├── validate.py              the two validators: engine, alerts, notifications, watchdog, --selftest (§13)
+├── validate_checks.py       source checks, metrics, tiers, schedule port
+├── validate_data.py         data checks: the generic table comparer and the invariants
+├── validate_selftest.py     breaks a copy of the real history in 38 ways and checks the right alert fires
 ├── publish.py               after every pull: rebuild viewer, refresh docs/, commit the outputs, push (§12)
 ├── github_known_hosts       GitHub's published SSH host keys, so unattended pushes never prompt
 │
@@ -194,6 +203,7 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── results/<ts>/            immutable results snapshot
 ├── results/slow/<ts>/       immutable slow precinct snapshot
 ├── projections/<ts>/        immutable projections snapshot
+├── validation/              the validators' output: alerts.csv, runs.csv, current.json, state.json, <run>/findings.csv (§13)
 ├── logs/                    per-day run logs
 ├── docs/                    GitHub Pages source, written by publish.py: index.html (copy of the viewer), preview.png (README image)
 └── viewer/                  map outlines + template for build_viewer.py
@@ -468,6 +478,10 @@ precinct's eligible count is below ballots cast — a reporting artefact, not a 
 .venv/bin/python discover_links.py# refresh county HE-ENR map from SOE homepages
 .venv/bin/python build_viewer.py  # rebuild Reports/viewer.html
 .venv/bin/python publish.py       # publish now: viewer, docs/, commit, push (what every pull asks for)
+.venv/bin/python validate.py --status    # what the validators have open right now
+.venv/bin/python validate.py --replay    # what the saved history would have been flagged (writes nothing)
+.venv/bin/python validate.py --selftest  # prove the validators fire (38 checks, touches nothing real)
+nohup .venv/bin/python validate.py --watch >> logs/validate_watch.log 2>&1 &   # the watchdog: a scheduled pull that never arrives
 .venv/bin/python publish.py --status   # last result, pending request, unpushed commits
 ```
 
@@ -528,11 +542,11 @@ replay. Stop the scheduler first.
 The repo is `peribelle/2026-florida-election-tracker`, branch `main`. GitHub Pages serves `docs/` from `main`, at
 `https://peribelle.github.io/2026-florida-election-tracker/`.
 
-**Publishing is automatic.** Every collector ends by asking `publish.py` for an update (it only *asks*; see §2). One
+**Publishing is automatic.** Every collector ends by asking `publish.py` (via `after_pull.py`) for an update (it only *asks*; see §2). One
 publish rebuilds the viewer, refreshes `docs/index.html` and `docs/preview.png`, commits the pipeline's output paths and
 pushes `main`.
 
-- **Only outputs are auto-committed:** `data/ raw/ Reports/ runs/ results/ projections/ docs/`. Code, docs and config
+- **Only outputs are auto-committed:** `data/ raw/ Reports/ runs/ results/ projections/ validation/ docs/`. Code, docs and config
   never are; commit those yourself. The publisher's commits are path-limited, so anything you have staged elsewhere stays
   staged. If you commit by hand at the same moment, one of you sees an `index.lock` error and the publisher retries.
 - **Pulls never wait on it.** Asks coalesce behind `logs/.publish.lock`; the worker waits until the files have been
@@ -554,3 +568,89 @@ pushes `main`.
 - Your own `git push` also goes over SSH. `Host key verification failed` there means this machine has never trusted
   GitHub's host key: `gh api meta --jq '.ssh_keys[]' | sed 's/^/github.com /' >> ~/.ssh/known_hosts`.
 - Size: a full results pull is ~5 MB, so election night adds a few hundred MB of archives to the repo.
+
+---
+
+## 13. Validators
+
+Two validators check every pull: the **source validator** (*did it pull?*) and the **data validator** (*do the numbers make
+sense?*). `after_pull.py` starts them after each pull, detached behind `logs/.validate.lock` (so a pull never waits, §2), and
+the publisher waits for them so an alert lands in the same commit as the data it is about. Code: `validate.py` (engine,
+alerts, watchdog), `validate_checks.py` (source checks, metrics, schedule), `validate_data.py` (data checks).
+
+**Tiers.** 1 CRITICAL look now, 2 WARNING look soon, 3 NOTICE good to know. Size sets the tier, never whether it is flagged:
+a count that went down is flagged at any size.
+
+| Count that fell by d (from p) | Tier |
+|---|---|
+| votes: d >= 500, or d >= 50 and 2% of p | 1 |
+| votes: d >= 10 | 2 |
+| votes: smaller | 3 |
+| ballots (hourly turnout totals): d >= 2000, or d >= 200 and 2% of p / d >= 50 / smaller | 1 / 2 / 3 |
+
+The thresholds are `vote_tier` and `ballot_tier` in `validate_checks.py`. A pile of 10+ small drops in one place is raised to 2;
+a statewide total is at least 2. Tune them there and re-run `--selftest`.
+
+**What is compared.** Everything the pipeline saves, with one generic comparer (`table_events`): the state feed's per-county
+votes, every county contest, county status and turnout, every precinct file (fast and slow), the turnout tables, and the
+forecasts and calls. Findings are grouped (per race and county; per county for precincts and turnout), and a table that
+produces more than 25 groups collapses to one alert per source. **Nothing is dropped:** every row behind an alert is in
+`validation/<run>/findings.csv`.
+
+| Check | Fires on | Tier |
+|---|---|---|
+| `votes_down` / `ballots_down` | a count fell between two pulls | by size |
+| `parts_down` | a part (early, mail, ...) fell while its total held | 3 |
+| `value_blanked` | a number became blank | 2 |
+| `rows_missing` | rows vanished; tier by the votes they carried | 2 or by size |
+| `shape_changed` | half a table vanished in one pull | 1 |
+| `rows_rekeyed` | keys changed but the numbers carried over (Broward's location ids did this) | 3 |
+| `rows_new` | new rows, one notice per table (counties coming online) | 3 |
+| `negative_value`, `exceeds_ballots`, `total_mismatch`, `parts_mismatch`, `pct_mismatch` | within one pull: negative, more votes than ballots, statewide != county sum, total != parts, percent wrong | 1 / 1-2 / 2 / 3 / 3 |
+| `precincts_regressed`, `count_changed` | precincts reporting went backwards; a denominator moved | 1-2 / 2-3 |
+| `prob_out_of_range`, `prob_sum_off`, `prob_jump`, `two_winners`, `call_made`, `call_retracted` | forecasts and calls | 1, 2, 2-3, 1, 3, 1 |
+| source: `table_missing`, `table_short`, `contests_short` | a state-site table is missing, empty or short | 1 / 2 |
+| source: `county_site_failed`, `county_sites_failed` | a county results site failed; 10 or 25% at once | 2 / 1 |
+| source: `precinct_file_lost`, `precinct_file_short`, `precinct_file_corrupt` | a county that had a precinct file lost, truncated or broke it | 2 |
+| source: `wrong_election` | an election date that is not 11/3/2026, or primary contests | 1 |
+| source: `source_down`, `race_pages_failed`, `markets_short` | DDHQ down (1: it is the only call authority); Kalshi/Polymarket down (2) | 1 / 2 |
+| source: `county_feeds_failed`, `counties_short`, `feed_stale`, `counties_stale` | turnout feeds; staleness is measured from poll open | 1-3 |
+| source: `county_stalled` | a county that had started reporting has not moved for 3 pulls (T3) or 6 (T2) | 3 / 2 |
+| source: `pull_gap`, `pull_missing`, `pull_stuck`, `site_stale` | a scheduled pull never ran; never arrived; never finished; the site is 20+ min behind | 1-2 |
+| `validator_error` | a validator crashed. It says so and the other still runs | 2 |
+
+**Baselines are the pipeline's own high-water marks**, kept in `validation/state.json`, so a count that only ever grows (county
+sites that come online) is never an alarm for growing, and a county that never had a precinct file is not an alarm for lacking
+one. On the first run the validators learn the history and judge only the latest pull.
+
+**Two kinds of alert.** An *event* is a change between two pulls (`votes_down`); it is raised once. A *condition* stays true
+until fixed (`county_site_failed`); it is raised once, escalated one tier after 3 pulls, and cleared when it goes. Alerts
+`raised`, `escalated` and `cleared` are rows in `validation/alerts.csv`.
+
+**Files** (all under `validation/`; none of it touches `runs/`, `results/` or `projections/`, and the viewer only reads it):
+
+| File | What |
+|---|---|
+| `alerts.csv` | append-only: `alert_id,event,raised_local,raised_utc,tier,validator,kind,source,scope,headline,detail,prev,curr,delta,count,snapshot,prev_snapshot,fingerprint,first_seen` |
+| `<run>/findings.csv` | write-once: `fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta` for every row behind an alert |
+| `runs.csv` | append-only: one row per validator run |
+| `current.json` | overwritten mirror: open conditions plus events from the last 3 hours, counts by tier, `status` (clear / notice / warning / critical) |
+| `state.json` | overwritten: the validators' memory (high-water marks, open alerts, last validated pull per kind) |
+
+A snapshot is only validated once it is in its `INDEX.csv` (the collectors append that last), so a half-written pull is never read.
+
+**Notifications.** A new tier 1 or 2 alert pops one desktop notification per run (`notify-send`). `VALIDATE_NOTIFY=0` silences it.
+
+**The watchdog** (`validate.py --watch`, a loop; start it with `nohup`) is the only thing that can see a pull that never
+happened: it raises `pull_missing` for a scheduled slot with no pull (the schedule is ported from `phase_for()` and
+`--selftest` diffs it against `election_day.sh` for every minute), `pull_stuck` for a pull that started and never finished,
+and `site_stale`. It is silent outside the election window. It also validates any pull whose after-pull ask never came.
+
+**The site.** `build_viewer.py` reads `validation/current.json` and `alerts.csv` through `snapshots.load_checks()` (which returns
+`None`, never raises) into `payload["checks"]`. The viewer shows a *Data checks* card first in Snapshots → Pipeline health and
+a chip in the Overview status strip. Tiers use text labels and border weight as well as color, never the party colors (§7.6).
+
+**Rules.** Validators read snapshots and write only `validation/` and `logs/`. A validator that cannot run must never delay or
+fail a pull. After changing any `validate*.py`, run `validate.py --selftest` (it breaks a copy of the real history in 38 known ways
+and checks the right alert fires, a clean pull stays silent, and the schedule matches). To add a check: write it as a function that
+returns findings, call it from `source_checks` or `data_checks`, and add a scenario to `validate_selftest.py`.
