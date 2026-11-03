@@ -1,0 +1,198 @@
+{
+ "run_id": "20261103-150023",
+ "created_local": "2026-11-03T15:00:23",
+ "created_utc": "2026-11-03T20:00:23+00:00",
+ "feed_time": "2026-11-03T20:00:06.8982252+00:00",
+ "counties": 67,
+ "totals": {
+  "ballots": 7180065,
+  "mail": 2038479,
+  "early": 3467800,
+  "election_day": 1670232,
+  "provisional": 3554,
+  "eligible": 13700791,
+  "turnout_pct": 52.4062
+ },
+ "files": [
+  {
+   "path": "raw_feeds.zip",
+   "bytes": 611113,
+   "sha256": "2003bab0df392ab03b1e1cfbab1b539a6fe7780f2dc93393f154a2819f628ada"
+  },
+  {
+   "path": "data/broward_ev_by_location.csv",
+   "bytes": 3895,
+   "sha256": "3b67b061d161250c0ecaa5746a6be1eb9b320633b12bcef6cd8717bae47964d8"
+  },
+  {
+   "path": "data/by_date.csv",
+   "bytes": 104848,
+   "sha256": "27c832fcfb2a301aed3aecb76a18d799071b1ccb1e8792ed4c1d24f79d90875d"
+  },
+  {
+   "path": "data/by_location.csv",
+   "bytes": 426245,
+   "sha256": "cfc087b7f15a53c34e27df66fe72ccf09317297cc3cfb5df7b84c19287a33d1d"
+  },
+  {
+   "path": "data/by_party.csv",
+   "bytes": 41658,
+   "sha256": "11f20fbe274e38123003df48854543fcce06d89d0548403f32afdf43f5cff68a"
+  },
+  {
+   "path": "data/by_precinct.csv",
+   "bytes": 383147,
+   "sha256": "03c02136dffd05cf40cdecd4910689f8ffcde50128fdad449dbaeb12fd62ece6"
+  },
+  {
+   "path": "data/by_type.csv",
+   "bytes": 6037,
+   "sha256": "498ea3ea11d7cc4ebb7c9aced58affc8f9c565125df44370a04faf848a443c93"
+  },
+  {
+   "path": "data/counties.csv",
+   "bytes": 11538,
+   "sha256": "0a7db2b3ab9994ca2ef06b0b255255b9a90216fbe4262325801f020f2793bf44"
+  },
+  {
+   "path": "data/findings.json",
+   "bytes": 7161,
+   "sha256": "d43347ae58d70292b8e319318b539407a261f0ac65c0ce08e865f7edb373532e"
+  },
+  {
+   "path": "data/location_day.csv",
+   "bytes": 156339,
+   "sha256": "0493fbec296bbea2d93b5f73683fe8955b568aad1d4a98e34baa48ed8b1d0589"
+  },
+  {
+   "path": "data/location_party.csv",
+   "bytes": 193588,
+   "sha256": "878334fd1dba6514b3fde214738901ca9321e0981579286a3e6c38d0bc469313"
+  },
+  {
+   "path": "data/broward/blend.json",
+   "bytes": 121,
+   "sha256": "fcf55c3755a83953f89830d3e3e89a4e13bdc5c923613180103c45bd5237f305"
+  },
+  {
+   "path": "data/broward/by_date.csv",
+   "bytes": 1252,
+   "sha256": "52046a5eb588dfc3a8993c15c3a455d47bb8683501a350bc3380bd12381ec771"
+  },
+  {
+   "path": "data/broward/by_location.csv",
+   "bytes": 23352,
+   "sha256": "8a1493a1578963b9c6dbb66112e2daeaf0cc51761eb10f06b6cbb91dee9a3a1d"
+  },
+  {
+   "path": "data/broward/by_party.csv",
+   "bytes": 266,
+   "sha256": "213e7430c47382d2653c626fc457f8173c8f65b5a27e4c5a31d8448bd1bc06c4"
+  },
+  {
+   "path": "data/broward/by_precinct.csv",
+   "bytes": 25107,
+   "sha256": "98cdcdaf351a017273b4d3ce7bed1675196bd2fdc1e8483ff9d92aef4beb45d5"
+  },
+  {
+   "path": "data/broward/by_type.csv",
+   "bytes": 129,
+   "sha256": "3b30942904118054e664495da93bfa7144b70072bb6ab3f8191b505b519eb375"
+  },
+  {
+   "path": "data/broward/location_party.csv",
+   "bytes": 3106,
+   "sha256": "75c447f076f6ed1465d3dcb1820258cdf9e40d98a6b70aad8090c7fb03807b05"
+  },
+  {
+   "path": "data/broward/status.json",
+   "bytes": 116,
+   "sha256": "f439aa22bbe282554a898dbafc922412f8200a7da12db749145286404b45f643"
+  },
+  {
+   "path": "data/broward/summary.json",
+   "bytes": 319,
+   "sha256": "a58152dfcd2b540d50415604f113e5983041a9def7814f7ab385f9202e55543c"
+  },
+  {
+   "path": "Reports/Florida_2026_General_Turnout.xlsx",
+   "bytes": 1669232,
+   "sha256": "4932cb59989516278f5c96119f57b496b8d648a5253d5d7181a1ee874fe8fc59"
+  },
+  {
+   "path": "Reports/charts_preview.png",
+   "bytes": 278404,
+   "sha256": "e3ac7887dc06424edf5d24163ae81f083d5b7e34e7e3e72732dad5b3dfe86049"
+  },
+  {
+   "path": "Reports/counties_and_election_sites.md",
+   "bytes": 10328,
+   "sha256": "bad50441b46795956e07d31803a24e1cba1c6f6795ac49116bd3a7de41303f96"
+  },
+  {
+   "path": "Reports/county_election_sites.csv",
+   "bytes": 9352,
+   "sha256": "48c586563dc2a7885c1408e01cc812fc291b21db136badf1489f754137840b49"
+  },
+  {
+   "path": "Reports/viewer.html",
+   "bytes": 1525967,
+   "sha256": "a5f26c38dc3e2c1eaac8f435abf087d8ce1cd30c2b50ea452bd4937a032066f6"
+  },
+  {
+   "path": "code/README.md",
+   "bytes": 20864,
+   "sha256": "4c17a788b047af19dc1637b0e03bed82295e97136d2c35e49b20c52d6b2f88d9"
+  },
+  {
+   "path": "code/archive.py",
+   "bytes": 5625,
+   "sha256": "c9991b5f60abba51899eec2d347a617de284a242d6f07bdca65f7144cbf069e2"
+  },
+  {
+   "path": "code/build_workbook.py",
+   "bytes": 40638,
+   "sha256": "1df20c1c85d4679e074fde1ddc4a44d4a230b8d24db3bfd0e492361bbd8caa05"
+  },
+  {
+   "path": "code/collect.py",
+   "bytes": 3589,
+   "sha256": "263fdbab3fab0b6df1eda92c9c58b1eb54b0a6483e888212d66b461366af3bf5"
+  },
+  {
+   "path": "code/collect_broward.py",
+   "bytes": 12681,
+   "sha256": "bacce56638b1b418795eb5a4f79f8cdc039139e07acf3444a87d8cdd6a6a870d"
+  },
+  {
+   "path": "code/make_preview.py",
+   "bytes": 5787,
+   "sha256": "e6040423b6e7585c69235e30cad523ef88cc140b0b12386defce394ff2739b02"
+  },
+  {
+   "path": "code/normalize.py",
+   "bytes": 11388,
+   "sha256": "ae86cb603d2960890f3e08652a022c160d827346f0e44c596f89f9c409b7aea3"
+  },
+  {
+   "path": "code/parse_broward.py",
+   "bytes": 1837,
+   "sha256": "f5a91aced6eda878cc78ba3f81ad8930aaaa4470d0d2ea1ca16334196211e20a"
+  },
+  {
+   "path": "code/refresh.sh",
+   "bytes": 2848,
+   "sha256": "7f2357ef22d2cec00a48009bf3a891cd25bef7f54d90a82a4354352137d0fa1e"
+  },
+  {
+   "path": "code/report_delta.py",
+   "bytes": 1600,
+   "sha256": "d5aee168827363df9af324ca9b62013341c507b6368f128356a4dadae687b679"
+  },
+  {
+   "path": "code/write_lists.py",
+   "bytes": 2950,
+   "sha256": "dcd5d922db4b0ca0b3d16e6ffde7874382d3bb70cd6bf1da74e39d8f5264b2de"
+  }
+ ]
+}
