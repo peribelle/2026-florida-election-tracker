@@ -471,13 +471,28 @@ def ask_publish():
         log(f"publish not queued: {str(e)[:100]}")
 
 
+def watch_over(now):
+    """The watchdog retires itself 40 minutes after the last scheduled pull, so it is never left running for days."""
+    return now > datetime.combine(C.ELECTION_DATE + timedelta(days=1), datetime.min.time()) + timedelta(hours=C.RESULTS_END, minutes=40)
+
+
 def watch_loop(every=30):
+    os.makedirs(LOGS, exist_ok=True)
+    single = open(os.path.join(LOGS, ".validate_watch.lock"), "w")          # one watchdog at a time, or alerts would double
+    try:
+        fcntl.flock(single, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        print("a watchdog is already running")
+        return
     log("watchdog started (pid %d)" % os.getpid())
     try:
         os.nice(10)
     except OSError:
         pass
     while True:
+        if watch_over(datetime.now()):
+            log("watchdog: the election window is over; exiting")
+            return
         try:
             ran, res = locked(lambda: (run_once(), watch_once()))
             if ran and res[0]["pulls"]:                     # a pull whose after-pull ask never came: put its alerts on the site too

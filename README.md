@@ -139,7 +139,9 @@ pull (`validate.py`, started by `after_pull.py`), detached, so a pull never wait
 - A flag is **raised once**. If it stays true it is escalated one tier after 3 pulls and **cleared** when it goes away, so a
   broken county is one alert, not a hundred.
 - **The watchdog** (`validate.py --watch`) is a small loop that raises an alert when a scheduled pull never arrives at all,
-  which no after-the-pull check can see.
+  which no after-the-pull check can see. Start it once with
+  `nohup .venv/bin/python validate.py --watch >> logs/validate_watch.log 2>&1 &`; it is silent outside the election window
+  and retires itself after it. Stop it early with `pkill -f 'validate.py --watch'`.
 
 Where it lands: `validation/alerts.csv` (append-only log), `validation/<run>/findings.csv` (every row behind an alert, so
 nothing is summarised away), `validation/current.json` (what is open now). A tier 1 or 2 alert also pops a desktop

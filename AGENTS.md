@@ -641,7 +641,8 @@ A snapshot is only validated once it is in its `INDEX.csv` (the collectors appen
 
 **Notifications.** A new tier 1 or 2 alert pops one desktop notification per run (`notify-send`). `VALIDATE_NOTIFY=0` silences it.
 
-**The watchdog** (`validate.py --watch`, a loop; start it with `nohup`) is the only thing that can see a pull that never
+**The watchdog** (`validate.py --watch`, a loop; start it with `nohup`; only one runs at a time, and it retires itself 40 minutes
+after the last scheduled pull, so it is never left running for days) is the only thing that can see a pull that never
 happened: it raises `pull_missing` for a scheduled slot with no pull (the schedule is ported from `phase_for()` and
 `--selftest` diffs it against `election_day.sh` for every minute), `pull_stuck` for a pull that started and never finished,
 and `site_stale`. It is silent outside the election window. It also validates any pull whose after-pull ask never came.
