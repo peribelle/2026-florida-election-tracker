@@ -1,0 +1,42 @@
+{
+ "counts": {
+  "1": 0,
+  "2": 0,
+  "3": 0
+ },
+ "generated_local": "2026-11-03T03:37:39",
+ "items": [],
+ "last_run": {
+  "cleared": 0,
+  "detail_rows": 0,
+  "escalated": 0,
+  "pulls": [
+   "results:20261102-215553",
+   "slow:20261102-215117",
+   "projections:20261102-224747",
+   "turnout:20261103-005557"
+  ],
+  "raised": 0,
+  "ran_local": "2026-11-03 03:37:39",
+  "run_id": "20261103-033739",
+  "seconds": 0.2,
+  "tier1": 0,
+  "tier2": 0,
+  "tier3": 0
+ },
+ "schema": 1,
+ "status": "clear",
+ "totals": {
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "alerts": 0
+ },
+ "validated": {
+  "projections": "20261102-224747",
+  "results": "20261102-215553",
+  "slow": "20261102-215117",
+  "turnout": "20261103-005557"
+ },
+ "window_hours": 3
+}
