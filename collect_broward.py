@@ -29,7 +29,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "data", "broward")
 os.makedirs(OUT, exist_ok=True)
 FINAL = OUT                       # run() points OUT at a staging directory while collecting, and back here when done
-BUDGET = 120                      # seconds for the whole collection
+BUDGET = 60                       # seconds for the whole collection (refresh.sh also wraps it in a hard timeout)
 T0 = time.time()
 
 BASE = "https://my.browardvotes.gov/TEDElectionLink"

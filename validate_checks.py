@@ -290,6 +290,7 @@ def metrics_turnout(snap):
         "_failed": failed, "_last_updated": last, "_feed_time": man.get("feed_time"),
         "_broward_files": os.path.isdir(os.path.join(d, "data", "broward")) and bool(os.listdir(os.path.join(d, "data", "broward"))),
         "_broward": broward_status(d),
+        "_broward_blend": j(os.path.join(d, "data", "broward", "blend.json")),
         "_files": {"counties.csv": counties is not None, "by_precinct.csv": prec is not None},
     }
 
@@ -490,6 +491,42 @@ def source_projections(snap, m, hwm, ever, prev):
     return out
 
 
+def _ago(minutes):
+    return f"{int(minutes // 60)} h {int(minutes % 60):02d} min" if minutes >= 90 else f"{int(minutes)} min"
+
+
+def source_broward(snap, m):
+    """Is Broward's dashboard answering? Its own failure domain: Broward is collected, merged and checked separately from every other county.
+
+    Tiered by impact. Statewide turnout is missing what Broward added since its last good collection, unless blend_broward.py filled in its
+    Election Day total from the state's page (then only the party/precinct/location/mail detail is frozen: a warning, while the blend is fresh)."""
+    b = m.get("_broward")
+    if not (b and b.get("collected")):
+        return []
+    age = (snap.t - datetime.fromisoformat(b["collected"])).total_seconds() / 60
+    if age <= 15:                                          # a healthy hourly pull collects Broward within a couple of minutes of the run
+        return []
+    err = f"Last error: {b['error']}" if b.get("error") else "No error recorded."
+    bl = m.get("_broward_blend") or {}
+    blended = bool(bl.get("active"))
+    if blended:
+        bage = (snap.t - datetime.fromisoformat(bl["reported_at"])).total_seconds() / 60
+        fresh = bage <= 120                                # the state's own figure is hours old if Broward stopped reporting to it too
+        tier = 2 if fresh else (1 if age > 180 else 2)
+        head = (f"Broward's dashboard is down: its detail is {_ago(age)} old; its Election Day total ({bl['election_day']:,}) is blended in from the state's page "
+                f"as of {bl['reported_at'][11:16]}")
+        detail = (f"mail, party, precinct and location detail are carried over from {b['collected'][11:16]} and nothing is estimated. "
+                  + ("" if fresh else f"The state's figure is itself {_ago(bage)} old. ") + err)
+    else:
+        tier = 1 if age > 180 else 2
+        head = f"Broward's numbers are {_ago(age)} old: its dashboard is not answering and nothing could be blended in"
+        detail = (f"carried over from {b['collected'][11:16]}, so statewide turnout is missing everything Broward has added since"
+                  + (f" (the blend failed: {bl['error']})" if bl.get("error") else "") + ". " + err)
+    # Two situations, two conditions: a blend that takes over (or gives out) clears one and raises the other at the tier that fits,
+    # instead of an alert stuck at the tier it was first raised at.
+    return [_S("broward_stale", tier, "TQV|broward|blended" if blended else "TQV|broward|stale", head, detail, curr=int(age), count=1)]
+
+
 def source_turnout(snap, m, hwm, ever, prev):
     out = []
     t = snap.t
@@ -531,17 +568,10 @@ def source_turnout(snap, m, hwm, ever, prev):
                 pass
         if old:
             out.append(_S("counties_stale", 2 if len(old) > 15 else 3, "TQV|stale", f"{pl(len(old), 'county feed')} not updated in 3+ hours", ", ".join(sorted(old)[:12]), count=len(old)))
-    b = m.get("_broward")
-    if b and b.get("collected"):
-        try:
-            age = (t - datetime.fromisoformat(b["collected"])).total_seconds() / 60
-        except ValueError:
-            age = 0
-        if age > 15:                                       # a healthy hourly pull collects Broward within a couple of minutes of the run
-            hours = f"{int(age // 60)} h {int(age % 60):02d} min" if age >= 90 else f"{int(age)} min"
-            out.append(_S("broward_stale", 1 if age > 180 else 2, "TQV|broward|stale", f"Broward's numbers are {hours} old: its dashboard is not answering",
-                          f"carried over from {b['collected'][11:16]}, so statewide turnout is missing everything Broward has added since. "
-                          + (f"Last error: {b['error']}" if b.get("error") else "No error recorded."), curr=int(age), count=1))
+    try:                                                   # Broward has its own failure domain: a surprise in its status must not cost the other counties their checks
+        out += source_broward(snap, m)
+    except Exception as e:
+        out.append(_S("validator_error", 2, "TQV|broward|check", "The source validator could not check Broward", f"{type(e).__name__}: {str(e)[:160]}"))
     if not m["_broward_files"] and (prev or {}).get("_broward_files", True):
         out.append(_S("broward_missing", 2, "TQV|broward", "No Broward dashboard files in this run", "data/broward/ is empty; Broward is on its own feed."))
     return out

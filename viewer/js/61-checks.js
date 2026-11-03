@@ -38,7 +38,7 @@ function checksCard() {
     },
     table: () => ({
       head: ['When (ET)', 'Tier', 'Checker', 'What happened', 'Detail'],
-      rows: (CK.log || []).slice().reverse().map(r => [ckWhen(r.u), `${CK_TIER[r.t] || 'Notice'}${r.e === 'cleared' ? ' (cleared)' : r.e === 'escalated' ? ' (escalated)' : ''}`, CK_WHO[r.v] || r.v, r.h, r.d]),
+      rows: (CK.log || []).slice().reverse().map(r => [ckWhen(r.u), `${CK_TIER[r.t] || 'Notice'}${r.e === 'cleared' ? ' (cleared)' : r.e === 'escalated' ? ' (escalated)' : r.e === 'acknowledged' ? ' (acknowledged)' : ''}`, CK_WHO[r.v] || r.v, r.h, r.d]),
     }),
   });
 }

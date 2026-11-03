@@ -113,6 +113,8 @@ class Tree:
         shutil.copytree(os.path.join(base, self.latest[kind]), os.path.join(base, new))
         if kind == "turnout":                              # a healthy Broward, collected as this pull ran, unless the scenario says otherwise
             os.makedirs(os.path.join(base, new, "data", "broward"), exist_ok=True)
+            if os.path.exists(os.path.join(base, new, "data", "broward", "blend.json")):       # the real base run was blended: a healthy Broward blends nothing
+                os.remove(os.path.join(base, new, "data", "broward", "blend.json"))
             with open(os.path.join(base, new, "data", "broward", "status.json"), "w") as fh:
                 json.dump({"ok": True, "attempted_at": t.isoformat(timespec="seconds"), "data_collected_at": t.isoformat(timespec="seconds"), "error": None}, fh)
         if mutate:
@@ -329,7 +331,37 @@ def main():
         check("Broward's dashboard fails for one hour -> tier 2 broward_stale", has(rows, "broward_stale", 2, validator="source", contains="TQV|broward"), summarize(rows))
         T.pull("turnout", broward("2026-11-03T10:00:30"), at=datetime(2026, 11, 3, 13, 30, 0))
         rows = T.run()
-        check("...and for three and a half hours -> tier 1", has(rows, "broward_stale", 1) or has(rows, "broward_stale", 1, event="escalated"), summarize(rows))
+        check("...and for three and a half hours with nothing blended in -> tier 1", has(rows, "broward_stale", 1) or has(rows, "broward_stale", 1, event="escalated"), summarize(rows))
+
+        def blend(reported, active=True):
+            return lambda d: json.dump({"active": active, "election_day": 99290, "dashboard_election_day": 0, "reported_at": reported, "fetched_at": reported,
+                                        "date": "11/03/2026", "source": "selftest"}, open(f"{d}/data/broward/blend.json", "w"))
+
+        def both(*fns):
+            return lambda d: [fn(d) for fn in fns]
+
+        T = tree()
+        T.pull("turnout", both(broward("2026-11-03T10:00:30"), blend("2026-11-03T13:25:00")), at=datetime(2026, 11, 3, 13, 30, 0))
+        rows = T.run()
+        check("Broward down 3.5 hours but its Election Day total is blended in fresh from the state's page -> tier 2, and the alert says so",
+              has(rows, "broward_stale", 2, validator="source", contains="blended in") and not has(rows, "broward_stale", 1), summarize(rows))
+        T = tree()
+        T.pull("turnout", both(broward("2026-11-03T10:00:30"), blend("2026-11-03T10:20:00")), at=datetime(2026, 11, 3, 13, 30, 0))
+        rows = T.run()
+        check("...but when the state's own figure is 3 hours old too, the blend no longer excuses it -> tier 1", has(rows, "broward_stale", 1, validator="source"), summarize(rows))
+        T = tree()
+        T.pull("turnout", broward("2026-11-03T10:00:30"), at=datetime(2026, 11, 3, 11, 0, 0))
+        T.run()
+        T.pull("turnout", both(broward("2026-11-03T10:00:30"), blend("2026-11-03T11:55:00")), at=datetime(2026, 11, 3, 12, 0, 0))
+        rows = T.run()
+        check("the blend takes over -> the 'nothing blended' alert clears and a 'blended in' one is raised at the tier that fits",
+              has(rows, "broward_stale", 2, contains="blended in") and any(r["kind"] == "broward_stale" and r["event"] == "cleared" for r in rows), summarize(rows))
+        T = tree()
+        T.pull("turnout", both(broward("2026-11-03T10:00:30"), blend("not-a-time"), lambda d: ecsv(f"{d}/data/counties.csv", lambda rs: [rs.pop() for _ in range(12)])),
+               at=datetime(2026, 11, 3, 11, 0, 0))
+        rows = T.run()
+        check("a crash inside the Broward check says so (tier 2, scoped to Broward)", has(rows, "validator_error", 2, validator="source", contains="TQV|broward|check"), summarize(rows))
+        check("...and every other turnout check still ran in the same pull", has(rows, "counties_short", validator="source"), summarize(rows))
 
         T = tree()
         os.makedirs(f"{T.tmp}/logs", exist_ok=True)
@@ -338,6 +370,86 @@ def main():
         check("a pull that is 5 minutes old is not a stale site (the publisher is allowed its spacing)", not has(rows, "site_stale"), summarize(rows))
         rows = T.run("--watch-once", VALIDATE_NOW="2026-11-03T19:20:00")
         check("the same pull 20 minutes on, still unpublished -> site_stale", has(rows, "site_stale", 2), summarize(rows))
+
+        print("\nDATA validator, turnout: small corrections are not news")
+
+        def lower(path, county, cols, by, n, floor=5):
+            """Take `by` off `cols` in the first `n` rows of the county that hold at least `floor` in every one of them."""
+            def fn(rows):
+                done = 0
+                for r in rows:
+                    if done < n and r["county"] == county and all(int(r[c] or 0) >= floor for c in cols):
+                        r.update({c: int(r[c]) - by for c in cols})
+                        done += 1
+            ecsv(path, fn)
+
+        T = tree()
+        T.pull("turnout", lambda d: [lower(f"{d}/data/by_party.csv", "PALM BEACH", ["total"], 2, 1), lower(f"{d}/data/by_precinct.csv", "PALM BEACH", ["total"], 2, 1),
+                                     lower(f"{d}/data/by_date.csv", "PALM BEACH", ["ballots"], 2, 1)])
+        rows = T.run()
+        pb = [r for r in rows if "PALM BEACH" in r["scope"] and r["event"] == "raised"]
+        check("one county's 2-ballot correction, seen in three turnout tables -> ONE notice, not three", len(pb) == 1 and int(pb[0]["tier"]) == 3 and "3 tables" in pb[0]["headline"], summarize(rows))
+
+        T = tree()
+        T.pull("turnout", lambda d: lower(f"{d}/data/by_precinct.csv", "PALM BEACH", ["total"], 1, 12))
+        rows = T.run()
+        check("twelve precincts lose 1 ballot each -> a notice, not a warning (a pile has to add up to something)", has(rows, "ballots_down", 3, contains="PALM BEACH") and not has(rows, "ballots_down", 2, contains="PALM BEACH"), summarize(rows))
+        T = tree()
+        T.pull("turnout", lambda d: lower(f"{d}/data/by_precinct.csv", "PALM BEACH", ["total"], 5, 12))
+        rows = T.run()
+        check("twelve precincts lose 5 ballots each (60) -> a warning", has(rows, "ballots_down", 2, contains="PALM BEACH"), summarize(rows))
+
+        T = tree()
+        T.pull("turnout", lambda d: ecsv(f"{d}/data/counties.csv", lambda rs: [r.update(eligible_voters=int(r["eligible_voters"]) + 1) for r in rs if r["county"] == "MIAMI-DADE"]))
+        rows = T.run()
+        check("a county's registered voters change by 1 (roll upkeep) -> silent", not has(rows, "count_changed"), summarize(rows))
+        T = tree()
+        T.pull("turnout", lambda d: ecsv(f"{d}/data/counties.csv", lambda rs: [r.update(eligible_voters=int(int(r["eligible_voters"]) * 0.98)) for r in rs if r["county"] == "MIAMI-DADE"]))
+        rows = T.run()
+        check("a county's registered voters fall 2% -> flagged tier 2", has(rows, "count_changed", 2), summarize(rows))
+
+        def new_precinct(d):
+            def fn(rs):
+                r = dict(next(x for x in rs if x["county"] == "PALM BEACH"))
+                r["precinct_key"] = "ZZ9999"
+                rs.append(r)
+            ecsv(f"{d}/data/by_precinct.csv", fn)
+        T = tree()
+        T.pull("turnout", new_precinct)
+        rows = T.run()
+        check("a precinct that is new in the turnout tables (people started voting there) is growth -> silent", not has(rows, "rows_new"), summarize(rows))
+        T = tree()
+        T.pull("results", lambda d: ecsv(f"{d}/county_contests.csv", lambda rs: rs.extend(dict(r, county_code="ZZZ") for r in rs[:5])))
+        rows = T.run()
+        check("...but a county coming online in the results is still announced (tier 3 rows_new)", has(rows, "rows_new", 3), summarize(rows))
+
+        print("\nacknowledging what has been looked at (--ack)")
+        T = tree()
+        T.pull("turnout", both(lambda d: ejson(f"{d}/manifest.json", lambda m: m["totals"].update(early=m["totals"]["early"] - 7)), broward("2026-11-03T10:00:30")),
+               at=datetime(2026, 11, 3, 11, 0, 0))
+        T.run()
+        before = T.current()["counts"]
+        check("before: a notice and a warning are on the board", before["3"] >= 1 and before["2"] >= 1, str(before))
+        r = subprocess.run([sys.executable, os.path.join(HERE, "validate.py"), "--ack", "--note", "x"], capture_output=True, text=True, env=T.env())
+        check("--ack with no selector refuses, so the whole board is never cleared by accident", r.returncode != 0 and T.current()["counts"] == before, (r.stderr or r.stdout)[-200:])
+        rows = T.run("--ack", "--tier", "3", "--events", "--note", "dips of a few votes are county corrections")
+        now = T.current()["counts"]
+        check("acknowledging the notices takes them off the board and logs why", now["3"] == 0 and now["2"] == before["2"] and
+              any(r["event"] == "acknowledged" and r["detail"].startswith("dips of a few") for r in rows), summarize(rows) + str(now))
+        T.run("--ack", "--tier", "2", "--note", "Broward is down and its Election Day total is blended in")
+        check("acknowledging a condition hides it", T.current()["counts"]["2"] == 0, str(T.current()["counts"]))
+        T.pull("turnout", broward("2026-11-03T10:00:30"), at=datetime(2026, 11, 3, 12, 0, 0))
+        rows = T.run()
+        check("...and it stays hidden while it stays as it was", T.current()["counts"]["2"] == 0 and T.current()["counts"]["1"] == 0, summarize(rows) + str(T.current()["counts"]))
+        T = tree()
+        T.pull("turnout", broward("2026-11-03T10:00:30"), at=datetime(2026, 11, 3, 11, 0, 0))
+        T.run()
+        T.run("--ack", "--tier", "2", "--alert-kind", "broward_stale", "--note", "known")
+        check("acknowledged by kind: the Broward warning is off the board", T.current()["counts"]["2"] == 0, str(T.current()["counts"]))
+        T.pull("turnout", broward("2026-11-03T10:00:30"), at=datetime(2026, 11, 3, 13, 30, 0))
+        rows = T.run()
+        check("...but it is back on the board the moment it gets worse (acknowledging never buries a growing problem)", T.current()["counts"]["1"] == 1 and
+              has(rows, "broward_stale", 1, event="escalated"), summarize(rows) + str(T.current()["counts"]))
 
         print("\nlifecycle: a condition is raised once, escalated if it persists, cleared when fixed")
         T = tree()

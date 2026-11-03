@@ -44,7 +44,7 @@ def _tbl(rows, keycols, valcols):
     return t, ex
 
 
-def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src, tier_fn=vote_tier, unit="votes", bump=None):
+def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src, tier_fn=vote_tier, unit="votes", bump=None, report_new=True):
     """Compare two versions of one table. See the module docstring for what comes out."""
     P, exp = _tbl(old, keycols, valcols)
     C, ex = _tbl(new, keycols, valcols)
@@ -90,11 +90,11 @@ def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src,
         for g, its in groups.items():
             tiers = [tier_of(a, b if b is not None else 0) for _, _, a, b in its]
             tier = min(tiers)
-            if len(its) >= 10 and tier > 2:
-                tier = 2                                    # a pile of small losses in one place is a warning
+            lost = sum(a - (b or 0) for _, _, a, b in its)
+            if len(its) >= 10 and tier > 2 and lost >= (50 if unit == "ballots" else 10):
+                tier = 2                                    # a pile of small losses in one place is a warning once they add up to something
             if bump and not collapsed:
                 tier = bump(g, tier)
-            lost = sum(a - (b or 0) for _, _, a, b in its)
             worst = max(its, key=lambda it: it[2] - (it[3] or 0))
             wk, wcol, wa, wb = worst
             where = src if collapsed else f"{src}|{'|'.join(g)}"
@@ -147,7 +147,7 @@ def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src,
             out.append(_D("rows_missing", tier, "event", where, f"Rows disappeared from {who_txt}: {len(ks)} gone, carrying {f(lost)} {unit}",
                           "; ".join(short(who(ex[k]), 38) for k in ks[:EXAMPLES]), prev=lost, curr=0, delta=-lost, count=len(ks),
                           rows=[{"key": " | ".join(k), "column": "(row)", "prev": P[k][main], "curr": None, "delta": None} for k in ks]))
-    if added:                                              # one notice per table: counties coming online is the normal way for rows to appear
+    if added and report_new:                               # one notice per table: counties coming online is the normal way for rows to appear
         places = {grp(k)[0] if grp(k) else "" for k in added}
         out.append(_D("rows_new", 3, "event", f"{src}|new", f"New in {src}: {pl(len(added), 'row')} across {pl(len(places), 'place')}",
                       "e.g. " + "; ".join(short(who(ex[k]), 38) for k in added[:EXAMPLES]), count=len(added),
@@ -180,7 +180,10 @@ def field_events(old, new, keycol, rules, *, src, label):
                 out.append(_D("value_blanked", 2, "event", f"{src}|{key}|{col}", f"{label(key)}: {noun} went blank (was {f(a)})", prev=a, curr=None,
                               rows=[{"key": key, "column": col, "prev": a, "curr": None, "delta": None}]))
             elif (mode == "down" and b < a) or (mode == "moved" and b != a):
-                out.append(_D(kind, fn(a, b), "event", f"{src}|{key}|{col}", f"{label(key)}: {noun} {f(a)} → {f(b)} ({b - a:+,})", prev=a, curr=b, delta=b - a,
+                tier = fn(a, b)
+                if not tier:                                # the rule says this change is noise
+                    continue
+                out.append(_D(kind, tier, "event", f"{src}|{key}|{col}", f"{label(key)}: {noun} {f(a)} → {f(b)} ({b - a:+,})", prev=a, curr=b, delta=b - a,
                               rows=[{"key": key, "column": col, "prev": a, "curr": b, "delta": b - a}]))
     return collapse(out, src)
 
@@ -200,9 +203,13 @@ def collapse(findings, src, limit=15):
     return out
 
 
-def _moved_pct(frac_t2):
+def _moved_pct(frac_t2, noise=0.0002):
+    """Tier for a denominator that moved. A few voters on the rolls (under 3, or 0.02%) is upkeep, not news, so tier 0 = no flag."""
     def fn(a, b):
-        return 2 if a and abs(b - a) / a >= frac_t2 else 3
+        d = abs(b - a)
+        if d < max(3, noise * (a or 0)):
+            return 0
+        return 2 if a and d / a >= frac_t2 else 3
     return fn
 
 
@@ -373,6 +380,32 @@ def data_slow(snap, prev, first):
 # ---- turnout runs ------------------------------------------------------------------------------------------------------
 
 
+def merge_by_county(findings):
+    """One county's small corrections show up in several turnout tables at once (by_party, by_precinct, by_date, ...): the same ballots, seen
+    from different angles. Report them once per county and kind, not once per table. Row-level detail keeps every table."""
+    keep, groups = [], defaultdict(list)
+    for fd in findings:
+        parts = fd["scope"].split("|")
+        if fd["kind"] in ("ballots_down", "parts_down", "value_blanked") and fd["mode"] == "event" and len(parts) == 3 and parts[0] == "TQV":
+            groups[(fd["kind"], parts[2])].append((parts[1], fd))
+        else:
+            keep.append(fd)
+    for (kind, county), members in groups.items():
+        if len(members) == 1:
+            keep.append(members[0][1])
+            continue
+        tables = [t for t, _ in members]
+        worst = max((fd for _, fd in members), key=lambda fd: -(fd.get("delta") or 0))
+        lost = max(-(fd.get("delta") or 0) for _, fd in members)
+        what = {"ballots_down": f"Ballots dropped in {county}: −{f(lost)}", "parts_down": f"A part fell while its total held in {county}: −{f(lost)}",
+                "value_blanked": f"Numbers went blank in {county}"}[kind]
+        keep.append(_D(kind, min(fd["tier"] for _, fd in members), "event", f"TQV|county|{county}|{kind}", f"{what} (the same correction, in {len(tables)} tables: {', '.join(tables)})",
+                       "; ".join(fd["detail"] for _, fd in members[:2]), prev=worst.get("prev"), curr=worst.get("curr"), delta=worst.get("delta"),
+                       count=sum(fd["count"] for _, fd in members),
+                       rows=[{**r, "key": f"{t} | {r['key']}"} for t, fd in members for r in fd["rows"]]))
+    return keep
+
+
 def data_turnout(snap, prev, first):
     out = []
     d = os.path.join(snap.path, "data")
@@ -393,12 +426,18 @@ def data_turnout(snap, prev, first):
              ("by_date.csv", ("county", "date", "ballot_type"), ("ballots",), "ballots"),
              ("location_day.csv", ("county", "location_id", "date"), ("ballots",), "ballots"),
              ("location_party.csv", ("county", "location_id", "party_code"), ("ballots",), "ballots")]
+    found = []
     for name, keys, cols, main in specs:
         new, old = read_csv(os.path.join(d, name)), read_csv(os.path.join(p, name))
         if new is None or old is None:
             continue
-        out += table_events(old, new, keycols=keys, valcols=cols, main=main, group_by=("county",), title=lambda g, r, n=name: f"{r.get('county', g[0])} ({n[:-4]})",
-                            who=lambda r, ks=keys: " ".join((r.get(k) or "") for k in ks[1:]), src=f"TQV|{name[:-4]}", tier_fn=ballot_tier, unit="ballots")
+        try:                                               # one table that cannot be compared must not silence the others
+            found += table_events(old, new, keycols=keys, valcols=cols, main=main, group_by=("county",), title=lambda g, r, n=name: f"{r.get('county', g[0])} ({n[:-4]})",
+                                  who=lambda r, ks=keys: " ".join((r.get(k) or "") for k in ks[1:]), src=f"TQV|{name[:-4]}", tier_fn=ballot_tier, unit="ballots",
+                                  report_new=False)        # rows appear all through Election Day as people vote; that is growth, not news
+        except Exception as e:
+            found.append(_D("validator_error", 2, "condition", f"TQV|{name}", f"The data validator could not compare {name}", f"{type(e).__name__}: {str(e)[:160]}"))
+    out += merge_by_county(found)
     new, old = read_csv(os.path.join(d, "counties.csv")), read_csv(os.path.join(p, "counties.csv"))
     if new is not None and old is not None:
         out += field_events(old, new, "code", {"eligible_voters": ("moved", _moved_pct(0.005), "count_changed", "registered voters"),

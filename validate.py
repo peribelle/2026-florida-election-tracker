@@ -221,6 +221,7 @@ def apply_findings(state, findings, source, snap_id, prev_id, now, origin, seq, 
             o["row"].update({"headline": fd["headline"], "detail": fd.get("detail", ""), "count": fd.get("count", 1), "curr": fd.get("curr"), "prev": fd.get("prev"), "delta": fd.get("delta")})
             worse = fd["tier"] < o["tier"]                 # its own severity grew (a feed that was an hour stale is now three)
             if escalate and (worse or (o["n"] == ESCALATE_AFTER and o["tier"] > 1)):
+                o.pop("acked", None)                       # it got worse: it is back on the board whatever was said before
                 o["tier"] = fd["tier"] if worse else o["tier"] - 1
                 o["row"]["tier"] = o["tier"]
                 fd2 = dict(fd, tier=o["tier"], headline=fd["headline"] if worse else f"{fd['headline']} (still true after {o['n']} pulls)")
@@ -243,7 +244,7 @@ def prune(state, now):
 
 def build_current(state, now, last_run):
     horizon = now - timedelta(hours=EVENT_WINDOW_H)
-    items = [dict(o["row"], tier=o["tier"], state="open", checks=o["n"], last_seen=o["last"]) for o in state["open"].values()]
+    items = [dict(o["row"], tier=o["tier"], state="open", checks=o["n"], last_seen=o["last"]) for o in state["open"].values() if not o.get("acked")]
     items += [dict(r, state="event") for r in state["recent"] if datetime.strptime(r["raised_local"], "%Y-%m-%d %H:%M:%S") >= horizon]
     items.sort(key=lambda r: r["raised_local"], reverse=True)       # newest first, then the stable sort puts the worst tier on top
     items.sort(key=lambda r: int(r["tier"]))
@@ -251,6 +252,50 @@ def build_current(state, now, last_run):
     status = "critical" if counts[1] else "warning" if counts[2] else "notice" if counts[3] else "clear"
     return {"schema": 1, "generated_local": f"{now:%Y-%m-%dT%H:%M:%S}", "generated_utc": datetime.fromtimestamp(now.timestamp(), timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "status": status, "counts": {str(t): counts[t] for t in (1, 2, 3)},
             "window_hours": EVENT_WINDOW_H, "items": items[:150], "totals": state["totals"], "validated": state["validated"], "last_run": last_run}
+
+
+# ---- acknowledging: "I have looked at this" -----------------------------------------------------------------------------
+
+
+def ack(tier=None, kind=None, events_only=False, note=""):
+    """Take what is on the board off it, with a reason. The alert log keeps everything: each one gets an `acknowledged` row carrying the note.
+
+    Events leave the board for good. A condition is hidden for as long as it stays as it is, and comes back by itself if it gets worse
+    (it escalates), so acknowledging can never bury a problem that is growing. Returns how many alerts were acknowledged."""
+    now = datetime.now()
+    state = load_state()
+    horizon = now - timedelta(hours=EVENT_WINDOW_H)
+
+    def match(t, k):
+        return (tier is None or int(t) == tier) and (kind is None or k == kind)
+
+    def row(r, t):
+        fd = {"validator": r["validator"], "kind": r["kind"], "tier": t, "scope": r["scope"], "headline": f"Acknowledged: {r['headline']}", "detail": note,
+              "fingerprint": r["fingerprint"], "prev": r.get("prev"), "curr": r.get("curr"), "delta": r.get("delta"), "count": r.get("count", 1)}
+        return _row(fd, "acknowledged", r["alert_id"], now, r.get("snapshot", ""), r.get("prev_snapshot", ""), r.get("source", ""), r.get("first_seen"))
+
+    rows, keep = [], []
+    for r in state["recent"]:
+        on_board = datetime.strptime(r["raised_local"], "%Y-%m-%d %H:%M:%S") >= horizon
+        if on_board and match(r["tier"], r["kind"]):
+            rows.append(row(r, int(r["tier"])))
+        else:
+            keep.append(r)
+    state["recent"] = keep
+    if not events_only:
+        for o in state["open"].values():
+            if not o.get("acked") and match(o["tier"], o["row"]["kind"]):
+                o["acked"] = note or "acknowledged"
+                rows.append(row(o["row"], int(o["tier"])))
+    if rows:
+        state["totals"]["acked"] = state["totals"].get("acked", 0) + len(rows)
+        append_csv(ALERTS, ALERT_COLS, rows)
+        write_json(CURRENT, build_current(state, now, {"run_id": f"{now:%Y%m%d-%H%M%S}", "ran_local": f"{now:%Y-%m-%d %H:%M:%S}", "pulls": ["acknowledge"], "raised": 0,
+                                                       "escalated": 0, "cleared": 0, "tier1": 0, "tier2": 0, "tier3": 0, "seconds": 0}))
+        write_json(STATE, state)
+        ask_publish()
+        log(f"acknowledged {C.pl(len(rows), 'alert')}" + (f": {note}" if note else ""))
+    return len(rows)
 
 
 # ---- notifications -----------------------------------------------------------------------------------------------
@@ -549,10 +594,20 @@ def main():
     for flag, hlp in (("--queue", "ask for a run and return at once"), ("--worker", "the detached worker (internal)"), ("--status", "what is open now"),
                       ("--replay", "dry run over the saved history"), ("--watch", "the watchdog loop"), ("--watch-once", "one watchdog pass (for tests)"), ("--selftest", "prove the validators catch what they should")):
         ap.add_argument(flag, action="store_true", help=hlp)
-    ap.add_argument("--kind", choices=list(C.METRICS), help="with --replay: only this kind")
+    ap.add_argument("--kind", choices=list(C.METRICS), help="with --replay: only this kind of pull")
     ap.add_argument("--last", type=int, help="with --replay: only the last N pulls")
+    ap.add_argument("--ack", action="store_true", help="acknowledge what is on the board (needs --note and at least one of --tier, --alert-kind, --events)")
+    ap.add_argument("--tier", type=int, choices=(1, 2, 3), help="with --ack: only this tier")
+    ap.add_argument("--alert-kind", help="with --ack: only this kind of alert, e.g. ballots_down")
+    ap.add_argument("--events", action="store_true", help="with --ack: only changes between pulls, not conditions that are still true")
+    ap.add_argument("--note", help="with --ack: why (it goes in the log)")
     a = ap.parse_args()
-    if a.status:
+    if a.ack:
+        if not a.note or not (a.tier or a.alert_kind or a.events):
+            ap.error("--ack needs --note and at least one of --tier, --alert-kind, --events (so it never clears the whole board by accident)")
+        n = locked(lambda: ack(a.tier, a.alert_kind, a.events, a.note), wait=True)[1]
+        print(f"acknowledged {C.pl(n, 'alert')}")
+    elif a.status:
         status()
     elif a.queue:
         queue_validate()
