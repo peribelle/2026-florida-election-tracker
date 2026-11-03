@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+# Refresh the Florida turnout workbook from the live county feeds.
+# Every run is archived immutably under runs/<timestamp>/ and logged in runs/INDEX.csv.
+#
+# Usage: ./refresh.sh
+set -euo pipefail
+
+cd "$(dirname "$0")"
+
+PY=".venv/bin/python"
+if [ ! -x "$PY" ]; then
+  echo ">> creating virtualenv"
+  python3 -m venv .venv
+  .venv/bin/pip install --quiet --upgrade pip
+  .venv/bin/pip install --quiet requests beautifulsoup4 lxml openpyxl xlsxwriter matplotlib
+fi
+
+step() { printf '\n\033[1;34m>> %s\033[0m\n' "$1"; }
+
+step "1/9 collecting 67 shared county feeds"
+$PY collect.py | tail -3
+
+step "2/9 collecting Broward (own dashboard)"
+# Broward's dashboard is a separate site and fails on its own (election morning: "No dashboard loaded"). One county's outage must not
+# cost the other 66 their pull: on failure the collector keeps Broward's last complete numbers and flags them in data/broward/status.json,
+# which the archive note and the validators raise. The timeout is a last resort; the collector has its own 120 s budget.
+timeout 170 $PY collect_broward.py || echo "!! Broward's dashboard failed; this run carries over its last numbers (flagged in data/broward/status.json)"
+
+step "3/9 normalizing (merges Broward)"
+$PY normalize.py
+
+step "4/9 parsing Broward PDF (fallback check)"
+$PY parse_broward.py | head -2 || true
+
+step "5/9 building workbook"
+$PY build_workbook.py
+
+step "6/9 writing county/site lists"
+$PY write_lists.py
+
+step "7/9 rendering chart preview"
+$PY make_preview.py
+
+step "8/9 reporting change"
+$PY report_delta.py
+
+step "9/9 archiving this run"
+$PY archive.py
+
+# Extra, after the archive and guarded: a viewer problem must never fail a refresh.
+step "viewer: building Reports/viewer.html"
+$PY build_viewer.py || echo "!! viewer build failed; the workbook and the archive above are unaffected"
+
+# Validate and publish: validate.py checks this run for failed sources and abnormal numbers, publish.py commits it and
+# pushes the site. Each hands off to a detached worker and returns at once, so neither can delay or fail a refresh.
+# NO_VALIDATE=1 / NO_PUBLISH=1 skip them.
+step "validate + publish: asking for the checks and the GitHub update"
+$PY after_pull.py || echo "!! after_pull failed; the refresh above is unaffected"
+
+step "done"
