@@ -117,7 +117,8 @@ class Tree:
         return new
 
     def env(self, **extra):
-        return dict(os.environ, VALIDATE_ROOT=self.tmp, VALIDATE_NOTIFY="0", ELECTION_DATE="2026-11-03", **extra)
+        # NO_PUBLISH and NO_VALIDATE: nothing a test does may reach the real repo's publisher
+        return dict(os.environ, VALIDATE_ROOT=self.tmp, VALIDATE_NOTIFY="0", NO_PUBLISH="1", ELECTION_DATE="2026-11-03", **extra)
 
     def run(self, *args, **extra):
         r = subprocess.run([sys.executable, os.path.join(HERE, "validate.py"), *args], capture_output=True, text=True, env=self.env(**extra), timeout=300)

@@ -440,8 +440,8 @@ def worker():
     except OSError:
         pass
     while True:
-        ran, _ = locked(drain)
-        if not ran or not os.path.exists(PENDING):
+        locked(drain, wait=True)           # the watchdog holds the lock only for a moment; wait for it rather than leave this pull for its next tick
+        if not os.path.exists(PENDING):
             return
 
 
@@ -458,7 +458,12 @@ def drain():
 
 
 def ask_publish():
-    """Alerts the clock raised have no pull behind them, so nothing else will put them on the site. Never raises."""
+    """Alerts the clock raised have no pull behind them, so nothing else will put them on the site. Never raises.
+
+    Only for the real tree: publish.py always publishes the repo it lives in, so a validator pointed elsewhere (VALIDATE_ROOT,
+    which is what the selftest does) must not ask it to."""
+    if ROOT != HERE:
+        return
     try:
         import publish
         publish.queue_publish()
@@ -479,11 +484,6 @@ def watch_loop(every=30):
                 ask_publish()
         except Exception as e:
             log(f"watchdog error: {type(e).__name__}: {str(e)[:160]}")
-        if os.path.exists(PENDING):
-            try:
-                os.remove(PENDING)
-            except FileNotFoundError:
-                pass
         time.sleep(every)
 
 
