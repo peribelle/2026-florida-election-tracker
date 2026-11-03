@@ -1,0 +1,15 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|ballots_down|TQV|by_type|WAKULLA|20261103-100146,3,data,ballots_down,TQV|by_type|WAKULLA,20261103-100146,WAKULLA | Provisional,ballots,15,14,-1
+data|ballots_down|TQV|by_party|WAKULLA|20261103-100146,3,data,ballots_down,TQV|by_party|WAKULLA,20261103-100146,WAKULLA | OTH,total,2,1,-1
+data|rows_new|TQV|by_party|new|20261103-100146,3,data,rows_new,TQV|by_party|new,20261103-100146,JACKSON | GRE,(row),,1,
+data|rows_new|TQV|by_party|new|20261103-100146,3,data,rows_new,TQV|by_party|new,20261103-100146,PINELLAS | OTH,(row),,1,
+data|parts_down|TQV|by_precinct|WAKULLA|20261103-100146,3,data,parts_down,TQV|by_precinct|WAKULLA,20261103-100146,WAKULLA | 03.2,provisional,3,2,-1
+data|rows_new|TQV|by_precinct|new|20261103-100146,3,data,rows_new,TQV|by_precinct|new,20261103-100146,POLK | 104.3,(row),,1,
+data|rows_new|TQV|by_precinct|new|20261103-100146,3,data,rows_new,TQV|by_precinct|new,20261103-100146,VOLUSIA | 417B,(row),,1,
+data|ballots_down|TQV|by_date|WAKULLA|20261103-100146,3,data,ballots_down,TQV|by_date|WAKULLA,20261103-100146,WAKULLA | 10/31/2026 | Provisional,ballots,4,3,-1
+data|rows_new|TQV|by_date|new|20261103-100146,3,data,rows_new,TQV|by_date|new,20261103-100146,SANTA ROSA | 11/03/2026 | Mail,(row),,7,
+data|rows_new|TQV|by_date|new|20261103-100146,3,data,rows_new,TQV|by_date|new,20261103-100146,ST. JOHNS | 11/03/2026 | Mail,(row),,7,
+data|rows_new|TQV|by_date|new|20261103-100146,3,data,rows_new,TQV|by_date|new,20261103-100146,VOLUSIA | 11/03/2026 | Mail,(row),,4,
+data|rows_new|TQV|by_date|new|20261103-100146,3,data,rows_new,TQV|by_date|new,20261103-100146,WASHINGTON | 11/03/2026 | Mail,(row),,4,
+data|ballots_down|TQV|location_day|WAKULLA|20261103-100146,3,data,ballots_down,TQV|location_day|WAKULLA,20261103-100146,WAKULLA | 001 | 10/31/2026,ballots,725,724,-1
+data|ballots_down|TQV|location_party|WAKULLA|20261103-100146,3,data,ballots_down,TQV|location_party|WAKULLA,20261103-100146,WAKULLA | 001 | OTH,ballots,2,1,-1

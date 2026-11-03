@@ -1,110 +1,110 @@
 county,location_id,party_code,party,ballots
+ALACHUA,3,BPP,Boricua,4
+ALACHUA,3,ASP,American Solidarity,3
+ALACHUA,3,CPP,Coalition With A Purpose,2
+ALACHUA,3,REP,Republican,3277
+ALACHUA,3,NPA,No Party Affiliation,2134
+ALACHUA,3,LPF,Libertarian,31
+ALACHUA,3,IND,Independent,167
+ALACHUA,3,CSV,Conservative,10
+ALACHUA,3,CPF,Constitution,5
+ALACHUA,3,GRE,Green,4
+ALACHUA,3,DEM,Democratic,4900
+ALACHUA,3,ECO,Ecology,1
+ALACHUA,3,AMF,America First,8
+ALACHUA,1,FFP,Florida Forward,1
 ALACHUA,1,IND,Independent,87
 ALACHUA,1,CSV,Conservative,5
 ALACHUA,1,AMF,America First,6
 ALACHUA,1,CPF,Constitution,2
 ALACHUA,1,BPP,Boricua,2
-ALACHUA,1,DEM,Democratic,5928
-ALACHUA,1,NPA,No Party Affiliation,1061
-ALACHUA,1,LPF,Libertarian,10
-ALACHUA,1,OTH,OTH,2
-ALACHUA,1,FFP,Florida Forward,1
+ALACHUA,1,PSL,Party for Socialism & Liberation,12
 ALACHUA,1,REP,Republican,784
 ALACHUA,1,CPP,Coalition With A Purpose,3
 ALACHUA,1,GRE,Green,9
 ALACHUA,1,ASP,American Solidarity,1
-ALACHUA,1,PSL,Party for Socialism & Liberation,12
-ALACHUA,4,ECO,Ecology,1
-ALACHUA,4,REP,Republican,2248
-ALACHUA,4,AMF,America First,4
-ALACHUA,4,FFP,Florida Forward,1
-ALACHUA,4,DEM,Democratic,1690
-ALACHUA,4,ASP,American Solidarity,1
-ALACHUA,4,LPF,Libertarian,7
-ALACHUA,4,CSV,Conservative,4
-ALACHUA,4,IND,Independent,73
-ALACHUA,4,CPF,Constitution,2
-ALACHUA,4,GRE,Green,2
-ALACHUA,4,PSL,Party for Socialism & Liberation,1
-ALACHUA,4,OTH,OTH,1
-ALACHUA,4,NPA,No Party Affiliation,699
-ALACHUA,2,DEM,Democratic,7436
-ALACHUA,2,GRE,Green,8
-ALACHUA,2,FFP,Florida Forward,4
-ALACHUA,2,CSV,Conservative,5
-ALACHUA,2,IND,Independent,223
-ALACHUA,2,CPF,Constitution,2
-ALACHUA,2,PSL,Party for Socialism & Liberation,3
-ALACHUA,2,LPF,Libertarian,32
-ALACHUA,2,ECO,Ecology,4
-ALACHUA,2,ASP,American Solidarity,1
-ALACHUA,2,CPP,Coalition With A Purpose,4
-ALACHUA,2,AMF,America First,9
-ALACHUA,2,REP,Republican,3168
-ALACHUA,2,NPA,No Party Affiliation,2324
-ALACHUA,2,OTH,OTH,2
-ALACHUA,7,BPP,Boricua,1
-ALACHUA,7,AMF,America First,1
-ALACHUA,7,CPF,Constitution,2
-ALACHUA,7,DEM,Democratic,946
-ALACHUA,7,NPA,No Party Affiliation,513
-ALACHUA,7,REP,Republican,1750
-ALACHUA,7,FFP,Florida Forward,2
-ALACHUA,7,LPF,Libertarian,10
-ALACHUA,7,CSV,Conservative,2
-ALACHUA,7,IND,Independent,73
-ALACHUA,7,GRE,Green,2
-ALACHUA,3,REP,Republican,3277
-ALACHUA,3,NPA,No Party Affiliation,2134
-ALACHUA,3,ECO,Ecology,1
-ALACHUA,3,AMF,America First,8
-ALACHUA,3,BPP,Boricua,4
-ALACHUA,3,ASP,American Solidarity,3
-ALACHUA,3,CPP,Coalition With A Purpose,2
-ALACHUA,3,IND,Independent,167
-ALACHUA,3,CSV,Conservative,10
-ALACHUA,3,LPF,Libertarian,31
-ALACHUA,3,CPF,Constitution,5
-ALACHUA,3,GRE,Green,4
-ALACHUA,3,DEM,Democratic,4900
-ALACHUA,8,GRE,Green,2
-ALACHUA,8,BPP,Boricua,1
+ALACHUA,1,DEM,Democratic,5928
+ALACHUA,1,NPA,No Party Affiliation,1061
+ALACHUA,1,LPF,Libertarian,10
+ALACHUA,1,OTH,OTH,2
 ALACHUA,8,LPF,Libertarian,15
 ALACHUA,8,NPA,No Party Affiliation,620
-ALACHUA,8,PSL,Party for Socialism & Liberation,6
+ALACHUA,8,GRE,Green,2
 ALACHUA,8,ASP,American Solidarity,1
 ALACHUA,8,CPP,Coalition With A Purpose,2
+ALACHUA,8,AMF,America First,5
+ALACHUA,8,PSL,Party for Socialism & Liberation,6
 ALACHUA,8,DEM,Democratic,1551
 ALACHUA,8,ECO,Ecology,1
 ALACHUA,8,IND,Independent,65
 ALACHUA,8,CPF,Constitution,2
 ALACHUA,8,REP,Republican,662
 ALACHUA,8,CSV,Conservative,5
-ALACHUA,8,AMF,America First,5
-ALACHUA,5,REP,Republican,408
-ALACHUA,5,AMF,America First,1
-ALACHUA,5,LPF,Libertarian,3
-ALACHUA,5,GRE,Green,1
-ALACHUA,5,DEM,Democratic,348
-ALACHUA,5,IND,Independent,18
-ALACHUA,5,CPF,Constitution,1
-ALACHUA,5,CSV,Conservative,1
-ALACHUA,5,OTH,OTH,1
-ALACHUA,5,NPA,No Party Affiliation,88
+ALACHUA,8,BPP,Boricua,1
 ALACHUA,6,NPA,No Party Affiliation,1401
 ALACHUA,6,REP,Republican,475
 ALACHUA,6,CSV,Conservative,1
-ALACHUA,6,PSL,Party for Socialism & Liberation,6
 ALACHUA,6,GRE,Green,9
 ALACHUA,6,FFP,Florida Forward,1
+ALACHUA,6,AMF,America First,1
+ALACHUA,6,BPP,Boricua,1
+ALACHUA,6,PSL,Party for Socialism & Liberation,6
 ALACHUA,6,ECO,Ecology,3
 ALACHUA,6,OTH,OTH,1
 ALACHUA,6,DEM,Democratic,3129
 ALACHUA,6,IND,Independent,108
 ALACHUA,6,LPF,Libertarian,8
 ALACHUA,6,CPF,Constitution,1
-ALACHUA,6,AMF,America First,1
-ALACHUA,6,BPP,Boricua,1
+ALACHUA,4,AMF,America First,4
+ALACHUA,4,FFP,Florida Forward,1
+ALACHUA,4,ECO,Ecology,1
+ALACHUA,4,CSV,Conservative,4
+ALACHUA,4,IND,Independent,73
+ALACHUA,4,CPF,Constitution,2
+ALACHUA,4,NPA,No Party Affiliation,699
+ALACHUA,4,DEM,Democratic,1690
+ALACHUA,4,ASP,American Solidarity,1
+ALACHUA,4,LPF,Libertarian,7
+ALACHUA,4,GRE,Green,2
+ALACHUA,4,PSL,Party for Socialism & Liberation,1
+ALACHUA,4,OTH,OTH,1
+ALACHUA,4,REP,Republican,2248
+ALACHUA,7,FFP,Florida Forward,2
+ALACHUA,7,BPP,Boricua,1
+ALACHUA,7,AMF,America First,1
+ALACHUA,7,CPF,Constitution,2
+ALACHUA,7,CSV,Conservative,2
+ALACHUA,7,IND,Independent,73
+ALACHUA,7,LPF,Libertarian,10
+ALACHUA,7,GRE,Green,2
+ALACHUA,7,DEM,Democratic,946
+ALACHUA,7,NPA,No Party Affiliation,513
+ALACHUA,7,REP,Republican,1750
+ALACHUA,2,PSL,Party for Socialism & Liberation,3
+ALACHUA,2,LPF,Libertarian,32
+ALACHUA,2,DEM,Democratic,7436
+ALACHUA,2,GRE,Green,8
+ALACHUA,2,FFP,Florida Forward,4
+ALACHUA,2,ASP,American Solidarity,1
+ALACHUA,2,CPP,Coalition With A Purpose,4
+ALACHUA,2,OTH,OTH,2
+ALACHUA,2,ECO,Ecology,4
+ALACHUA,2,AMF,America First,9
+ALACHUA,2,NPA,No Party Affiliation,2324
+ALACHUA,2,REP,Republican,3168
+ALACHUA,2,CSV,Conservative,5
+ALACHUA,2,IND,Independent,223
+ALACHUA,2,CPF,Constitution,2
+ALACHUA,5,AMF,America First,1
+ALACHUA,5,IND,Independent,18
+ALACHUA,5,CPF,Constitution,1
+ALACHUA,5,CSV,Conservative,1
+ALACHUA,5,NPA,No Party Affiliation,88
+ALACHUA,5,LPF,Libertarian,3
+ALACHUA,5,GRE,Green,1
+ALACHUA,5,DEM,Democratic,348
+ALACHUA,5,OTH,OTH,1
+ALACHUA,5,REP,Republican,408
 BAKER,1,DEM,Democratic,623
 BAKER,1,IND,Independent,40
 BAKER,1,CSV,Conservative,3
@@ -388,122 +388,122 @@ CALHOUN,2,GRE,Green,1
 CALHOUN,2,IND,Independent,1
 CALHOUN,2,NPA,No Party Affiliation,43
 CALHOUN,2,REP,Republican,341
+CHARLOTTE,100,ASP,American Solidarity,1
+CHARLOTTE,100,CPP,Coalition With A Purpose,6
 CHARLOTTE,100,AMF,America First,10
-CHARLOTTE,100,BPP,Boricua,2
-CHARLOTTE,100,DEM,Democratic,1903
-CHARLOTTE,100,LPF,Libertarian,25
-CHARLOTTE,100,NPA,No Party Affiliation,2092
+CHARLOTTE,100,FFP,Florida Forward,1
 CHARLOTTE,100,CPF,Constitution,6
 CHARLOTTE,100,CSV,Conservative,25
 CHARLOTTE,100,IND,Independent,354
 CHARLOTTE,100,REP,Republican,8077
-CHARLOTTE,100,FFP,Florida Forward,1
+CHARLOTTE,100,BPP,Boricua,2
+CHARLOTTE,100,DEM,Democratic,1903
+CHARLOTTE,100,LPF,Libertarian,25
+CHARLOTTE,100,NPA,No Party Affiliation,2092
 CHARLOTTE,100,GRE,Green,2
-CHARLOTTE,100,ASP,American Solidarity,1
-CHARLOTTE,100,CPP,Coalition With A Purpose,6
+CHARLOTTE,200,ECO,Ecology,2
+CHARLOTTE,200,GRE,Green,2
 CHARLOTTE,200,NPA,No Party Affiliation,719
+CHARLOTTE,200,AMF,America First,3
 CHARLOTTE,200,BPP,Boricua,2
 CHARLOTTE,200,REP,Republican,2879
 CHARLOTTE,200,CPF,Constitution,5
 CHARLOTTE,200,CSV,Conservative,19
 CHARLOTTE,200,IND,Independent,126
-CHARLOTTE,200,AMF,America First,3
 CHARLOTTE,200,CPP,Coalition With A Purpose,5
 CHARLOTTE,200,DEM,Democratic,731
 CHARLOTTE,200,LPF,Libertarian,6
-CHARLOTTE,200,ECO,Ecology,2
-CHARLOTTE,200,GRE,Green,2
+CHARLOTTE,300,AMF,America First,13
+CHARLOTTE,300,GRE,Green,3
+CHARLOTTE,300,NPA,No Party Affiliation,2023
+CHARLOTTE,300,CPF,Constitution,10
+CHARLOTTE,300,CSV,Conservative,41
+CHARLOTTE,300,IND,Independent,318
+CHARLOTTE,300,LPF,Libertarian,18
+CHARLOTTE,300,ASP,American Solidarity,3
+CHARLOTTE,300,CPP,Coalition With A Purpose,3
+CHARLOTTE,300,DEM,Democratic,1787
+CHARLOTTE,300,REP,Republican,8013
+CHARLOTTE,300,ECO,Ecology,3
+CHARLOTTE,400,GRE,Green,3
+CHARLOTTE,400,IND,Independent,295
+CHARLOTTE,400,REP,Republican,6128
 CHARLOTTE,400,LPF,Libertarian,15
-CHARLOTTE,400,CPP,Coalition With A Purpose,7
-CHARLOTTE,400,ECO,Ecology,1
-CHARLOTTE,400,DEM,Democratic,2884
 CHARLOTTE,400,ASP,American Solidarity,5
+CHARLOTTE,400,ECO,Ecology,1
+CHARLOTTE,400,CPP,Coalition With A Purpose,7
+CHARLOTTE,400,DEM,Democratic,2884
 CHARLOTTE,400,AMF,America First,17
 CHARLOTTE,400,BPP,Boricua,3
 CHARLOTTE,400,CPF,Constitution,4
 CHARLOTTE,400,CSV,Conservative,31
 CHARLOTTE,400,NPA,No Party Affiliation,2035
-CHARLOTTE,400,GRE,Green,3
-CHARLOTTE,400,IND,Independent,295
-CHARLOTTE,400,REP,Republican,6128
-CHARLOTTE,300,ASP,American Solidarity,3
-CHARLOTTE,300,CPP,Coalition With A Purpose,3
-CHARLOTTE,300,CPF,Constitution,10
-CHARLOTTE,300,CSV,Conservative,41
-CHARLOTTE,300,IND,Independent,318
-CHARLOTTE,300,LPF,Libertarian,18
-CHARLOTTE,300,DEM,Democratic,1787
-CHARLOTTE,300,REP,Republican,8013
-CHARLOTTE,300,NPA,No Party Affiliation,2023
-CHARLOTTE,300,GRE,Green,3
-CHARLOTTE,300,ECO,Ecology,3
-CHARLOTTE,300,AMF,America First,13
-CITRUS,BH,BPP,Boricua,4
-CITRUS,BH,AMF,America First,5
-CITRUS,BH,CPF,Constitution,4
-CITRUS,BH,CSV,Conservative,16
-CITRUS,BH,NPA,No Party Affiliation,1142
-CITRUS,BH,CPP,Coalition With A Purpose,4
-CITRUS,BH,OTH,OTH,1
-CITRUS,BH,DEM,Democratic,1360
-CITRUS,BH,REP,Republican,4917
-CITRUS,BH,IND,Independent,180
-CITRUS,BH,GRE,Green,1
-CITRUS,BH,LPF,Libertarian,7
-CITRUS,BH,ASP,American Solidarity,1
-CITRUS,CC2,CSV,Conservative,9
-CITRUS,CC2,BPP,Boricua,5
-CITRUS,CC2,IND,Independent,69
-CITRUS,CC2,AMF,America First,10
-CITRUS,CC2,REP,Republican,1520
-CITRUS,CC2,ASP,American Solidarity,1
-CITRUS,CC2,NPA,No Party Affiliation,338
-CITRUS,CC2,DEM,Democratic,388
-CITRUS,CC2,LPF,Libertarian,7
-CITRUS,CC2,PSL,Party for Socialism & Liberation,1
-CITRUS,CC2,GRE,Green,1
-CITRUS,InVCIty,GRE,Green,3
-CITRUS,InVCIty,IND,Independent,142
-CITRUS,InVCIty,CPF,Constitution,5
-CITRUS,InVCIty,CPP,Coalition With A Purpose,1
-CITRUS,InVCIty,ECO,Ecology,2
-CITRUS,InVCIty,ASP,American Solidarity,1
-CITRUS,InVCIty,LPF,Libertarian,11
-CITRUS,InVCIty,NPA,No Party Affiliation,932
-CITRUS,InVCIty,DEM,Democratic,1237
-CITRUS,InVCIty,REP,Republican,4451
-CITRUS,InVCIty,BPP,Boricua,5
-CITRUS,InVCIty,PSL,Party for Socialism & Liberation,1
-CITRUS,InVCIty,AMF,America First,2
-CITRUS,InVCIty,CSV,Conservative,16
-CITRUS,CRSOE,OTH,OTH,1
-CITRUS,CRSOE,GRE,Green,2
-CITRUS,CRSOE,DEM,Democratic,796
-CITRUS,CRSOE,WPF,Working Families,1
 CITRUS,CRSOE,PSL,Party for Socialism & Liberation,1
 CITRUS,CRSOE,CPP,Coalition With A Purpose,5
 CITRUS,CRSOE,LPF,Libertarian,9
 CITRUS,CRSOE,NPA,No Party Affiliation,728
-CITRUS,CRSOE,CSV,Conservative,9
 CITRUS,CRSOE,CPF,Constitution,5
 CITRUS,CRSOE,BPP,Boricua,1
 CITRUS,CRSOE,IND,Independent,129
 CITRUS,CRSOE,ECO,Ecology,1
 CITRUS,CRSOE,REP,Republican,3787
 CITRUS,CRSOE,AMF,America First,4
+CITRUS,CRSOE,CSV,Conservative,9
+CITRUS,CRSOE,OTH,OTH,1
+CITRUS,CRSOE,GRE,Green,2
+CITRUS,CRSOE,DEM,Democratic,796
+CITRUS,CRSOE,WPF,Working Families,1
+CITRUS,Homosassa,IND,Independent,144
+CITRUS,Homosassa,GRE,Green,2
 CITRUS,Homosassa,DEM,Democratic,955
 CITRUS,Homosassa,LPF,Libertarian,7
 CITRUS,Homosassa,ASP,American Solidarity,1
 CITRUS,Homosassa,REP,Republican,4020
-CITRUS,Homosassa,IND,Independent,144
-CITRUS,Homosassa,GRE,Green,2
-CITRUS,Homosassa,OTH,OTH,1
 CITRUS,Homosassa,CSV,Conservative,16
 CITRUS,Homosassa,CPF,Constitution,5
 CITRUS,Homosassa,AMF,America First,4
 CITRUS,Homosassa,CPP,Coalition With A Purpose,2
 CITRUS,Homosassa,NPA,No Party Affiliation,789
 CITRUS,Homosassa,BPP,Boricua,1
+CITRUS,Homosassa,OTH,OTH,1
+CITRUS,CC2,AMF,America First,10
+CITRUS,CC2,REP,Republican,1520
+CITRUS,CC2,ASP,American Solidarity,1
+CITRUS,CC2,LPF,Libertarian,7
+CITRUS,CC2,PSL,Party for Socialism & Liberation,1
+CITRUS,CC2,GRE,Green,1
+CITRUS,CC2,NPA,No Party Affiliation,338
+CITRUS,CC2,DEM,Democratic,388
+CITRUS,CC2,CSV,Conservative,9
+CITRUS,CC2,BPP,Boricua,5
+CITRUS,CC2,IND,Independent,69
+CITRUS,InVCIty,CPP,Coalition With A Purpose,1
+CITRUS,InVCIty,ECO,Ecology,2
+CITRUS,InVCIty,ASP,American Solidarity,1
+CITRUS,InVCIty,LPF,Libertarian,11
+CITRUS,InVCIty,PSL,Party for Socialism & Liberation,1
+CITRUS,InVCIty,NPA,No Party Affiliation,932
+CITRUS,InVCIty,DEM,Democratic,1237
+CITRUS,InVCIty,REP,Republican,4451
+CITRUS,InVCIty,BPP,Boricua,5
+CITRUS,InVCIty,CSV,Conservative,16
+CITRUS,InVCIty,AMF,America First,2
+CITRUS,InVCIty,GRE,Green,3
+CITRUS,InVCIty,IND,Independent,142
+CITRUS,InVCIty,CPF,Constitution,5
+CITRUS,BH,CPP,Coalition With A Purpose,4
+CITRUS,BH,REP,Republican,4917
+CITRUS,BH,IND,Independent,180
+CITRUS,BH,GRE,Green,1
+CITRUS,BH,OTH,OTH,1
+CITRUS,BH,DEM,Democratic,1360
+CITRUS,BH,LPF,Libertarian,7
+CITRUS,BH,ASP,American Solidarity,1
+CITRUS,BH,BPP,Boricua,4
+CITRUS,BH,AMF,America First,5
+CITRUS,BH,CPF,Constitution,4
+CITRUS,BH,CSV,Conservative,16
+CITRUS,BH,NPA,No Party Affiliation,1142
 CLAY,006,REP,Republican,2048
 CLAY,006,NPA,No Party Affiliation,1173
 CLAY,006,GRE,Green,1
@@ -1150,68 +1150,50 @@ DIXIE,EV1,IND,Independent,24
 DIXIE,EV1,LPF,Libertarian,1
 DIXIE,EV1,NPA,No Party Affiliation,188
 DIXIE,EV1,REP,Republican,1567
-DUVAL,001,CPF,Constitution,15
-DUVAL,001,CSV,Conservative,13
-DUVAL,001,DEM,Democratic,4092
-DUVAL,001,LPF,Libertarian,22
-DUVAL,001,NPA,No Party Affiliation,1309
 DUVAL,001,BPP,Boricua,7
 DUVAL,001,CPP,Coalition With A Purpose,5
 DUVAL,001,ECO,Ecology,2
 DUVAL,001,IND,Independent,182
 DUVAL,001,REP,Republican,3029
-DUVAL,001,FFP,Florida Forward,2
 DUVAL,001,AMF,America First,9
 DUVAL,001,ASP,American Solidarity,5
 DUVAL,001,GRE,Green,6
 DUVAL,001,PSL,Party for Socialism & Liberation,2
-DUVAL,002,AMF,America First,9
-DUVAL,002,ECO,Ecology,6
-DUVAL,002,FFP,Florida Forward,3
+DUVAL,001,FFP,Florida Forward,2
+DUVAL,001,CPF,Constitution,15
+DUVAL,001,CSV,Conservative,13
+DUVAL,001,DEM,Democratic,4092
+DUVAL,001,LPF,Libertarian,22
+DUVAL,001,NPA,No Party Affiliation,1309
 DUVAL,002,CSV,Conservative,21
-DUVAL,002,ASP,American Solidarity,1
-DUVAL,002,DEM,Democratic,4177
-DUVAL,002,GRE,Green,10
-DUVAL,002,LPF,Libertarian,42
 DUVAL,002,BPP,Boricua,1
 DUVAL,002,CPF,Constitution,4
 DUVAL,002,CPP,Coalition With A Purpose,6
 DUVAL,002,IND,Independent,259
 DUVAL,002,NPA,No Party Affiliation,2253
 DUVAL,002,REP,Republican,6766
-DUVAL,003,AMF,America First,6
-DUVAL,003,FFP,Florida Forward,2
-DUVAL,003,WPF,Working Families,1
-DUVAL,003,ASP,American Solidarity,2
-DUVAL,003,DEM,Democratic,5112
-DUVAL,003,ECO,Ecology,1
-DUVAL,003,GRE,Green,1
-DUVAL,003,IND,Independent,67
-DUVAL,003,LPF,Libertarian,5
-DUVAL,003,BPP,Boricua,1
-DUVAL,003,CPF,Constitution,7
-DUVAL,003,CPP,Coalition With A Purpose,3
-DUVAL,003,CSV,Conservative,9
-DUVAL,003,NPA,No Party Affiliation,411
-DUVAL,003,REP,Republican,289
-DUVAL,005,BPP,Boricua,4
-DUVAL,005,CPP,Coalition With A Purpose,12
-DUVAL,005,IND,Independent,162
-DUVAL,005,REP,Republican,1405
+DUVAL,002,ASP,American Solidarity,1
+DUVAL,002,DEM,Democratic,4177
+DUVAL,002,GRE,Green,10
+DUVAL,002,LPF,Libertarian,42
+DUVAL,002,AMF,America First,9
+DUVAL,002,ECO,Ecology,6
+DUVAL,002,FFP,Florida Forward,3
 DUVAL,005,ASP,American Solidarity,13
 DUVAL,005,DEM,Democratic,9607
 DUVAL,005,GRE,Green,6
 DUVAL,005,LPF,Libertarian,8
 DUVAL,005,PSL,Party for Socialism & Liberation,1
+DUVAL,005,ECO,Ecology,2
+DUVAL,005,FFP,Florida Forward,1
 DUVAL,005,AMF,America First,13
 DUVAL,005,CPF,Constitution,11
 DUVAL,005,CSV,Conservative,18
 DUVAL,005,NPA,No Party Affiliation,1144
-DUVAL,005,ECO,Ecology,2
-DUVAL,005,FFP,Florida Forward,1
-DUVAL,006,CSV,Conservative,11
-DUVAL,006,DEM,Democratic,4132
-DUVAL,006,LPF,Libertarian,32
+DUVAL,005,BPP,Boricua,4
+DUVAL,005,CPP,Coalition With A Purpose,12
+DUVAL,005,IND,Independent,162
+DUVAL,005,REP,Republican,1405
 DUVAL,006,AMF,America First,8
 DUVAL,006,BPP,Boricua,3
 DUVAL,006,CPF,Constitution,4
@@ -1220,56 +1202,41 @@ DUVAL,006,IND,Independent,216
 DUVAL,006,JEF,JEF,1
 DUVAL,006,NPA,No Party Affiliation,1812
 DUVAL,006,REP,Republican,5690
-DUVAL,006,PSL,Party for Socialism & Liberation,1
 DUVAL,006,ASP,American Solidarity,1
 DUVAL,006,GRE,Green,2
-DUVAL,008,AMF,America First,9
-DUVAL,008,ASP,American Solidarity,4
-DUVAL,008,GRE,Green,7
-DUVAL,008,PSL,Party for Socialism & Liberation,2
-DUVAL,008,WPF,Working Families,1
+DUVAL,006,PSL,Party for Socialism & Liberation,1
+DUVAL,006,CSV,Conservative,11
+DUVAL,006,DEM,Democratic,4132
+DUVAL,006,LPF,Libertarian,32
 DUVAL,008,FFP,Florida Forward,1
-DUVAL,008,CPP,Coalition With A Purpose,12
-DUVAL,008,DEM,Democratic,5179
-DUVAL,008,IND,Independent,287
-DUVAL,008,REP,Republican,7759
 DUVAL,008,BPP,Boricua,2
 DUVAL,008,CPF,Constitution,7
 DUVAL,008,CSV,Conservative,20
 DUVAL,008,LPF,Libertarian,38
 DUVAL,008,NPA,No Party Affiliation,3052
-DUVAL,009,ASP,American Solidarity,6
-DUVAL,009,GRE,Green,6
-DUVAL,009,PSL,Party for Socialism & Liberation,1
-DUVAL,009,AMF,America First,11
-DUVAL,009,CPP,Coalition With A Purpose,7
-DUVAL,009,ECO,Ecology,1
-DUVAL,009,IND,Independent,207
-DUVAL,009,NPA,No Party Affiliation,1644
-DUVAL,009,REP,Republican,3550
-DUVAL,009,CPF,Constitution,7
-DUVAL,009,CSV,Conservative,21
-DUVAL,009,DEM,Democratic,4836
-DUVAL,009,LPF,Libertarian,12
-DUVAL,010,AMF,America First,6
-DUVAL,010,ECO,Ecology,3
+DUVAL,008,CPP,Coalition With A Purpose,12
+DUVAL,008,DEM,Democratic,5179
+DUVAL,008,IND,Independent,287
+DUVAL,008,REP,Republican,7759
+DUVAL,008,AMF,America First,9
+DUVAL,008,ASP,American Solidarity,4
+DUVAL,008,GRE,Green,7
+DUVAL,008,PSL,Party for Socialism & Liberation,2
+DUVAL,008,WPF,Working Families,1
 DUVAL,010,BPP,Boricua,4
 DUVAL,010,CSV,Conservative,16
 DUVAL,010,NPA,No Party Affiliation,2047
+DUVAL,010,CPF,Constitution,13
+DUVAL,010,IND,Independent,212
+DUVAL,010,REP,Republican,3859
 DUVAL,010,ASP,American Solidarity,1
 DUVAL,010,CPP,Coalition With A Purpose,10
 DUVAL,010,DEM,Democratic,4308
 DUVAL,010,GRE,Green,5
 DUVAL,010,LPF,Libertarian,29
 DUVAL,010,PSL,Party for Socialism & Liberation,2
-DUVAL,010,CPF,Constitution,13
-DUVAL,010,IND,Independent,212
-DUVAL,010,REP,Republican,3859
-DUVAL,011,BPP,Boricua,2
-DUVAL,011,CSV,Conservative,9
-DUVAL,011,DEM,Democratic,2905
-DUVAL,011,NPA,No Party Affiliation,1603
-DUVAL,011,REP,Republican,6301
+DUVAL,010,AMF,America First,6
+DUVAL,010,ECO,Ecology,3
 DUVAL,011,AMF,America First,7
 DUVAL,011,CPF,Constitution,4
 DUVAL,011,CPP,Coalition With A Purpose,1
@@ -1278,198 +1245,231 @@ DUVAL,011,IND,Independent,180
 DUVAL,011,LPF,Libertarian,28
 DUVAL,011,GRE,Green,2
 DUVAL,011,PSL,Party for Socialism & Liberation,2
-DUVAL,012,ASP,American Solidarity,2
-DUVAL,012,CPF,Constitution,6
-DUVAL,012,CPP,Coalition With A Purpose,3
-DUVAL,012,PSL,Party for Socialism & Liberation,2
+DUVAL,011,BPP,Boricua,2
+DUVAL,011,CSV,Conservative,9
+DUVAL,011,DEM,Democratic,2905
+DUVAL,011,NPA,No Party Affiliation,1603
+DUVAL,011,REP,Republican,6301
 DUVAL,012,DEM,Democratic,3428
 DUVAL,012,FFP,Florida Forward,1
 DUVAL,012,GRE,Green,4
+DUVAL,012,AMF,America First,6
+DUVAL,012,CSV,Conservative,3
+DUVAL,012,LPF,Libertarian,14
 DUVAL,012,BPP,Boricua,2
 DUVAL,012,IND,Independent,108
 DUVAL,012,NPA,No Party Affiliation,941
 DUVAL,012,REP,Republican,2220
-DUVAL,012,AMF,America First,6
-DUVAL,012,CSV,Conservative,3
-DUVAL,012,LPF,Libertarian,14
-DUVAL,013,AMF,America First,18
-DUVAL,013,ECO,Ecology,1
-DUVAL,013,FFP,Florida Forward,1
-DUVAL,013,GRE,Green,8
+DUVAL,012,ASP,American Solidarity,2
+DUVAL,012,CPF,Constitution,6
+DUVAL,012,CPP,Coalition With A Purpose,3
+DUVAL,012,PSL,Party for Socialism & Liberation,2
 DUVAL,013,CSV,Conservative,16
 DUVAL,013,NPA,No Party Affiliation,1651
-DUVAL,013,ASP,American Solidarity,5
-DUVAL,013,CPP,Coalition With A Purpose,12
-DUVAL,013,LPF,Libertarian,25
-DUVAL,013,PSL,Party for Socialism & Liberation,4
 DUVAL,013,BPP,Boricua,8
 DUVAL,013,CPF,Constitution,13
 DUVAL,013,DEM,Democratic,7488
 DUVAL,013,IND,Independent,220
 DUVAL,013,REP,Republican,3285
-DUVAL,014,BPP,Boricua,2
-DUVAL,014,CSV,Conservative,18
-DUVAL,014,DEM,Democratic,4234
-DUVAL,014,LPF,Libertarian,15
-DUVAL,014,NPA,No Party Affiliation,1234
+DUVAL,013,ASP,American Solidarity,5
+DUVAL,013,CPP,Coalition With A Purpose,12
+DUVAL,013,LPF,Libertarian,25
+DUVAL,013,PSL,Party for Socialism & Liberation,4
+DUVAL,013,AMF,America First,18
+DUVAL,013,ECO,Ecology,1
+DUVAL,013,FFP,Florida Forward,1
+DUVAL,013,GRE,Green,8
 DUVAL,014,AMF,America First,9
 DUVAL,014,CPF,Constitution,8
 DUVAL,014,ECO,Ecology,1
 DUVAL,014,IND,Independent,185
 DUVAL,014,REP,Republican,5289
-DUVAL,014,GRE,Green,5
 DUVAL,014,ASP,American Solidarity,5
 DUVAL,014,CPP,Coalition With A Purpose,7
 DUVAL,014,FFP,Florida Forward,1
 DUVAL,014,PSL,Party for Socialism & Liberation,1
-DUVAL,015,ASP,American Solidarity,2
-DUVAL,015,CPP,Coalition With A Purpose,3
-DUVAL,015,IND,Independent,87
+DUVAL,014,GRE,Green,5
+DUVAL,014,BPP,Boricua,2
+DUVAL,014,CSV,Conservative,18
+DUVAL,014,DEM,Democratic,4234
+DUVAL,014,LPF,Libertarian,15
+DUVAL,014,NPA,No Party Affiliation,1234
 DUVAL,015,DEM,Democratic,3045
 DUVAL,015,GRE,Green,5
 DUVAL,015,PSL,Party for Socialism & Liberation,4
-DUVAL,015,CSV,Conservative,9
-DUVAL,015,NPA,No Party Affiliation,608
-DUVAL,015,REP,Republican,774
 DUVAL,015,AMF,America First,4
 DUVAL,015,ECO,Ecology,1
 DUVAL,015,LPF,Libertarian,8
-DUVAL,017,CSV,Conservative,8
-DUVAL,017,LPF,Libertarian,28
-DUVAL,017,NPA,No Party Affiliation,1146
+DUVAL,015,CSV,Conservative,9
+DUVAL,015,NPA,No Party Affiliation,608
+DUVAL,015,REP,Republican,774
+DUVAL,015,ASP,American Solidarity,2
+DUVAL,015,CPP,Coalition With A Purpose,3
+DUVAL,015,IND,Independent,87
 DUVAL,017,AMF,America First,4
 DUVAL,017,BPP,Boricua,1
 DUVAL,017,CPF,Constitution,1
 DUVAL,017,ECO,Ecology,1
 DUVAL,017,IND,Independent,115
 DUVAL,017,REP,Republican,2453
-DUVAL,017,DEM,Democratic,2884
-DUVAL,017,FFP,Florida Forward,2
-DUVAL,017,GRE,Green,6
 DUVAL,017,ASP,American Solidarity,1
 DUVAL,017,CPP,Coalition With A Purpose,3
 DUVAL,017,PSL,Party for Socialism & Liberation,6
-DUVAL,018,CPF,Constitution,8
-DUVAL,018,IND,Independent,184
-DUVAL,018,REP,Republican,4309
+DUVAL,017,DEM,Democratic,2884
+DUVAL,017,FFP,Florida Forward,2
+DUVAL,017,GRE,Green,6
+DUVAL,017,CSV,Conservative,8
+DUVAL,017,LPF,Libertarian,28
+DUVAL,017,NPA,No Party Affiliation,1146
 DUVAL,018,ASP,American Solidarity,3
 DUVAL,018,CPP,Coalition With A Purpose,3
 DUVAL,018,DEM,Democratic,3725
 DUVAL,018,LPF,Libertarian,19
 DUVAL,018,PSL,Party for Socialism & Liberation,1
+DUVAL,018,AMF,America First,8
+DUVAL,018,GRE,Green,2
 DUVAL,018,BPP,Boricua,4
 DUVAL,018,CSV,Conservative,17
 DUVAL,018,NPA,No Party Affiliation,1230
-DUVAL,018,AMF,America First,8
-DUVAL,018,GRE,Green,2
-DUVAL,019,ASP,American Solidarity,3
-DUVAL,019,GRE,Green,1
-DUVAL,019,PSL,Party for Socialism & Liberation,1
-DUVAL,019,AMF,America First,7
-DUVAL,019,CPF,Constitution,9
-DUVAL,019,CPP,Coalition With A Purpose,4
-DUVAL,019,ECO,Ecology,1
-DUVAL,019,IND,Independent,42
-DUVAL,019,REP,Republican,182
-DUVAL,019,BPP,Boricua,2
-DUVAL,019,CSV,Conservative,8
-DUVAL,019,DEM,Democratic,4824
-DUVAL,019,LPF,Libertarian,1
-DUVAL,019,NPA,No Party Affiliation,395
-DUVAL,020,CSV,Conservative,1
-DUVAL,020,LPF,Libertarian,1
-DUVAL,020,NPA,No Party Affiliation,153
+DUVAL,018,CPF,Constitution,8
+DUVAL,018,IND,Independent,184
+DUVAL,018,REP,Republican,4309
 DUVAL,020,DEM,Democratic,1516
+DUVAL,020,GRE,Green,2
 DUVAL,020,CPF,Constitution,3
 DUVAL,020,IND,Independent,26
 DUVAL,020,REP,Republican,67
-DUVAL,020,GRE,Green,2
-DUVAL,023,CSV,Conservative,10
-DUVAL,023,LPF,Libertarian,10
-DUVAL,023,NPA,No Party Affiliation,1442
+DUVAL,020,CSV,Conservative,1
+DUVAL,020,LPF,Libertarian,1
+DUVAL,020,NPA,No Party Affiliation,153
 DUVAL,023,DEM,Democratic,3153
 DUVAL,023,FFP,Florida Forward,1
-DUVAL,023,BPP,Boricua,8
-DUVAL,023,CPF,Constitution,6
-DUVAL,023,IND,Independent,161
-DUVAL,023,REP,Republican,2313
 DUVAL,023,AMF,America First,9
 DUVAL,023,ASP,American Solidarity,4
 DUVAL,023,CPP,Coalition With A Purpose,3
 DUVAL,023,GRE,Green,6
 DUVAL,023,PSL,Party for Socialism & Liberation,2
-DUVAL,025,ASP,American Solidarity,2
-DUVAL,025,CPF,Constitution,2
-DUVAL,025,CPP,Coalition With A Purpose,3
-DUVAL,025,IND,Independent,162
+DUVAL,023,BPP,Boricua,8
+DUVAL,023,CPF,Constitution,6
+DUVAL,023,IND,Independent,161
+DUVAL,023,REP,Republican,2313
+DUVAL,023,CSV,Conservative,10
+DUVAL,023,LPF,Libertarian,10
+DUVAL,023,NPA,No Party Affiliation,1442
 DUVAL,025,AMF,America First,2
 DUVAL,025,BPP,Boricua,2
 DUVAL,025,CSV,Conservative,7
 DUVAL,025,NPA,No Party Affiliation,1169
 DUVAL,025,REP,Republican,2592
-DUVAL,025,DEM,Democratic,2101
-DUVAL,025,FFP,Florida Forward,1
 DUVAL,025,ECO,Ecology,1
 DUVAL,025,LPF,Libertarian,17
-DUVAL,028,ASP,American Solidarity,2
-DUVAL,028,CPF,Constitution,4
-DUVAL,028,CPP,Coalition With A Purpose,3
-DUVAL,028,GRE,Green,1
+DUVAL,025,DEM,Democratic,2101
+DUVAL,025,FFP,Florida Forward,1
+DUVAL,025,ASP,American Solidarity,2
+DUVAL,025,CPF,Constitution,2
+DUVAL,025,CPP,Coalition With A Purpose,3
+DUVAL,025,IND,Independent,162
+DUVAL,027,ASP,American Solidarity,3
+DUVAL,027,CPP,Coalition With A Purpose,2
+DUVAL,027,GRE,Green,5
+DUVAL,027,LPF,Libertarian,21
+DUVAL,027,PSL,Party for Socialism & Liberation,1
+DUVAL,027,CPF,Constitution,3
+DUVAL,027,DEM,Democratic,1319
+DUVAL,027,IND,Independent,83
+DUVAL,027,REP,Republican,2220
+DUVAL,027,AMF,America First,3
+DUVAL,027,CSV,Conservative,1
+DUVAL,027,NPA,No Party Affiliation,683
 DUVAL,028,AMF,America First,1
 DUVAL,028,BPP,Boricua,5
 DUVAL,028,ECO,Ecology,1
 DUVAL,028,IND,Independent,61
 DUVAL,028,NPA,No Party Affiliation,598
 DUVAL,028,REP,Republican,1435
-DUVAL,028,DEM,Democratic,1414
 DUVAL,028,CSV,Conservative,7
 DUVAL,028,LPF,Libertarian,11
-DUVAL,030,CSV,Conservative,6
-DUVAL,030,DEM,Democratic,5604
-DUVAL,030,LPF,Libertarian,36
-DUVAL,030,NPA,No Party Affiliation,1550
+DUVAL,028,DEM,Democratic,1414
+DUVAL,028,ASP,American Solidarity,2
+DUVAL,028,CPF,Constitution,4
+DUVAL,028,CPP,Coalition With A Purpose,3
+DUVAL,028,GRE,Green,1
 DUVAL,030,FFP,Florida Forward,2
-DUVAL,030,BPP,Boricua,3
-DUVAL,030,CPF,Constitution,6
-DUVAL,030,ECO,Ecology,3
-DUVAL,030,IND,Independent,178
-DUVAL,030,REP,Republican,2802
 DUVAL,030,AMF,America First,5
 DUVAL,030,ASP,American Solidarity,4
 DUVAL,030,CPP,Coalition With A Purpose,6
 DUVAL,030,GRE,Green,10
 DUVAL,030,PSL,Party for Socialism & Liberation,4
-DUVAL,031,CPF,Constitution,2
-DUVAL,031,CPP,Coalition With A Purpose,3
-DUVAL,031,IND,Independent,18
-DUVAL,031,REP,Republican,97
+DUVAL,030,BPP,Boricua,3
+DUVAL,030,CPF,Constitution,6
+DUVAL,030,ECO,Ecology,3
+DUVAL,030,IND,Independent,178
+DUVAL,030,REP,Republican,2802
+DUVAL,030,CSV,Conservative,6
+DUVAL,030,DEM,Democratic,5604
+DUVAL,030,LPF,Libertarian,36
+DUVAL,030,NPA,No Party Affiliation,1550
 DUVAL,031,AMF,America First,5
 DUVAL,031,NPA,No Party Affiliation,168
 DUVAL,031,ASP,American Solidarity,1
 DUVAL,031,DEM,Democratic,1576
 DUVAL,031,PSL,Party for Socialism & Liberation,1
-DUVAL,032,CPF,Constitution,3
-DUVAL,032,CPP,Coalition With A Purpose,1
-DUVAL,032,GRE,Green,1
-DUVAL,032,IND,Independent,59
-DUVAL,032,REP,Republican,1702
+DUVAL,031,CPF,Constitution,2
+DUVAL,031,CPP,Coalition With A Purpose,3
+DUVAL,031,IND,Independent,18
+DUVAL,031,REP,Republican,97
 DUVAL,032,AMF,America First,2
 DUVAL,032,CSV,Conservative,4
 DUVAL,032,NPA,No Party Affiliation,469
 DUVAL,032,DEM,Democratic,788
 DUVAL,032,LPF,Libertarian,5
-DUVAL,027,ASP,American Solidarity,3
-DUVAL,027,CPP,Coalition With A Purpose,2
-DUVAL,027,GRE,Green,5
-DUVAL,027,LPF,Libertarian,21
-DUVAL,027,PSL,Party for Socialism & Liberation,1
-DUVAL,027,AMF,America First,3
-DUVAL,027,CSV,Conservative,1
-DUVAL,027,NPA,No Party Affiliation,683
-DUVAL,027,CPF,Constitution,3
-DUVAL,027,DEM,Democratic,1319
-DUVAL,027,IND,Independent,83
-DUVAL,027,REP,Republican,2220
+DUVAL,032,CPF,Constitution,3
+DUVAL,032,CPP,Coalition With A Purpose,1
+DUVAL,032,GRE,Green,1
+DUVAL,032,IND,Independent,59
+DUVAL,032,REP,Republican,1702
+DUVAL,003,BPP,Boricua,1
+DUVAL,003,CPF,Constitution,7
+DUVAL,003,CPP,Coalition With A Purpose,3
+DUVAL,003,CSV,Conservative,9
+DUVAL,003,NPA,No Party Affiliation,411
+DUVAL,003,REP,Republican,289
+DUVAL,003,ASP,American Solidarity,2
+DUVAL,003,DEM,Democratic,5112
+DUVAL,003,ECO,Ecology,1
+DUVAL,003,GRE,Green,1
+DUVAL,003,IND,Independent,67
+DUVAL,003,LPF,Libertarian,5
+DUVAL,003,AMF,America First,6
+DUVAL,003,FFP,Florida Forward,2
+DUVAL,003,WPF,Working Families,1
+DUVAL,009,CPF,Constitution,7
+DUVAL,009,CSV,Conservative,21
+DUVAL,009,DEM,Democratic,4836
+DUVAL,009,LPF,Libertarian,12
+DUVAL,009,AMF,America First,11
+DUVAL,009,CPP,Coalition With A Purpose,7
+DUVAL,009,ECO,Ecology,1
+DUVAL,009,IND,Independent,207
+DUVAL,009,NPA,No Party Affiliation,1644
+DUVAL,009,REP,Republican,3550
+DUVAL,009,ASP,American Solidarity,6
+DUVAL,009,GRE,Green,6
+DUVAL,009,PSL,Party for Socialism & Liberation,1
+DUVAL,019,BPP,Boricua,2
+DUVAL,019,CSV,Conservative,8
+DUVAL,019,DEM,Democratic,4824
+DUVAL,019,LPF,Libertarian,1
+DUVAL,019,NPA,No Party Affiliation,395
+DUVAL,019,AMF,America First,7
+DUVAL,019,CPF,Constitution,9
+DUVAL,019,CPP,Coalition With A Purpose,4
+DUVAL,019,ECO,Ecology,1
+DUVAL,019,IND,Independent,42
+DUVAL,019,REP,Republican,182
+DUVAL,019,ASP,American Solidarity,3
+DUVAL,019,GRE,Green,1
+DUVAL,019,PSL,Party for Socialism & Liberation,1
 ESCAMBIA,1,IND,Independent,53
 ESCAMBIA,1,CSV,Conservative,4
 ESCAMBIA,1,BPP,Boricua,1
@@ -1488,28 +1488,28 @@ ESCAMBIA,150,DEM,Democratic,112
 ESCAMBIA,150,CPP,Coalition With A Purpose,1
 ESCAMBIA,142,GRE,Green,2
 ESCAMBIA,142,DEM,Democratic,2624
-ESCAMBIA,142,LPF,Libertarian,17
-ESCAMBIA,142,PSL,Party for Socialism & Liberation,4
 ESCAMBIA,142,AMF,America First,2
 ESCAMBIA,142,NPA,No Party Affiliation,818
+ESCAMBIA,142,LPF,Libertarian,17
+ESCAMBIA,142,PSL,Party for Socialism & Liberation,4
 ESCAMBIA,142,CSV,Conservative,5
 ESCAMBIA,142,REP,Republican,1799
 ESCAMBIA,142,IND,Independent,93
 ESCAMBIA,144,REP,Republican,3983
-ESCAMBIA,144,IND,Independent,120
-ESCAMBIA,144,CPF,Constitution,2
 ESCAMBIA,144,ECO,Ecology,2
 ESCAMBIA,144,AMF,America First,12
 ESCAMBIA,144,NPA,No Party Affiliation,1100
 ESCAMBIA,144,CPP,Coalition With A Purpose,2
 ESCAMBIA,144,BPP,Boricua,1
-ESCAMBIA,144,CSV,Conservative,17
+ESCAMBIA,144,IND,Independent,120
+ESCAMBIA,144,CPF,Constitution,2
+ESCAMBIA,144,PSL,Party for Socialism & Liberation,3
 ESCAMBIA,144,ASP,American Solidarity,5
 ESCAMBIA,144,FFP,Florida Forward,1
+ESCAMBIA,144,CSV,Conservative,17
 ESCAMBIA,144,GRE,Green,4
 ESCAMBIA,144,DEM,Democratic,3132
 ESCAMBIA,144,LPF,Libertarian,19
-ESCAMBIA,144,PSL,Party for Socialism & Liberation,3
 ESCAMBIA,149,REP,Republican,847
 ESCAMBIA,149,CPP,Coalition With A Purpose,1
 ESCAMBIA,149,AMF,America First,4
@@ -1522,93 +1522,83 @@ ESCAMBIA,149,DEM,Democratic,1117
 ESCAMBIA,149,GRE,Green,3
 ESCAMBIA,145,ECO,Ecology,1
 ESCAMBIA,145,BPP,Boricua,1
-ESCAMBIA,145,PSL,Party for Socialism & Liberation,1
-ESCAMBIA,145,GRE,Green,1
 ESCAMBIA,145,REP,Republican,4162
 ESCAMBIA,145,DEM,Democratic,1198
 ESCAMBIA,145,ASP,American Solidarity,2
 ESCAMBIA,145,FFP,Florida Forward,1
 ESCAMBIA,145,AMF,America First,4
-ESCAMBIA,145,CPP,Coalition With A Purpose,1
+ESCAMBIA,145,PSL,Party for Socialism & Liberation,1
+ESCAMBIA,145,GRE,Green,1
 ESCAMBIA,145,CPF,Constitution,2
 ESCAMBIA,145,LPF,Libertarian,16
 ESCAMBIA,145,CSV,Conservative,6
 ESCAMBIA,145,NPA,No Party Affiliation,955
 ESCAMBIA,145,IND,Independent,123
+ESCAMBIA,145,CPP,Coalition With A Purpose,1
 ESCAMBIA,148,WPF,Working Families,1
-ESCAMBIA,148,LPF,Libertarian,3
-ESCAMBIA,148,DEM,Democratic,1084
 ESCAMBIA,148,ASP,American Solidarity,1
 ESCAMBIA,148,CSV,Conservative,1
 ESCAMBIA,148,REP,Republican,359
-ESCAMBIA,148,PSL,Party for Socialism & Liberation,1
+ESCAMBIA,148,LPF,Libertarian,3
+ESCAMBIA,148,DEM,Democratic,1084
+ESCAMBIA,148,GRE,Green,2
 ESCAMBIA,148,AMF,America First,3
 ESCAMBIA,148,NPA,No Party Affiliation,196
+ESCAMBIA,148,PSL,Party for Socialism & Liberation,1
 ESCAMBIA,148,IND,Independent,25
-ESCAMBIA,148,GRE,Green,2
+ESCAMBIA,143,AMF,America First,4
+ESCAMBIA,143,BPP,Boricua,3
+ESCAMBIA,143,NPA,No Party Affiliation,1026
 ESCAMBIA,143,CPF,Constitution,3
 ESCAMBIA,143,CSV,Conservative,10
 ESCAMBIA,143,IND,Independent,142
 ESCAMBIA,143,REP,Republican,4236
-ESCAMBIA,143,AMF,America First,4
-ESCAMBIA,143,BPP,Boricua,3
-ESCAMBIA,143,NPA,No Party Affiliation,1026
+ESCAMBIA,143,ASP,American Solidarity,1
+ESCAMBIA,143,PSL,Party for Socialism & Liberation,8
 ESCAMBIA,143,FFP,Florida Forward,1
 ESCAMBIA,143,GRE,Green,2
 ESCAMBIA,143,ECO,Ecology,1
 ESCAMBIA,143,LPF,Libertarian,16
 ESCAMBIA,143,DEM,Democratic,2967
-ESCAMBIA,143,ASP,American Solidarity,1
-ESCAMBIA,143,PSL,Party for Socialism & Liberation,8
-ESCAMBIA,147,LPF,Libertarian,8
-ESCAMBIA,147,DEM,Democratic,492
-ESCAMBIA,147,REP,Republican,1785
-ESCAMBIA,147,ASP,American Solidarity,2
-ESCAMBIA,147,NPA,No Party Affiliation,219
-ESCAMBIA,147,AMF,America First,3
-ESCAMBIA,147,IND,Independent,22
-ESCAMBIA,147,CPF,Constitution,4
-ESCAMBIA,147,CSV,Conservative,4
-ESCAMBIA,147,GRE,Green,1
-ESCAMBIA,146,GRE,Green,4
-ESCAMBIA,146,PSL,Party for Socialism & Liberation,1
 ESCAMBIA,146,REP,Republican,5218
 ESCAMBIA,146,ASP,American Solidarity,1
 ESCAMBIA,146,FFP,Florida Forward,1
 ESCAMBIA,146,AMF,America First,5
-ESCAMBIA,146,DEM,Democratic,2009
+ESCAMBIA,146,GRE,Green,4
+ESCAMBIA,146,PSL,Party for Socialism & Liberation,1
 ESCAMBIA,146,NPA,No Party Affiliation,875
 ESCAMBIA,146,CSV,Conservative,12
 ESCAMBIA,146,IND,Independent,117
 ESCAMBIA,146,BPP,Boricua,1
 ESCAMBIA,146,LPF,Libertarian,14
 ESCAMBIA,146,CPF,Constitution,4
-FLAGLER,LIB,GRE,Green,4
-FLAGLER,LIB,ASP,American Solidarity,5
-FLAGLER,LIB,CPF,Constitution,7
-FLAGLER,LIB,CSV,Conservative,29
-FLAGLER,LIB,DEM,Democratic,2884
-FLAGLER,LIB,LPF,Libertarian,10
-FLAGLER,LIB,FFP,Florida Forward,1
-FLAGLER,LIB,BPP,Boricua,3
-FLAGLER,LIB,NPA,No Party Affiliation,1741
-FLAGLER,LIB,REP,Republican,5628
-FLAGLER,LIB,AMF,America First,12
-FLAGLER,LIB,CPP,Coalition With A Purpose,8
-FLAGLER,LIB,ECO,Ecology,3
-FLAGLER,LIB,IND,Independent,202
-FLAGLER,PCCC,CSV,Conservative,23
-FLAGLER,PCCC,LPF,Libertarian,10
-FLAGLER,PCCC,NPA,No Party Affiliation,1247
+ESCAMBIA,146,DEM,Democratic,2009
+ESCAMBIA,147,REP,Republican,1785
+ESCAMBIA,147,LPF,Libertarian,8
+ESCAMBIA,147,DEM,Democratic,492
+ESCAMBIA,147,GRE,Green,1
+ESCAMBIA,147,NPA,No Party Affiliation,219
+ESCAMBIA,147,AMF,America First,3
+ESCAMBIA,147,ASP,American Solidarity,2
+ESCAMBIA,147,IND,Independent,22
+ESCAMBIA,147,CPF,Constitution,4
+ESCAMBIA,147,CSV,Conservative,4
+FLAGLER,PCCC,AMF,America First,10
+FLAGLER,PCCC,GRE,Green,3
 FLAGLER,PCCC,BPP,Boricua,3
 FLAGLER,PCCC,CPF,Constitution,2
 FLAGLER,PCCC,IND,Independent,146
 FLAGLER,PCCC,REP,Republican,5071
+FLAGLER,PCCC,CSV,Conservative,23
+FLAGLER,PCCC,LPF,Libertarian,10
+FLAGLER,PCCC,NPA,No Party Affiliation,1247
 FLAGLER,PCCC,ASP,American Solidarity,1
 FLAGLER,PCCC,CPP,Coalition With A Purpose,2
-FLAGLER,PCCC,AMF,America First,10
-FLAGLER,PCCC,GRE,Green,3
 FLAGLER,PCCC,DEM,Democratic,1395
+FLAGLER,SOE,CPF,Constitution,3
+FLAGLER,SOE,CSV,Conservative,19
+FLAGLER,SOE,IND,Independent,97
+FLAGLER,SOE,REP,Republican,3419
 FLAGLER,SOE,AMF,America First,4
 FLAGLER,SOE,GRE,Green,2
 FLAGLER,SOE,DEM,Democratic,1367
@@ -1617,33 +1607,43 @@ FLAGLER,SOE,ASP,American Solidarity,3
 FLAGLER,SOE,CPP,Coalition With A Purpose,1
 FLAGLER,SOE,ECO,Ecology,2
 FLAGLER,SOE,NPA,No Party Affiliation,859
-FLAGLER,SOE,CPF,Constitution,3
-FLAGLER,SOE,CSV,Conservative,19
-FLAGLER,SOE,IND,Independent,97
-FLAGLER,SOE,REP,Republican,3419
-FLAGLER,SRC,REP,Republican,1948
-FLAGLER,SRC,GRE,Green,1
-FLAGLER,SRC,IND,Independent,94
+FLAGLER,WSC,CSV,Conservative,7
+FLAGLER,WSC,LPF,Libertarian,5
+FLAGLER,WSC,DEM,Democratic,487
+FLAGLER,WSC,NPA,No Party Affiliation,412
+FLAGLER,WSC,ASP,American Solidarity,1
+FLAGLER,WSC,CPP,Coalition With A Purpose,1
+FLAGLER,WSC,AMF,America First,3
+FLAGLER,WSC,REP,Republican,1639
+FLAGLER,WSC,IND,Independent,67
 FLAGLER,SRC,CPF,Constitution,4
 FLAGLER,SRC,CSV,Conservative,19
+FLAGLER,SRC,REP,Republican,1948
 FLAGLER,SRC,DEM,Democratic,917
 FLAGLER,SRC,AMF,America First,5
 FLAGLER,SRC,BPP,Boricua,1
 FLAGLER,SRC,CPP,Coalition With A Purpose,3
 FLAGLER,SRC,NPA,No Party Affiliation,745
+FLAGLER,SRC,GRE,Green,1
+FLAGLER,SRC,IND,Independent,94
 FLAGLER,SRC,ASP,American Solidarity,2
 FLAGLER,SRC,FFP,Florida Forward,1
 FLAGLER,SRC,LPF,Libertarian,7
 FLAGLER,SRC,PSL,Party for Socialism & Liberation,2
-FLAGLER,WSC,ASP,American Solidarity,1
-FLAGLER,WSC,CPP,Coalition With A Purpose,1
-FLAGLER,WSC,DEM,Democratic,487
-FLAGLER,WSC,NPA,No Party Affiliation,412
-FLAGLER,WSC,AMF,America First,3
-FLAGLER,WSC,REP,Republican,1639
-FLAGLER,WSC,CSV,Conservative,7
-FLAGLER,WSC,LPF,Libertarian,5
-FLAGLER,WSC,IND,Independent,67
+FLAGLER,LIB,GRE,Green,4
+FLAGLER,LIB,CPF,Constitution,7
+FLAGLER,LIB,CSV,Conservative,29
+FLAGLER,LIB,DEM,Democratic,2884
+FLAGLER,LIB,LPF,Libertarian,10
+FLAGLER,LIB,FFP,Florida Forward,1
+FLAGLER,LIB,ASP,American Solidarity,5
+FLAGLER,LIB,BPP,Boricua,3
+FLAGLER,LIB,NPA,No Party Affiliation,1741
+FLAGLER,LIB,REP,Republican,5628
+FLAGLER,LIB,AMF,America First,12
+FLAGLER,LIB,CPP,Coalition With A Purpose,8
+FLAGLER,LIB,ECO,Ecology,3
+FLAGLER,LIB,IND,Independent,202
 FRANKLIN,EVAP,AMF,America First,1
 FRANKLIN,EVAP,CPF,Constitution,1
 FRANKLIN,EVAP,CPP,Coalition With A Purpose,1
@@ -2240,26 +2240,26 @@ HOLMES,1,NPA,No Party Affiliation,97
 HOLMES,1,REP,Republican,1547
 INDIAN RIVER,1,FFP,Florida Forward,1
 INDIAN RIVER,1,GRE,Green,4
-INDIAN RIVER,1,ASP,American Solidarity,1
 INDIAN RIVER,1,CSV,Conservative,16
-INDIAN RIVER,1,DEM,Democratic,1910
-INDIAN RIVER,1,LPF,Libertarian,6
-INDIAN RIVER,1,ECO,Ecology,3
 INDIAN RIVER,1,REP,Republican,4851
 INDIAN RIVER,1,AMF,America First,6
 INDIAN RIVER,1,CPF,Constitution,5
+INDIAN RIVER,1,CPP,Coalition With A Purpose,5
+INDIAN RIVER,1,DEM,Democratic,1910
+INDIAN RIVER,1,LPF,Libertarian,6
+INDIAN RIVER,1,ECO,Ecology,3
 INDIAN RIVER,1,IND,Independent,206
 INDIAN RIVER,1,BPP,Boricua,1
 INDIAN RIVER,1,NPA,No Party Affiliation,1179
 INDIAN RIVER,1,OTH,OTH,2
-INDIAN RIVER,1,CPP,Coalition With A Purpose,5
+INDIAN RIVER,1,ASP,American Solidarity,1
 INDIAN RIVER,2,AMF,America First,12
 INDIAN RIVER,2,DEM,Democratic,1783
 INDIAN RIVER,2,ECO,Ecology,1
-INDIAN RIVER,2,BPP,Boricua,4
 INDIAN RIVER,2,GRE,Green,3
-INDIAN RIVER,2,FFP,Florida Forward,2
 INDIAN RIVER,2,LPF,Libertarian,14
+INDIAN RIVER,2,BPP,Boricua,4
+INDIAN RIVER,2,FFP,Florida Forward,2
 INDIAN RIVER,2,CPP,Coalition With A Purpose,4
 INDIAN RIVER,2,CSV,Conservative,11
 INDIAN RIVER,2,IND,Independent,251
@@ -2267,32 +2267,32 @@ INDIAN RIVER,2,CPF,Constitution,7
 INDIAN RIVER,2,NPA,No Party Affiliation,1517
 INDIAN RIVER,2,REP,Republican,5336
 INDIAN RIVER,3,CPP,Coalition With A Purpose,5
-INDIAN RIVER,3,BPP,Boricua,1
-INDIAN RIVER,3,ASP,American Solidarity,2
+INDIAN RIVER,3,CSV,Conservative,18
+INDIAN RIVER,3,CPF,Constitution,3
 INDIAN RIVER,3,JEF,JEF,1
 INDIAN RIVER,3,OTH,OTH,1
-INDIAN RIVER,3,CSV,Conservative,18
+INDIAN RIVER,3,DEM,Democratic,2135
+INDIAN RIVER,3,GRE,Green,4
 INDIAN RIVER,3,IND,Independent,249
 INDIAN RIVER,3,REP,Republican,5609
 INDIAN RIVER,3,NPA,No Party Affiliation,1605
 INDIAN RIVER,3,LPF,Libertarian,17
-INDIAN RIVER,3,DEM,Democratic,2135
-INDIAN RIVER,3,CPF,Constitution,3
 INDIAN RIVER,3,ECO,Ecology,2
 INDIAN RIVER,3,AMF,America First,5
+INDIAN RIVER,3,BPP,Boricua,1
+INDIAN RIVER,3,ASP,American Solidarity,2
 INDIAN RIVER,3,FFP,Florida Forward,1
-INDIAN RIVER,3,GRE,Green,4
-INDIAN RIVER,4,GRE,Green,2
-INDIAN RIVER,4,AMF,America First,4
 INDIAN RIVER,4,DEM,Democratic,1251
-INDIAN RIVER,4,REP,Republican,3137
 INDIAN RIVER,4,CPP,Coalition With A Purpose,1
+INDIAN RIVER,4,REP,Republican,3137
+INDIAN RIVER,4,MGT,MGT,1
 INDIAN RIVER,4,LPF,Libertarian,6
 INDIAN RIVER,4,CSV,Conservative,14
 INDIAN RIVER,4,IND,Independent,144
 INDIAN RIVER,4,CPF,Constitution,5
+INDIAN RIVER,4,GRE,Green,2
+INDIAN RIVER,4,AMF,America First,4
 INDIAN RIVER,4,NPA,No Party Affiliation,874
-INDIAN RIVER,4,MGT,MGT,1
 JACKSON,1,AMF,America First,2
 JACKSON,1,CPF,Constitution,6
 JACKSON,1,CPP,Coalition With A Purpose,1
@@ -2477,158 +2477,8 @@ LAKE,07,DEM,Democratic,389
 LAKE,07,BPP,Boricua,1
 LAKE,07,REP,Republican,1798
 LAKE,07,NPA,No Party Affiliation,305
-LEE,811,REP,Republican,7147
-LEE,811,NPA,No Party Affiliation,2550
-LEE,811,CPF,Constitution,4
-LEE,811,PSL,Party for Socialism & Liberation,1
-LEE,811,LPF,Libertarian,14
-LEE,811,CPP,Coalition With A Purpose,1
-LEE,811,IND,Independent,272
-LEE,811,FFP,Florida Forward,1
-LEE,811,CSV,Conservative,11
-LEE,811,ECO,Ecology,2
-LEE,811,AMF,America First,12
-LEE,811,GRE,Green,6
-LEE,811,DEM,Democratic,2051
-LEE,802,REP,Republican,6208
-LEE,802,BPP,Boricua,5
-LEE,802,ASP,American Solidarity,3
-LEE,802,LPF,Libertarian,16
-LEE,802,PSL,Party for Socialism & Liberation,2
-LEE,802,IND,Independent,178
-LEE,802,NPA,No Party Affiliation,1944
-LEE,802,AMF,America First,9
-LEE,802,CSV,Conservative,22
-LEE,802,CPF,Constitution,7
-LEE,802,GRE,Green,4
-LEE,802,DEM,Democratic,2086
-LEE,812,REP,Republican,5515
-LEE,812,PSL,Party for Socialism & Liberation,1
-LEE,812,LPF,Libertarian,17
-LEE,812,ASP,American Solidarity,3
-LEE,812,IND,Independent,161
-LEE,812,CPP,Coalition With A Purpose,3
-LEE,812,AMF,America First,5
-LEE,812,NPA,No Party Affiliation,1572
-LEE,812,CSV,Conservative,17
-LEE,812,CPF,Constitution,4
-LEE,812,DEM,Democratic,1695
-LEE,812,GRE,Green,7
-LEE,825,LPF,Libertarian,1
-LEE,825,BPP,Boricua,2
-LEE,825,DEM,Democratic,1352
-LEE,825,CSV,Conservative,4
-LEE,825,NPA,No Party Affiliation,399
-LEE,825,REP,Republican,581
-LEE,825,ECO,Ecology,1
-LEE,825,WPF,Working Families,1
-LEE,825,GRE,Green,3
-LEE,825,AMF,America First,9
-LEE,825,ASP,American Solidarity,1
-LEE,825,CPF,Constitution,2
-LEE,825,IND,Independent,42
-LEE,805,REP,Republican,4268
-LEE,805,LPF,Libertarian,20
-LEE,805,FFP,Florida Forward,1
-LEE,805,PSL,Party for Socialism & Liberation,1
-LEE,805,ASP,American Solidarity,4
-LEE,805,CPP,Coalition With A Purpose,6
-LEE,805,IND,Independent,201
-LEE,805,AMF,America First,18
-LEE,805,BPP,Boricua,7
-LEE,805,NPA,No Party Affiliation,1980
-LEE,805,CSV,Conservative,27
-LEE,805,CPF,Constitution,3
-LEE,805,DEM,Democratic,3384
-LEE,805,ECO,Ecology,2
-LEE,805,WPF,Working Families,2
-LEE,805,GRE,Green,9
-LEE,807,AMF,America First,9
-LEE,807,CSV,Conservative,33
-LEE,807,FFP,Florida Forward,1
-LEE,807,PSL,Party for Socialism & Liberation,1
-LEE,807,ASP,American Solidarity,1
-LEE,807,NPA,No Party Affiliation,2557
-LEE,807,CPP,Coalition With A Purpose,3
-LEE,807,REP,Republican,7683
-LEE,807,IND,Independent,251
-LEE,807,GRE,Green,4
-LEE,807,DEM,Democratic,2175
-LEE,807,LPF,Libertarian,18
-LEE,807,CPF,Constitution,1
-LEE,822,IND,Independent,220
-LEE,822,CPF,Constitution,3
-LEE,822,BPP,Boricua,2
-LEE,822,DEM,Democratic,1936
-LEE,822,REP,Republican,4998
-LEE,822,NPA,No Party Affiliation,1915
-LEE,822,CSV,Conservative,9
-LEE,822,GRE,Green,5
-LEE,822,AMF,America First,4
-LEE,822,ECO,Ecology,1
-LEE,822,PSL,Party for Socialism & Liberation,1
-LEE,822,LPF,Libertarian,10
-LEE,822,CPP,Coalition With A Purpose,1
-LEE,822,ASP,American Solidarity,1
-LEE,817,REP,Republican,1817
-LEE,817,PSL,Party for Socialism & Liberation,4
-LEE,817,LPF,Libertarian,10
-LEE,817,ASP,American Solidarity,2
-LEE,817,FFP,Florida Forward,2
-LEE,817,GRE,Green,2
-LEE,817,IND,Independent,114
-LEE,817,CPP,Coalition With A Purpose,3
-LEE,817,NPA,No Party Affiliation,992
-LEE,817,AMF,America First,8
-LEE,817,BPP,Boricua,3
-LEE,817,CPF,Constitution,3
-LEE,817,CSV,Conservative,11
-LEE,817,ECO,Ecology,3
-LEE,817,DEM,Democratic,1577
-LEE,804,AMF,America First,7
-LEE,804,ASP,American Solidarity,2
-LEE,804,FFP,Florida Forward,1
-LEE,804,PSL,Party for Socialism & Liberation,2
-LEE,804,CPP,Coalition With A Purpose,1
-LEE,804,NPA,No Party Affiliation,2450
-LEE,804,REP,Republican,7618
-LEE,804,BPP,Boricua,7
-LEE,804,ECO,Ecology,3
-LEE,804,GRE,Green,3
-LEE,804,IND,Independent,264
-LEE,804,DEM,Democratic,3115
-LEE,804,LPF,Libertarian,22
-LEE,804,CSV,Conservative,10
-LEE,804,CPF,Constitution,4
-LEE,810,DEM,Democratic,2075
-LEE,810,CPP,Coalition With A Purpose,5
-LEE,810,LPF,Libertarian,3
-LEE,810,ECO,Ecology,2
-LEE,810,WPF,Working Families,1
-LEE,810,FFP,Florida Forward,1
-LEE,810,ASP,American Solidarity,2
-LEE,810,IND,Independent,116
-LEE,810,GRE,Green,3
-LEE,810,BPP,Boricua,7
-LEE,810,CPF,Constitution,11
-LEE,810,NPA,No Party Affiliation,1241
-LEE,810,REP,Republican,2318
-LEE,810,CSV,Conservative,13
-LEE,810,AMF,America First,9
-LEE,803,DEM,Democratic,2056
-LEE,803,CPP,Coalition With A Purpose,6
-LEE,803,LPF,Libertarian,17
-LEE,803,CSV,Conservative,29
-LEE,803,FFP,Florida Forward,1
-LEE,803,PSL,Party for Socialism & Liberation,1
-LEE,803,ASP,American Solidarity,3
-LEE,803,IND,Independent,290
-LEE,803,GRE,Green,4
-LEE,803,CPF,Constitution,6
-LEE,803,NPA,No Party Affiliation,2479
-LEE,803,REP,Republican,7042
-LEE,803,AMF,America First,7
-LEE,803,ECO,Ecology,3
+LEE,809,WPF,Working Families,1
+LEE,809,GRE,Green,1
 LEE,809,CPP,Coalition With A Purpose,1
 LEE,809,DEM,Democratic,1329
 LEE,809,IND,Independent,175
@@ -2639,64 +2489,219 @@ LEE,809,CPF,Constitution,5
 LEE,809,LPF,Libertarian,15
 LEE,809,ASP,American Solidarity,1
 LEE,809,AMF,America First,6
-LEE,809,WPF,Working Families,1
-LEE,809,GRE,Green,1
 LEE,809,REP,Republican,4185
 LEE,809,ECO,Ecology,1
+LEE,810,IND,Independent,116
+LEE,810,GRE,Green,3
+LEE,810,WPF,Working Families,1
+LEE,810,FFP,Florida Forward,1
+LEE,810,CPP,Coalition With A Purpose,5
+LEE,810,LPF,Libertarian,3
+LEE,810,ECO,Ecology,2
+LEE,810,ASP,American Solidarity,2
+LEE,810,DEM,Democratic,2075
+LEE,810,BPP,Boricua,7
+LEE,810,CPF,Constitution,11
+LEE,810,NPA,No Party Affiliation,1241
+LEE,810,REP,Republican,2318
+LEE,810,CSV,Conservative,13
+LEE,810,AMF,America First,9
+LEE,805,DEM,Democratic,3384
+LEE,805,ECO,Ecology,2
+LEE,805,AMF,America First,18
+LEE,805,BPP,Boricua,7
+LEE,805,NPA,No Party Affiliation,1980
+LEE,805,LPF,Libertarian,20
+LEE,805,FFP,Florida Forward,1
+LEE,805,PSL,Party for Socialism & Liberation,1
+LEE,805,ASP,American Solidarity,4
+LEE,805,CPP,Coalition With A Purpose,6
+LEE,805,IND,Independent,201
+LEE,805,CSV,Conservative,27
+LEE,805,CPF,Constitution,3
+LEE,805,REP,Republican,4268
+LEE,805,WPF,Working Families,2
+LEE,805,GRE,Green,9
+LEE,811,ECO,Ecology,2
+LEE,811,AMF,America First,12
+LEE,811,PSL,Party for Socialism & Liberation,1
+LEE,811,LPF,Libertarian,14
+LEE,811,CPP,Coalition With A Purpose,1
+LEE,811,IND,Independent,272
+LEE,811,CSV,Conservative,11
+LEE,811,FFP,Florida Forward,1
+LEE,811,REP,Republican,7147
+LEE,811,NPA,No Party Affiliation,2550
+LEE,811,CPF,Constitution,4
+LEE,811,GRE,Green,6
+LEE,811,DEM,Democratic,2051
+LEE,812,DEM,Democratic,1695
+LEE,812,AMF,America First,5
+LEE,812,NPA,No Party Affiliation,1572
+LEE,812,PSL,Party for Socialism & Liberation,1
+LEE,812,LPF,Libertarian,17
+LEE,812,ASP,American Solidarity,3
+LEE,812,IND,Independent,161
+LEE,812,CPP,Coalition With A Purpose,3
+LEE,812,CSV,Conservative,17
+LEE,812,CPF,Constitution,4
+LEE,812,REP,Republican,5515
+LEE,812,GRE,Green,7
+LEE,803,IND,Independent,290
+LEE,803,GRE,Green,4
+LEE,803,FFP,Florida Forward,1
+LEE,803,PSL,Party for Socialism & Liberation,1
+LEE,803,CPP,Coalition With A Purpose,6
+LEE,803,LPF,Libertarian,17
+LEE,803,CSV,Conservative,29
+LEE,803,ASP,American Solidarity,3
+LEE,803,DEM,Democratic,2056
+LEE,803,CPF,Constitution,6
+LEE,803,NPA,No Party Affiliation,2479
+LEE,803,REP,Republican,7042
+LEE,803,AMF,America First,7
+LEE,803,ECO,Ecology,3
+LEE,825,AMF,America First,9
+LEE,825,ASP,American Solidarity,1
+LEE,825,WPF,Working Families,1
+LEE,825,GRE,Green,3
+LEE,825,REP,Republican,581
+LEE,825,ECO,Ecology,1
+LEE,825,LPF,Libertarian,1
+LEE,825,BPP,Boricua,2
+LEE,825,DEM,Democratic,1352
+LEE,825,CSV,Conservative,4
+LEE,825,NPA,No Party Affiliation,399
+LEE,825,CPF,Constitution,2
+LEE,825,IND,Independent,42
+LEE,817,ECO,Ecology,3
+LEE,817,DEM,Democratic,1577
+LEE,817,CPP,Coalition With A Purpose,3
+LEE,817,NPA,No Party Affiliation,992
+LEE,817,AMF,America First,8
+LEE,817,BPP,Boricua,3
+LEE,817,PSL,Party for Socialism & Liberation,4
+LEE,817,LPF,Libertarian,10
+LEE,817,ASP,American Solidarity,2
+LEE,817,FFP,Florida Forward,2
+LEE,817,GRE,Green,2
+LEE,817,IND,Independent,114
+LEE,817,CPF,Constitution,3
+LEE,817,CSV,Conservative,11
+LEE,817,REP,Republican,1817
+LEE,807,CPF,Constitution,1
+LEE,807,ASP,American Solidarity,1
+LEE,807,CSV,Conservative,33
+LEE,807,FFP,Florida Forward,1
+LEE,807,PSL,Party for Socialism & Liberation,1
+LEE,807,GRE,Green,4
+LEE,807,DEM,Democratic,2175
+LEE,807,LPF,Libertarian,18
+LEE,807,NPA,No Party Affiliation,2557
+LEE,807,CPP,Coalition With A Purpose,3
+LEE,807,REP,Republican,7683
+LEE,807,IND,Independent,251
+LEE,807,AMF,America First,9
+LEE,804,CSV,Conservative,10
+LEE,804,CPF,Constitution,4
+LEE,804,ASP,American Solidarity,2
+LEE,804,FFP,Florida Forward,1
+LEE,804,PSL,Party for Socialism & Liberation,2
+LEE,804,ECO,Ecology,3
+LEE,804,GRE,Green,3
+LEE,804,IND,Independent,264
+LEE,804,DEM,Democratic,3115
+LEE,804,LPF,Libertarian,22
+LEE,804,CPP,Coalition With A Purpose,1
+LEE,804,NPA,No Party Affiliation,2450
+LEE,804,REP,Republican,7618
+LEE,804,BPP,Boricua,7
+LEE,804,AMF,America First,7
+LEE,802,NPA,No Party Affiliation,1944
+LEE,802,AMF,America First,9
+LEE,802,ASP,American Solidarity,3
+LEE,802,LPF,Libertarian,16
+LEE,802,PSL,Party for Socialism & Liberation,2
+LEE,802,IND,Independent,178
+LEE,802,CSV,Conservative,22
+LEE,802,CPF,Constitution,7
+LEE,802,REP,Republican,6208
+LEE,802,BPP,Boricua,5
+LEE,802,GRE,Green,4
+LEE,802,DEM,Democratic,2086
+LEE,822,CSV,Conservative,9
+LEE,822,CPF,Constitution,3
+LEE,822,BPP,Boricua,2
+LEE,822,DEM,Democratic,1936
+LEE,822,REP,Republican,4998
+LEE,822,NPA,No Party Affiliation,1915
+LEE,822,GRE,Green,5
+LEE,822,AMF,America First,4
+LEE,822,ECO,Ecology,1
+LEE,822,IND,Independent,220
+LEE,822,PSL,Party for Socialism & Liberation,1
+LEE,822,LPF,Libertarian,10
+LEE,822,CPP,Coalition With A Purpose,1
+LEE,822,ASP,American Solidarity,1
 LEON,BPERRY,CSV,Conservative,2
 LEON,BPERRY,IND,Independent,29
 LEON,BPERRY,NPA,No Party Affiliation,368
+LEON,BPERRY,DEM,Democratic,2544
+LEON,BPERRY,REP,Republican,152
 LEON,BPERRY,AMF,America First,1
 LEON,BPERRY,ASP,American Solidarity,2
 LEON,BPERRY,CPF,Constitution,3
 LEON,BPERRY,CPP,Coalition With A Purpose,4
 LEON,BPERRY,GRE,Green,2
-LEON,BPERRY,DEM,Democratic,2544
-LEON,BPERRY,REP,Republican,152
 LEON,CHSE,NPA,No Party Affiliation,442
 LEON,CHSE,WPF,Working Families,1
-LEON,CHSE,DEM,Democratic,1359
-LEON,CHSE,GRE,Green,2
-LEON,CHSE,LPF,Libertarian,13
-LEON,CHSE,REP,Republican,733
 LEON,CHSE,CPF,Constitution,1
 LEON,CHSE,CPP,Coalition With A Purpose,1
 LEON,CHSE,CSV,Conservative,1
 LEON,CHSE,FFP,Florida Forward,1
 LEON,CHSE,IND,Independent,31
+LEON,CHSE,DEM,Democratic,1359
+LEON,CHSE,GRE,Green,2
+LEON,CHSE,LPF,Libertarian,13
+LEON,CHSE,REP,Republican,733
 LEON,EAST,AMF,America First,1
 LEON,EAST,FFP,Florida Forward,1
 LEON,EAST,GRE,Green,2
-LEON,EAST,BPP,Boricua,1
-LEON,EAST,CPP,Coalition With A Purpose,1
-LEON,EAST,CSV,Conservative,6
-LEON,EAST,PSL,Party for Socialism & Liberation,3
-LEON,EAST,REP,Republican,2592
 LEON,EAST,ASP,American Solidarity,2
 LEON,EAST,DEM,Democratic,2945
 LEON,EAST,IND,Independent,107
 LEON,EAST,LPF,Libertarian,16
 LEON,EAST,NPA,No Party Affiliation,926
+LEON,EAST,BPP,Boricua,1
+LEON,EAST,CPP,Coalition With A Purpose,1
+LEON,EAST,CSV,Conservative,6
+LEON,EAST,PSL,Party for Socialism & Liberation,3
+LEON,EAST,REP,Republican,2592
 LEON,FAMU,AMF,America First,2
 LEON,FAMU,ASP,American Solidarity,2
 LEON,FAMU,LPF,Libertarian,1
 LEON,FAMU,NPA,No Party Affiliation,604
 LEON,FAMU,REP,Republican,31
+LEON,FAMU,DEM,Democratic,1842
+LEON,FAMU,IND,Independent,49
 LEON,FAMU,CPP,Coalition With A Purpose,3
 LEON,FAMU,CSV,Conservative,4
 LEON,FAMU,ECO,Ecology,1
 LEON,FAMU,GRE,Green,1
 LEON,FAMU,PSL,Party for Socialism & Liberation,1
-LEON,FAMU,DEM,Democratic,1842
-LEON,FAMU,IND,Independent,49
 LEON,FORTBC,NPA,No Party Affiliation,132
 LEON,FORTBC,REP,Republican,569
+LEON,FORTBC,DEM,Democratic,289
+LEON,FORTBC,LPF,Libertarian,1
 LEON,FORTBC,AMF,America First,1
 LEON,FORTBC,CSV,Conservative,2
 LEON,FORTBC,IND,Independent,12
-LEON,FORTBC,DEM,Democratic,289
-LEON,FORTBC,LPF,Libertarian,1
 LEON,FSU,DEM,Democratic,3434
+LEON,FSU,BPP,Boricua,2
+LEON,FSU,CPF,Constitution,3
+LEON,FSU,NPA,No Party Affiliation,1395
+LEON,FSU,PSL,Party for Socialism & Liberation,5
+LEON,FSU,REP,Republican,530
 LEON,FSU,AMF,America First,3
 LEON,FSU,CPP,Coalition With A Purpose,1
 LEON,FSU,CSV,Conservative,2
@@ -2704,62 +2709,57 @@ LEON,FSU,ECO,Ecology,5
 LEON,FSU,GRE,Green,6
 LEON,FSU,IND,Independent,145
 LEON,FSU,LPF,Libertarian,4
-LEON,FSU,BPP,Boricua,2
-LEON,FSU,CPF,Constitution,3
-LEON,FSU,NPA,No Party Affiliation,1395
-LEON,FSU,PSL,Party for Socialism & Liberation,5
-LEON,FSU,REP,Republican,530
 LEON,IVSEC,ASP,American Solidarity,2
 LEON,IVSEC,GRE,Green,1
 LEON,IVSEC,IND,Independent,173
 LEON,IVSEC,LPF,Libertarian,13
 LEON,IVSEC,PSL,Party for Socialism & Liberation,1
 LEON,IVSEC,WPF,Working Families,1
+LEON,IVSEC,CPP,Coalition With A Purpose,8
+LEON,IVSEC,CSV,Conservative,9
+LEON,IVSEC,NPA,No Party Affiliation,1615
 LEON,IVSEC,AMF,America First,12
 LEON,IVSEC,BPP,Boricua,5
 LEON,IVSEC,CPF,Constitution,10
 LEON,IVSEC,DEM,Democratic,6475
 LEON,IVSEC,REP,Republican,2007
-LEON,IVSEC,CPP,Coalition With A Purpose,8
-LEON,IVSEC,CSV,Conservative,9
-LEON,IVSEC,NPA,No Party Affiliation,1615
 LEON,LAKEJ,AMF,America First,9
 LEON,LAKEJ,DEM,Democratic,3900
 LEON,LAKEJ,NPA,No Party Affiliation,891
 LEON,LAKEJ,REP,Republican,1467
-LEON,LAKEJ,ASP,American Solidarity,1
-LEON,LAKEJ,CPF,Constitution,3
-LEON,LAKEJ,GRE,Green,2
-LEON,LAKEJ,LPF,Libertarian,12
-LEON,LAKEJ,WPF,Working Families,1
 LEON,LAKEJ,CPP,Coalition With A Purpose,3
 LEON,LAKEJ,CSV,Conservative,2
 LEON,LAKEJ,ECO,Ecology,1
 LEON,LAKEJ,FFP,Florida Forward,3
 LEON,LAKEJ,IND,Independent,109
+LEON,LAKEJ,ASP,American Solidarity,1
+LEON,LAKEJ,CPF,Constitution,3
+LEON,LAKEJ,GRE,Green,2
+LEON,LAKEJ,LPF,Libertarian,12
+LEON,LAKEJ,WPF,Working Families,1
 LEON,NE,AMF,America First,1
 LEON,NE,BPP,Boricua,1
 LEON,NE,DEM,Democratic,4768
 LEON,NE,FFP,Florida Forward,2
 LEON,NE,IND,Independent,232
-LEON,NE,ASP,American Solidarity,1
-LEON,NE,PSL,Party for Socialism & Liberation,3
-LEON,NE,REP,Republican,5553
 LEON,NE,CPF,Constitution,5
 LEON,NE,CPP,Coalition With A Purpose,2
 LEON,NE,CSV,Conservative,9
 LEON,NE,GRE,Green,4
 LEON,NE,LPF,Libertarian,23
 LEON,NE,NPA,No Party Affiliation,1839
+LEON,NE,ASP,American Solidarity,1
+LEON,NE,PSL,Party for Socialism & Liberation,3
+LEON,NE,REP,Republican,5553
 LEON,WDVL,DEM,Democratic,825
 LEON,WDVL,REP,Republican,577
-LEON,WDVL,CSV,Conservative,2
-LEON,WDVL,GRE,Green,2
 LEON,WDVL,CPP,Coalition With A Purpose,1
 LEON,WDVL,IND,Independent,16
 LEON,WDVL,NPA,No Party Affiliation,164
-LEON,SOE,DEM,Democratic,2
+LEON,WDVL,CSV,Conservative,2
+LEON,WDVL,GRE,Green,2
 LEON,SOE,NPA,No Party Affiliation,7
+LEON,SOE,DEM,Democratic,2
 LEVY,1,AMF,America First,4
 LEVY,1,ASP,American Solidarity,5
 LEVY,1,BPP,Boricua,1
@@ -2911,69 +2911,63 @@ MANATEE,EVSOE,PSL,Party for Socialism & Liberation,1
 MANATEE,EVSOE,REP,Republican,2501
 MANATEE,EVSOE,UNK,UNK,1
 MONROE,BPL,CPP,Coalition With A Purpose,1
-MONROE,BPL,LPF,Libertarian,7
-MONROE,BPL,ASP,American Solidarity,1
-MONROE,BPL,DEM,Democratic,411
-MONROE,BPL,GRE,Green,1
 MONROE,BPL,CPF,Constitution,1
 MONROE,BPL,CSV,Conservative,4
 MONROE,BPL,IND,Independent,42
+MONROE,BPL,ASP,American Solidarity,1
+MONROE,BPL,DEM,Democratic,411
+MONROE,BPL,GRE,Green,1
+MONROE,BPL,LPF,Libertarian,7
 MONROE,BPL,NPA,No Party Affiliation,301
 MONROE,BPL,REP,Republican,991
 MONROE,KW,REP,Republican,1260
-MONROE,KW,FFP,Florida Forward,1
-MONROE,KW,JEF,JEF,1
-MONROE,KW,ECO,Ecology,3
+MONROE,KW,GRE,Green,5
 MONROE,KW,AMF,America First,4
 MONROE,KW,NPA,No Party Affiliation,657
-MONROE,KW,GRE,Green,5
+MONROE,KW,CPP,Coalition With A Purpose,2
+MONROE,KW,IND,Independent,69
 MONROE,KW,ASP,American Solidarity,1
 MONROE,KW,DEM,Democratic,1612
 MONROE,KW,LPF,Libertarian,3
 MONROE,KW,PSL,Party for Socialism & Liberation,1
-MONROE,KW,CPP,Coalition With A Purpose,2
-MONROE,KW,IND,Independent,69
+MONROE,KW,FFP,Florida Forward,1
+MONROE,KW,JEF,JEF,1
+MONROE,KW,ECO,Ecology,3
 MONROE,KW,CPF,Constitution,2
 MONROE,KW,CSV,Conservative,2
 MONROE,MAR,CPP,Coalition With A Purpose,2
+MONROE,MAR,CPF,Constitution,3
+MONROE,MAR,DEM,Democratic,382
+MONROE,MAR,GRE,Green,2
 MONROE,MAR,LPF,Libertarian,4
 MONROE,MAR,AMF,America First,3
 MONROE,MAR,ECO,Ecology,1
 MONROE,MAR,OTH,OTH,1
-MONROE,MAR,DEM,Democratic,382
-MONROE,MAR,GRE,Green,2
-MONROE,MAR,CPF,Constitution,3
 MONROE,MAR,BPP,Boricua,2
 MONROE,MAR,CSV,Conservative,6
 MONROE,MAR,IND,Independent,27
 MONROE,MAR,NPA,No Party Affiliation,286
 MONROE,MAR,REP,Republican,870
 MONROE,PK,OTH,OTH,1
-MONROE,PK,GRE,Green,4
-MONROE,PK,IND,Independent,49
-MONROE,PK,FFP,Florida Forward,1
-MONROE,PK,PSL,Party for Socialism & Liberation,1
 MONROE,PK,AMF,America First,4
 MONROE,PK,CPF,Constitution,1
 MONROE,PK,NPA,No Party Affiliation,517
 MONROE,PK,REP,Republican,1675
+MONROE,PK,FFP,Florida Forward,1
+MONROE,PK,PSL,Party for Socialism & Liberation,1
 MONROE,PK,CSV,Conservative,5
 MONROE,PK,LPF,Libertarian,2
+MONROE,PK,GRE,Green,4
+MONROE,PK,IND,Independent,49
 MONROE,PK,DEM,Democratic,732
 MONROE,KLL,CPF,Constitution,2
 MONROE,KLL,ECO,Ecology,2
 MONROE,KLL,NPA,No Party Affiliation,223
 MONROE,KLL,REP,Republican,725
-MONROE,KLL,IND,Independent,13
 MONROE,KLL,CSV,Conservative,1
 MONROE,KLL,LPF,Libertarian,3
+MONROE,KLL,IND,Independent,13
 MONROE,KLL,DEM,Democratic,303
-MARION,1,AMF,America First,18
-MARION,1,BPP,Boricua,12
-MARION,1,CPF,Constitution,9
-MARION,1,CSV,Conservative,30
-MARION,1,IND,Independent,333
-MARION,1,REP,Republican,5346
 MARION,1,ASP,American Solidarity,3
 MARION,1,CPP,Coalition With A Purpose,3
 MARION,1,DEM,Democratic,4212
@@ -2982,11 +2976,12 @@ MARION,1,FFP,Florida Forward,2
 MARION,1,GRE,Green,5
 MARION,1,LPF,Libertarian,23
 MARION,1,NPA,No Party Affiliation,1941
-MARION,2,DEM,Democratic,929
-MARION,2,ECO,Ecology,1
-MARION,2,GRE,Green,2
-MARION,2,NPA,No Party Affiliation,633
-MARION,2,REP,Republican,2703
+MARION,1,AMF,America First,18
+MARION,1,BPP,Boricua,12
+MARION,1,CPF,Constitution,9
+MARION,1,CSV,Conservative,30
+MARION,1,IND,Independent,333
+MARION,1,REP,Republican,5346
 MARION,2,AMF,America First,2
 MARION,2,BPP,Boricua,1
 MARION,2,CPF,Constitution,1
@@ -2994,18 +2989,20 @@ MARION,2,CPP,Coalition With A Purpose,1
 MARION,2,CSV,Conservative,10
 MARION,2,IND,Independent,96
 MARION,2,LPF,Libertarian,14
+MARION,2,DEM,Democratic,929
+MARION,2,ECO,Ecology,1
+MARION,2,GRE,Green,2
+MARION,2,NPA,No Party Affiliation,633
+MARION,2,REP,Republican,2703
+MARION,3,AMF,America First,4
+MARION,3,ASP,American Solidarity,1
+MARION,3,LPF,Libertarian,8
 MARION,3,CSV,Conservative,2
 MARION,3,DEM,Democratic,1060
 MARION,3,GRE,Green,3
 MARION,3,IND,Independent,32
 MARION,3,NPA,No Party Affiliation,369
 MARION,3,REP,Republican,1306
-MARION,3,AMF,America First,4
-MARION,3,ASP,American Solidarity,1
-MARION,3,LPF,Libertarian,8
-MARION,4,DEM,Democratic,450
-MARION,4,LPF,Libertarian,14
-MARION,4,NPA,No Party Affiliation,364
 MARION,4,AMF,America First,2
 MARION,4,CPF,Constitution,3
 MARION,4,CSV,Conservative,2
@@ -3013,12 +3010,9 @@ MARION,4,FFP,Florida Forward,1
 MARION,4,GRE,Green,1
 MARION,4,IND,Independent,51
 MARION,4,REP,Republican,1781
-MARION,5,ASP,American Solidarity,1
-MARION,5,DEM,Democratic,1778
-MARION,5,ECO,Ecology,3
-MARION,5,GRE,Green,1
-MARION,5,LPF,Libertarian,11
-MARION,5,NPA,No Party Affiliation,1072
+MARION,4,DEM,Democratic,450
+MARION,4,LPF,Libertarian,14
+MARION,4,NPA,No Party Affiliation,364
 MARION,5,AMF,America First,7
 MARION,5,BPP,Boricua,4
 MARION,5,CPF,Constitution,3
@@ -3026,6 +3020,18 @@ MARION,5,CSV,Conservative,14
 MARION,5,IND,Independent,130
 MARION,5,PSL,Party for Socialism & Liberation,1
 MARION,5,REP,Republican,4422
+MARION,5,ASP,American Solidarity,1
+MARION,5,DEM,Democratic,1778
+MARION,5,ECO,Ecology,3
+MARION,5,GRE,Green,1
+MARION,5,LPF,Libertarian,11
+MARION,5,NPA,No Party Affiliation,1072
+MARION,6,CSV,Conservative,17
+MARION,6,DEM,Democratic,4230
+MARION,6,FFP,Florida Forward,1
+MARION,6,GRE,Green,1
+MARION,6,NPA,No Party Affiliation,1636
+MARION,6,REP,Republican,6679
 MARION,6,AMF,America First,6
 MARION,6,ASP,American Solidarity,5
 MARION,6,BPP,Boricua,9
@@ -3035,12 +3041,12 @@ MARION,6,IND,Independent,237
 MARION,6,LPF,Libertarian,33
 MARION,6,PSL,Party for Socialism & Liberation,1
 MARION,6,WPF,Working Families,1
-MARION,6,CSV,Conservative,17
-MARION,6,DEM,Democratic,4230
-MARION,6,FFP,Florida Forward,1
-MARION,6,GRE,Green,1
-MARION,6,NPA,No Party Affiliation,1636
-MARION,6,REP,Republican,6679
+MARION,7,CSV,Conservative,6
+MARION,7,DEM,Democratic,1667
+MARION,7,GRE,Green,1
+MARION,7,IND,Independent,79
+MARION,7,NPA,No Party Affiliation,651
+MARION,7,REP,Republican,1981
 MARION,7,AMF,America First,2
 MARION,7,ASP,American Solidarity,4
 MARION,7,BPP,Boricua,3
@@ -3049,17 +3055,6 @@ MARION,7,CPP,Coalition With A Purpose,5
 MARION,7,ECO,Ecology,1
 MARION,7,LPF,Libertarian,7
 MARION,7,WPF,Working Families,1
-MARION,7,CSV,Conservative,6
-MARION,7,DEM,Democratic,1667
-MARION,7,GRE,Green,1
-MARION,7,IND,Independent,79
-MARION,7,NPA,No Party Affiliation,651
-MARION,7,REP,Republican,1981
-MARION,8,AMF,America First,8
-MARION,8,CPF,Constitution,3
-MARION,8,CSV,Conservative,14
-MARION,8,IND,Independent,114
-MARION,8,REP,Republican,4683
 MARION,8,ASP,American Solidarity,1
 MARION,8,BPP,Boricua,1
 MARION,8,CPP,Coalition With A Purpose,5
@@ -3067,6 +3062,15 @@ MARION,8,DEM,Democratic,1414
 MARION,8,ECO,Ecology,3
 MARION,8,LPF,Libertarian,9
 MARION,8,NPA,No Party Affiliation,1120
+MARION,8,AMF,America First,8
+MARION,8,CPF,Constitution,3
+MARION,8,CSV,Conservative,14
+MARION,8,IND,Independent,114
+MARION,8,REP,Republican,4683
+MARION,9,DEM,Democratic,1579
+MARION,9,GRE,Green,1
+MARION,9,LPF,Libertarian,9
+MARION,9,NPA,No Party Affiliation,1201
 MARION,9,AMF,America First,3
 MARION,9,BPP,Boricua,5
 MARION,9,CPF,Constitution,7
@@ -3075,10 +3079,6 @@ MARION,9,CSV,Conservative,23
 MARION,9,IND,Independent,222
 MARION,9,PSL,Party for Socialism & Liberation,2
 MARION,9,REP,Republican,5202
-MARION,9,DEM,Democratic,1579
-MARION,9,GRE,Green,1
-MARION,9,LPF,Libertarian,9
-MARION,9,NPA,No Party Affiliation,1201
 MARTIN,ElectCntr,AMF,America First,6
 MARTIN,ElectCntr,CPP,Coalition With A Purpose,2
 MARTIN,ElectCntr,CSV,Conservative,12
@@ -3209,66 +3209,66 @@ NASSAU,EV5,REP,Republican,2276
 OKALOOSA,EV-CL,AMF,America First,3
 OKALOOSA,EV-CL,CSV,Conservative,13
 OKALOOSA,EV-CL,NPA,No Party Affiliation,1078
+OKALOOSA,EV-CL,ECO,Ecology,1
+OKALOOSA,EV-CL,GRE,Green,6
 OKALOOSA,EV-CL,ASP,American Solidarity,2
 OKALOOSA,EV-CL,BPP,Boricua,3
 OKALOOSA,EV-CL,CPP,Coalition With A Purpose,2
 OKALOOSA,EV-CL,LPF,Libertarian,21
-OKALOOSA,EV-CL,ECO,Ecology,1
-OKALOOSA,EV-CL,GRE,Green,6
-OKALOOSA,EV-CL,CPF,Constitution,1
+OKALOOSA,EV-CL,OTH,OTH,1
 OKALOOSA,EV-CL,DEM,Democratic,1497
 OKALOOSA,EV-CL,IND,Independent,139
 OKALOOSA,EV-CL,REP,Republican,5327
-OKALOOSA,EV-CL,OTH,OTH,1
+OKALOOSA,EV-CL,CPF,Constitution,1
 OKALOOSA,EV-DE,REP,Republican,2845
+OKALOOSA,EV-DE,CPF,Constitution,1
+OKALOOSA,EV-DE,NPA,No Party Affiliation,482
 OKALOOSA,EV-DE,DEM,Democratic,532
 OKALOOSA,EV-DE,GRE,Green,1
 OKALOOSA,EV-DE,IND,Independent,71
-OKALOOSA,EV-DE,CPF,Constitution,1
-OKALOOSA,EV-DE,NPA,No Party Affiliation,482
-OKALOOSA,EV-DE,LPF,Libertarian,8
-OKALOOSA,EV-DE,OTH,OTH,3
 OKALOOSA,EV-DE,AMF,America First,5
 OKALOOSA,EV-DE,CSV,Conservative,7
+OKALOOSA,EV-DE,LPF,Libertarian,8
+OKALOOSA,EV-DE,OTH,OTH,3
 OKALOOSA,EV-SH,AMF,America First,11
+OKALOOSA,EV-SH,CSV,Conservative,22
 OKALOOSA,EV-SH,CPF,Constitution,5
 OKALOOSA,EV-SH,FFP,Florida Forward,1
 OKALOOSA,EV-SH,PSL,Party for Socialism & Liberation,5
-OKALOOSA,EV-SH,CSV,Conservative,22
+OKALOOSA,EV-SH,ASP,American Solidarity,1
+OKALOOSA,EV-SH,ECO,Ecology,1
+OKALOOSA,EV-SH,IND,Independent,165
+OKALOOSA,EV-SH,DEM,Democratic,2616
+OKALOOSA,EV-SH,GRE,Green,4
+OKALOOSA,EV-SH,LPF,Libertarian,33
 OKALOOSA,EV-SH,BPP,Boricua,2
 OKALOOSA,EV-SH,CPP,Coalition With A Purpose,4
 OKALOOSA,EV-SH,NPA,No Party Affiliation,1609
 OKALOOSA,EV-SH,REP,Republican,6943
-OKALOOSA,EV-SH,DEM,Democratic,2616
-OKALOOSA,EV-SH,GRE,Green,4
-OKALOOSA,EV-SH,LPF,Libertarian,33
-OKALOOSA,EV-SH,ASP,American Solidarity,1
-OKALOOSA,EV-SH,ECO,Ecology,1
-OKALOOSA,EV-SH,IND,Independent,165
-OKALOOSA,EVS-N,DEM,Democratic,1241
-OKALOOSA,EVS-N,AMF,America First,2
-OKALOOSA,EVS-N,CPF,Constitution,5
-OKALOOSA,EVS-N,GRE,Green,4
-OKALOOSA,EVS-N,LPF,Libertarian,23
-OKALOOSA,EVS-N,CPP,Coalition With A Purpose,2
-OKALOOSA,EVS-N,ECO,Ecology,1
-OKALOOSA,EVS-N,IND,Independent,142
-OKALOOSA,EVS-N,REP,Republican,5985
-OKALOOSA,EVS-N,ASP,American Solidarity,1
-OKALOOSA,EVS-N,FFP,Florida Forward,1
-OKALOOSA,EVS-N,NPA,No Party Affiliation,1186
-OKALOOSA,EVS-N,PSL,Party for Socialism & Liberation,1
-OKALOOSA,EVS-N,CSV,Conservative,8
 OKALOOSA,EV-CO,CSV,Conservative,3
 OKALOOSA,EV-CO,LPF,Libertarian,6
-OKALOOSA,EV-CO,BPP,Boricua,1
-OKALOOSA,EV-CO,CPF,Constitution,3
-OKALOOSA,EV-CO,NPA,No Party Affiliation,341
-OKALOOSA,EV-CO,REP,Republican,1653
 OKALOOSA,EV-CO,ASP,American Solidarity,2
 OKALOOSA,EV-CO,DEM,Democratic,597
 OKALOOSA,EV-CO,GRE,Green,1
 OKALOOSA,EV-CO,IND,Independent,40
+OKALOOSA,EV-CO,BPP,Boricua,1
+OKALOOSA,EV-CO,CPF,Constitution,3
+OKALOOSA,EV-CO,NPA,No Party Affiliation,341
+OKALOOSA,EV-CO,REP,Republican,1653
+OKALOOSA,EVS-N,AMF,America First,2
+OKALOOSA,EVS-N,CPF,Constitution,5
+OKALOOSA,EVS-N,GRE,Green,4
+OKALOOSA,EVS-N,LPF,Libertarian,23
+OKALOOSA,EVS-N,DEM,Democratic,1241
+OKALOOSA,EVS-N,CSV,Conservative,8
+OKALOOSA,EVS-N,ASP,American Solidarity,1
+OKALOOSA,EVS-N,FFP,Florida Forward,1
+OKALOOSA,EVS-N,NPA,No Party Affiliation,1186
+OKALOOSA,EVS-N,PSL,Party for Socialism & Liberation,1
+OKALOOSA,EVS-N,CPP,Coalition With A Purpose,2
+OKALOOSA,EVS-N,ECO,Ecology,1
+OKALOOSA,EVS-N,IND,Independent,142
+OKALOOSA,EVS-N,REP,Republican,5985
 OKEECHOBEE,E01,ECO,Ecology,2
 OKEECHOBEE,E01,ASP,American Solidarity,1
 OKEECHOBEE,E01,CPP,Coalition With A Purpose,1
@@ -3281,383 +3281,444 @@ OKEECHOBEE,E01,AMF,America First,3
 OKEECHOBEE,E01,CPF,Constitution,10
 OKEECHOBEE,E01,PSL,Party for Socialism & Liberation,1
 OKEECHOBEE,E01,LPF,Libertarian,4
-ORANGE,043,CPP,Coalition With A Purpose,1
-ORANGE,043,NPA,No Party Affiliation,126
-ORANGE,043,REP,Republican,70
-ORANGE,043,AMF,America First,3
-ORANGE,043,IND,Independent,19
-ORANGE,043,LPF,Libertarian,3
-ORANGE,043,CPF,Constitution,2
-ORANGE,043,CSV,Conservative,1
-ORANGE,043,DEM,Democratic,444
-ORANGE,022,ASP,American Solidarity,9
-ORANGE,022,FFP,Florida Forward,4
-ORANGE,022,GRE,Green,4
-ORANGE,022,LPF,Libertarian,7
-ORANGE,022,AMF,America First,26
-ORANGE,022,BPP,Boricua,7
-ORANGE,022,REP,Republican,1118
-ORANGE,022,CPF,Constitution,5
-ORANGE,022,CPP,Coalition With A Purpose,11
-ORANGE,022,PSL,Party for Socialism & Liberation,1
-ORANGE,022,ECO,Ecology,1
-ORANGE,022,DEM,Democratic,7270
-ORANGE,022,WPF,Working Families,2
-ORANGE,022,NPA,No Party Affiliation,1831
-ORANGE,022,IND,Independent,161
-ORANGE,022,CSV,Conservative,15
-ORANGE,020,CPF,Constitution,10
-ORANGE,020,REP,Republican,5499
-ORANGE,020,ASP,American Solidarity,5
-ORANGE,020,CPP,Coalition With A Purpose,7
-ORANGE,020,CSV,Conservative,13
-ORANGE,020,IND,Independent,302
-ORANGE,020,BPP,Boricua,5
-ORANGE,020,GRE,Green,9
-ORANGE,020,AMF,America First,13
-ORANGE,020,ECO,Ecology,4
-ORANGE,020,LPF,Libertarian,36
-ORANGE,020,NPA,No Party Affiliation,3807
-ORANGE,020,PSL,Party for Socialism & Liberation,5
-ORANGE,020,DEM,Democratic,5923
-ORANGE,021,CSV,Conservative,13
-ORANGE,021,NPA,No Party Affiliation,2144
+ORANGE,011,CPF,Constitution,8
+ORANGE,011,IND,Independent,343
+ORANGE,011,CPP,Coalition With A Purpose,16
+ORANGE,011,PSL,Party for Socialism & Liberation,3
+ORANGE,011,FFP,Florida Forward,3
+ORANGE,011,NPA,No Party Affiliation,3361
+ORANGE,011,LPF,Libertarian,26
+ORANGE,011,BPP,Boricua,18
+ORANGE,011,CSV,Conservative,27
+ORANGE,011,DEM,Democratic,7714
+ORANGE,011,REP,Republican,5590
+ORANGE,011,GRE,Green,10
+ORANGE,011,AMF,America First,22
+ORANGE,011,ASP,American Solidarity,8
+ORANGE,012,FFP,Florida Forward,3
+ORANGE,012,REP,Republican,2420
+ORANGE,012,WPF,Working Families,1
+ORANGE,012,CPP,Coalition With A Purpose,8
+ORANGE,012,CPF,Constitution,8
+ORANGE,012,CSV,Conservative,18
+ORANGE,012,NPA,No Party Affiliation,2311
+ORANGE,012,BPP,Boricua,8
+ORANGE,012,ASP,American Solidarity,8
+ORANGE,012,ECO,Ecology,1
+ORANGE,012,IND,Independent,215
+ORANGE,012,PSL,Party for Socialism & Liberation,5
+ORANGE,012,AMF,America First,22
+ORANGE,012,LPF,Libertarian,15
+ORANGE,012,DEM,Democratic,6775
+ORANGE,012,GRE,Green,4
+ORANGE,031,BPP,Boricua,12
+ORANGE,031,PSL,Party for Socialism & Liberation,2
+ORANGE,031,CPP,Coalition With A Purpose,10
+ORANGE,031,DEM,Democratic,3316
+ORANGE,031,ASP,American Solidarity,3
+ORANGE,031,IND,Independent,221
+ORANGE,031,GRE,Green,5
+ORANGE,031,LPF,Libertarian,22
+ORANGE,031,REP,Republican,2680
+ORANGE,031,CPF,Constitution,2
+ORANGE,031,ECO,Ecology,4
+ORANGE,031,AMF,America First,7
+ORANGE,031,CSV,Conservative,18
+ORANGE,031,NPA,No Party Affiliation,2813
+ORANGE,025,AMF,America First,7
+ORANGE,025,DEM,Democratic,3633
+ORANGE,025,LPF,Libertarian,16
+ORANGE,025,ECO,Ecology,3
+ORANGE,025,BPP,Boricua,7
+ORANGE,025,NPA,No Party Affiliation,1279
+ORANGE,025,CSV,Conservative,12
+ORANGE,025,FFP,Florida Forward,1
+ORANGE,025,IND,Independent,102
+ORANGE,025,CPP,Coalition With A Purpose,4
+ORANGE,025,ASP,American Solidarity,2
+ORANGE,025,CPF,Constitution,6
+ORANGE,025,GRE,Green,2
+ORANGE,025,REP,Republican,1746
 ORANGE,021,CPP,Coalition With A Purpose,3
 ORANGE,021,CPF,Constitution,7
 ORANGE,021,IND,Independent,128
+ORANGE,021,CSV,Conservative,13
 ORANGE,021,REP,Republican,2409
 ORANGE,021,BPP,Boricua,12
+ORANGE,021,ASP,American Solidarity,1
+ORANGE,021,LPF,Libertarian,10
+ORANGE,021,NPA,No Party Affiliation,2144
 ORANGE,021,ECO,Ecology,1
 ORANGE,021,AMF,America First,6
 ORANGE,021,FFP,Florida Forward,1
 ORANGE,021,PSL,Party for Socialism & Liberation,3
 ORANGE,021,DEM,Democratic,3470
-ORANGE,021,ASP,American Solidarity,1
-ORANGE,021,LPF,Libertarian,10
 ORANGE,021,GRE,Green,5
-ORANGE,046,IND,Independent,38
-ORANGE,046,GRE,Green,6
-ORANGE,046,ECO,Ecology,2
-ORANGE,046,ASP,American Solidarity,1
-ORANGE,046,BPP,Boricua,1
-ORANGE,046,CPP,Coalition With A Purpose,7
-ORANGE,046,CSV,Conservative,7
-ORANGE,046,REP,Republican,291
-ORANGE,046,PSL,Party for Socialism & Liberation,2
-ORANGE,046,LPF,Libertarian,3
-ORANGE,046,NPA,No Party Affiliation,543
-ORANGE,046,AMF,America First,7
-ORANGE,046,CPF,Constitution,5
-ORANGE,046,DEM,Democratic,1526
-ORANGE,024,CSV,Conservative,16
-ORANGE,024,DEM,Democratic,4789
-ORANGE,024,BPP,Boricua,25
-ORANGE,024,PSL,Party for Socialism & Liberation,2
-ORANGE,024,NPA,No Party Affiliation,2398
-ORANGE,024,IND,Independent,167
-ORANGE,024,AMF,America First,7
-ORANGE,024,FFP,Florida Forward,1
-ORANGE,024,REP,Republican,2659
-ORANGE,024,ASP,American Solidarity,5
-ORANGE,024,ECO,Ecology,2
-ORANGE,024,CPP,Coalition With A Purpose,4
-ORANGE,024,GRE,Green,6
-ORANGE,024,CPF,Constitution,1
-ORANGE,024,LPF,Libertarian,21
-ORANGE,012,REP,Republican,2420
-ORANGE,012,CSV,Conservative,18
-ORANGE,012,FFP,Florida Forward,3
-ORANGE,012,CPP,Coalition With A Purpose,8
-ORANGE,012,CPF,Constitution,8
-ORANGE,012,NPA,No Party Affiliation,2311
-ORANGE,012,BPP,Boricua,8
-ORANGE,012,WPF,Working Families,1
-ORANGE,012,ECO,Ecology,1
-ORANGE,012,IND,Independent,215
-ORANGE,012,ASP,American Solidarity,8
-ORANGE,012,AMF,America First,22
-ORANGE,012,LPF,Libertarian,15
-ORANGE,012,PSL,Party for Socialism & Liberation,5
-ORANGE,012,DEM,Democratic,6775
-ORANGE,012,GRE,Green,4
-ORANGE,031,PSL,Party for Socialism & Liberation,2
-ORANGE,031,BPP,Boricua,12
-ORANGE,031,CPP,Coalition With A Purpose,10
-ORANGE,031,DEM,Democratic,3316
-ORANGE,031,ASP,American Solidarity,3
-ORANGE,031,LPF,Libertarian,22
-ORANGE,031,IND,Independent,221
-ORANGE,031,GRE,Green,5
-ORANGE,031,ECO,Ecology,4
-ORANGE,031,REP,Republican,2680
-ORANGE,031,CPF,Constitution,2
-ORANGE,031,AMF,America First,7
-ORANGE,031,CSV,Conservative,18
-ORANGE,031,NPA,No Party Affiliation,2813
-ORANGE,041,AMF,America First,2
-ORANGE,041,CPP,Coalition With A Purpose,5
-ORANGE,041,BPP,Boricua,2
-ORANGE,041,NPA,No Party Affiliation,512
-ORANGE,041,IND,Independent,50
-ORANGE,041,REP,Republican,447
-ORANGE,041,GRE,Green,3
-ORANGE,041,CSV,Conservative,3
-ORANGE,041,WPF,Working Families,1
-ORANGE,041,LPF,Libertarian,5
-ORANGE,041,ASP,American Solidarity,2
-ORANGE,041,PSL,Party for Socialism & Liberation,2
-ORANGE,041,DEM,Democratic,1880
-ORANGE,041,CPF,Constitution,2
-ORANGE,041,FFP,Florida Forward,1
-ORANGE,047,CSV,Conservative,1
-ORANGE,047,CPP,Coalition With A Purpose,1
 ORANGE,047,GRE,Green,1
 ORANGE,047,LPF,Libertarian,3
+ORANGE,047,CSV,Conservative,1
 ORANGE,047,ECO,Ecology,1
+ORANGE,047,DEM,Democratic,589
+ORANGE,047,CPP,Coalition With A Purpose,1
 ORANGE,047,NPA,No Party Affiliation,343
 ORANGE,047,AMF,America First,4
 ORANGE,047,BPP,Boricua,6
 ORANGE,047,CPF,Constitution,1
 ORANGE,047,REP,Republican,321
 ORANGE,047,IND,Independent,24
-ORANGE,047,DEM,Democratic,589
+ORANGE,033,CPP,Coalition With A Purpose,1
+ORANGE,033,LPF,Libertarian,4
+ORANGE,033,IND,Independent,82
+ORANGE,033,REP,Republican,503
+ORANGE,033,BPP,Boricua,1
+ORANGE,033,ECO,Ecology,1
+ORANGE,033,DEM,Democratic,1886
+ORANGE,033,CSV,Conservative,3
+ORANGE,033,AMF,America First,2
+ORANGE,033,PSL,Party for Socialism & Liberation,5
+ORANGE,033,NPA,No Party Affiliation,979
+ORANGE,033,ASP,American Solidarity,1
+ORANGE,033,GRE,Green,7
+ORANGE,033,CPF,Constitution,2
+ORANGE,044,DEM,Democratic,1537
+ORANGE,044,FFP,Florida Forward,3
+ORANGE,044,ASP,American Solidarity,2
+ORANGE,044,AMF,America First,5
+ORANGE,044,CPP,Coalition With A Purpose,4
+ORANGE,044,NPA,No Party Affiliation,470
+ORANGE,044,IND,Independent,50
+ORANGE,044,LPF,Libertarian,1
+ORANGE,044,REP,Republican,314
+ORANGE,044,CSV,Conservative,1
+ORANGE,044,WPF,Working Families,1
+ORANGE,044,CPF,Constitution,4
+ORANGE,044,PSL,Party for Socialism & Liberation,1
+ORANGE,022,AMF,America First,26
+ORANGE,022,BPP,Boricua,7
+ORANGE,022,ASP,American Solidarity,9
+ORANGE,022,FFP,Florida Forward,4
+ORANGE,022,GRE,Green,4
+ORANGE,022,LPF,Libertarian,7
+ORANGE,022,ECO,Ecology,1
+ORANGE,022,REP,Republican,1118
+ORANGE,022,CPF,Constitution,5
+ORANGE,022,NPA,No Party Affiliation,1831
+ORANGE,022,CPP,Coalition With A Purpose,11
+ORANGE,022,PSL,Party for Socialism & Liberation,1
+ORANGE,022,DEM,Democratic,7270
+ORANGE,022,IND,Independent,161
+ORANGE,022,WPF,Working Families,2
+ORANGE,022,CSV,Conservative,15
+ORANGE,042,AMF,America First,2
+ORANGE,042,DEM,Democratic,820
+ORANGE,042,LPF,Libertarian,9
+ORANGE,042,GRE,Green,3
+ORANGE,042,REP,Republican,1402
+ORANGE,042,NPA,No Party Affiliation,681
+ORANGE,042,BPP,Boricua,3
+ORANGE,042,PSL,Party for Socialism & Liberation,1
+ORANGE,042,IND,Independent,75
+ORANGE,042,ASP,American Solidarity,1
+ORANGE,042,FFP,Florida Forward,1
+ORANGE,042,CSV,Conservative,4
+ORANGE,042,CPP,Coalition With A Purpose,3
+ORANGE,000,CPP,Coalition With A Purpose,7
+ORANGE,000,GRE,Green,10
+ORANGE,000,IND,Independent,276
+ORANGE,000,AMF,America First,17
+ORANGE,000,ASP,American Solidarity,7
+ORANGE,000,CPF,Constitution,11
+ORANGE,000,REP,Republican,3325
+ORANGE,000,LPF,Libertarian,24
+ORANGE,000,NPA,No Party Affiliation,2653
+ORANGE,000,BPP,Boricua,18
+ORANGE,000,CSV,Conservative,19
+ORANGE,000,PSL,Party for Socialism & Liberation,2
+ORANGE,000,FFP,Florida Forward,4
+ORANGE,000,ECO,Ecology,2
+ORANGE,000,DEM,Democratic,8086
+ORANGE,037,AMF,America First,16
+ORANGE,037,ASP,American Solidarity,6
+ORANGE,037,GRE,Green,9
+ORANGE,037,IND,Independent,316
+ORANGE,037,LPF,Libertarian,26
+ORANGE,037,PSL,Party for Socialism & Liberation,1
+ORANGE,037,FFP,Florida Forward,3
+ORANGE,037,CPF,Constitution,8
+ORANGE,037,DEM,Democratic,5439
+ORANGE,037,CPP,Coalition With A Purpose,8
+ORANGE,037,WPF,Working Families,2
+ORANGE,037,CSV,Conservative,25
+ORANGE,037,NPA,No Party Affiliation,3068
+ORANGE,037,REP,Republican,5498
+ORANGE,037,BPP,Boricua,6
+ORANGE,039,ASP,American Solidarity,3
+ORANGE,039,IND,Independent,243
+ORANGE,039,ECO,Ecology,1
+ORANGE,039,CPP,Coalition With A Purpose,3
+ORANGE,039,REP,Republican,3441
+ORANGE,039,AMF,America First,6
+ORANGE,039,NPA,No Party Affiliation,2272
+ORANGE,039,FFP,Florida Forward,3
+ORANGE,039,BPP,Boricua,2
+ORANGE,039,CSV,Conservative,16
+ORANGE,039,CPF,Constitution,3
+ORANGE,039,PSL,Party for Socialism & Liberation,1
+ORANGE,039,LPF,Libertarian,23
+ORANGE,039,GRE,Green,3
+ORANGE,039,DEM,Democratic,3411
+ORANGE,013,NPA,No Party Affiliation,2843
+ORANGE,013,BPP,Boricua,2
+ORANGE,013,DEM,Democratic,6044
+ORANGE,013,GRE,Green,11
+ORANGE,013,CSV,Conservative,12
+ORANGE,013,CPF,Constitution,1
+ORANGE,013,IND,Independent,263
+ORANGE,013,CPP,Coalition With A Purpose,3
+ORANGE,013,ASP,American Solidarity,3
+ORANGE,013,AMF,America First,6
+ORANGE,013,ECO,Ecology,5
+ORANGE,013,LPF,Libertarian,22
+ORANGE,013,PSL,Party for Socialism & Liberation,5
+ORANGE,013,FFP,Florida Forward,1
+ORANGE,013,REP,Republican,4260
+ORANGE,018,CPP,Coalition With A Purpose,6
+ORANGE,018,FFP,Florida Forward,1
+ORANGE,018,CPF,Constitution,8
+ORANGE,018,DEM,Democratic,4660
+ORANGE,018,GRE,Green,6
+ORANGE,018,AMF,America First,8
+ORANGE,018,BPP,Boricua,28
+ORANGE,018,IND,Independent,172
+ORANGE,018,REP,Republican,2872
+ORANGE,018,NPA,No Party Affiliation,2383
+ORANGE,018,CSV,Conservative,13
+ORANGE,018,ECO,Ecology,1
+ORANGE,018,ASP,American Solidarity,10
+ORANGE,018,PSL,Party for Socialism & Liberation,4
+ORANGE,018,LPF,Libertarian,26
+ORANGE,043,CPP,Coalition With A Purpose,1
+ORANGE,043,AMF,America First,3
+ORANGE,043,NPA,No Party Affiliation,126
+ORANGE,043,REP,Republican,70
+ORANGE,043,LPF,Libertarian,3
+ORANGE,043,CPF,Constitution,2
+ORANGE,043,IND,Independent,19
+ORANGE,043,CSV,Conservative,1
+ORANGE,043,DEM,Democratic,444
+ORANGE,020,CPF,Constitution,10
+ORANGE,020,REP,Republican,5499
+ORANGE,020,GRE,Green,9
+ORANGE,020,AMF,America First,13
+ORANGE,020,CSV,Conservative,13
+ORANGE,020,ASP,American Solidarity,5
+ORANGE,020,CPP,Coalition With A Purpose,7
+ORANGE,020,IND,Independent,302
+ORANGE,020,BPP,Boricua,5
+ORANGE,020,LPF,Libertarian,36
+ORANGE,020,NPA,No Party Affiliation,3807
+ORANGE,020,ECO,Ecology,4
+ORANGE,020,PSL,Party for Socialism & Liberation,5
+ORANGE,020,DEM,Democratic,5923
+ORANGE,046,IND,Independent,38
+ORANGE,046,GRE,Green,6
+ORANGE,046,ECO,Ecology,2
+ORANGE,046,PSL,Party for Socialism & Liberation,2
+ORANGE,046,BPP,Boricua,1
+ORANGE,046,CPP,Coalition With A Purpose,7
+ORANGE,046,CSV,Conservative,7
+ORANGE,046,ASP,American Solidarity,1
+ORANGE,046,REP,Republican,291
+ORANGE,046,LPF,Libertarian,3
+ORANGE,046,NPA,No Party Affiliation,543
+ORANGE,046,CPF,Constitution,5
+ORANGE,046,DEM,Democratic,1526
+ORANGE,046,AMF,America First,7
+ORANGE,024,CSV,Conservative,16
+ORANGE,024,NPA,No Party Affiliation,2398
+ORANGE,024,IND,Independent,167
+ORANGE,024,PSL,Party for Socialism & Liberation,2
+ORANGE,024,ASP,American Solidarity,5
+ORANGE,024,DEM,Democratic,4789
+ORANGE,024,BPP,Boricua,25
+ORANGE,024,AMF,America First,7
+ORANGE,024,FFP,Florida Forward,1
+ORANGE,024,ECO,Ecology,2
+ORANGE,024,REP,Republican,2659
+ORANGE,024,CPP,Coalition With A Purpose,4
+ORANGE,024,GRE,Green,6
+ORANGE,024,CPF,Constitution,1
+ORANGE,024,LPF,Libertarian,21
+ORANGE,041,AMF,America First,2
+ORANGE,041,CPP,Coalition With A Purpose,5
+ORANGE,041,BPP,Boricua,2
+ORANGE,041,GRE,Green,3
+ORANGE,041,DEM,Democratic,1880
+ORANGE,041,NPA,No Party Affiliation,512
+ORANGE,041,IND,Independent,50
+ORANGE,041,REP,Republican,447
+ORANGE,041,CSV,Conservative,3
+ORANGE,041,WPF,Working Families,1
+ORANGE,041,LPF,Libertarian,5
+ORANGE,041,CPF,Constitution,2
+ORANGE,041,ASP,American Solidarity,2
+ORANGE,041,PSL,Party for Socialism & Liberation,2
+ORANGE,041,FFP,Florida Forward,1
 ORANGE,017,DEM,Democratic,5748
+ORANGE,017,NPA,No Party Affiliation,3174
+ORANGE,017,LPF,Libertarian,21
+ORANGE,017,BPP,Boricua,12
+ORANGE,017,AMF,America First,12
 ORANGE,017,CPP,Coalition With A Purpose,5
 ORANGE,017,ASP,American Solidarity,4
 ORANGE,017,PSL,Party for Socialism & Liberation,1
-ORANGE,017,NPA,No Party Affiliation,3174
-ORANGE,017,LPF,Libertarian,21
 ORANGE,017,GRE,Green,5
-ORANGE,017,FFP,Florida Forward,5
 ORANGE,017,CSV,Conservative,23
-ORANGE,017,BPP,Boricua,12
-ORANGE,017,AMF,America First,12
+ORANGE,017,FFP,Florida Forward,5
 ORANGE,017,IND,Independent,181
 ORANGE,017,REP,Republican,2787
 ORANGE,017,ECO,Ecology,2
 ORANGE,017,CPF,Constitution,3
 ORANGE,032,PSL,Party for Socialism & Liberation,1
 ORANGE,032,GRE,Green,3
-ORANGE,032,ASP,American Solidarity,2
-ORANGE,032,LPF,Libertarian,14
-ORANGE,032,DEM,Democratic,3153
-ORANGE,032,IND,Independent,155
-ORANGE,032,CPF,Constitution,3
 ORANGE,032,NPA,No Party Affiliation,1995
 ORANGE,032,CSV,Conservative,13
+ORANGE,032,ASP,American Solidarity,2
+ORANGE,032,IND,Independent,155
+ORANGE,032,CPF,Constitution,3
+ORANGE,032,LPF,Libertarian,14
+ORANGE,032,DEM,Democratic,3153
 ORANGE,032,CPP,Coalition With A Purpose,4
 ORANGE,032,REP,Republican,2776
 ORANGE,032,BPP,Boricua,4
 ORANGE,032,AMF,America First,4
-ORANGE,025,DEM,Democratic,3633
-ORANGE,025,AMF,America First,7
-ORANGE,025,FFP,Florida Forward,1
-ORANGE,025,LPF,Libertarian,16
-ORANGE,025,ECO,Ecology,3
-ORANGE,025,IND,Independent,102
-ORANGE,025,CPP,Coalition With A Purpose,4
-ORANGE,025,ASP,American Solidarity,2
-ORANGE,025,BPP,Boricua,7
-ORANGE,025,NPA,No Party Affiliation,1279
-ORANGE,025,CSV,Conservative,12
-ORANGE,025,CPF,Constitution,6
-ORANGE,025,GRE,Green,2
-ORANGE,025,REP,Republican,1746
 ORANGE,029,GRE,Green,7
 ORANGE,029,ECO,Ecology,2
-ORANGE,029,FFP,Florida Forward,5
-ORANGE,029,PSL,Party for Socialism & Liberation,5
 ORANGE,029,CSV,Conservative,5
 ORANGE,029,DEM,Democratic,3940
 ORANGE,029,REP,Republican,1513
 ORANGE,029,BPP,Boricua,6
+ORANGE,029,FFP,Florida Forward,5
+ORANGE,029,PSL,Party for Socialism & Liberation,5
 ORANGE,029,CPF,Constitution,1
 ORANGE,029,LPF,Libertarian,27
 ORANGE,029,CPP,Coalition With A Purpose,5
 ORANGE,029,ASP,American Solidarity,3
 ORANGE,029,IND,Independent,129
-ORANGE,029,AMF,America First,4
 ORANGE,029,NPA,No Party Affiliation,1426
+ORANGE,029,AMF,America First,4
 ORANGE,016,CPP,Coalition With A Purpose,8
 ORANGE,016,ASP,American Solidarity,1
-ORANGE,016,REP,Republican,4591
-ORANGE,016,NPA,No Party Affiliation,4198
-ORANGE,016,IND,Independent,325
-ORANGE,016,PSL,Party for Socialism & Liberation,9
-ORANGE,016,CPF,Constitution,10
 ORANGE,016,BPP,Boricua,26
 ORANGE,016,DEM,Democratic,8518
+ORANGE,016,PSL,Party for Socialism & Liberation,9
+ORANGE,016,CSV,Conservative,26
+ORANGE,016,NPA,No Party Affiliation,4198
+ORANGE,016,REP,Republican,4591
+ORANGE,016,IND,Independent,325
+ORANGE,016,CPF,Constitution,10
 ORANGE,016,LPF,Libertarian,27
 ORANGE,016,AMF,America First,13
-ORANGE,016,CSV,Conservative,26
 ORANGE,016,FFP,Florida Forward,1
 ORANGE,016,ECO,Ecology,4
 ORANGE,016,GRE,Green,9
 ORANGE,019,ECO,Ecology,1
+ORANGE,019,BPP,Boricua,2
+ORANGE,019,DEM,Democratic,3551
+ORANGE,019,GRE,Green,4
 ORANGE,019,NPA,No Party Affiliation,815
 ORANGE,019,LPF,Libertarian,3
-ORANGE,019,GRE,Green,4
 ORANGE,019,REP,Republican,241
 ORANGE,019,IND,Independent,55
 ORANGE,019,AMF,America First,8
-ORANGE,019,BPP,Boricua,2
-ORANGE,019,DEM,Democratic,3551
-ORANGE,019,CPF,Constitution,3
-ORANGE,019,CPP,Coalition With A Purpose,4
 ORANGE,019,FFP,Florida Forward,2
 ORANGE,019,ASP,American Solidarity,6
+ORANGE,019,CPF,Constitution,3
+ORANGE,019,CPP,Coalition With A Purpose,4
 ORANGE,019,CSV,Conservative,13
 ORANGE,035,IND,Independent,67
 ORANGE,035,CPF,Constitution,3
+ORANGE,035,CSV,Conservative,9
 ORANGE,035,AMF,America First,7
 ORANGE,035,PSL,Party for Socialism & Liberation,2
-ORANGE,035,CSV,Conservative,9
 ORANGE,035,ECO,Ecology,1
 ORANGE,035,REP,Republican,1054
-ORANGE,035,BPP,Boricua,12
 ORANGE,035,DEM,Democratic,2521
 ORANGE,035,NPA,No Party Affiliation,1624
+ORANGE,035,BPP,Boricua,12
+ORANGE,035,LPF,Libertarian,2
 ORANGE,035,CPP,Coalition With A Purpose,5
 ORANGE,035,ASP,American Solidarity,4
 ORANGE,035,GRE,Green,3
-ORANGE,035,LPF,Libertarian,2
-ORANGE,042,DEM,Democratic,820
-ORANGE,042,LPF,Libertarian,9
-ORANGE,042,AMF,America First,2
-ORANGE,042,GRE,Green,3
-ORANGE,042,REP,Republican,1402
-ORANGE,042,PSL,Party for Socialism & Liberation,1
-ORANGE,042,ASP,American Solidarity,1
-ORANGE,042,FFP,Florida Forward,1
-ORANGE,042,IND,Independent,75
-ORANGE,042,NPA,No Party Affiliation,681
-ORANGE,042,BPP,Boricua,3
-ORANGE,042,CSV,Conservative,4
-ORANGE,042,CPP,Coalition With A Purpose,3
-ORANGE,045,DEM,Democratic,800
-ORANGE,045,REP,Republican,84
-ORANGE,045,CSV,Conservative,4
 ORANGE,045,NPA,No Party Affiliation,181
 ORANGE,045,CPP,Coalition With A Purpose,6
 ORANGE,045,IND,Independent,18
+ORANGE,045,DEM,Democratic,800
+ORANGE,045,REP,Republican,84
+ORANGE,045,CSV,Conservative,4
 ORANGE,045,AMF,America First,1
 ORANGE,045,ASP,American Solidarity,1
-ORANGE,018,GRE,Green,6
-ORANGE,018,AMF,America First,8
-ORANGE,018,CPP,Coalition With A Purpose,6
-ORANGE,018,CPF,Constitution,8
-ORANGE,018,BPP,Boricua,28
-ORANGE,018,FFP,Florida Forward,1
-ORANGE,018,NPA,No Party Affiliation,2383
-ORANGE,018,CSV,Conservative,13
-ORANGE,018,IND,Independent,172
-ORANGE,018,REP,Republican,2872
-ORANGE,018,ECO,Ecology,1
-ORANGE,018,DEM,Democratic,4660
-ORANGE,018,ASP,American Solidarity,10
-ORANGE,018,PSL,Party for Socialism & Liberation,4
-ORANGE,018,LPF,Libertarian,26
-ORANGE,044,ASP,American Solidarity,2
-ORANGE,044,DEM,Democratic,1537
-ORANGE,044,AMF,America First,5
-ORANGE,044,NPA,No Party Affiliation,470
-ORANGE,044,CPP,Coalition With A Purpose,4
-ORANGE,044,IND,Independent,50
-ORANGE,044,REP,Republican,314
-ORANGE,044,LPF,Libertarian,1
-ORANGE,044,PSL,Party for Socialism & Liberation,1
-ORANGE,044,FFP,Florida Forward,3
-ORANGE,044,CSV,Conservative,1
-ORANGE,044,WPF,Working Families,1
-ORANGE,044,CPF,Constitution,4
-ORANGE,033,DEM,Democratic,1886
-ORANGE,033,CPP,Coalition With A Purpose,1
-ORANGE,033,LPF,Libertarian,4
-ORANGE,033,IND,Independent,82
-ORANGE,033,CSV,Conservative,3
-ORANGE,033,REP,Republican,503
-ORANGE,033,BPP,Boricua,1
-ORANGE,033,NPA,No Party Affiliation,979
-ORANGE,033,ECO,Ecology,1
-ORANGE,033,AMF,America First,2
-ORANGE,033,PSL,Party for Socialism & Liberation,5
-ORANGE,033,ASP,American Solidarity,1
-ORANGE,033,GRE,Green,7
-ORANGE,033,CPF,Constitution,2
-ORANGE,013,CPF,Constitution,1
-ORANGE,013,IND,Independent,263
-ORANGE,013,NPA,No Party Affiliation,2843
-ORANGE,013,GRE,Green,11
-ORANGE,013,CPP,Coalition With A Purpose,3
-ORANGE,013,ASP,American Solidarity,3
-ORANGE,013,BPP,Boricua,2
-ORANGE,013,DEM,Democratic,6044
-ORANGE,013,LPF,Libertarian,22
-ORANGE,013,PSL,Party for Socialism & Liberation,5
-ORANGE,013,AMF,America First,6
-ORANGE,013,ECO,Ecology,5
-ORANGE,013,REP,Republican,4260
-ORANGE,013,CSV,Conservative,12
-ORANGE,013,FFP,Florida Forward,1
-ORANGE,037,LPF,Libertarian,26
-ORANGE,037,AMF,America First,16
-ORANGE,037,ASP,American Solidarity,6
-ORANGE,037,GRE,Green,9
-ORANGE,037,IND,Independent,316
-ORANGE,037,PSL,Party for Socialism & Liberation,1
-ORANGE,037,FFP,Florida Forward,3
-ORANGE,037,DEM,Democratic,5439
-ORANGE,037,CPF,Constitution,8
-ORANGE,037,WPF,Working Families,2
-ORANGE,037,CSV,Conservative,25
-ORANGE,037,CPP,Coalition With A Purpose,8
-ORANGE,037,NPA,No Party Affiliation,3068
-ORANGE,037,REP,Republican,5498
-ORANGE,037,BPP,Boricua,6
-ORANGE,039,REP,Republican,3441
-ORANGE,039,ASP,American Solidarity,3
-ORANGE,039,ECO,Ecology,1
-ORANGE,039,AMF,America First,6
-ORANGE,039,NPA,No Party Affiliation,2272
-ORANGE,039,IND,Independent,243
-ORANGE,039,BPP,Boricua,2
-ORANGE,039,CSV,Conservative,16
-ORANGE,039,FFP,Florida Forward,3
-ORANGE,039,CPF,Constitution,3
-ORANGE,039,CPP,Coalition With A Purpose,3
-ORANGE,039,PSL,Party for Socialism & Liberation,1
-ORANGE,039,LPF,Libertarian,23
-ORANGE,039,GRE,Green,3
-ORANGE,039,DEM,Democratic,3411
-ORANGE,011,CPF,Constitution,8
-ORANGE,011,IND,Independent,343
-ORANGE,011,CPP,Coalition With A Purpose,16
-ORANGE,011,NPA,No Party Affiliation,3361
-ORANGE,011,PSL,Party for Socialism & Liberation,3
-ORANGE,011,FFP,Florida Forward,3
-ORANGE,011,BPP,Boricua,18
-ORANGE,011,CSV,Conservative,27
-ORANGE,011,GRE,Green,10
-ORANGE,011,LPF,Libertarian,26
-ORANGE,011,DEM,Democratic,7714
-ORANGE,011,REP,Republican,5590
-ORANGE,011,AMF,America First,22
-ORANGE,011,ASP,American Solidarity,8
-ORANGE,000,CPP,Coalition With A Purpose,7
-ORANGE,000,GRE,Green,10
-ORANGE,000,IND,Independent,276
-ORANGE,000,CPF,Constitution,11
-ORANGE,000,AMF,America First,17
-ORANGE,000,ASP,American Solidarity,7
-ORANGE,000,LPF,Libertarian,24
-ORANGE,000,NPA,No Party Affiliation,2653
-ORANGE,000,BPP,Boricua,18
-ORANGE,000,PSL,Party for Socialism & Liberation,2
-ORANGE,000,FFP,Florida Forward,4
-ORANGE,000,REP,Republican,3325
-ORANGE,000,CSV,Conservative,19
-ORANGE,000,ECO,Ecology,2
-ORANGE,000,DEM,Democratic,8086
+OSCEOLA,1,DEM,Democratic,2689
+OSCEOLA,1,NPA,No Party Affiliation,1622
+OSCEOLA,1,LPF,Libertarian,3
+OSCEOLA,1,OTH,OTH,1
+OSCEOLA,1,IND,Independent,88
+OSCEOLA,1,CSV,Conservative,14
+OSCEOLA,1,REP,Republican,1854
+OSCEOLA,1,AMF,America First,9
+OSCEOLA,1,CPF,Constitution,16
+OSCEOLA,1,BPP,Boricua,18
+OSCEOLA,1,FFP,Florida Forward,2
+OSCEOLA,1,CPP,Coalition With A Purpose,4
+OSCEOLA,1,GRE,Green,1
+OSCEOLA,1,ASP,American Solidarity,1
+OSCEOLA,1,WPF,Working Families,2
+OSCEOLA,10,BPP,Boricua,28
+OSCEOLA,10,LPF,Libertarian,13
+OSCEOLA,10,IND,Independent,192
+OSCEOLA,10,CPF,Constitution,8
+OSCEOLA,10,CSV,Conservative,24
+OSCEOLA,10,REP,Republican,4911
+OSCEOLA,10,UNK,UNK,1
+OSCEOLA,10,NPA,No Party Affiliation,2559
+OSCEOLA,10,GRE,Green,7
+OSCEOLA,10,AMF,America First,19
+OSCEOLA,10,FFP,Florida Forward,1
+OSCEOLA,10,ASP,American Solidarity,4
+OSCEOLA,10,ECO,Ecology,2
+OSCEOLA,10,DEM,Democratic,3734
+OSCEOLA,10,CPP,Coalition With A Purpose,3
+OSCEOLA,15,LPF,Libertarian,4
+OSCEOLA,15,BPP,Boricua,10
+OSCEOLA,15,IND,Independent,58
+OSCEOLA,15,CPF,Constitution,1
+OSCEOLA,15,REP,Republican,898
+OSCEOLA,15,CSV,Conservative,10
+OSCEOLA,15,NPA,No Party Affiliation,975
+OSCEOLA,15,GRE,Green,4
+OSCEOLA,15,AMF,America First,5
+OSCEOLA,15,ASP,American Solidarity,4
+OSCEOLA,15,ECO,Ecology,4
+OSCEOLA,15,DEM,Democratic,1842
+OSCEOLA,15,CPP,Coalition With A Purpose,1
+OSCEOLA,8,BPP,Boricua,20
+OSCEOLA,8,ASP,American Solidarity,1
+OSCEOLA,8,CPP,Coalition With A Purpose,5
+OSCEOLA,8,FFP,Florida Forward,1
+OSCEOLA,8,PSL,Party for Socialism & Liberation,3
+OSCEOLA,8,GRE,Green,2
+OSCEOLA,8,LPF,Libertarian,5
+OSCEOLA,8,NPA,No Party Affiliation,1724
+OSCEOLA,8,DEM,Democratic,3162
+OSCEOLA,8,IND,Independent,68
+OSCEOLA,8,CPF,Constitution,3
+OSCEOLA,8,REP,Republican,1348
+OSCEOLA,8,CSV,Conservative,14
+OSCEOLA,8,AMF,America First,15
+OSCEOLA,16,LPF,Libertarian,5
+OSCEOLA,16,DEM,Democratic,590
+OSCEOLA,16,NPA,No Party Affiliation,580
+OSCEOLA,16,REP,Republican,1114
 OSCEOLA,16,IND,Independent,35
 OSCEOLA,16,BPP,Boricua,11
 OSCEOLA,16,CPF,Constitution,3
@@ -3665,47 +3726,14 @@ OSCEOLA,16,ASP,American Solidarity,1
 OSCEOLA,16,CPP,Coalition With A Purpose,1
 OSCEOLA,16,CSV,Conservative,8
 OSCEOLA,16,AMF,America First,5
-OSCEOLA,16,LPF,Libertarian,5
-OSCEOLA,16,DEM,Democratic,590
-OSCEOLA,16,NPA,No Party Affiliation,580
-OSCEOLA,16,REP,Republican,1114
-OSCEOLA,8,IND,Independent,68
-OSCEOLA,8,CPF,Constitution,3
-OSCEOLA,8,REP,Republican,1348
-OSCEOLA,8,CSV,Conservative,14
-OSCEOLA,8,AMF,America First,15
-OSCEOLA,8,BPP,Boricua,20
-OSCEOLA,8,ASP,American Solidarity,1
-OSCEOLA,8,CPP,Coalition With A Purpose,5
-OSCEOLA,8,LPF,Libertarian,5
-OSCEOLA,8,NPA,No Party Affiliation,1724
-OSCEOLA,8,DEM,Democratic,3162
-OSCEOLA,8,FFP,Florida Forward,1
-OSCEOLA,8,PSL,Party for Socialism & Liberation,3
-OSCEOLA,8,GRE,Green,2
-OSCEOLA,1,WPF,Working Families,2
-OSCEOLA,1,DEM,Democratic,2689
-OSCEOLA,1,NPA,No Party Affiliation,1622
-OSCEOLA,1,LPF,Libertarian,3
-OSCEOLA,1,OTH,OTH,1
-OSCEOLA,1,FFP,Florida Forward,2
-OSCEOLA,1,CPP,Coalition With A Purpose,4
-OSCEOLA,1,GRE,Green,1
-OSCEOLA,1,ASP,American Solidarity,1
-OSCEOLA,1,IND,Independent,88
-OSCEOLA,1,CSV,Conservative,14
-OSCEOLA,1,REP,Republican,1854
-OSCEOLA,1,AMF,America First,9
-OSCEOLA,1,CPF,Constitution,16
-OSCEOLA,1,BPP,Boricua,18
-OSCEOLA,17,GRE,Green,1
-OSCEOLA,17,DEM,Democratic,634
-OSCEOLA,17,LPF,Libertarian,7
-OSCEOLA,17,PSL,Party for Socialism & Liberation,1
-OSCEOLA,17,REP,Republican,349
-OSCEOLA,17,IND,Independent,24
-OSCEOLA,17,CSV,Conservative,4
-OSCEOLA,17,NPA,No Party Affiliation,307
+OSCEOLA,6,GRE,Green,1
+OSCEOLA,6,PSL,Party for Socialism & Liberation,1
+OSCEOLA,6,NPA,No Party Affiliation,1244
+OSCEOLA,6,REP,Republican,918
+OSCEOLA,6,ECO,Ecology,2
+OSCEOLA,6,OTH,OTH,1
+OSCEOLA,6,DEM,Democratic,3170
+OSCEOLA,6,CSV,Conservative,11
 OSCEOLA,6,ASP,American Solidarity,2
 OSCEOLA,6,CPP,Coalition With A Purpose,1
 OSCEOLA,6,AMF,America First,14
@@ -3713,92 +3741,51 @@ OSCEOLA,6,IND,Independent,83
 OSCEOLA,6,LPF,Libertarian,6
 OSCEOLA,6,BPP,Boricua,14
 OSCEOLA,6,CPF,Constitution,5
-OSCEOLA,6,GRE,Green,1
-OSCEOLA,6,NPA,No Party Affiliation,1244
-OSCEOLA,6,REP,Republican,918
-OSCEOLA,6,ECO,Ecology,2
-OSCEOLA,6,OTH,OTH,1
-OSCEOLA,6,DEM,Democratic,3170
-OSCEOLA,6,CSV,Conservative,11
-OSCEOLA,6,PSL,Party for Socialism & Liberation,1
-OSCEOLA,7,OTH,OTH,1
-OSCEOLA,7,WPF,Working Families,1
-OSCEOLA,7,DEM,Democratic,2756
-OSCEOLA,7,CSV,Conservative,13
-OSCEOLA,7,NPA,No Party Affiliation,1714
-OSCEOLA,7,IND,Independent,134
-OSCEOLA,7,REP,Republican,2049
-OSCEOLA,7,GRE,Green,5
-OSCEOLA,7,FFP,Florida Forward,2
-OSCEOLA,7,CPP,Coalition With A Purpose,6
-OSCEOLA,7,ECO,Ecology,1
-OSCEOLA,7,ASP,American Solidarity,1
-OSCEOLA,7,BPP,Boricua,4
-OSCEOLA,7,AMF,America First,3
-OSCEOLA,7,LPF,Libertarian,13
-OSCEOLA,7,CPF,Constitution,4
-OSCEOLA,12,ASP,American Solidarity,6
-OSCEOLA,12,ECO,Ecology,4
-OSCEOLA,12,GRE,Green,6
-OSCEOLA,12,DEM,Democratic,2495
-OSCEOLA,12,LPF,Libertarian,4
-OSCEOLA,12,CSV,Conservative,11
-OSCEOLA,12,CPP,Coalition With A Purpose,2
-OSCEOLA,12,BPP,Boricua,11
-OSCEOLA,12,IND,Independent,74
-OSCEOLA,12,WPF,Working Families,1
-OSCEOLA,12,AMF,America First,10
-OSCEOLA,12,REP,Republican,1194
-OSCEOLA,12,MGT,MGT,1
-OSCEOLA,12,NPA,No Party Affiliation,1219
+OSCEOLA,14,NPA,No Party Affiliation,1307
+OSCEOLA,14,ECO,Ecology,2
+OSCEOLA,14,DEM,Democratic,2217
+OSCEOLA,14,GRE,Green,4
+OSCEOLA,14,PSL,Party for Socialism & Liberation,1
+OSCEOLA,14,LPF,Libertarian,4
+OSCEOLA,14,ASP,American Solidarity,6
+OSCEOLA,14,CPP,Coalition With A Purpose,6
+OSCEOLA,14,BPP,Boricua,17
 OSCEOLA,14,CSV,Conservative,17
 OSCEOLA,14,AMF,America First,7
 OSCEOLA,14,REP,Republican,1342
 OSCEOLA,14,IND,Independent,75
 OSCEOLA,14,CPF,Constitution,4
-OSCEOLA,14,NPA,No Party Affiliation,1307
-OSCEOLA,14,ECO,Ecology,2
-OSCEOLA,14,ASP,American Solidarity,6
-OSCEOLA,14,CPP,Coalition With A Purpose,6
-OSCEOLA,14,BPP,Boricua,17
-OSCEOLA,14,DEM,Democratic,2217
-OSCEOLA,14,GRE,Green,4
-OSCEOLA,14,PSL,Party for Socialism & Liberation,1
-OSCEOLA,14,LPF,Libertarian,4
-OSCEOLA,10,ASP,American Solidarity,4
-OSCEOLA,10,ECO,Ecology,2
-OSCEOLA,10,DEM,Democratic,3734
-OSCEOLA,10,CPP,Coalition With A Purpose,3
-OSCEOLA,10,BPP,Boricua,28
-OSCEOLA,10,LPF,Libertarian,13
-OSCEOLA,10,IND,Independent,192
-OSCEOLA,10,CPF,Constitution,8
-OSCEOLA,10,CSV,Conservative,24
-OSCEOLA,10,REP,Republican,4911
-OSCEOLA,10,GRE,Green,7
-OSCEOLA,10,AMF,America First,19
-OSCEOLA,10,FFP,Florida Forward,1
-OSCEOLA,10,UNK,UNK,1
-OSCEOLA,10,NPA,No Party Affiliation,2559
-OSCEOLA,15,ASP,American Solidarity,4
-OSCEOLA,15,ECO,Ecology,4
-OSCEOLA,15,DEM,Democratic,1842
-OSCEOLA,15,CPP,Coalition With A Purpose,1
-OSCEOLA,15,LPF,Libertarian,4
-OSCEOLA,15,BPP,Boricua,10
-OSCEOLA,15,IND,Independent,58
-OSCEOLA,15,CPF,Constitution,1
-OSCEOLA,15,REP,Republican,898
-OSCEOLA,15,CSV,Conservative,10
-OSCEOLA,15,GRE,Green,4
-OSCEOLA,15,AMF,America First,5
-OSCEOLA,15,NPA,No Party Affiliation,975
+OSCEOLA,7,DEM,Democratic,2756
+OSCEOLA,7,CSV,Conservative,13
+OSCEOLA,7,NPA,No Party Affiliation,1714
+OSCEOLA,7,IND,Independent,134
+OSCEOLA,7,REP,Republican,2049
+OSCEOLA,7,CPP,Coalition With A Purpose,6
+OSCEOLA,7,ASP,American Solidarity,1
+OSCEOLA,7,ECO,Ecology,1
+OSCEOLA,7,BPP,Boricua,4
+OSCEOLA,7,AMF,America First,3
+OSCEOLA,7,LPF,Libertarian,13
+OSCEOLA,7,CPF,Constitution,4
+OSCEOLA,7,GRE,Green,5
+OSCEOLA,7,FFP,Florida Forward,2
+OSCEOLA,7,OTH,OTH,1
+OSCEOLA,7,WPF,Working Families,1
+OSCEOLA,12,CSV,Conservative,11
+OSCEOLA,12,CPP,Coalition With A Purpose,2
+OSCEOLA,12,BPP,Boricua,11
+OSCEOLA,12,IND,Independent,74
+OSCEOLA,12,REP,Republican,1194
+OSCEOLA,12,MGT,MGT,1
+OSCEOLA,12,NPA,No Party Affiliation,1219
+OSCEOLA,12,WPF,Working Families,1
+OSCEOLA,12,AMF,America First,10
+OSCEOLA,12,ASP,American Solidarity,6
+OSCEOLA,12,ECO,Ecology,4
+OSCEOLA,12,GRE,Green,6
+OSCEOLA,12,DEM,Democratic,2495
+OSCEOLA,12,LPF,Libertarian,4
 OSCEOLA,13,GRE,Green,2
-OSCEOLA,13,REP,Republican,2255
-OSCEOLA,13,LPF,Libertarian,10
-OSCEOLA,13,CSV,Conservative,8
-OSCEOLA,13,NPA,No Party Affiliation,1557
-OSCEOLA,13,DEM,Democratic,1991
 OSCEOLA,13,BPP,Boricua,12
 OSCEOLA,13,AMF,America First,9
 OSCEOLA,13,IND,Independent,101
@@ -3806,6 +3793,19 @@ OSCEOLA,13,CPF,Constitution,5
 OSCEOLA,13,ECO,Ecology,1
 OSCEOLA,13,ASP,American Solidarity,1
 OSCEOLA,13,CPP,Coalition With A Purpose,2
+OSCEOLA,13,REP,Republican,2255
+OSCEOLA,13,LPF,Libertarian,10
+OSCEOLA,13,CSV,Conservative,8
+OSCEOLA,13,NPA,No Party Affiliation,1557
+OSCEOLA,13,DEM,Democratic,1991
+OSCEOLA,17,REP,Republican,349
+OSCEOLA,17,IND,Independent,24
+OSCEOLA,17,CSV,Conservative,4
+OSCEOLA,17,NPA,No Party Affiliation,307
+OSCEOLA,17,PSL,Party for Socialism & Liberation,1
+OSCEOLA,17,GRE,Green,1
+OSCEOLA,17,DEM,Democratic,634
+OSCEOLA,17,LPF,Libertarian,7
 PALM BEACH,ACBL,AMF,America First,8
 PALM BEACH,ACBL,ASP,American Solidarity,4
 PALM BEACH,ACBL,BPP,Boricua,1
@@ -4164,75 +4164,107 @@ PALM BEACH,WRCC,IND,Independent,102
 PALM BEACH,WRCC,LPF,Libertarian,5
 PALM BEACH,WRCC,NPA,No Party Affiliation,797
 PALM BEACH,WRCC,REP,Republican,632
-PASCO,1,PSL,Party for Socialism & Liberation,3
-PASCO,1,REP,Republican,6060
-PASCO,1,DEM,Democratic,2785
-PASCO,1,NPA,No Party Affiliation,2109
-PASCO,1,LPF,Libertarian,22
-PASCO,1,IND,Independent,256
-PASCO,1,CSV,Conservative,23
-PASCO,1,AMF,America First,17
-PASCO,1,CPF,Constitution,11
-PASCO,1,BPP,Boricua,5
-PASCO,1,CPP,Coalition With A Purpose,5
-PASCO,1,GRE,Green,9
-PASCO,1,ASP,American Solidarity,2
-PASCO,1,ECO,Ecology,1
-PASCO,14,AMF,America First,6
-PASCO,14,DEM,Democratic,1301
-PASCO,14,PSL,Party for Socialism & Liberation,2
-PASCO,14,NPA,No Party Affiliation,1079
-PASCO,14,GRE,Green,7
-PASCO,14,LPF,Libertarian,20
-PASCO,14,CSV,Conservative,12
-PASCO,14,REP,Republican,2579
-PASCO,14,IND,Independent,120
-PASCO,14,CPF,Constitution,10
-PASCO,14,CPP,Coalition With A Purpose,3
-PASCO,14,BPP,Boricua,3
-PASCO,13,PSL,Party for Socialism & Liberation,1
-PASCO,13,AMF,America First,10
-PASCO,13,ECO,Ecology,1
-PASCO,13,ASP,American Solidarity,2
-PASCO,13,CPP,Coalition With A Purpose,2
-PASCO,13,BPP,Boricua,7
-PASCO,13,IND,Independent,210
-PASCO,13,CPF,Constitution,4
-PASCO,13,REP,Republican,5466
-PASCO,13,LPF,Libertarian,26
-PASCO,13,CSV,Conservative,22
-PASCO,13,NPA,No Party Affiliation,1711
-PASCO,13,DEM,Democratic,1795
-PASCO,9,CPP,Coalition With A Purpose,4
-PASCO,9,AMF,America First,8
-PASCO,9,BPP,Boricua,12
-PASCO,9,PSL,Party for Socialism & Liberation,1
+PASCO,10,BPP,Boricua,3
+PASCO,10,LPF,Libertarian,11
+PASCO,10,IND,Independent,156
+PASCO,10,CPF,Constitution,3
+PASCO,10,CSV,Conservative,12
+PASCO,10,REP,Republican,3036
+PASCO,10,PSL,Party for Socialism & Liberation,1
+PASCO,10,GRE,Green,1
+PASCO,10,AMF,America First,7
+PASCO,10,FFP,Florida Forward,1
+PASCO,10,NPA,No Party Affiliation,1340
+PASCO,10,ASP,American Solidarity,3
+PASCO,10,DEM,Democratic,1577
+PASCO,10,CPP,Coalition With A Purpose,2
+PASCO,3,LPF,Libertarian,25
+PASCO,3,ECO,Ecology,2
+PASCO,3,AMF,America First,9
+PASCO,3,CPF,Constitution,3
+PASCO,3,REP,Republican,6403
+PASCO,3,NPA,No Party Affiliation,2713
+PASCO,3,PSL,Party for Socialism & Liberation,8
+PASCO,3,GRE,Green,5
+PASCO,3,DEM,Democratic,4105
+PASCO,3,BPP,Boricua,11
+PASCO,3,ASP,American Solidarity,3
+PASCO,3,CPP,Coalition With A Purpose,3
+PASCO,3,IND,Independent,286
+PASCO,3,CSV,Conservative,16
+PASCO,11,GRE,Green,1
+PASCO,11,CPP,Coalition With A Purpose,1
+PASCO,11,AMF,America First,5
+PASCO,11,WPF,Working Families,1
+PASCO,11,PSL,Party for Socialism & Liberation,1
+PASCO,11,NPA,No Party Affiliation,834
+PASCO,11,DEM,Democratic,1094
+PASCO,11,REP,Republican,2105
+PASCO,11,LPF,Libertarian,15
+PASCO,11,,,1
+PASCO,11,IND,Independent,104
+PASCO,11,CSV,Conservative,8
+PASCO,11,CPF,Constitution,3
+PASCO,11,BPP,Boricua,1
+PASCO,7,CSV,Conservative,20
+PASCO,7,IND,Independent,160
+PASCO,7,DEM,Democratic,2701
+PASCO,7,NPA,No Party Affiliation,1607
+PASCO,7,REP,Republican,2722
+PASCO,7,GRE,Green,8
+PASCO,7,PSL,Party for Socialism & Liberation,3
+PASCO,7,BPP,Boricua,5
+PASCO,7,AMF,America First,6
+PASCO,7,CPF,Constitution,4
+PASCO,7,FFP,Florida Forward,2
+PASCO,7,CPP,Coalition With A Purpose,7
+PASCO,7,ASP,American Solidarity,3
+PASCO,7,LPF,Libertarian,18
+PASCO,2,ASP,American Solidarity,2
+PASCO,2,CPP,Coalition With A Purpose,1
+PASCO,2,CSV,Conservative,4
+PASCO,2,IND,Independent,115
+PASCO,2,BPP,Boricua,3
+PASCO,2,CPF,Constitution,6
+PASCO,2,AMF,America First,7
+PASCO,2,DEM,Democratic,1693
+PASCO,2,GRE,Green,3
+PASCO,2,REP,Republican,3165
+PASCO,2,NPA,No Party Affiliation,879
+PASCO,2,PSL,Party for Socialism & Liberation,1
+PASCO,2,LPF,Libertarian,11
+PASCO,2,ECO,Ecology,1
+PASCO,9,ASP,American Solidarity,4
+PASCO,9,GRE,Green,2
+PASCO,9,FFP,Florida Forward,1
+PASCO,9,ECO,Ecology,1
+PASCO,9,DEM,Democratic,2138
 PASCO,9,CPF,Constitution,7
 PASCO,9,REP,Republican,3635
 PASCO,9,CSV,Conservative,22
 PASCO,9,IND,Independent,210
 PASCO,9,NPA,No Party Affiliation,1312
 PASCO,9,LPF,Libertarian,14
-PASCO,9,ECO,Ecology,1
-PASCO,9,DEM,Democratic,2138
-PASCO,9,ASP,American Solidarity,4
-PASCO,9,GRE,Green,2
-PASCO,9,FFP,Florida Forward,1
-PASCO,10,ASP,American Solidarity,3
-PASCO,10,DEM,Democratic,1577
-PASCO,10,CPP,Coalition With A Purpose,2
-PASCO,10,NPA,No Party Affiliation,1340
-PASCO,10,REP,Republican,3036
-PASCO,10,FFP,Florida Forward,1
-PASCO,10,PSL,Party for Socialism & Liberation,1
-PASCO,10,GRE,Green,1
-PASCO,10,AMF,America First,7
-PASCO,10,BPP,Boricua,3
-PASCO,10,LPF,Libertarian,11
-PASCO,10,IND,Independent,156
-PASCO,10,CPF,Constitution,3
-PASCO,10,CSV,Conservative,12
-PASCO,12,FFP,Florida Forward,2
+PASCO,9,PSL,Party for Socialism & Liberation,1
+PASCO,9,CPP,Coalition With A Purpose,4
+PASCO,9,AMF,America First,8
+PASCO,9,BPP,Boricua,12
+PASCO,8,ASP,American Solidarity,1
+PASCO,8,CPP,Coalition With A Purpose,7
+PASCO,8,BPP,Boricua,2
+PASCO,8,DEM,Democratic,2565
+PASCO,8,ECO,Ecology,3
+PASCO,8,FFP,Florida Forward,2
+PASCO,8,GRE,Green,5
+PASCO,8,IND,Independent,151
+PASCO,8,CPF,Constitution,10
+PASCO,8,REP,Republican,2897
+PASCO,8,CSV,Conservative,16
+PASCO,8,LPF,Libertarian,12
+PASCO,8,NPA,No Party Affiliation,1678
+PASCO,8,PSL,Party for Socialism & Liberation,1
+PASCO,8,AMF,America First,3
+PASCO,12,CPP,Coalition With A Purpose,4
 PASCO,12,CPF,Constitution,2
 PASCO,12,CSV,Conservative,9
 PASCO,12,BPP,Boricua,7
@@ -4246,8 +4278,22 @@ PASCO,12,DEM,Democratic,2666
 PASCO,12,LPF,Libertarian,9
 PASCO,12,AMF,America First,4
 PASCO,12,PSL,Party for Socialism & Liberation,2
-PASCO,12,CPP,Coalition With A Purpose,4
-PASCO,15,FFP,Florida Forward,2
+PASCO,12,FFP,Florida Forward,2
+PASCO,1,ECO,Ecology,1
+PASCO,1,DEM,Democratic,2785
+PASCO,1,NPA,No Party Affiliation,2109
+PASCO,1,LPF,Libertarian,22
+PASCO,1,CPP,Coalition With A Purpose,5
+PASCO,1,GRE,Green,9
+PASCO,1,ASP,American Solidarity,2
+PASCO,1,IND,Independent,256
+PASCO,1,CSV,Conservative,23
+PASCO,1,AMF,America First,17
+PASCO,1,CPF,Constitution,11
+PASCO,1,BPP,Boricua,5
+PASCO,1,REP,Republican,6060
+PASCO,1,PSL,Party for Socialism & Liberation,3
+PASCO,15,REP,Republican,2829
 PASCO,15,LPF,Libertarian,19
 PASCO,15,BPP,Boricua,5
 PASCO,15,IND,Independent,157
@@ -4260,78 +4306,32 @@ PASCO,15,CPP,Coalition With A Purpose,3
 PASCO,15,PSL,Party for Socialism & Liberation,1
 PASCO,15,GRE,Green,4
 PASCO,15,AMF,America First,15
-PASCO,15,REP,Republican,2829
-PASCO,8,AMF,America First,3
-PASCO,8,PSL,Party for Socialism & Liberation,1
-PASCO,8,BPP,Boricua,2
-PASCO,8,FFP,Florida Forward,2
-PASCO,8,GRE,Green,5
-PASCO,8,IND,Independent,151
-PASCO,8,CPF,Constitution,10
-PASCO,8,REP,Republican,2897
-PASCO,8,CSV,Conservative,16
-PASCO,8,LPF,Libertarian,12
-PASCO,8,NPA,No Party Affiliation,1678
-PASCO,8,DEM,Democratic,2565
-PASCO,8,ECO,Ecology,3
-PASCO,8,ASP,American Solidarity,1
-PASCO,8,CPP,Coalition With A Purpose,7
-PASCO,11,,,1
-PASCO,11,IND,Independent,104
-PASCO,11,CSV,Conservative,8
-PASCO,11,CPF,Constitution,3
-PASCO,11,BPP,Boricua,1
-PASCO,11,CPP,Coalition With A Purpose,1
-PASCO,11,AMF,America First,5
-PASCO,11,WPF,Working Families,1
-PASCO,11,PSL,Party for Socialism & Liberation,1
-PASCO,11,NPA,No Party Affiliation,834
-PASCO,11,DEM,Democratic,1094
-PASCO,11,REP,Republican,2105
-PASCO,11,LPF,Libertarian,15
-PASCO,11,GRE,Green,1
-PASCO,2,ECO,Ecology,1
-PASCO,2,CSV,Conservative,4
-PASCO,2,IND,Independent,115
-PASCO,2,BPP,Boricua,3
-PASCO,2,CPF,Constitution,6
-PASCO,2,DEM,Democratic,1693
-PASCO,2,GRE,Green,3
-PASCO,2,REP,Republican,3165
-PASCO,2,NPA,No Party Affiliation,879
-PASCO,2,PSL,Party for Socialism & Liberation,1
-PASCO,2,LPF,Libertarian,11
-PASCO,2,AMF,America First,7
-PASCO,2,ASP,American Solidarity,2
-PASCO,2,CPP,Coalition With A Purpose,1
-PASCO,7,CPP,Coalition With A Purpose,7
-PASCO,7,ASP,American Solidarity,3
-PASCO,7,LPF,Libertarian,18
-PASCO,7,DEM,Democratic,2701
-PASCO,7,NPA,No Party Affiliation,1607
-PASCO,7,REP,Republican,2722
-PASCO,7,BPP,Boricua,5
-PASCO,7,AMF,America First,6
-PASCO,7,CPF,Constitution,4
-PASCO,7,FFP,Florida Forward,2
-PASCO,7,GRE,Green,8
-PASCO,7,PSL,Party for Socialism & Liberation,3
-PASCO,7,CSV,Conservative,20
-PASCO,7,IND,Independent,160
-PASCO,3,IND,Independent,286
-PASCO,3,CSV,Conservative,16
-PASCO,3,ECO,Ecology,2
-PASCO,3,AMF,America First,9
-PASCO,3,REP,Republican,6403
-PASCO,3,NPA,No Party Affiliation,2713
-PASCO,3,PSL,Party for Socialism & Liberation,8
-PASCO,3,GRE,Green,5
-PASCO,3,DEM,Democratic,4105
-PASCO,3,BPP,Boricua,11
-PASCO,3,ASP,American Solidarity,3
-PASCO,3,CPP,Coalition With A Purpose,3
-PASCO,3,CPF,Constitution,3
-PASCO,3,LPF,Libertarian,25
+PASCO,15,FFP,Florida Forward,2
+PASCO,14,NPA,No Party Affiliation,1079
+PASCO,14,CPP,Coalition With A Purpose,3
+PASCO,14,BPP,Boricua,3
+PASCO,14,GRE,Green,7
+PASCO,14,LPF,Libertarian,20
+PASCO,14,CSV,Conservative,12
+PASCO,14,REP,Republican,2579
+PASCO,14,IND,Independent,120
+PASCO,14,CPF,Constitution,10
+PASCO,14,DEM,Democratic,1301
+PASCO,14,PSL,Party for Socialism & Liberation,2
+PASCO,14,AMF,America First,6
+PASCO,13,REP,Republican,5466
+PASCO,13,LPF,Libertarian,26
+PASCO,13,CSV,Conservative,22
+PASCO,13,NPA,No Party Affiliation,1711
+PASCO,13,DEM,Democratic,1795
+PASCO,13,BPP,Boricua,7
+PASCO,13,IND,Independent,210
+PASCO,13,CPF,Constitution,4
+PASCO,13,AMF,America First,10
+PASCO,13,ECO,Ecology,1
+PASCO,13,ASP,American Solidarity,2
+PASCO,13,CPP,Coalition With A Purpose,2
+PASCO,13,PSL,Party for Socialism & Liberation,1
 PINELLAS,001,AMF,America First,5
 PINELLAS,001,ASP,American Solidarity,2
 PINELLAS,001,BPP,Boricua,3
@@ -4436,144 +4436,144 @@ PINELLAS,008,NPA,No Party Affiliation,3053
 PINELLAS,008,PSL,Party for Socialism & Liberation,2
 PINELLAS,008,REP,Republican,5894
 POLK,009,LPF,Libertarian,14
-POLK,009,ASP,American Solidarity,5
-POLK,009,WPF,Working Families,1
-POLK,009,DEM,Democratic,4010
-POLK,009,CPF,Constitution,6
+POLK,009,PSL,Party for Socialism & Liberation,2
+POLK,009,GRE,Green,4
 POLK,009,AMF,America First,12
 POLK,009,CPP,Coalition With A Purpose,7
 POLK,009,ECO,Ecology,2
+POLK,009,ASP,American Solidarity,5
+POLK,009,CSV,Conservative,20
+POLK,009,DEM,Democratic,4010
+POLK,009,CPF,Constitution,6
+POLK,009,WPF,Working Families,1
+POLK,009,NPA,No Party Affiliation,2038
+POLK,009,JEF,JEF,1
 POLK,009,IND,Independent,149
 POLK,009,REP,Republican,2383
 POLK,009,BPP,Boricua,23
-POLK,009,PSL,Party for Socialism & Liberation,2
-POLK,009,GRE,Green,4
-POLK,009,NPA,No Party Affiliation,2038
-POLK,009,JEF,JEF,1
-POLK,009,CSV,Conservative,20
 POLK,013,BPP,Boricua,9
 POLK,013,DEM,Democratic,1896
 POLK,013,NPA,No Party Affiliation,1094
+POLK,013,GRE,Green,2
+POLK,013,CPP,Coalition With A Purpose,1
 POLK,013,AMF,America First,6
 POLK,013,ECO,Ecology,3
-POLK,013,CSV,Conservative,12
-POLK,013,REP,Republican,2770
-POLK,013,CPP,Coalition With A Purpose,1
-POLK,013,GRE,Green,2
-POLK,013,LPF,Libertarian,8
 POLK,013,CPF,Constitution,2
 POLK,013,IND,Independent,127
+POLK,013,REP,Republican,2770
+POLK,013,CSV,Conservative,12
+POLK,013,LPF,Libertarian,8
 POLK,004,ECO,Ecology,1
 POLK,004,GRE,Green,3
-POLK,004,PSL,Party for Socialism & Liberation,1
-POLK,004,BPP,Boricua,10
-POLK,004,NPA,No Party Affiliation,1529
-POLK,004,CPF,Constitution,4
 POLK,004,CPP,Coalition With A Purpose,5
 POLK,004,IND,Independent,172
+POLK,004,BPP,Boricua,10
+POLK,004,DEM,Democratic,4273
 POLK,004,ASP,American Solidarity,5
 POLK,004,FFP,Florida Forward,2
 POLK,004,LPF,Libertarian,13
+POLK,004,PSL,Party for Socialism & Liberation,1
 POLK,004,AMF,America First,7
 POLK,004,CSV,Conservative,7
-POLK,004,DEM,Democratic,4273
+POLK,004,NPA,No Party Affiliation,1529
+POLK,004,CPF,Constitution,4
 POLK,004,REP,Republican,3120
 POLK,002,IND,Independent,153
 POLK,002,NPA,No Party Affiliation,1107
-POLK,002,CSV,Conservative,12
+POLK,002,AMF,America First,7
+POLK,002,LPF,Libertarian,18
+POLK,002,CPF,Constitution,7
 POLK,002,CPP,Coalition With A Purpose,1
 POLK,002,BPP,Boricua,8
 POLK,002,REP,Republican,3717
-POLK,002,LPF,Libertarian,18
-POLK,002,GRE,Green,2
-POLK,002,AMF,America First,7
+POLK,002,CSV,Conservative,12
 POLK,002,ASP,American Solidarity,1
 POLK,002,DEM,Democratic,2063
-POLK,002,CPF,Constitution,7
+POLK,002,GRE,Green,2
 POLK,010,CPF,Constitution,3
-POLK,010,CSV,Conservative,11
-POLK,010,REP,Republican,1646
 POLK,010,LPF,Libertarian,6
+POLK,010,IND,Independent,126
+POLK,010,REP,Republican,1646
+POLK,010,NPA,No Party Affiliation,1195
+POLK,010,BPP,Boricua,7
+POLK,010,CSV,Conservative,11
+POLK,010,CPP,Coalition With A Purpose,4
+POLK,010,DEM,Democratic,2827
 POLK,010,ASP,American Solidarity,5
 POLK,010,GRE,Green,2
 POLK,010,FFP,Florida Forward,1
-POLK,010,NPA,No Party Affiliation,1195
-POLK,010,BPP,Boricua,7
-POLK,010,CPP,Coalition With A Purpose,4
-POLK,010,DEM,Democratic,2827
-POLK,010,IND,Independent,126
 POLK,010,AMF,America First,7
 POLK,003,NPA,No Party Affiliation,2279
-POLK,003,PSL,Party for Socialism & Liberation,3
-POLK,003,FFP,Florida Forward,3
-POLK,003,AMF,America First,2
 POLK,003,IND,Independent,214
 POLK,003,ASP,American Solidarity,5
 POLK,003,GRE,Green,7
-POLK,003,DEM,Democratic,3927
-POLK,003,LPF,Libertarian,23
+POLK,003,PSL,Party for Socialism & Liberation,3
+POLK,003,FFP,Florida Forward,3
+POLK,003,AMF,America First,2
 POLK,003,BPP,Boricua,12
 POLK,003,CPF,Constitution,4
 POLK,003,REP,Republican,2891
 POLK,003,CSV,Conservative,11
 POLK,003,CPP,Coalition With A Purpose,3
+POLK,003,LPF,Libertarian,23
+POLK,003,DEM,Democratic,3927
 POLK,007,CPP,Coalition With A Purpose,1
 POLK,007,CSV,Conservative,9
 POLK,007,NPA,No Party Affiliation,1025
-POLK,007,BPP,Boricua,1
-POLK,007,CPF,Constitution,6
-POLK,007,IND,Independent,103
 POLK,007,PSL,Party for Socialism & Liberation,1
 POLK,007,LPF,Libertarian,13
-POLK,007,FFP,Florida Forward,1
 POLK,007,REP,Republican,3367
+POLK,007,IND,Independent,103
+POLK,007,BPP,Boricua,1
+POLK,007,CPF,Constitution,6
+POLK,007,FFP,Florida Forward,1
 POLK,007,DEM,Democratic,2427
 POLK,006,CPP,Coalition With A Purpose,6
 POLK,006,BPP,Boricua,14
 POLK,006,CPF,Constitution,6
+POLK,006,DEM,Democratic,4683
 POLK,006,LPF,Libertarian,23
+POLK,006,GRE,Green,7
+POLK,006,ASP,American Solidarity,2
+POLK,006,IND,Independent,233
 POLK,006,REP,Republican,5685
 POLK,006,NPA,No Party Affiliation,2061
 POLK,006,ECO,Ecology,5
 POLK,006,AMF,America First,6
-POLK,006,ASP,American Solidarity,2
-POLK,006,PSL,Party for Socialism & Liberation,1
-POLK,006,DEM,Democratic,4683
-POLK,006,IND,Independent,233
 POLK,006,WPF,Working Families,1
 POLK,006,FFP,Florida Forward,1
-POLK,006,GRE,Green,7
+POLK,006,PSL,Party for Socialism & Liberation,1
 POLK,006,CSV,Conservative,17
 POLK,005,LPF,Libertarian,46
 POLK,005,DEM,Democratic,3788
+POLK,005,CSV,Conservative,15
 POLK,005,CPP,Coalition With A Purpose,5
 POLK,005,REP,Republican,5690
-POLK,005,ASP,American Solidarity,2
-POLK,005,WPF,Working Families,1
+POLK,005,FFP,Florida Forward,1
 POLK,005,ECO,Ecology,1
-POLK,005,CSV,Conservative,15
-POLK,005,CPF,Constitution,6
-POLK,005,NPA,No Party Affiliation,2066
 POLK,005,PSL,Party for Socialism & Liberation,1
 POLK,005,GRE,Green,5
+POLK,005,ASP,American Solidarity,2
+POLK,005,WPF,Working Families,1
 POLK,005,AMF,America First,3
-POLK,005,FFP,Florida Forward,1
+POLK,005,CPF,Constitution,6
+POLK,005,NPA,No Party Affiliation,2066
 POLK,005,IND,Independent,279
 POLK,005,BPP,Boricua,7
-POLK,008,NPA,No Party Affiliation,1180
-POLK,008,CSV,Conservative,4
-POLK,008,IND,Independent,149
-POLK,008,DEM,Democratic,2308
-POLK,008,ECO,Ecology,2
 POLK,008,ASP,American Solidarity,2
 POLK,008,GRE,Green,3
 POLK,008,AMF,America First,9
-POLK,008,FFP,Florida Forward,1
-POLK,008,REP,Republican,4914
-POLK,008,CPP,Coalition With A Purpose,1
+POLK,008,IND,Independent,149
+POLK,008,DEM,Democratic,2308
 POLK,008,BPP,Boricua,1
 POLK,008,LPF,Libertarian,11
 POLK,008,CPF,Constitution,3
+POLK,008,NPA,No Party Affiliation,1180
+POLK,008,CSV,Conservative,4
+POLK,008,FFP,Florida Forward,1
+POLK,008,REP,Republican,4914
+POLK,008,CPP,Coalition With A Purpose,1
+POLK,008,ECO,Ecology,2
 POLK,008,PSL,Party for Socialism & Liberation,1
 PUTNAM,EV1,AMF,America First,3
 PUTNAM,EV1,CPF,Constitution,1
@@ -4676,92 +4676,116 @@ SANTA ROSA,SRC6,REP,Republican,3227
 SANTA ROSA,SRC6,WPF,Working Families,1
 SARASOTA,E1,ECO,Ecology,3
 SARASOTA,E1,LPF,Libertarian,16
+SARASOTA,E1,GRE,Green,3
+SARASOTA,E1,IND,Independent,187
 SARASOTA,E1,DEM,Democratic,2754
+SARASOTA,E1,CPP,Coalition With A Purpose,4
 SARASOTA,E1,FFP,Florida Forward,1
 SARASOTA,E1,PSL,Party for Socialism & Liberation,1
-SARASOTA,E1,CPP,Coalition With A Purpose,4
 SARASOTA,E1,AMF,America First,5
 SARASOTA,E1,BPP,Boricua,2
 SARASOTA,E1,CPF,Constitution,5
 SARASOTA,E1,CSV,Conservative,10
 SARASOTA,E1,NPA,No Party Affiliation,1621
 SARASOTA,E1,REP,Republican,3838
-SARASOTA,E1,GRE,Green,3
-SARASOTA,E1,IND,Independent,187
 SARASOTA,E10,ECO,Ecology,2
-SARASOTA,E10,LPF,Libertarian,4
-SARASOTA,E10,PSL,Party for Socialism & Liberation,1
-SARASOTA,E10,DEM,Democratic,812
-SARASOTA,E10,AMF,America First,4
-SARASOTA,E10,CSV,Conservative,13
-SARASOTA,E10,NPA,No Party Affiliation,840
 SARASOTA,E10,GRE,Green,1
 SARASOTA,E10,IND,Independent,122
 SARASOTA,E10,REP,Republican,2508
+SARASOTA,E10,DEM,Democratic,812
+SARASOTA,E10,LPF,Libertarian,4
+SARASOTA,E10,PSL,Party for Socialism & Liberation,1
+SARASOTA,E10,AMF,America First,4
+SARASOTA,E10,CSV,Conservative,13
+SARASOTA,E10,NPA,No Party Affiliation,840
 SARASOTA,E11,ASP,American Solidarity,1
+SARASOTA,E11,LPF,Libertarian,3
+SARASOTA,E11,NPA,No Party Affiliation,592
+SARASOTA,E11,CPF,Constitution,2
+SARASOTA,E11,CSV,Conservative,4
 SARASOTA,E11,AMF,America First,1
 SARASOTA,E11,GRE,Green,1
 SARASOTA,E11,DEM,Democratic,537
 SARASOTA,E11,ECO,Ecology,1
 SARASOTA,E11,IND,Independent,83
 SARASOTA,E11,REP,Republican,2052
-SARASOTA,E11,LPF,Libertarian,3
-SARASOTA,E11,NPA,No Party Affiliation,592
-SARASOTA,E11,CPF,Constitution,2
-SARASOTA,E11,CSV,Conservative,4
 SARASOTA,E2,ASP,American Solidarity,3
+SARASOTA,E2,CPF,Constitution,4
+SARASOTA,E2,CSV,Conservative,24
+SARASOTA,E2,LPF,Libertarian,20
+SARASOTA,E2,NPA,No Party Affiliation,2674
+SARASOTA,E2,AMF,America First,10
+SARASOTA,E2,GRE,Green,3
 SARASOTA,E2,CPP,Coalition With A Purpose,5
 SARASOTA,E2,DEM,Democratic,2495
 SARASOTA,E2,ECO,Ecology,3
 SARASOTA,E2,IND,Independent,317
 SARASOTA,E2,REP,Republican,9690
-SARASOTA,E2,AMF,America First,10
-SARASOTA,E2,GRE,Green,3
-SARASOTA,E2,CPF,Constitution,4
-SARASOTA,E2,CSV,Conservative,24
-SARASOTA,E2,LPF,Libertarian,20
-SARASOTA,E2,NPA,No Party Affiliation,2674
 SARASOTA,E3,ASP,American Solidarity,3
 SARASOTA,E3,PSL,Party for Socialism & Liberation,2
-SARASOTA,E3,BPP,Boricua,2
-SARASOTA,E3,CPP,Coalition With A Purpose,4
-SARASOTA,E3,ECO,Ecology,3
-SARASOTA,E3,IND,Independent,168
-SARASOTA,E3,REP,Republican,4963
-SARASOTA,E3,AMF,America First,12
-SARASOTA,E3,GRE,Green,1
-SARASOTA,E3,FFP,Florida Forward,1
 SARASOTA,E3,CPF,Constitution,5
 SARASOTA,E3,CSV,Conservative,18
 SARASOTA,E3,DEM,Democratic,1698
 SARASOTA,E3,LPF,Libertarian,14
 SARASOTA,E3,NPA,No Party Affiliation,1585
+SARASOTA,E3,AMF,America First,12
+SARASOTA,E3,GRE,Green,1
+SARASOTA,E3,BPP,Boricua,2
+SARASOTA,E3,CPP,Coalition With A Purpose,4
+SARASOTA,E3,ECO,Ecology,3
+SARASOTA,E3,IND,Independent,168
+SARASOTA,E3,REP,Republican,4963
+SARASOTA,E3,FFP,Florida Forward,1
 SARASOTA,E4,CPP,Coalition With A Purpose,3
-SARASOTA,E4,CSV,Conservative,11
+SARASOTA,E4,AMF,America First,14
+SARASOTA,E4,ECO,Ecology,3
+SARASOTA,E4,FFP,Florida Forward,1
 SARASOTA,E4,BPP,Boricua,1
 SARASOTA,E4,CPF,Constitution,2
 SARASOTA,E4,NPA,No Party Affiliation,2157
 SARASOTA,E4,REP,Republican,5891
+SARASOTA,E4,CSV,Conservative,11
 SARASOTA,E4,ASP,American Solidarity,3
 SARASOTA,E4,LPF,Libertarian,15
 SARASOTA,E4,DEM,Democratic,2872
 SARASOTA,E4,GRE,Green,6
 SARASOTA,E4,IND,Independent,272
-SARASOTA,E4,AMF,America First,14
-SARASOTA,E4,ECO,Ecology,3
-SARASOTA,E4,FFP,Florida Forward,1
 SARASOTA,E9,REP,Republican,3723
-SARASOTA,E9,AMF,America First,6
-SARASOTA,E9,CPP,Coalition With A Purpose,2
-SARASOTA,E9,NPA,No Party Affiliation,1482
-SARASOTA,E9,GRE,Green,3
-SARASOTA,E9,IND,Independent,167
-SARASOTA,E9,CPF,Constitution,6
-SARASOTA,E9,CSV,Conservative,9
-SARASOTA,E9,ASP,American Solidarity,1
 SARASOTA,E9,DEM,Democratic,1256
 SARASOTA,E9,ECO,Ecology,1
 SARASOTA,E9,LPF,Libertarian,10
+SARASOTA,E9,GRE,Green,3
+SARASOTA,E9,IND,Independent,167
+SARASOTA,E9,AMF,America First,6
+SARASOTA,E9,CPP,Coalition With A Purpose,2
+SARASOTA,E9,NPA,No Party Affiliation,1482
+SARASOTA,E9,CPF,Constitution,6
+SARASOTA,E9,CSV,Conservative,9
+SARASOTA,E9,ASP,American Solidarity,1
+SARASOTA,E5,AMF,America First,2
+SARASOTA,E5,PSL,Party for Socialism & Liberation,2
+SARASOTA,E5,CPF,Constitution,1
+SARASOTA,E5,CSV,Conservative,1
+SARASOTA,E5,NPA,No Party Affiliation,446
+SARASOTA,E5,REP,Republican,688
+SARASOTA,E5,LPF,Libertarian,10
+SARASOTA,E5,DEM,Democratic,1673
+SARASOTA,E5,GRE,Green,2
+SARASOTA,E5,IND,Independent,54
+SARASOTA,E6,CPP,Coalition With A Purpose,3
+SARASOTA,E6,IND,Independent,239
+SARASOTA,E6,REP,Republican,4992
+SARASOTA,E6,DEM,Democratic,2040
+SARASOTA,E6,GRE,Green,4
+SARASOTA,E6,LPF,Libertarian,15
+SARASOTA,E6,AMF,America First,8
+SARASOTA,E6,BPP,Boricua,2
+SARASOTA,E6,CPF,Constitution,3
+SARASOTA,E6,CSV,Conservative,10
+SARASOTA,E6,NPA,No Party Affiliation,1612
+SARASOTA,E7,CPP,Coalition With A Purpose,2
+SARASOTA,E7,IND,Independent,78
+SARASOTA,E7,REP,Republican,2013
 SARASOTA,E7,ASP,American Solidarity,1
 SARASOTA,E7,DEM,Democratic,1106
 SARASOTA,E7,GRE,Green,4
@@ -4771,271 +4795,253 @@ SARASOTA,E7,AMF,America First,2
 SARASOTA,E7,CPF,Constitution,1
 SARASOTA,E7,CSV,Conservative,3
 SARASOTA,E7,NPA,No Party Affiliation,680
-SARASOTA,E7,CPP,Coalition With A Purpose,2
-SARASOTA,E7,IND,Independent,78
-SARASOTA,E7,REP,Republican,2013
-SARASOTA,E8,AMF,America First,3
-SARASOTA,E8,ECO,Ecology,2
-SARASOTA,E8,NPA,No Party Affiliation,1169
-SARASOTA,E8,REP,Republican,3003
-SARASOTA,E8,GRE,Green,2
-SARASOTA,E8,IND,Independent,112
-SARASOTA,E8,CPF,Constitution,5
 SARASOTA,E8,CSV,Conservative,11
 SARASOTA,E8,DEM,Democratic,973
 SARASOTA,E8,LPF,Libertarian,12
 SARASOTA,E8,WPF,Working Families,1
-SARASOTA,E5,CPF,Constitution,1
-SARASOTA,E5,CSV,Conservative,1
-SARASOTA,E5,NPA,No Party Affiliation,446
-SARASOTA,E5,REP,Republican,688
-SARASOTA,E5,LPF,Libertarian,10
-SARASOTA,E5,DEM,Democratic,1673
-SARASOTA,E5,GRE,Green,2
-SARASOTA,E5,IND,Independent,54
-SARASOTA,E5,AMF,America First,2
-SARASOTA,E5,PSL,Party for Socialism & Liberation,2
-SARASOTA,E6,DEM,Democratic,2040
-SARASOTA,E6,GRE,Green,4
-SARASOTA,E6,LPF,Libertarian,15
-SARASOTA,E6,AMF,America First,8
-SARASOTA,E6,BPP,Boricua,2
-SARASOTA,E6,CPF,Constitution,3
-SARASOTA,E6,CSV,Conservative,10
-SARASOTA,E6,NPA,No Party Affiliation,1612
-SARASOTA,E6,CPP,Coalition With A Purpose,3
-SARASOTA,E6,IND,Independent,239
-SARASOTA,E6,REP,Republican,4992
+SARASOTA,E8,GRE,Green,2
+SARASOTA,E8,IND,Independent,112
+SARASOTA,E8,AMF,America First,3
+SARASOTA,E8,ECO,Ecology,2
+SARASOTA,E8,NPA,No Party Affiliation,1169
+SARASOTA,E8,REP,Republican,3003
+SARASOTA,E8,CPF,Constitution,5
+SEMINOLE,EVCA,LPF,Libertarian,57
 SEMINOLE,EVCA,CSV,Conservative,27
 SEMINOLE,EVCA,DEM,Democratic,8976
 SEMINOLE,EVCA,WPF,Working Families,1
-SEMINOLE,EVCA,FFP,Florida Forward,5
 SEMINOLE,EVCA,ECO,Ecology,3
 SEMINOLE,EVCA,NPA,No Party Affiliation,4617
-SEMINOLE,EVCA,GRE,Green,15
-SEMINOLE,EVCA,IND,Independent,464
 SEMINOLE,EVCA,CPF,Constitution,15
 SEMINOLE,EVCA,CPP,Coalition With A Purpose,1
 SEMINOLE,EVCA,PSL,Party for Socialism & Liberation,10
 SEMINOLE,EVCA,AMF,America First,20
 SEMINOLE,EVCA,BPP,Boricua,20
 SEMINOLE,EVCA,REP,Republican,7338
+SEMINOLE,EVCA,FFP,Florida Forward,5
+SEMINOLE,EVCA,GRE,Green,15
+SEMINOLE,EVCA,IND,Independent,464
 SEMINOLE,EVCA,ASP,American Solidarity,6
-SEMINOLE,EVCA,LPF,Libertarian,57
+SEMINOLE,EVLM,DEM,Democratic,5127
+SEMINOLE,EVLM,LPF,Libertarian,32
 SEMINOLE,EVLM,CSV,Conservative,21
 SEMINOLE,EVLM,ECO,Ecology,4
-SEMINOLE,EVLM,BPP,Boricua,5
-SEMINOLE,EVLM,IND,Independent,364
-SEMINOLE,EVLM,ASP,American Solidarity,1
 SEMINOLE,EVLM,AMF,America First,9
 SEMINOLE,EVLM,PSL,Party for Socialism & Liberation,2
-SEMINOLE,EVLM,GRE,Green,11
+SEMINOLE,EVLM,BPP,Boricua,5
+SEMINOLE,EVLM,IND,Independent,364
 SEMINOLE,EVLM,CPF,Constitution,8
 SEMINOLE,EVLM,CPP,Coalition With A Purpose,6
 SEMINOLE,EVLM,NPA,No Party Affiliation,3766
 SEMINOLE,EVLM,REP,Republican,6663
-SEMINOLE,EVLM,DEM,Democratic,5127
-SEMINOLE,EVLM,LPF,Libertarian,32
-SEMINOLE,EVOV,GRE,Green,5
-SEMINOLE,EVOV,IND,Independent,275
-SEMINOLE,EVOV,DEM,Democratic,4136
-SEMINOLE,EVOV,REP,Republican,5337
-SEMINOLE,EVOV,FFP,Florida Forward,2
-SEMINOLE,EVOV,PSL,Party for Socialism & Liberation,2
-SEMINOLE,EVOV,ECO,Ecology,2
-SEMINOLE,EVOV,ASP,American Solidarity,4
-SEMINOLE,EVOV,CPF,Constitution,2
-SEMINOLE,EVOV,LPF,Libertarian,27
-SEMINOLE,EVOV,BPP,Boricua,12
-SEMINOLE,EVOV,NPA,No Party Affiliation,3009
-SEMINOLE,EVOV,AMF,America First,4
-SEMINOLE,EVOV,CPP,Coalition With A Purpose,4
-SEMINOLE,EVOV,CSV,Conservative,16
-SEMINOLE,EVOVN,CPP,Coalition With A Purpose,2
-SEMINOLE,EVOVN,DEM,Democratic,3479
-SEMINOLE,EVOVN,ECO,Ecology,4
-SEMINOLE,EVOVN,REP,Republican,4763
-SEMINOLE,EVOVN,ASP,American Solidarity,4
-SEMINOLE,EVOVN,CPF,Constitution,3
-SEMINOLE,EVOVN,PSL,Party for Socialism & Liberation,3
-SEMINOLE,EVOVN,AMF,America First,13
-SEMINOLE,EVOVN,BPP,Boricua,8
-SEMINOLE,EVOVN,CSV,Conservative,13
-SEMINOLE,EVOVN,GRE,Green,8
-SEMINOLE,EVOVN,IND,Independent,222
-SEMINOLE,EVOVN,NPA,No Party Affiliation,2529
-SEMINOLE,EVOVN,LPF,Libertarian,33
+SEMINOLE,EVLM,ASP,American Solidarity,1
+SEMINOLE,EVLM,GRE,Green,11
+SEMINOLE,EVSA,ECO,Ecology,4
 SEMINOLE,EVSA,AMF,America First,15
-SEMINOLE,EVSA,REP,Republican,2449
-SEMINOLE,EVSA,BPP,Boricua,9
-SEMINOLE,EVSA,CPF,Constitution,4
-SEMINOLE,EVSA,NPA,No Party Affiliation,1797
 SEMINOLE,EVSA,GRE,Green,10
 SEMINOLE,EVSA,PSL,Party for Socialism & Liberation,2
 SEMINOLE,EVSA,ASP,American Solidarity,5
 SEMINOLE,EVSA,FFP,Florida Forward,3
 SEMINOLE,EVSA,IND,Independent,184
+SEMINOLE,EVSA,BPP,Boricua,9
+SEMINOLE,EVSA,CPF,Constitution,4
+SEMINOLE,EVSA,NPA,No Party Affiliation,1797
 SEMINOLE,EVSA,DEM,Democratic,4118
 SEMINOLE,EVSA,LPF,Libertarian,16
-SEMINOLE,EVSA,CPP,Coalition With A Purpose,5
+SEMINOLE,EVSA,REP,Republican,2449
 SEMINOLE,EVSA,CSV,Conservative,14
-SEMINOLE,EVSA,ECO,Ecology,4
+SEMINOLE,EVSA,CPP,Coalition With A Purpose,5
+SEMINOLE,EVSOE,GRE,Green,6
 SEMINOLE,EVSOE,ASP,American Solidarity,2
 SEMINOLE,EVSOE,FFP,Florida Forward,1
-SEMINOLE,EVSOE,DEM,Democratic,2695
 SEMINOLE,EVSOE,CPF,Constitution,1
 SEMINOLE,EVSOE,CSV,Conservative,10
-SEMINOLE,EVSOE,NPA,No Party Affiliation,1486
 SEMINOLE,EVSOE,AMF,America First,9
 SEMINOLE,EVSOE,IND,Independent,141
 SEMINOLE,EVSOE,REP,Republican,2595
 SEMINOLE,EVSOE,LPF,Libertarian,14
+SEMINOLE,EVSOE,DEM,Democratic,2695
 SEMINOLE,EVSOE,BPP,Boricua,4
 SEMINOLE,EVSOE,CPP,Coalition With A Purpose,2
+SEMINOLE,EVSOE,NPA,No Party Affiliation,1486
 SEMINOLE,EVSOE,ECO,Ecology,1
-SEMINOLE,EVSOE,GRE,Green,6
+SEMINOLE,EVWK,ASP,American Solidarity,2
 SEMINOLE,EVWK,CPP,Coalition With A Purpose,4
-SEMINOLE,EVWK,LPF,Libertarian,27
 SEMINOLE,EVWK,AMF,America First,14
 SEMINOLE,EVWK,BPP,Boricua,6
 SEMINOLE,EVWK,IND,Independent,295
-SEMINOLE,EVWK,PSL,Party for Socialism & Liberation,5
-SEMINOLE,EVWK,ECO,Ecology,2
 SEMINOLE,EVWK,CPF,Constitution,6
 SEMINOLE,EVWK,DEM,Democratic,4584
 SEMINOLE,EVWK,FFP,Florida Forward,1
+SEMINOLE,EVWK,LPF,Libertarian,27
 SEMINOLE,EVWK,CSV,Conservative,16
 SEMINOLE,EVWK,REP,Republican,5092
-SEMINOLE,EVWK,NPA,No Party Affiliation,2815
 SEMINOLE,EVWK,GRE,Green,4
 SEMINOLE,EVWK,WPF,Working Families,2
-SEMINOLE,EVWK,ASP,American Solidarity,2
+SEMINOLE,EVWK,ECO,Ecology,2
+SEMINOLE,EVWK,NPA,No Party Affiliation,2815
+SEMINOLE,EVWK,PSL,Party for Socialism & Liberation,5
+SEMINOLE,EVOV,GRE,Green,5
+SEMINOLE,EVOV,ASP,American Solidarity,4
+SEMINOLE,EVOV,CPF,Constitution,2
+SEMINOLE,EVOV,LPF,Libertarian,27
+SEMINOLE,EVOV,DEM,Democratic,4136
+SEMINOLE,EVOV,REP,Republican,5337
+SEMINOLE,EVOV,IND,Independent,275
+SEMINOLE,EVOV,AMF,America First,4
+SEMINOLE,EVOV,CPP,Coalition With A Purpose,4
+SEMINOLE,EVOV,CSV,Conservative,16
+SEMINOLE,EVOV,ECO,Ecology,2
+SEMINOLE,EVOV,BPP,Boricua,12
+SEMINOLE,EVOV,NPA,No Party Affiliation,3009
+SEMINOLE,EVOV,FFP,Florida Forward,2
+SEMINOLE,EVOV,PSL,Party for Socialism & Liberation,2
+SEMINOLE,EVOVN,CPP,Coalition With A Purpose,2
+SEMINOLE,EVOVN,ECO,Ecology,4
+SEMINOLE,EVOVN,REP,Republican,4763
+SEMINOLE,EVOVN,BPP,Boricua,8
+SEMINOLE,EVOVN,CSV,Conservative,13
+SEMINOLE,EVOVN,GRE,Green,8
+SEMINOLE,EVOVN,IND,Independent,222
+SEMINOLE,EVOVN,NPA,No Party Affiliation,2529
+SEMINOLE,EVOVN,DEM,Democratic,3479
+SEMINOLE,EVOVN,AMF,America First,13
+SEMINOLE,EVOVN,LPF,Libertarian,33
+SEMINOLE,EVOVN,ASP,American Solidarity,4
+SEMINOLE,EVOVN,CPF,Constitution,3
+SEMINOLE,EVOVN,PSL,Party for Socialism & Liberation,3
+ST. JOHNS,EV-JC,LPF,Libertarian,26
+ST. JOHNS,EV-JC,CPF,Constitution,3
+ST. JOHNS,EV-JC,CSV,Conservative,19
+ST. JOHNS,EV-JC,IND,Independent,206
+ST. JOHNS,EV-JC,AMF,America First,5
+ST. JOHNS,EV-JC,CPP,Coalition With A Purpose,1
+ST. JOHNS,EV-JC,REP,Republican,8276
+ST. JOHNS,EV-JC,BPP,Boricua,2
+ST. JOHNS,EV-JC,DEM,Democratic,3365
+ST. JOHNS,EV-JC,ECO,Ecology,1
+ST. JOHNS,EV-JC,NPA,No Party Affiliation,2334
+ST. JOHNS,EV-JC,ASP,American Solidarity,1
+ST. JOHNS,EV-JC,FFP,Florida Forward,4
+ST. JOHNS,EV-JC,GRE,Green,3
+ST. JOHNS,EV-JC,PSL,Party for Socialism & Liberation,2
+ST. JOHNS,EV-PV,FFP,Florida Forward,2
+ST. JOHNS,EV-PV,ASP,American Solidarity,3
+ST. JOHNS,EV-PV,CPP,Coalition With A Purpose,2
+ST. JOHNS,EV-PV,DEM,Democratic,2331
+ST. JOHNS,EV-PV,NPA,No Party Affiliation,2295
+ST. JOHNS,EV-PV,REP,Republican,7656
+ST. JOHNS,EV-PV,AMF,America First,2
+ST. JOHNS,EV-PV,BPP,Boricua,1
+ST. JOHNS,EV-PV,CPF,Constitution,3
+ST. JOHNS,EV-PV,IND,Independent,201
+ST. JOHNS,EV-PV,GRE,Green,4
+ST. JOHNS,EV-PV,CSV,Conservative,15
+ST. JOHNS,EV-PV,LPF,Libertarian,23
+ST. JOHNS,EV-RIV,AMF,America First,2
 ST. JOHNS,EV-RIV,NPA,No Party Affiliation,1040
-ST. JOHNS,EV-RIV,CPP,Coalition With A Purpose,2
-ST. JOHNS,EV-RIV,DEM,Democratic,1175
-ST. JOHNS,EV-RIV,GRE,Green,4
-ST. JOHNS,EV-RIV,REP,Republican,3751
 ST. JOHNS,EV-RIV,BPP,Boricua,3
 ST. JOHNS,EV-RIV,CPF,Constitution,3
 ST. JOHNS,EV-RIV,CSV,Conservative,11
 ST. JOHNS,EV-RIV,IND,Independent,139
 ST. JOHNS,EV-RIV,LPF,Libertarian,7
-ST. JOHNS,EV-RIV,AMF,America First,2
+ST. JOHNS,EV-RIV,CPP,Coalition With A Purpose,2
+ST. JOHNS,EV-RIV,DEM,Democratic,1175
+ST. JOHNS,EV-RIV,GRE,Green,4
+ST. JOHNS,EV-RIV,REP,Republican,3751
+ST. JOHNS,EV-SAB,PSL,Party for Socialism & Liberation,1
 ST. JOHNS,EV-SAB,AMF,America First,7
+ST. JOHNS,EV-SAB,FFP,Florida Forward,2
+ST. JOHNS,EV-SAB,GRE,Green,6
+ST. JOHNS,EV-SAB,ECO,Ecology,2
 ST. JOHNS,EV-SAB,DEM,Democratic,2250
+ST. JOHNS,EV-SAB,ASP,American Solidarity,1
+ST. JOHNS,EV-SAB,CPP,Coalition With A Purpose,1
+ST. JOHNS,EV-SAB,LPF,Libertarian,19
 ST. JOHNS,EV-SAB,BPP,Boricua,1
 ST. JOHNS,EV-SAB,CPF,Constitution,1
 ST. JOHNS,EV-SAB,CSV,Conservative,7
 ST. JOHNS,EV-SAB,IND,Independent,109
 ST. JOHNS,EV-SAB,NPA,No Party Affiliation,1237
 ST. JOHNS,EV-SAB,REP,Republican,4337
-ST. JOHNS,EV-SAB,FFP,Florida Forward,2
-ST. JOHNS,EV-SAB,GRE,Green,6
-ST. JOHNS,EV-SAB,LPF,Libertarian,19
-ST. JOHNS,EV-SAB,ECO,Ecology,2
-ST. JOHNS,EV-SAB,ASP,American Solidarity,1
-ST. JOHNS,EV-SAB,CPP,Coalition With A Purpose,1
-ST. JOHNS,EV-SAB,PSL,Party for Socialism & Liberation,1
+ST. JOHNS,EV-SBL,AMF,America First,7
+ST. JOHNS,EV-SBL,ECO,Ecology,2
+ST. JOHNS,EV-SBL,CPP,Coalition With A Purpose,2
+ST. JOHNS,EV-SBL,CSV,Conservative,16
+ST. JOHNS,EV-SBL,CPF,Constitution,3
+ST. JOHNS,EV-SBL,NPA,No Party Affiliation,1241
+ST. JOHNS,EV-SBL,REP,Republican,5117
+ST. JOHNS,EV-SBL,DEM,Democratic,2076
+ST. JOHNS,EV-SBL,GRE,Green,2
+ST. JOHNS,EV-SBL,IND,Independent,147
+ST. JOHNS,EV-SBL,LPF,Libertarian,12
+ST. JOHNS,EV-SCC,ECO,Ecology,2
 ST. JOHNS,EV-SCC,CPF,Constitution,2
 ST. JOHNS,EV-SCC,CSV,Conservative,10
 ST. JOHNS,EV-SCC,IND,Independent,65
-ST. JOHNS,EV-SCC,LPF,Libertarian,9
-ST. JOHNS,EV-SCC,AMF,America First,3
-ST. JOHNS,EV-SCC,NPA,No Party Affiliation,514
 ST. JOHNS,EV-SCC,DEM,Democratic,1348
 ST. JOHNS,EV-SCC,FFP,Florida Forward,1
 ST. JOHNS,EV-SCC,GRE,Green,2
-ST. JOHNS,EV-SCC,REP,Republican,1190
 ST. JOHNS,EV-SCC,CPP,Coalition With A Purpose,2
-ST. JOHNS,EV-SCC,ECO,Ecology,2
-ST. JOHNS,EV-SOE,AMF,America First,4
-ST. JOHNS,EV-SOE,BPP,Boricua,2
-ST. JOHNS,EV-SOE,CPP,Coalition With A Purpose,7
-ST. JOHNS,EV-SOE,NPA,No Party Affiliation,1370
-ST. JOHNS,EV-SOE,FFP,Florida Forward,2
-ST. JOHNS,EV-SOE,LPF,Libertarian,17
-ST. JOHNS,EV-SOE,PSL,Party for Socialism & Liberation,1
-ST. JOHNS,EV-SOE,CPF,Constitution,3
-ST. JOHNS,EV-SOE,CSV,Conservative,11
-ST. JOHNS,EV-SOE,REP,Republican,5540
-ST. JOHNS,EV-SOE,GRE,Green,2
-ST. JOHNS,EV-SOE,IND,Independent,135
-ST. JOHNS,EV-SOE,DEM,Democratic,2293
-ST. JOHNS,EV-SOE,ECO,Ecology,5
+ST. JOHNS,EV-SCC,LPF,Libertarian,9
+ST. JOHNS,EV-SCC,REP,Republican,1190
+ST. JOHNS,EV-SCC,AMF,America First,3
+ST. JOHNS,EV-SCC,NPA,No Party Affiliation,514
+ST. JOHNS,EV-TPC,PSL,Party for Socialism & Liberation,1
 ST. JOHNS,EV-TPC,DEM,Democratic,646
-ST. JOHNS,EV-TPC,IND,Independent,67
-ST. JOHNS,EV-TPC,FFP,Florida Forward,1
 ST. JOHNS,EV-TPC,ECO,Ecology,1
 ST. JOHNS,EV-TPC,REP,Republican,2349
 ST. JOHNS,EV-TPC,CSV,Conservative,5
 ST. JOHNS,EV-TPC,LPF,Libertarian,11
 ST. JOHNS,EV-TPC,NPA,No Party Affiliation,709
+ST. JOHNS,EV-TPC,IND,Independent,67
 ST. JOHNS,EV-TPC,AMF,America First,1
 ST. JOHNS,EV-TPC,ASP,American Solidarity,1
-ST. JOHNS,EV-TPC,PSL,Party for Socialism & Liberation,1
+ST. JOHNS,EV-TPC,FFP,Florida Forward,1
+ST. JOHNS,EV-SOE,AMF,America First,4
+ST. JOHNS,EV-SOE,BPP,Boricua,2
+ST. JOHNS,EV-SOE,CPP,Coalition With A Purpose,7
+ST. JOHNS,EV-SOE,NPA,No Party Affiliation,1370
+ST. JOHNS,EV-SOE,GRE,Green,2
+ST. JOHNS,EV-SOE,IND,Independent,135
+ST. JOHNS,EV-SOE,FFP,Florida Forward,2
+ST. JOHNS,EV-SOE,LPF,Libertarian,17
+ST. JOHNS,EV-SOE,PSL,Party for Socialism & Liberation,1
+ST. JOHNS,EV-SOE,DEM,Democratic,2293
+ST. JOHNS,EV-SOE,ECO,Ecology,5
+ST. JOHNS,EV-SOE,REP,Republican,5540
+ST. JOHNS,EV-SOE,CPF,Constitution,3
+ST. JOHNS,EV-SOE,CSV,Conservative,11
 ST. JOHNS,EV-WEH,DEM,Democratic,356
 ST. JOHNS,EV-WEH,GRE,Green,1
 ST. JOHNS,EV-WEH,LPF,Libertarian,4
-ST. JOHNS,EV-WEH,REP,Republican,883
-ST. JOHNS,EV-WEH,FFP,Florida Forward,1
 ST. JOHNS,EV-WEH,CPF,Constitution,1
 ST. JOHNS,EV-WEH,IND,Independent,26
 ST. JOHNS,EV-WEH,NPA,No Party Affiliation,165
+ST. JOHNS,EV-WEH,REP,Republican,883
 ST. JOHNS,EV-WEH,AMF,America First,4
-ST. JOHNS,EV-JC,AMF,America First,5
-ST. JOHNS,EV-JC,CPP,Coalition With A Purpose,1
-ST. JOHNS,EV-JC,REP,Republican,8276
-ST. JOHNS,EV-JC,CPF,Constitution,3
-ST. JOHNS,EV-JC,CSV,Conservative,19
-ST. JOHNS,EV-JC,IND,Independent,206
-ST. JOHNS,EV-JC,ASP,American Solidarity,1
-ST. JOHNS,EV-JC,FFP,Florida Forward,4
-ST. JOHNS,EV-JC,GRE,Green,3
-ST. JOHNS,EV-JC,PSL,Party for Socialism & Liberation,2
-ST. JOHNS,EV-JC,BPP,Boricua,2
-ST. JOHNS,EV-JC,DEM,Democratic,3365
-ST. JOHNS,EV-JC,ECO,Ecology,1
-ST. JOHNS,EV-JC,NPA,No Party Affiliation,2334
-ST. JOHNS,EV-JC,LPF,Libertarian,26
-ST. JOHNS,EV-PV,AMF,America First,2
-ST. JOHNS,EV-PV,BPP,Boricua,1
-ST. JOHNS,EV-PV,CPF,Constitution,3
-ST. JOHNS,EV-PV,IND,Independent,201
-ST. JOHNS,EV-PV,ASP,American Solidarity,3
-ST. JOHNS,EV-PV,CPP,Coalition With A Purpose,2
-ST. JOHNS,EV-PV,CSV,Conservative,15
-ST. JOHNS,EV-PV,LPF,Libertarian,23
-ST. JOHNS,EV-PV,DEM,Democratic,2331
-ST. JOHNS,EV-PV,NPA,No Party Affiliation,2295
-ST. JOHNS,EV-PV,REP,Republican,7656
-ST. JOHNS,EV-PV,GRE,Green,4
-ST. JOHNS,EV-PV,FFP,Florida Forward,2
-ST. JOHNS,EV-SBL,CSV,Conservative,16
-ST. JOHNS,EV-SBL,DEM,Democratic,2076
-ST. JOHNS,EV-SBL,GRE,Green,2
-ST. JOHNS,EV-SBL,IND,Independent,147
-ST. JOHNS,EV-SBL,LPF,Libertarian,12
-ST. JOHNS,EV-SBL,CPF,Constitution,3
-ST. JOHNS,EV-SBL,NPA,No Party Affiliation,1241
-ST. JOHNS,EV-SBL,REP,Republican,5117
-ST. JOHNS,EV-SBL,CPP,Coalition With A Purpose,2
-ST. JOHNS,EV-SBL,AMF,America First,7
-ST. JOHNS,EV-SBL,ECO,Ecology,2
+ST. JOHNS,EV-WEH,FFP,Florida Forward,1
+ST. JOHNS,EV-WGV,ECO,Ecology,2
+ST. JOHNS,EV-WGV,CPF,Constitution,7
+ST. JOHNS,EV-WGV,CSV,Conservative,19
+ST. JOHNS,EV-WGV,IND,Independent,186
 ST. JOHNS,EV-WGV,ASP,American Solidarity,2
 ST. JOHNS,EV-WGV,DEM,Democratic,1907
 ST. JOHNS,EV-WGV,FFP,Florida Forward,2
 ST. JOHNS,EV-WGV,GRE,Green,1
 ST. JOHNS,EV-WGV,LPF,Libertarian,19
 ST. JOHNS,EV-WGV,PSL,Party for Socialism & Liberation,1
-ST. JOHNS,EV-WGV,BPP,Boricua,3
-ST. JOHNS,EV-WGV,NPA,No Party Affiliation,1512
-ST. JOHNS,EV-WGV,ECO,Ecology,2
+ST. JOHNS,EV-WGV,AMF,America First,4
 ST. JOHNS,EV-WGV,CPP,Coalition With A Purpose,7
 ST. JOHNS,EV-WGV,REP,Republican,5035
-ST. JOHNS,EV-WGV,CPF,Constitution,7
-ST. JOHNS,EV-WGV,CSV,Conservative,19
-ST. JOHNS,EV-WGV,IND,Independent,186
-ST. JOHNS,EV-WGV,AMF,America First,4
+ST. JOHNS,EV-WGV,BPP,Boricua,3
+ST. JOHNS,EV-WGV,NPA,No Party Affiliation,1512
+ST. LUCIE,CIVIC-A,AMF,America First,12
+ST. LUCIE,CIVIC-A,BPP,Boricua,2
+ST. LUCIE,CIVIC-A,CPF,Constitution,3
+ST. LUCIE,CIVIC-A,ECO,Ecology,4
+ST. LUCIE,CIVIC-A,IND,Independent,273
+ST. LUCIE,CIVIC-A,REP,Republican,4419
 ST. LUCIE,CIVIC-A,ASP,American Solidarity,2
 ST. LUCIE,CIVIC-A,CPP,Coalition With A Purpose,1
 ST. LUCIE,CIVIC-A,PSL,Party for Socialism & Liberation,1
@@ -5046,12 +5052,7 @@ ST. LUCIE,CIVIC-A,WPF,Working Families,1
 ST. LUCIE,CIVIC-A,CSV,Conservative,19
 ST. LUCIE,CIVIC-A,LPF,Libertarian,10
 ST. LUCIE,CIVIC-A,NPA,No Party Affiliation,1742
-ST. LUCIE,CIVIC-A,AMF,America First,12
-ST. LUCIE,CIVIC-A,BPP,Boricua,2
-ST. LUCIE,CIVIC-A,CPF,Constitution,3
-ST. LUCIE,CIVIC-A,ECO,Ecology,4
-ST. LUCIE,CIVIC-A,IND,Independent,273
-ST. LUCIE,CIVIC-A,REP,Republican,4419
+ST. LUCIE,COMCTR-A,MGT,MGT,1
 ST. LUCIE,COMCTR-A,AMF,America First,7
 ST. LUCIE,COMCTR-A,ASP,American Solidarity,7
 ST. LUCIE,COMCTR-A,FFP,Florida Forward,1
@@ -5067,7 +5068,58 @@ ST. LUCIE,COMCTR-A,DEM,Democratic,4968
 ST. LUCIE,COMCTR-A,IND,Independent,259
 ST. LUCIE,COMCTR-A,LPF,Libertarian,11
 ST. LUCIE,COMCTR-A,NPA,No Party Affiliation,2171
-ST. LUCIE,COMCTR-A,MGT,MGT,1
+ST. LUCIE,LPBL-A,ASP,American Solidarity,1
+ST. LUCIE,LPBL-A,LPF,Libertarian,4
+ST. LUCIE,LPBL-A,PSL,Party for Socialism & Liberation,1
+ST. LUCIE,LPBL-A,CPP,Coalition With A Purpose,1
+ST. LUCIE,LPBL-A,GRE,Green,3
+ST. LUCIE,LPBL-A,AMF,America First,4
+ST. LUCIE,LPBL-A,BPP,Boricua,2
+ST. LUCIE,LPBL-A,CPF,Constitution,4
+ST. LUCIE,LPBL-A,CSV,Conservative,7
+ST. LUCIE,LPBL-A,IND,Independent,70
+ST. LUCIE,LPBL-A,NPA,No Party Affiliation,551
+ST. LUCIE,LPBL-A,REP,Republican,1377
+ST. LUCIE,LPBL-A,DEM,Democratic,845
+ST. LUCIE,LPBL-A,ECO,Ecology,1
+ST. LUCIE,OBBC-A,DEM,Democratic,2977
+ST. LUCIE,OBBC-A,GRE,Green,1
+ST. LUCIE,OBBC-A,PSL,Party for Socialism & Liberation,1
+ST. LUCIE,OBBC-A,ASP,American Solidarity,2
+ST. LUCIE,OBBC-A,CPF,Constitution,8
+ST. LUCIE,OBBC-A,CPP,Coalition With A Purpose,3
+ST. LUCIE,OBBC-A,BPP,Boricua,1
+ST. LUCIE,OBBC-A,CSV,Conservative,19
+ST. LUCIE,OBBC-A,ECO,Ecology,1
+ST. LUCIE,OBBC-A,IND,Independent,144
+ST. LUCIE,OBBC-A,NPA,No Party Affiliation,1281
+ST. LUCIE,OBBC-A,REP,Republican,3648
+ST. LUCIE,OBBC-A,AMF,America First,7
+ST. LUCIE,OBBC-A,LPF,Libertarian,13
+ST. LUCIE,REM-A,AMF,America First,6
+ST. LUCIE,REM-A,BPP,Boricua,7
+ST. LUCIE,REM-A,CPF,Constitution,7
+ST. LUCIE,REM-A,CPP,Coalition With A Purpose,5
+ST. LUCIE,REM-A,CSV,Conservative,24
+ST. LUCIE,REM-A,IND,Independent,203
+ST. LUCIE,REM-A,REP,Republican,2341
+ST. LUCIE,REM-A,DEM,Democratic,2617
+ST. LUCIE,REM-A,NPA,No Party Affiliation,1266
+ST. LUCIE,REM-A,LPF,Libertarian,9
+ST. LUCIE,REM-A,PSL,Party for Socialism & Liberation,2
+ST. LUCIE,REM-A,ASP,American Solidarity,2
+ST. LUCIE,REM-A,FFP,Florida Forward,1
+ST. LUCIE,REM-A,GRE,Green,1
+ST. LUCIE,ZORA-A,DEM,Democratic,1917
+ST. LUCIE,ZORA-A,GRE,Green,1
+ST. LUCIE,ZORA-A,PSL,Party for Socialism & Liberation,1
+ST. LUCIE,ZORA-A,ASP,American Solidarity,1
+ST. LUCIE,ZORA-A,IND,Independent,44
+ST. LUCIE,ZORA-A,CSV,Conservative,5
+ST. LUCIE,ZORA-A,NPA,No Party Affiliation,336
+ST. LUCIE,ZORA-A,REP,Republican,398
+ST. LUCIE,ZORA-A,AMF,America First,2
+ST. LUCIE,ZORA-A,LPF,Libertarian,3
 ST. LUCIE,IRSCVCE-A,ASP,American Solidarity,2
 ST. LUCIE,IRSCVCE-A,GRE,Green,4
 ST. LUCIE,IRSCVCE-A,AMF,America First,10
@@ -5081,34 +5133,6 @@ ST. LUCIE,IRSCVCE-A,BPP,Boricua,11
 ST. LUCIE,IRSCVCE-A,DEM,Democratic,3154
 ST. LUCIE,IRSCVCE-A,LPF,Libertarian,16
 ST. LUCIE,IRSCVCE-A,NPA,No Party Affiliation,1826
-ST. LUCIE,LPBL-A,CPP,Coalition With A Purpose,1
-ST. LUCIE,LPBL-A,GRE,Green,3
-ST. LUCIE,LPBL-A,AMF,America First,4
-ST. LUCIE,LPBL-A,BPP,Boricua,2
-ST. LUCIE,LPBL-A,CPF,Constitution,4
-ST. LUCIE,LPBL-A,CSV,Conservative,7
-ST. LUCIE,LPBL-A,IND,Independent,70
-ST. LUCIE,LPBL-A,NPA,No Party Affiliation,551
-ST. LUCIE,LPBL-A,REP,Republican,1377
-ST. LUCIE,LPBL-A,DEM,Democratic,845
-ST. LUCIE,LPBL-A,ECO,Ecology,1
-ST. LUCIE,LPBL-A,ASP,American Solidarity,1
-ST. LUCIE,LPBL-A,LPF,Libertarian,4
-ST. LUCIE,LPBL-A,PSL,Party for Socialism & Liberation,1
-ST. LUCIE,OBBC-A,ASP,American Solidarity,2
-ST. LUCIE,OBBC-A,CPF,Constitution,8
-ST. LUCIE,OBBC-A,CPP,Coalition With A Purpose,3
-ST. LUCIE,OBBC-A,BPP,Boricua,1
-ST. LUCIE,OBBC-A,CSV,Conservative,19
-ST. LUCIE,OBBC-A,ECO,Ecology,1
-ST. LUCIE,OBBC-A,IND,Independent,144
-ST. LUCIE,OBBC-A,NPA,No Party Affiliation,1281
-ST. LUCIE,OBBC-A,REP,Republican,3648
-ST. LUCIE,OBBC-A,AMF,America First,7
-ST. LUCIE,OBBC-A,LPF,Libertarian,13
-ST. LUCIE,OBBC-A,DEM,Democratic,2977
-ST. LUCIE,OBBC-A,GRE,Green,1
-ST. LUCIE,OBBC-A,PSL,Party for Socialism & Liberation,1
 ST. LUCIE,PALL-A,GRE,Green,3
 ST. LUCIE,PALL-A,AMF,America First,13
 ST. LUCIE,PALL-A,ASP,American Solidarity,4
@@ -5122,30 +5146,6 @@ ST. LUCIE,PALL-A,DEM,Democratic,5105
 ST. LUCIE,PALL-A,IND,Independent,356
 ST. LUCIE,PALL-A,NPA,No Party Affiliation,2342
 ST. LUCIE,PALL-A,REP,Republican,5098
-ST. LUCIE,REM-A,DEM,Democratic,2617
-ST. LUCIE,REM-A,NPA,No Party Affiliation,1266
-ST. LUCIE,REM-A,LPF,Libertarian,9
-ST. LUCIE,REM-A,PSL,Party for Socialism & Liberation,2
-ST. LUCIE,REM-A,ASP,American Solidarity,2
-ST. LUCIE,REM-A,FFP,Florida Forward,1
-ST. LUCIE,REM-A,GRE,Green,1
-ST. LUCIE,REM-A,AMF,America First,6
-ST. LUCIE,REM-A,BPP,Boricua,7
-ST. LUCIE,REM-A,CPF,Constitution,7
-ST. LUCIE,REM-A,CPP,Coalition With A Purpose,5
-ST. LUCIE,REM-A,CSV,Conservative,24
-ST. LUCIE,REM-A,IND,Independent,203
-ST. LUCIE,REM-A,REP,Republican,2341
-ST. LUCIE,ZORA-A,ASP,American Solidarity,1
-ST. LUCIE,ZORA-A,IND,Independent,44
-ST. LUCIE,ZORA-A,CSV,Conservative,5
-ST. LUCIE,ZORA-A,NPA,No Party Affiliation,336
-ST. LUCIE,ZORA-A,REP,Republican,398
-ST. LUCIE,ZORA-A,AMF,America First,2
-ST. LUCIE,ZORA-A,LPF,Libertarian,3
-ST. LUCIE,ZORA-A,DEM,Democratic,1917
-ST. LUCIE,ZORA-A,GRE,Green,1
-ST. LUCIE,ZORA-A,PSL,Party for Socialism & Liberation,1
 ST. LUCIE,FP Main,DEM,Democratic,1
 ST. LUCIE,FP Main,REP,Republican,1
 SUMTER,1,ASP,American Solidarity,1
@@ -5406,7 +5406,7 @@ WAKULLA,001,GRE,Green,1
 WAKULLA,001,IND,Independent,55
 WAKULLA,001,LPF,Libertarian,8
 WAKULLA,001,NPA,No Party Affiliation,410
-WAKULLA,001,OTH,OTH,2
+WAKULLA,001,OTH,OTH,1
 WAKULLA,001,REP,Republican,2614
 WAKULLA,002,AMF,America First,3
 WAKULLA,002,ASP,American Solidarity,1
