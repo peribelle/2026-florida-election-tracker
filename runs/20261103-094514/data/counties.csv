@@ -1,0 +1,68 @@
+code,county,election,election_date,eligible_voters,last_updated,tabs,precincts,locations_ev,locations_ed,eligible_basis
+ALA,ALACHUA,2026 General Election,11/03/2026,166906,2026-11-03T14:40:01.321096+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,133,9,57,active registered
+BAK,BAKER,2026 General Election,11/03/2026,17886,2026-11-03T14:40:01.097257+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,13,1,9,active registered
+BAY,BAY,2026 General Election,11/03/2026,128622,2026-11-03T14:40:03.5640755+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,94,8,30,active registered
+BRA,BRADFORD,2026 General Election,11/03/2026,16908,2026-11-03T14:40:38.4009003+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,28,1,11,active registered
+BRE,BREVARD,2026 General Election,11/03/2026,447098,2026-11-03T14:40:03.3190813+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,154,14,78,active registered
+CAL,CALHOUN,2026 General Election,11/03/2026,7602,2026-11-03T14:40:02.0216538+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,14,2,7,active registered
+CHA,CHARLOTTE,2026 General Election,11/03/2026,155846,2026-11-03T14:40:06.6200908+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,48,4,26,active registered
+CIT,CITRUS,2026 General Election,11/03/2026,121391,2026-11-03T14:40:01.6951868+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,45,5,31,active registered
+CLA,CLAY,2026 General Election,11/03/2026,156154,2026-11-03T14:40:03.2417768+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,76,7,45,active registered
+CLL,COLLIER,2026 General Election,11/03/2026,265688,2026-11-03T14:40:01.7503038+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,115,11,65,active registered
+CLM,COLUMBIA,2026 General Election,11/03/2026,41614,2026-11-03T14:40:01.0866272+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,34,2,12,active registered
+DAD,MIAMI-DADE,2026 General Election,11/03/2026,1312819,2026-11-03T14:40:02.5911848+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,728,30,517,active registered
+DES,DeSOTO,2026 General Election,11/03/2026,16075,2026-11-03T14:40:01.5835655+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,34,1,15,active registered
+DIX,DIXIE,2026 General Election,11/03/2026,10055,2026-11-03T14:40:03.0192996+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,15,1,10,active registered
+DUV,DUVAL,2026 General Election,11/03/2026,655219,2026-11-03T14:40:01.9141331+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,199,24,159,active registered
+ESC,ESCAMBIA,2026 General Election,11/03/2026,207353,2026-11-03T14:40:07.0353371+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,86,10,80,active registered
+FLA,FLAGLER,2026 General Election,11/03/2026,100526,2026-11-03T14:40:04.2204585+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,58,5,21,active registered
+FRA,FRANKLIN,2026 General Election,11/03/2026,7604,2026-11-03T14:40:02.3949071+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,15,2,8,active registered
+GAD,GADSDEN,2026 General Election,11/03/2026,26882,2026-11-03T14:40:01.6480422+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,65,4,25,active registered
+GIL,GILCHRIST,2026 General Election,11/03/2026,12992,2026-11-03T14:40:01.0428929+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,30,1,10,active registered
+GLA,GLADES,2026 General Election,11/03/2026,6870,2026-11-03T14:50:00.6451883+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,16,1,8,active registered
+GUL,GULF,2026 General Election,11/03/2026,11196,2026-11-03T14:40:01.803678+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,19,2,10,active registered
+HAM,HAMILTON,2026 General Election,11/03/2026,7162,2026-11-03T14:40:03.3362271+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,12,1,8,active registered
+HAR,HARDEE,2026 General Election,11/03/2026,11526,2026-11-03T14:40:01.897632+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,31,1,12,active registered
+HEN,HENDRY,2026 General Election,11/03/2026,19437,2026-11-03T14:40:01.8501888+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,18,2,10,active registered
+HER,HERNANDO,2026 General Election,11/03/2026,138036,2026-11-03T14:40:02.3798898+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,66,5,29,active registered
+HIG,HIGHLANDS,2026 General Election,11/03/2026,63355,2026-11-03T14:40:01.7906538+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,38,4,25,active registered
+HIL,HILLSBOROUGH,2026 General Election,11/03/2026,823235,2026-11-03T14:40:01.3093698+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,625,32,232,active registered
+HOL,HOLMES,2026 General Election,11/03/2026,11446,2026-11-03T14:40:01.7929297+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,37,1,8,active registered
+IND,INDIAN RIVER,2026 General Election,11/03/2026,119741,2026-11-03T14:40:01.7383124+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,48,4,22,active registered
+JAC,JACKSON,2026 General Election,11/03/2026,27498,2026-11-03T14:40:01.3778776+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,65,3,14,active registered
+JEF,JEFFERSON,2026 General Election,11/03/2026,10026,2026-11-03T14:40:02.1055708+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,25,1,16,active registered
+LAF,LAFAYETTE,2026 General Election,11/03/2026,4271,2026-11-03T14:40:02.0717017+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,8,1,5,active registered
+LAK,LAKE,2026 General Election,11/03/2026,283644,2026-11-03T14:40:06.2728655+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,329,12,85,active registered
+LEE,LEE,2026 General Election,11/03/2026,504450,2026-11-03T14:40:03.1914883+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,273,15,94,active registered
+LEO,LEON,2026 General Election,11/03/2026,184522,2026-11-03T14:40:02.6918255+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,134,11,84,active registered
+LEV,LEVY,2026 General Election,11/03/2026,30440,2026-11-03T14:40:01.596711+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,35,1,13,active registered
+LIB,LIBERTY,2026 General Election,11/03/2026,4611,2026-11-03T14:40:03.9191035+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,9,2,7,active registered
+MAD,MADISON,2026 General Election,11/03/2026,10543,2026-11-03T14:40:02.8797258+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,26,4,7,active registered
+MAN,MANATEE,2026 General Election,11/03/2026,287882,2026-11-03T14:40:01.2854829+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,205,8,65,active registered
+MON,MONROE,2026 General Election,11/03/2026,54683,2026-11-03T14:40:02.4192584+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,93,5,33,active registered
+MRN,MARION,2026 General Election,11/03/2026,271264,2026-11-03T14:40:03.157272+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,171,9,106,active registered
+MRT,MARTIN,2026 General Election,11/03/2026,117228,2026-11-03T14:40:02.1291706+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,54,7,29,active registered
+NAS,NASSAU,2026 General Election,11/03/2026,82005,2026-11-03T14:40:03.0486868+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,33,5,14,active registered
+OKA,OKALOOSA,2026 General Election,11/03/2026,148377,2026-11-03T14:40:02.9051251+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,109,5,42,active registered
+OKE,OKEECHOBEE,2026 General Election,11/03/2026,20872,2026-11-03T14:40:01.5105853+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,22,1,11,active registered
+ORA,ORANGE,2026 General Election,11/03/2026,820193,2026-11-03T14:40:02.4870397+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,517,27,217,active registered
+OSC,OSCEOLA,2026 General Election,11/03/2026,238028,2026-11-03T14:40:02.6184375+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,134,11,50,active registered
+PAL,PALM BEACH,2026 General Election,11/03/2026,889214,2026-11-03T14:40:01.4815785+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,778,29,365,active registered
+PAS,PASCO,2026 General Election,11/03/2026,407550,2026-11-03T14:40:01.5855079+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,227,12,118,active registered
+PIN,PINELLAS,2026 General Election,11/03/2026,613601,2026-11-03T14:40:01.9740422+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,418,7,157,active registered
+POL,POLK,2026 General Election,11/03/2026,459905,2026-11-03T14:40:01.0386201+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,422,12,166,active registered
+PUT,PUTNAM,2026 General Election,11/03/2026,45212,2026-11-03T14:40:03.1342853+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,38,3,21,active registered
+SAN,SANTA ROSA,2026 General Election,11/03/2026,144240,2026-11-03T14:40:01.3692609+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,98,6,23,active registered
+SAR,SARASOTA,2026 General Election,11/03/2026,334228,2026-11-03T14:40:01.3716507+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,179,11,84,active registered
+SEM,SEMINOLE,2026 General Election,11/03/2026,343306,2026-11-03T14:40:05.7508233+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,243,9,68,active registered
+STJ,ST. JOHNS,2026 General Election,11/03/2026,243704,2026-11-03T14:40:01.450077+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,118,10,42,active registered
+STL,ST. LUCIE,2026 General Election,11/03/2026,246078,2026-11-03T14:40:04.2153711+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,122,10,50,active registered
+SUM,SUMTER,2026 General Election,11/03/2026,130019,2026-11-03T14:40:02.0547141+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,142,7,33,active registered
+SUW,SUWANNEE,2026 General Election,11/03/2026,27003,2026-11-03T14:40:02.9821615+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,24,4,11,active registered
+TAY,TAYLOR,2026 General Election,11/03/2026,11743,2026-11-03T14:40:01.7834887+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,21,1,14,active registered
+UNI,UNION,2026 General Election,11/03/2026,7311,2026-11-03T14:40:03.4279114+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,13,1,8,active registered
+VOL,VOLUSIA,2026 General Election,11/03/2026,401544,2026-11-03T14:40:03.2510023+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,197,9,91,active registered
+WAK,WAKULLA,2026 General Election,11/03/2026,25929,2026-11-03T14:40:01.6565133+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,21,2,12,active registered
+WAL,WALTON,2026 General Election,11/03/2026,63917,2026-11-03T14:40:01.1048195+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,62,4,20,active registered
+WAS,WASHINGTON,2026 General Election,11/03/2026,14961,2026-11-03T14:40:01.9092816+00:00,DateType|LocationDay|LocationParty|PartyType|PrecinctType,36,2,12,active registered
+BRO,BROWARD,2026 General Election,11/03/2026,1366692,live dashboard,Summary|Type|Party|Precinct|Location|Day,346,30,281,all registered

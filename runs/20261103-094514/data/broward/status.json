@@ -1,0 +1,6 @@
+{
+ "ok": false,
+ "attempted_at": "2026-11-03T09:44:57",
+ "data_collected_at": "2026-11-03T07:00:28",
+ "error": "HTTPError: 404 Client Error: Not Found for url: https://my.browardvotes.gov/not-found"
+}
