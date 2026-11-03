@@ -32,6 +32,7 @@ immutable archive of every pull.
 | **Don't rename CSV columns without updating consumers** | `build_workbook.py` and `build_viewer.py` both read `data/*.csv`. |
 | **Timestamps are local (America/New_York)** unless the column says `_utc`. | Run ids are local, e.g. `20261102-195829`. |
 | **The viewer never writes into `runs/`, `results/` or `projections/`** | It is a reader. `Reports/viewer.html` is a mirror and is overwritten on purpose. |
+| **Never hand-edit `docs/index.html`** | It is a copy of `Reports/viewer.html`; `./publish_pages.sh` replaces it. See §12. |
 
 ---
 
@@ -152,6 +153,7 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── projections_polymarket.py Polymarket market prices per party
 ├── projection_common.py     shared: map loading, race naming, CSV writing
 ├── audit.py                 verifies every id and every stored snapshot
+├── requirements.txt         Python packages for .venv
 │
 ├── collect.py               66 county TQV feeds
 ├── collect_broward.py       Broward dashboard API
@@ -169,6 +171,7 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── results_precinct.py      precinct CSV -> one xlsx per county
 ├── results_precinct_slow.py precinct pages for counties without the CSV
 ├── schedule_check.sh        replays phase_for() over every minute
+├── publish_pages.sh         copies Reports/viewer.html to docs/index.html, commits only that, pushes
 │
 ├── raw/                     downloaded source material (see §3)
 │   └── tqv/                 latest county feed JSON, overwritten each pull
@@ -180,6 +183,7 @@ Cron equivalent (each line is independent, so a failure can't kill the schedule)
 ├── results/slow/<ts>/       immutable slow precinct snapshot
 ├── projections/<ts>/        immutable projections snapshot
 ├── logs/                    per-day run logs
+├── docs/                    GitHub Pages source; index.html is a copy of Reports/viewer.html
 └── viewer/                  map outlines + template for build_viewer.py
 ```
 
@@ -451,12 +455,13 @@ precinct's eligible count is below ballots cast — a reporting artefact, not a 
 .venv/bin/python audit.py         # verify ids + snapshots (exit 1 on failure)
 .venv/bin/python discover_links.py# refresh county HE-ENR map from SOE homepages
 .venv/bin/python build_viewer.py  # rebuild Reports/viewer.html
+./publish_pages.sh                # copy the newest viewer to docs/ and push (GitHub Pages)
 ```
 
 First-time setup:
 
 ```bash
-python3 -m venv .venv && .venv/bin/pip install requests beautifulsoup4 lxml openpyxl xlsxwriter matplotlib
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
 
 ---
@@ -502,3 +507,21 @@ candidate ids, and treat `win_probability` as the last point of the candidate-le
 
 Edit `phase_for()` in `election_day.sh`, then run `./schedule_check.sh` and confirm the minute-level
 replay. Stop the scheduler first.
+
+---
+
+## 12. Git and GitHub
+
+The repo is `peribelle/2026-florida-election-tracker` (public), branch `main`. GitHub Pages serves `docs/` from `main`.
+
+- `docs/index.html` is a **copy** of `Reports/viewer.html`. Don't hand-edit it: `./publish_pages.sh` replaces it,
+  commits only that file and pushes. The pipeline never writes to `docs/`, so the public page only moves when someone
+  runs the script.
+- `runs/`, `results/` and `projections/` are committed as the historical record. Commit between pulls, not during one:
+  a snapshot directory takes seconds to write, and a commit in the middle records half of it.
+- `.gitignore` keeps out `.venv/`, `logs/`, `runs/latest` (an absolute symlink) and verbatim third-party captures
+  (`projections/*/raw/`, `senate_rsc.txt`, `raw/TQV.js`). They stay on disk. Don't force-add them: they are DDHQ's and the
+  vendor's pages and code, and the repo is public.
+- Pushes go over SSH. `Host key verification failed` means this machine has never trusted GitHub's host key. Add the
+  keys GitHub publishes (fetched over the authenticated API, not trusted on first use):
+  `gh api meta --jq '.ssh_keys[]' | sed 's/^/github.com /' >> ~/.ssh/known_hosts`

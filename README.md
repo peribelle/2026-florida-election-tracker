@@ -3,7 +3,23 @@
 > **Working on this repo? Read [`AGENTS.md`](AGENTS.md) first.** It documents every data source,
 > schedule slot, file and schema, the immutability rules, and the audit.
 
-Pulled live from all 67 counties. Election Day is Tuesday, November 3, 2026.
+**Live viewer: <https://peribelle.github.io/2026-florida-election-tracker/>** — *Taro Tally*, one page, nothing to install.
+The page is a snapshot of `Reports/viewer.html` and is refreshed by hand (see [Publishing the page](#publishing-the-page)).
+
+![Turnout chart preview](Reports/charts_preview.png)
+
+Pulled live from all 67 counties. Election Day is Tuesday, November 3, 2026. The project tracks turnout (`runs/`),
+the vote count (`results/`) and forecasts (`projections/`), and keeps the three apart.
+
+## Setup
+
+```bash
+git clone https://github.com/peribelle/2026-florida-election-tracker.git
+cd 2026-florida-election-tracker
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+```
+
+Built and run on Python 3.14. Every source is public and needs no credentials.
 
 ## Refresh (one line)
 
@@ -32,7 +48,7 @@ echo 'alias flturnout="$HOME/Code/election-tracking/refresh.sh"' >> ~/.bashrc
 | `Reports/county_election_sites.csv` | Same, as data |
 | `runs/<timestamp>/` | **Immutable archive of every run** |
 | `runs/INDEX.csv` | **Append-only run log** (one row per run) |
-| `runs/latest` | Symlink to the newest run |
+| `runs/latest` | Symlink to the newest run (local only, not committed) |
 
 `Reports/` is a convenience mirror of the newest run and is rewritten each time.
 `runs/` is never rewritten — each run gets its own directory containing the raw feeds
@@ -71,6 +87,18 @@ preview and the forecasts instead.
 Source lives in `viewer/`: `template.html`, `style.css`, `js/*.js` (concatenated in filename order),
 `fonts/` (Fredoka and Nunito, OFL) and `fl_counties.json` (county outlines from Census boundaries via us-atlas;
 regenerate with `viewer/make_geo.py`, one-time). Edit those, then re-run `build_viewer.py`.
+
+## Publishing the page
+
+GitHub Pages serves `docs/` from `main`, and `docs/index.html` is a copy of `Reports/viewer.html`.
+The pipeline never touches it, so the public page only moves when you run:
+
+```bash
+./publish_pages.sh     # copy the newest viewer to docs/index.html, commit that one file, push
+```
+
+It stages nothing else and never touches `runs/`, `results/` or `projections/`, so it is safe to run while
+`election_day.sh` is running. Pages takes a minute or so to redeploy after a push.
 
 ## Where the data comes from
 
@@ -248,3 +276,17 @@ not the turnout feed.
 - Each county's party totals, precinct totals and ballot-type totals reconcile to the same count.
 - The two pre-archive runs are logged in `runs/INDEX.csv` and flagged `RECONSTRUCTED` —
   their raw feeds were overwritten before archiving existed.
+
+## What is not in this repo
+
+`.gitignore` leaves out `.venv/`, `logs/`, the `runs/latest` symlink (an absolute path on one machine) and verbatim
+copies of third-party pages and code: DDHQ's raw pages (`projections/<timestamp>/raw/`, `senate_rsc.txt`) and the
+vendor's `raw/TQV.js`. They stay on disk where they were captured. Every parsed CSV and JSON the viewer reads is committed.
+
+## Disclaimer
+
+Unofficial. Counts come from public election-night feeds and change as counties report and canvass; official results
+are the ones certified by Florida's canvassing boards. Forecasts and market prices (DDHQ, Kalshi, Polymarket) are
+predictions, not votes. This project is not affiliated with the State of Florida, any county, DDHQ, Kalshi or Polymarket.
+
+Fonts: Fredoka and Nunito, SIL Open Font License 1.1 (license texts in `viewer/fonts/`).
