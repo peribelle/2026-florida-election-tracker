@@ -29,6 +29,11 @@
   "id": "4054",
   "key": "CAL"
  },
+ "CHA": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4062",
+  "key": "CHA"
+ },
  "CIT": {
   "base": "https://enr.electionsfl.org",
   "id": "4070",
@@ -163,6 +168,11 @@
   "base": "https://enr.electionsfl.org",
   "id": "4079",
   "key": "LAK"
+ },
+ "LEE": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4111",
+  "key": "LEE"
  },
  "LEO": {
   "base": "https://enr.electionsfl.org",

@@ -1,0 +1,358 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | United States Senator | REP Ashley Moody | REP,(row),,66362,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | United States Senator | DEM Angie Nixon | DEM,(row),,32815,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | United States Senator | NPA Neil J. Gillespie | NPA,(row),,1294,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Representative in Congress District 17 | REP Greg Steube | REP,(row),,65937,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Representative in Congress District 17 | DEM Matthew Montavon | DEM,(row),,32694,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Representative in Congress District 17 | NPA Michael J. Quirk | NPA,(row),,1600,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Governor and Lieutenant Governor | REP Byron Donalds Bryan Avila | REP,(row),,66194,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Governor and Lieutenant Governor | DEM David Jolly Gwen Graham | DEM,(row),,32728,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Governor and Lieutenant Governor | LPF Scott Eckhard Jewett Nicole Skelly | LPF,(row),,493,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Governor and Lieutenant Governor | NPA Charles Burkett Ruben A. Coto | NPA,(row),,255,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Governor and Lieutenant Governor | NPA Frank J. Russo Rachel Rodriguez | NPA,(row),,294,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Governor and Lieutenant Governor | NPA Moliere ""Moe"" Dimanche Benjiman Rojas | NPA",(row),,69,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Governor and Lieutenant Governor | NPA Dean Ocean Abrams Joe Van Vactor | NPA,(row),,179,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Governor and Lieutenant Governor | NPA Jeffrey Peter ""Dr. Jeff"" Datto Juan Santana | NPA",(row),,88,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Governor and Lieutenant Governor | Write-in
+                                    (NON) | ",(row),,182,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Attorney General | REP James Uthmeier | REP,(row),,66676,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Attorney General | DEM Jose Javier Rodriguez | DEM,(row),,32484,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Chief Financial Officer | REP Blaise Ingoglia | REP,(row),,65632,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Chief Financial Officer | DEM Annette Taddeo | DEM,(row),,33811,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Commissioner of Agriculture | REP Wilton Simpson | REP,(row),,65801,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Commissioner of Agriculture | DEM Joey Mendoza Atkins | DEM,(row),,33299,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Commissioner of Agriculture | Write-in
+                                    (NON) | ",(row),,292,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | State Representative District 75 | REP Danny Nix Jr | REP,(row),,38032,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | State Representative District 75 | DEM Cynthia L. Butler | DEM,(row),,20125,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | State Representative District 76 | REP Vanessa Oliver | REP,(row),,27461,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | State Representative District 76 | DEM Phillip Ray Carter | DEM,(row),,13634,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Board of County Commissioners District 4 | REP Kim Amontree | REP,(row),,63325,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,CHA | Board of County Commissioners District 4 | NPA Michael T. Melton | NPA,(row),,33277,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Justice of the Supreme Court - Carlos G. Muniz | Yes
+                                    (NON) | ",(row),,62532,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Justice of the Supreme Court - Carlos G. Muniz | No
+                                    (NON) | ",(row),,28069,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Riverwood CDD Seat 2 Riverwood | Douglas Clark
+                                    (NON) | ",(row),,644,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Riverwood CDD Seat 2 Riverwood | Bob Dzenko
+                                    (NON) | ",(row),,466,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Riverwood CDD Seat 5 Riverwood | Kerwin Mike Urhahn
+                                    (NON) | ",(row),,570,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Riverwood CDD Seat 5 Riverwood | Douglas Volinski
+                                    (NON) | ",(row),,530,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | West Port CDD Seat 5 West Port | David Perry
+                                    (NON) | ",(row),,488,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | West Port CDD Seat 5 West Port | Thomas Willis
+                                    (NON) | ",(row),,545,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Punta Gorda City Council District 1 | Jeannine Polk
+                                    (NON) | ",(row),,6222,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Punta Gorda City Council District 1 | George Williamson
+                                    (NON) | ",(row),,4635,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Punta Gorda City Council District 4 | Gary P. Butler
+                                    (NON) | ",(row),,6398,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | Punta Gorda City Council District 4 | Janis Denton
+                                    (NON) | ",(row),,4414,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | No. 1 Constitutional Amendment Article III Section 19 | Yes
+                                    (NON) | ",(row),,43257,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | No. 1 Constitutional Amendment Article III Section 19 | No
+                                    (NON) | ",(row),,52246,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | No. 2 Constitutional Amendment Article VII Section 3 Article XII | Yes
+                                    (NON) | ",(row),,65049,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | No. 2 Constitutional Amendment Article VII Section 3 Article XII | No
+                                    (NON) | ",(row),,31238,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | No. 3 Constitutional Amendment Article VII Sections 4 6 and 9 Article XII | Yes
+                                    (NON) | ",(row),,72116,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | No. 3 Constitutional Amendment Article VII Sections 4 6 and 9 Article XII | No
+                                    (NON) | ",(row),,25261,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | County Referendum 1 | For the one-cent sales tax
+                                    (NON) | ",(row),,56284,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | County Referendum 1 | Against the one-cent sales tax
+                                    (NON) | ",(row),,38396,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | County Referendum 2 | Yes for bonds
+                                    (NON) | ",(row),,75298,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | County Referendum 2 | No against bonds
+                                    (NON) | ",(row),,20759,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | School District Referendum | Yes for continuing current millage
+                                    (NON) | ",(row),,69298,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"CHA | School District Referendum | No against continuing current millage
+                                    (NON) | ",(row),,27070,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | United States Senator | REP Ashley Moody | REP,(row),,182801,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | United States Senator | DEM Angie Nixon | DEM,(row),,117839,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | United States Senator | NPA Neil J. Gillespie | NPA,(row),,3196,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Representative in Congress - District 17 | REP Greg Steube | REP,(row),,37764,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Representative in Congress - District 17 | DEM Matthew Montavon | DEM,(row),,28975,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Representative in Congress - District 17 | NPA Michael J. Quirk | NPA,(row),,939,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Representative in Congress - District 19 | REP Jim Schwartzel | REP,(row),,141595,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Representative in Congress - District 19 | DEM Victor Arias | DEM,(row),,89723,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Representative in Congress - District 19 | NPA Seth Haskin | NPA,(row),,3103,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Representative in Congress - District 19 | Write-in Candidate
+                                    (NON) | ",(row),,176,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Governor and Lieutenant Governor | REP Byron Donalds | REP,(row),,182720,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Governor and Lieutenant Governor | DEM David Jolly | DEM,(row),,117515,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Governor and Lieutenant Governor | LPF Scott Eckhard Jewett | LPF,(row),,1191,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Governor and Lieutenant Governor | NPA Charles Burkett | NPA,(row),,545,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Governor and Lieutenant Governor | NPA Frank J. Russo | NPA,(row),,820,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Governor and Lieutenant Governor | NPA Moliere ""Moe"" Dimanche | NPA",(row),,174,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Governor and Lieutenant Governor | NPA Dean Ocean Abrams | NPA,(row),,369,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Governor and Lieutenant Governor | NPA Jeffrey Peter ""Dr. Jeff"" Datto | NPA",(row),,257,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Governor and Lieutenant Governor | Write-in Candidate
+                                    (NON) | ",(row),,468,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Attorney General | REP James Uthmeier | REP,(row),,184572,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Attorney General | DEM Jose Javier Rodriguez | DEM,(row),,117115,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Chief Financial Officer | REP Blaise Ingoglia | REP,(row),,179712,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Chief Financial Officer | DEM Annette Taddeo | DEM,(row),,119445,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Commissioner of Agriculture | REP Wilton Simpson | REP,(row),,180424,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Commissioner of Agriculture | DEM Joey Mendoza Atkins | DEM,(row),,118442,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Commissioner of Agriculture | Write-in Candidate
+                                    (NON) | ",(row),,572,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Senator - District 28 | REP Lauren Uhlich Melo | REP,(row),,28419,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Senator - District 28 | DEM David Silverberg | DEM,(row),,20820,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Representative - District 76 | REP Vanessa Oliver | REP,(row),,20966,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Representative - District 76 | DEM Phillip Ray Carter | DEM,(row),,10912,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Representative - District 77 | REP Tiffany Esposito | REP,(row),,34225,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Representative - District 77 | DEM Cornelius Fowler | DEM,(row),,27450,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Representative - District 78 | REP Susan Frantz | REP,(row),,35543,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Representative - District 78 | DEM Cindy Banyai | DEM,(row),,30095,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Representative - District 80 | REP Adam Botana | REP,(row),,42220,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | State Representative - District 80 | DEM William Moskal | DEM,(row),,23023,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Supervisor of Elections | REP Jenna Persons-Mulicka | REP,(row),,181135,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Supervisor of Elections | DEM Chris Vignieri | DEM,(row),,117523,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Board of County Commissioners - District 2 | REP Cecil L. Pendergrass | REP,(row),,179096,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Board of County Commissioners - District 2 | DEM Elliot Taylor | DEM,(row),,118902,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,LEE | Board of County Commissioners - District 4 | REP Brian Hamman | REP,(row),,193169,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Board of County Commissioners - District 4 | NPA DeMaria ""Princess"" Artis | NPA",(row),,92901,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Justice of the Supreme Court - Carlos G. Muniz | Yes
+                                    (NON) | ",(row),,172424,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Justice of the Supreme Court - Carlos G. Muniz | No
+                                    (NON) | ",(row),,93717,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | School Board Member - District 4 | Tony Beougher
+                                    (NON) | ",(row),,19934,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | School Board Member - District 4 | Debbie Jordan
+                                    (NON) | ",(row),,22479,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | School Board Member - District 5 | Crystal Johnson
+                                    (NON) | ",(row),,23892,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | School Board Member - District 5 | Armor Persons
+                                    (NON) | ",(row),,16555,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Bonita Springs City Council - District 3 | Ruth Condit
+                                    (NON) | ",(row),,1525,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Bonita Springs City Council - District 3 | Ray Sandelli
+                                    (NON) | ",(row),,1241,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Bonita Springs City Council - District 3 | Tim Voit
+                                    (NON) | ",(row),,781,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Bonita Springs City Council - District 5 | James Anderst
+                                    (NON) | ",(row),,1522,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Bonita Springs City Council - District 5 | Nigel Patrick Fullick
+                                    (NON) | ",(row),,927,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Cape Coral Mayor | Lisa Cohen-Adkinson
+                                    (NON) | ",(row),,36378,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Cape Coral Mayor | Rick Erickson
+                                    (NON) | ",(row),,39218,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Cape Coral City Council - District 1 | Dave Newton
+                                    (NON) | ",(row),,37190,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Cape Coral City Council - District 1 | Tom Shadrach
+                                    (NON) | ",(row),,32771,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Cape Coral City Council - District 4 | Jennifer Nelson Lastra
+                                    (NON) | ",(row),,38284,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Cape Coral City Council - District 4 | James Vargas
+                                    (NON) | ",(row),,31843,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Cape Coral City Council - District 6 | Liza King
+                                    (NON) | ",(row),,34501,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Cape Coral City Council - District 6 | Annette Warren
+                                    (NON) | ",(row),,34988,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Fort Myers Mayor | Kevin B. Anderson
+                                    (NON) | ",(row),,11834,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Fort Myers Mayor | Amber Ware
+                                    (NON) | ",(row),,13942,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Fort Myers City Council - Ward 3 | Chantel ""Telly"" Rhodes
+                                    (NON) | ",(row),,1111,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | City of Fort Myers City Council - Ward 3 | Terolyn P. Watson
+                                    (NON) | ",(row),,1516,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Town of Fort Myers Beach Town Council | Tom Brady
+                                    (NON) | ",(row),,1510,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Town of Fort Myers Beach Town Council | Anita Cereceda
+                                    (NON) | ",(row),,1768,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Town of Fort Myers Beach Town Council | Rebecca Link
+                                    (NON) | ",(row),,1334,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Town of Fort Myers Beach Town Council | John McLean
+                                    (NON) | ",(row),,288,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Town of Fort Myers Beach Town Council | Edward J. Schoonover
+                                    (NON) | ",(row),,904,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Lehigh Acres Municipal Services Improvement District - Seat 4 | Mike Bonacolta
+                                    (NON) | ",(row),,15599,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Lehigh Acres Municipal Services Improvement District - Seat 4 | Derek Felder
+                                    (NON) | ",(row),,9385,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Alva Fire Protection and Rescue Service District - Seat 2 | Richard Spence
+                                    (NON) | ",(row),,769,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Alva Fire Protection and Rescue Service District - Seat 2 | Darren Watkins
+                                    (NON) | ",(row),,564,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Blue Lake Community Development District - Seat 1 | John Hadginikitas
+                                    (NON) | ",(row),,130,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Blue Lake Community Development District - Seat 1 | Steven Hamburger
+                                    (NON) | ",(row),,106,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Blue Lake Community Development District - Seat 1 | Paul Marsjanik
+                                    (NON) | ",(row),,120,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Bonita Landing Community Development District - Seat 2 | Christopher Applegate
+                                    (NON) | ",(row),,98,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Bonita Landing Community Development District - Seat 2 | Mark Hilton
+                                    (NON) | ",(row),,136,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Bonita Landing Community Development District - Seat 3 | Scott Helling
+                                    (NON) | ",(row),,141,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Bonita Landing Community Development District - Seat 3 | Rosanny Larach
+                                    (NON) | ",(row),,90,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Bonita Landing Community Development District - Seat 4 | Andrew W. Brignoni
+                                    (NON) | ",(row),,82,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Bonita Landing Community Development District - Seat 4 | Bill McCormick
+                                    (NON) | ",(row),,149,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Bonita Springs Fire Control and Rescue District - Seat 1 | Lawrence P. Kosilla
+                                    (NON) | ",(row),,11834,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Bonita Springs Fire Control and Rescue District - Seat 1 | James P. Murphy
+                                    (NON) | ",(row),,10467,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Captiva Erosion Prevention District - Seat 1 | John Raburn Dupre
+                                    (NON) | ",(row),,84,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Captiva Erosion Prevention District - Seat 1 | Margarethe Thye-Miville
+                                    (NON) | ",(row),,75,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Captiva Erosion Prevention District - Seat 3 | Michael Christopher Mullins
+                                    (NON) | ",(row),,101,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Captiva Erosion Prevention District - Seat 3 | Bob Walter
+                                    (NON) | ",(row),,58,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Catalina at Winkler Preserve Community Development District - Seat 3 | Richard A. Bonito
+                                    (NON) | ",(row),,74,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Catalina at Winkler Preserve Community Development District - Seat 3 | Brian Williams
+                                    (NON) | ",(row),,208,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Colonial Country Club Community Development District - Seat 2 | Doug Smith
+                                    (NON) | ",(row),,652,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Colonial Country Club Community Development District - Seat 2 | Joseph J. Zajac
+                                    (NON) | ",(row),,313,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Cypress Shadows Community Development District - Seat 2 | Gary P. Gauvin
+                                    (NON) | ",(row),,316,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Cypress Shadows Community Development District - Seat 2 | Corey Graves
+                                    (NON) | ",(row),,180,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Cypress Shadows Community Development District - Seat 4 | Angella Graves
+                                    (NON) | ",(row),,198,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Cypress Shadows Community Development District - Seat 4 | John A. Sartoris
+                                    (NON) | ",(row),,304,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Cypress Shadows Community Development District - Seat 5 | Steven Invidiato
+                                    (NON) | ",(row),,287,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Cypress Shadows Community Development District - Seat 5 | Joseph E. Molsen
+                                    (NON) | ",(row),,209,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Fort Myers Beach Fire Control District - Seat 1 | Jim Knickle
+                                    (NON) | ",(row),,1765,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Fort Myers Beach Fire Control District - Seat 1 | Bret Randle
+                                    (NON) | ",(row),,707,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Fort Myers Shores Fire Protection and Rescue Service District - Seat 4 | Paul Cerrito
+                                    (NON) | ",(row),,3759,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Fort Myers Shores Fire Protection and Rescue Service District - Seat 4 | Anita Kressel
+                                    (NON) | ",(row),,2882,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Gateway Services Community Development District - Seat 4 | Paul LeoGrande
+                                    (NON) | ",(row),,2153,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Gateway Services Community Development District - Seat 4 | Carole Pankau
+                                    (NON) | ",(row),,3852,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Habitat Community Development District - Seat 4 | Greg Grimaudo
+                                    (NON) | ",(row),,1100,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Habitat Community Development District - Seat 4 | Larry A. Roth
+                                    (NON) | ",(row),,393,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Iona-McGregor Fire Protection and Rescue Service District - Seat 1 | Ethan Langford
+                                    (NON) | ",(row),,12227,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Iona-McGregor Fire Protection and Rescue Service District - Seat 1 | Paul Martin Louwers
+                                    (NON) | ",(row),,6543,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Iona-McGregor Fire Protection and Rescue Service District - Seat 1 | Kerry Knuuti Pirrone
+                                    (NON) | ",(row),,3306,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | North Fort Myers Fire Control and Rescue Service District - Seat 1 | Mike Gatewood
+                                    (NON) | ",(row),,9790,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | North Fort Myers Fire Control and Rescue Service District - Seat 1 | Justin M. Thomas
+                                    (NON) | ",(row),,6321,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | North Fort Myers Fire Control and Rescue Service District - Seat 3 | Doug Dailey
+                                    (NON) | ",(row),,10811,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | North Fort Myers Fire Control and Rescue Service District - Seat 3 | Thomas C. Mere
+                                    (NON) | ",(row),,5177,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | North Fort Myers Fire Control and Rescue Service District - Seat 5 | Joshua ""Bodacious"" Krohn
+                                    (NON) | ",(row),,7787,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | North Fort Myers Fire Control and Rescue Service District - Seat 5 | Bill Schaible
+                                    (NON) | ",(row),,8153,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | South Trail Fire Protection and Rescue Service District - Seat 5 | David Howard
+                                    (NON) | ",(row),,9292,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | South Trail Fire Protection and Rescue Service District - Seat 5 | Ron Tarantino
+                                    (NON) | ",(row),,8801,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Stoneybrook Community Development District - Seat 4 | Adam Dalton
+                                    (NON) | ",(row),,461,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Stoneybrook Community Development District - Seat 4 | Michael J. DeBrino Jr.
+                                    (NON) | ",(row),,410,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Stoneybrook Community Development District - Seat 5 | Eileen L. Huff
+                                    (NON) | ",(row),,352,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Stoneybrook Community Development District - Seat 5 | Philip Simonsen
+                                    (NON) | ",(row),,533,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Vasari Community Development District - Seat 5 | Kurt Deter
+                                    (NON) | ",(row),,146,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Vasari Community Development District - Seat 5 | Richard A. Fluet
+                                    (NON) | ",(row),,152,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Vasari Community Development District - Seat 5 | Roy R. Rice
+                                    (NON) | ",(row),,174,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | WildBlue Community Development District - Seat 1 | Herbert Lanese
+                                    (NON) | ",(row),,176,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | WildBlue Community Development District - Seat 1 | Richard S. Losee
+                                    (NON) | ",(row),,513,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | WildBlue Community Development District - Seat 2 | Sima Rae Baker
+                                    (NON) | ",(row),,154,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | WildBlue Community Development District - Seat 2 | Edward Houck
+                                    (NON) | ",(row),,543,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | No. 1 Constitutional Amendment | Yes
+                                    (NON) | ",(row),,134702,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | No. 1 Constitutional Amendment | No
+                                    (NON) | ",(row),,148250,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | No. 2 Constitutional Amendment | Yes
+                                    (NON) | ",(row),,178506,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | No. 2 Constitutional Amendment | No
+                                    (NON) | ",(row),,106064,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | No. 3 Constitutional Amendment | Yes
+                                    (NON) | ",(row),,199766,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | No. 3 Constitutional Amendment | No
+                                    (NON) | ",(row),,90081,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | County Charter Amendment 1 - Single Member Districts | Yes
+                                    (NON) | ",(row),,203516,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | County Charter Amendment 1 - Single Member Districts | No
+                                    (NON) | ",(row),,64441,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | County Charter Amendment 2 - Term Limits | Yes
+                                    (NON) | ",(row),,240458,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | County Charter Amendment 2 - Term Limits | No
+                                    (NON) | ",(row),,37903,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 1 - Disclosure | Yes
+                                    (NON) | ",(row),,2202,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 1 - Disclosure | No
+                                    (NON) | ",(row),,99,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 2 - Compensation | Yes
+                                    (NON) | ",(row),,1658,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 2 - Compensation | No
+                                    (NON) | ",(row),,538,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 3 - Appointment | Yes
+                                    (NON) | ",(row),,994,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 3 - Appointment | No
+                                    (NON) | ",(row),,1242,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 4 - Interim Mayor | Yes
+                                    (NON) | ",(row),,1947,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 4 - Interim Mayor | No
+                                    (NON) | ",(row),,333,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 5 - Qualifying | Yes
+                                    (NON) | ",(row),,1548,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 5 - Qualifying | No
+                                    (NON) | ",(row),,719,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 6 - Canvassing | Yes
+                                    (NON) | ",(row),,1754,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | FMB Town Charter Amendment 6 - Canvassing | No
+                                    (NON) | ",(row),,492,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Mosquito Control District Referendum - Fort Myers Beach | Yes
+                                    (NON) | ",(row),,1424,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Mosquito Control District Referendum - Fort Myers Beach | No
+                                    (NON) | ",(row),,1672,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Mosquito Control District Referendum - Lee County | Yes
+                                    (NON) | ",(row),,212334,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Mosquito Control District Referendum - Lee County | No
+                                    (NON) | ",(row),,64350,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Fire District Referendum - Fort Myers Beach | Yes
+                                    (NON) | ",(row),,797,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Fire District Referendum - Fort Myers Beach | No
+                                    (NON) | ",(row),,2413,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Fire District Referendum - Iona / McGregor | Yes
+                                    (NON) | ",(row),,14861,
+data|rows_new|ENR|new|20261103-230034,3,data,rows_new,ENR|new,20261103-230034,"LEE | Fire District Referendum - Iona / McGregor | No
+                                    (NON) | ",(row),,11151,

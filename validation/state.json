@@ -21,6 +21,7 @@
     "BRA",
     "BRE",
     "CAL",
+    "CHA",
     "CIT",
     "CLA",
     "CLL",
@@ -48,6 +49,7 @@
     "JEF",
     "LAF",
     "LAK",
+    "LEE",
     "LEO",
     "LEV",
     "LIB",
@@ -76,9 +78,9 @@
     "WAL",
     "WAS"
    ],
-   "enr_ok": 60,
-   "enr_rows": 2988,
-   "enr_status_rows": 60,
+   "enr_ok": 62,
+   "enr_rows": 3199,
+   "enr_status_rows": 62,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
@@ -87,6 +89,7 @@
     "BAK",
     "BRA",
     "BRE",
+    "CHA",
     "CIT",
     "CLL",
     "CLM",
@@ -106,6 +109,7 @@
     "JEF",
     "LAF",
     "LAK",
+    "LEE",
     "LEV",
     "MAD",
     "MON",
@@ -124,6 +128,7 @@
     "BAK": 414,
     "BRA": 602,
     "BRE": 7963,
+    "CHA": 1622,
     "CIT": 1397,
     "CLL": 3386,
     "CLM": 1371,
@@ -143,6 +148,7 @@
     "JEF": 698,
     "LAF": 202,
     "LAK": 4743,
+    "LEE": 5070,
     "LEV": 585,
     "MAD": 461,
     "MON": 1551,
@@ -157,12 +163,13 @@
     "WAK": 532,
     "WAL": 1797
    },
-   "prec_ok": 35,
-   "prec_rows": 146941,
+   "prec_ok": 37,
+   "prec_rows": 153633,
    "prec_votes": {
     "BAK": 160017,
     "BRA": 155414,
     "BRE": 4905439,
+    "CHA": 1486818,
     "CIT": 1196373,
     "CLL": 2897973,
     "CLM": 396690,
@@ -182,6 +189,7 @@
     "JEF": 112417,
     "LAF": 37752,
     "LAK": 3207804,
+    "LEE": 5528605,
     "LEV": 294430,
     "MAD": 110378,
     "MON": 533961,
@@ -191,7 +199,7 @@
     "POL": 3619581,
     "PUT": 391108,
     "SAR": 4823056,
-    "STJ": 2752768,
+    "STJ": 2814770,
     "TAY": 105943,
     "WAK": 246665,
     "WAL": 674627
@@ -638,6 +646,12 @@
      10,
      10
     ],
+    "CHA": [
+     101185,
+     "11/03/2026 8:03:11 pm",
+     40,
+     40
+    ],
     "CIT": [
      75533,
      "11/03/2026 7:39:59 pm",
@@ -800,6 +814,12 @@
      92,
      92
     ],
+    "LEE": [
+     306050,
+     "11/03/2026 9:11:07 pm",
+     99,
+     99
+    ],
     "LEO": [
      124803,
      "11/03/2026 9:26:02 pm",
@@ -825,8 +845,8 @@
      11
     ],
     "MAN": [
-     183074,
-     "11/03/2026 9:46:19 pm",
+     183179,
+     "11/03/2026 10:56:29 pm",
      71,
      71
     ],
@@ -849,8 +869,8 @@
      18
     ],
     "OKA": [
-     77919,
-     "11/03/2026 9:26:24 pm",
+     77922,
+     "11/03/2026 9:58:31 pm",
      52,
      52
     ],
@@ -891,8 +911,8 @@
      37
     ],
     "SAN": [
-     74183,
-     "11/03/2026 8:21:13 pm",
+     74870,
+     "11/03/2026 9:55:22 pm",
      41,
      41
     ],
@@ -909,14 +929,14 @@
      82
     ],
     "STJ": [
-     153245,
-     "11/03/2026 9:09:38 pm",
-     52,
+     156860,
+     "11/03/2026 10:54:43 pm",
+     55,
      55
     ],
     "STL": [
-     137054,
-     "11/03/2026 10:07:01 pm",
+     137676,
+     "11/03/2026 10:55:54 pm",
      61,
      62
     ],
@@ -970,6 +990,7 @@
     "BRA",
     "BRE",
     "CAL",
+    "CHA",
     "CIT",
     "CLA",
     "CLL",
@@ -997,6 +1018,7 @@
     "JEF",
     "LAF",
     "LAK",
+    "LEE",
     "LEO",
     "LEV",
     "LIB",
@@ -1025,9 +1047,9 @@
     "WAL",
     "WAS"
    ],
-   "enr_ok": 60,
-   "enr_rows": 2988,
-   "enr_status_rows": 60,
+   "enr_ok": 62,
+   "enr_rows": 3199,
+   "enr_status_rows": 62,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
@@ -1036,6 +1058,7 @@
     "BAK",
     "BRA",
     "BRE",
+    "CHA",
     "CIT",
     "CLL",
     "CLM",
@@ -1055,6 +1078,7 @@
     "JEF",
     "LAF",
     "LAK",
+    "LEE",
     "LEV",
     "MAD",
     "MON",
@@ -1073,6 +1097,7 @@
     "BAK": 414,
     "BRA": 602,
     "BRE": 7963,
+    "CHA": 1622,
     "CIT": 1397,
     "CLL": 3386,
     "CLM": 1371,
@@ -1092,6 +1117,7 @@
     "JEF": 698,
     "LAF": 202,
     "LAK": 4743,
+    "LEE": 5070,
     "LEV": 585,
     "MAD": 461,
     "MON": 1551,
@@ -1106,12 +1132,13 @@
     "WAK": 532,
     "WAL": 1115
    },
-   "prec_ok": 35,
-   "prec_rows": 146941,
+   "prec_ok": 37,
+   "prec_rows": 153633,
    "prec_votes": {
     "BAK": 160017,
     "BRA": 155414,
     "BRE": 4905439,
+    "CHA": 1486818,
     "CIT": 1196373,
     "CLL": 2897973,
     "CLM": 396690,
@@ -1131,6 +1158,7 @@
     "JEF": 112417,
     "LAF": 37752,
     "LAK": 3207804,
+    "LEE": 5528605,
     "LEV": 294430,
     "MAD": 110378,
     "MON": 533961,
@@ -1140,7 +1168,7 @@
     "POL": 3619581,
     "PUT": 391108,
     "SAR": 4823056,
-    "STJ": 2752768,
+    "STJ": 2814770,
     "TAY": 105943,
     "WAK": 246665,
     "WAL": 674627
@@ -1441,20 +1469,48 @@
   }
  },
  "open": {
-  "source|county_stalled|ENR|stalled|DAD": {
-   "last": "2026-11-03 22:50:12",
+  "source|county_stalled|ENR|stalled|ALA": {
+   "last": "2026-11-03 23:00:47",
    "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-225000-001",
+    "alert_id": "A-20261103-230034-001",
     "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "62/63 precincts in, last update 11/03/2026 10:27:32 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|ALA",
+    "first_seen": "2026-11-03 23:00:47",
+    "headline": "ALA has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-225000",
+    "raised_local": "2026-11-03 23:00:47",
+    "raised_utc": "2026-11-04T04:00:47Z",
+    "scope": "ENR|stalled|ALA",
+    "snapshot": "20261103-230034",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "source|county_stalled|ENR|stalled|DAD": {
+   "last": "2026-11-03 23:00:47",
+   "n": 2,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-225000-001",
+    "count": 4,
     "curr": null,
     "delta": null,
     "detail": "762/773 precincts in, last update 11/03/2026 10:12:15 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|DAD",
     "first_seen": "2026-11-03 22:50:12",
-    "headline": "DAD has not updated in 3 pulls (30 min)",
+    "headline": "DAD has not updated in 4 pulls (40 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-224007",
@@ -1470,19 +1526,19 @@
    "tier": 3
   },
   "source|county_stalled|ENR|stalled|PAL": {
-   "last": "2026-11-03 22:50:12",
-   "n": 3,
+   "last": "2026-11-03 23:00:47",
+   "n": 4,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-223015-001",
-    "count": 5,
+    "count": 6,
     "curr": null,
     "delta": null,
     "detail": "786/814 precincts in, last update 11/03/2026 9:57:26 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|PAL",
     "first_seen": "2026-11-03 22:30:27",
-    "headline": "PAL has not updated in 5 pulls (50 min)",
+    "headline": "PAL has not updated in 6 pulls (60 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-222002",
@@ -1496,62 +1552,6 @@
    },
    "source": "results",
    "tier": 2
-  },
-  "source|county_stalled|ENR|stalled|STJ": {
-   "last": "2026-11-03 22:50:12",
-   "n": 8,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-214014-001",
-    "count": 10,
-    "curr": null,
-    "delta": null,
-    "detail": "52/55 precincts in, last update 11/03/2026 9:09:38 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|STJ",
-    "first_seen": "2026-11-03 21:40:25",
-    "headline": "STJ has not updated in 10 pulls (100 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-213002",
-    "raised_local": "2026-11-03 21:40:25",
-    "raised_utc": "2026-11-04T02:40:25Z",
-    "scope": "ENR|stalled|STJ",
-    "snapshot": "20261103-214014",
-    "source": "results",
-    "tier": 2,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 2
-  },
-  "source|county_stalled|ENR|stalled|STL": {
-   "last": "2026-11-03 22:50:12",
-   "n": 2,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-224007-001",
-    "count": 4,
-    "curr": null,
-    "delta": null,
-    "detail": "61/62 precincts in, last update 11/03/2026 10:07:01 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|STL",
-    "first_seen": "2026-11-03 22:40:20",
-    "headline": "STL has not updated in 4 pulls (40 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-223015",
-    "raised_local": "2026-11-03 22:40:20",
-    "raised_utc": "2026-11-04T03:40:20Z",
-    "scope": "ENR|stalled|STL",
-    "snapshot": "20261103-224007",
-    "source": "results",
-    "tier": 3,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 3
   }
  },
  "recent": [
@@ -2142,11 +2142,32 @@
    "source": "results",
    "tier": 3,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-230034-002",
+   "count": 211,
+   "curr": null,
+   "delta": null,
+   "detail": "e.g. REP Ashley Moody; DEM Angie Nixon; NPA Neil J. Gillespie",
+   "event": "raised",
+   "fingerprint": "data|rows_new|ENR|new|20261103-230034",
+   "first_seen": "2026-11-03 23:00:47",
+   "headline": "New in ENR: 211 rows across 2 places",
+   "kind": "rows_new",
+   "prev": null,
+   "prev_snapshot": "20261103-225000",
+   "raised_local": "2026-11-03 23:00:47",
+   "raised_utc": "2026-11-04T04:00:47Z",
+   "scope": "ENR|new",
+   "snapshot": "20261103-230034",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
-   "n": 2,
+   "n": 3,
    "sig": [
     105083,
     "11/03/2026 10:27:32 pm",
@@ -2193,6 +2214,14 @@
     10
    ]
   },
+  "CHA": {
+   "n": 0,
+   "sig": [
+    101185,
+    "11/03/2026 8:03:11 pm",
+    40
+   ]
+  },
   "CIT": {
    "n": 0,
    "sig": [
@@ -2226,7 +2255,7 @@
    ]
   },
   "DAD": {
-   "n": 3,
+   "n": 4,
    "sig": [
     789466,
     "11/03/2026 10:12:15 pm",
@@ -2409,6 +2438,14 @@
     92
    ]
   },
+  "LEE": {
+   "n": 0,
+   "sig": [
+    306050,
+    "11/03/2026 9:11:07 pm",
+    99
+   ]
+  },
   "LEO": {
    "n": 0,
    "sig": [
@@ -2444,8 +2481,8 @@
   "MAN": {
    "n": 0,
    "sig": [
-    183074,
-    "11/03/2026 9:46:19 pm",
+    183179,
+    "11/03/2026 10:56:29 pm",
     71
    ]
   },
@@ -2476,8 +2513,8 @@
   "OKA": {
    "n": 0,
    "sig": [
-    77919,
-    "11/03/2026 9:26:24 pm",
+    77922,
+    "11/03/2026 9:58:31 pm",
     52
    ]
   },
@@ -2498,7 +2535,7 @@
    ]
   },
   "PAL": {
-   "n": 5,
+   "n": 6,
    "sig": [
     571227,
     "11/03/2026 9:57:26 pm",
@@ -2532,8 +2569,8 @@
   "SAN": {
    "n": 0,
    "sig": [
-    74183,
-    "11/03/2026 8:21:13 pm",
+    74870,
+    "11/03/2026 9:55:22 pm",
     41
    ]
   },
@@ -2554,18 +2591,18 @@
    ]
   },
   "STJ": {
-   "n": 10,
+   "n": 0,
    "sig": [
-    153245,
-    "11/03/2026 9:09:38 pm",
-    52
+    156860,
+    "11/03/2026 10:54:43 pm",
+    55
    ]
   },
   "STL": {
-   "n": 4,
+   "n": 0,
    "sig": [
-    137054,
-    "11/03/2026 10:07:01 pm",
+    137676,
+    "11/03/2026 10:55:54 pm",
     61
    ]
   },
@@ -2629,13 +2666,13 @@
  "totals": {
   "1": 7,
   "2": 137,
-  "3": 342,
+  "3": 344,
   "acked": 394,
-  "alerts": 486
+  "alerts": 488
  },
  "validated": {
   "projections": "20261103-225000",
-  "results": "20261103-225000",
+  "results": "20261103-230034",
   "slow": "20261103-224500",
   "turnout": "20261103-185931"
  },
