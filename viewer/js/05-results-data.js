@@ -83,7 +83,9 @@ function ballotsCast(s, ci) {
 function stateReporting(s = RLAST) {
   let ballots = 0, counties = 0, pw = 0, pn = 0;
   for (let ci = 0; ci < N; ci++) {
-    const t = csGet(s, ci, CS.turnout) || 0, p = csGet(s, ci, CS.repPct);
+    const t = ballotsCast(s, ci) || 0;                 // the state's figure, else the county's own site
+    let p = csGet(s, ci, CS.repPct);
+    if (!p) { const j = RS.enr.ci.indexOf(ci), tot = j >= 0 ? RS.enr.st[s][j * 3 + 2] : -1; if (tot > 0) p = 100 * RS.enr.st[s][j * 3 + 1] / tot; }
     ballots += t; if (t > 0) counties++;
     if (p !== null) { pw += p * C[ci].precincts; pn += C[ci].precincts; }
   }

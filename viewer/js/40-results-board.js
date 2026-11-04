@@ -86,7 +86,7 @@ function boardCard() {
     id: 'r-board', kicker: 'Table', cat: 'mochi', stack: true, noTable: true, controls: [search, famChips, localToggle, fcToggle],
     title: () => scopeC() ? `Your ballot in ${scopeName()}: every race that includes the county` : 'Every race on Florida’s ballot',
     sub: () => anyResults() ? 'Click any row to open that race below. Sort by any column.' : 'No votes are counted yet, so this is a ballot preview. Click any row to open that race.',
-    foot: () => `${RACES.length} statewide-feed races${scopeC() ? ` and ${countyBallot(scopeCi()).length} contests on ${scopeName()}’s county ballot` : ''}. Source: Florida Election Watch${scopeC() ? ' and the county election site' : ''}.`,
+    foot: () => `${RACES.length} statewide-feed races${scopeC() ? ` and ${countyBallot(scopeCi()).length} contests on ${scopeName()}’s county ballot` : ''}. Source: Florida Election Watch${RSNAPS[RLAST].synth ? ', and where the state has not loaded a race yet, the sum of the county election sites reporting it (the county count under Votes shows how many)' : ''}${scopeC() ? ' and the county election site' : ''}.`,
     draw: host => drawBoard(host),
     notes: {
       what: 'A race board is a table with one row per contest, so you can scan dozens of races at once and jump to the one you care about.',

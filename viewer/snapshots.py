@@ -241,6 +241,71 @@ def list_snapshot_dirs(results_dir):
     return sorted(d for d in os.listdir(results_dir) if RUN_ID.match(d) and os.path.isdir(os.path.join(results_dir, d)))
 
 
+DISTRICT_IDS = [(re.compile(r"congress.*?(?:district|dist\.?)\s*(\d+)", re.I), "14"), (re.compile(r"state senat.*?(?:district|dist\.?)\s*(\d+)", re.I), "24"),
+                (re.compile(r"state rep.*?(?:district|dist\.?)\s*(\d+)", re.I), "26")]
+
+
+def match_state_race(contest, names):
+    """Which statewide-feed race a county contest belongs to: the named statewide races, then districts by number, then judges by name.
+    `names` is {contest_id: contest name} from the state feed."""
+    cid = match_statewide(contest)
+    if cid:
+        return cid
+    for pat, pre in DISTRICT_IDS:
+        m = pat.search(contest)
+        if m:
+            return f"{pre}{int(m.group(1)):03d}0"
+    clean = lambda t: re.sub(r"\s+", " ", re.sub(r"\(.*?\)", "", t)).strip().lower()
+    c = clean(contest)
+    if c:
+        for k, nm in names.items():
+            if k[:1] in "5" and clean(nm) == c:
+                return k
+    return None
+
+
+def synthesize_from_counties(loaded, ids, name_of, code_to_idx):
+    """The state feed (Florida Election Watch) can sit at zero for a while after polls close while the counties' own sites already report.
+    For every statewide race with no votes in the state feed, build its rows from the county sites instead: one row per reporting county plus
+    a TOTAL that is their sum. Marked per snapshot in `synth` (races filled) so the page can say so. The state feed wins as soon as it has votes."""
+    cands, names = {}, {}
+    for rid in ids:
+        for r in loaded[rid]["ew"]:
+            cands.setdefault(r["contest_id"], OrderedDict()).setdefault((r["candidate"], r["party"]), None)
+            names[r["contest_id"]] = r["contest"]
+    for rid in ids:
+        L = loaded[rid]
+        have = {}
+        for r in L["ew"]:
+            have[r["contest_id"]] = have.get(r["contest_id"], 0) + to_num(r["votes"])
+        per = {}                                            # (cid, county idx, cand index) -> votes
+        for r in L["cc"]:
+            ci = code_to_idx.get(r["county_code"])
+            cid = match_state_race(r["contest"], names)
+            if ci is None or not cid or cid not in cands or have.get(cid):
+                continue
+            keys = list(cands[cid])
+            k = match_candidate(r["candidate"], r["party"], keys)
+            if k >= 0:
+                per[(cid, ci, k)] = per.get((cid, ci, k), 0) + to_num(r["total"])
+        if not any(per.values()):
+            continue
+        tot, new = {}, []
+        for (cid, ci, k), v in per.items():
+            tot[(cid, k)] = tot.get((cid, k), 0) + v
+        done = {cid for (cid, k), v in tot.items() if v}        # a race the counties have not started counting stays as the state feed has it
+        for (cid, ci, k), v in per.items():
+            if cid in done:
+                cand, party = list(cands[cid])[k]
+                new.append({"contest_id": cid, "contest": names[cid], "county": name_of.get(ci, ""), "candidate": cand, "party": party, "votes": str(v)})
+        for (cid, k), v in tot.items():
+            if cid in done:
+                cand, party = list(cands[cid])[k]
+                new.append({"contest_id": cid, "contest": names[cid], "county": "TOTAL", "candidate": cand, "party": party, "votes": str(v)})
+        L["ew"] = [r for r in L["ew"] if r["contest_id"] not in done] + new
+        L["synth"] = len(done)
+
+
 def load_results(results_dir, cidx_by_name, code_to_idx):
     """All Florida Election Watch + county ENR snapshots, aligned and delta-encoded. Returns a dict for the page."""
     n = len(code_to_idx)
@@ -251,6 +316,7 @@ def load_results(results_dir, cidx_by_name, code_to_idx):
     races = OrderedDict()            # contest_id -> {name, kind, cands: OrderedDict, rows: OrderedDict}
     lraces = OrderedDict()           # (county idx, contest) -> {cands: OrderedDict, stat}
     loaded = {}
+    name_of = {i: k for k, i in cidx_by_name.items()}
     for rid in ids:
         base = os.path.join(results_dir, rid)
         ew = rows_of(os.path.join(base, "contest_votes.csv"))
@@ -261,6 +327,9 @@ def load_results(results_dir, cidx_by_name, code_to_idx):
         loaded[rid] = {"ew": ew, "cc": cc,
                        "cs": rows_of(os.path.join(base, "county_status.csv")), "ed": rows_of(os.path.join(base, "ed_turnout.csv")),
                        "enr": [r for r in rows_of(os.path.join(base, "county_enr_status.csv")) if r.get("election_date") in GENERAL_DATES or not r.get("election_date")]}
+    synthesize_from_counties(loaded, ids, name_of, code_to_idx)
+    for rid in ids:
+        ew, cc = loaded[rid]["ew"], loaded[rid]["cc"]
         for r in ew:
             rc = races.setdefault(r["contest_id"], {"name": r["contest"], "cands": OrderedDict(), "rows": OrderedDict()})
             rc["cands"].setdefault((r["candidate"], r["party"]), len(rc["cands"]))
@@ -368,9 +437,10 @@ def load_results(results_dir, cidx_by_name, code_to_idx):
 
         has_ew = bool(L["ew"])
         votes_total = sum(to_num(r["votes"]) for r in L["ew"] if r["county"].strip().upper() == "TOTAL")
+        enr_ballots = sum(max(to_num(r.get("ballots_cast"), 0), 0) for r in L["enr"])
         snaps.append({
             "id": rid, "t": to_utc(idx_row.get("created_utc") or summary.get("created_utc"), rid),
-            "ballots": to_num(idx_row.get("ballots", summary.get("ballots", 0))),
+            "ballots": to_num(idx_row.get("ballots", summary.get("ballots", 0))) or enr_ballots,
             "elig": to_num(idx_row.get("eligible", summary.get("eligible", 0))),
             "rate": to_num(idx_row.get("turnout_pct", summary.get("turnout_pct", 0))),
             "cr": to_num(idx_row.get("counties_reporting", summary.get("counties_reporting", 0))),
@@ -381,6 +451,7 @@ def load_results(results_dir, cidx_by_name, code_to_idx):
             "precRows": to_num(idx_row.get("precinct_rows", (summary.get("precincts") or {}).get("rows", 0))),
             "has": {"ew": int(has_ew), "enr": int(bool(L["cc"])), "prec": int(os.path.isdir(os.path.join(results_dir, rid, "precincts")))},
             "votes": votes_total,
+            "synth": L.get("synth", 0),
         })
 
     latest = ids[-1] if ids else None
