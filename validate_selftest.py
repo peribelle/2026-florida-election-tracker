@@ -249,9 +249,17 @@ def main():
         check("a candidate with more votes than the county has ballots -> flagged", has(rows, "exceeds_ballots", contains="ALA"), summarize(rows))
 
         T = tree()
+        T.pull("results", lambda d: ecsv(f"{d}/county_contests.csv", lambda rs: [r.update(total=100, election_day=100, early=0, mail=0, provisional=0) for r in rs]))
+        T.run()
         T.pull("results", lambda d: ecsv(f"{d}/county_contests.csv", lambda rs: [rs.pop() for _ in range(int(len(rs) * 0.6))]))
         rows = T.run()
-        check("60% of a table vanishes at once -> tier 1 shape_changed, not a thousand alerts", has(rows, "shape_changed", 1) and len(rows) < 10, summarize(rows))
+        check("60% of a table that held votes vanishes at once -> tier 1 shape_changed, not a thousand alerts", has(rows, "shape_changed", 1) and len([r for r in rows if r["event"] == "raised"]) < 10, summarize(rows))
+        T = tree()
+        T.pull("results", lambda d: ecsv(f"{d}/county_contests.csv", lambda rs: [r.update(total=0, election_day=0, early=0, mail=0, provisional=0) for r in rs]))
+        T.run()
+        T.pull("results", lambda d: ecsv(f"{d}/county_contests.csv", lambda rs: [rs.pop() for _ in range(int(len(rs) * 0.6))]))
+        rows = T.run()
+        check("...but when the vanished rows carried no votes (a county dropped its placeholders) it is only a notice", has(rows, "shape_changed", 3) and not has(rows, "shape_changed", 1), summarize(rows))
 
         T = tree()
         T.pull("turnout", lambda d: ejson(f"{d}/manifest.json", lambda m: m["totals"].update(ballots=m["totals"]["ballots"] - 3000)))

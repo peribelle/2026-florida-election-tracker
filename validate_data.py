@@ -135,8 +135,10 @@ def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src,
     # vanished rows
     mass = len(P) >= MIN_FOR_MASS and len(missing) >= MASS_FRACTION * len(P)
     if mass:
-        out.append(_D("shape_changed", 1, "event", f"{src}|shape", f"{src}: {len(missing)} of {len(P)} rows vanished at once",
-                      "half the table is gone in one pull: the feed changed shape, or a county reloaded under new names.", count=len(missing),
+        carried = sum((P[k][main] or 0) for k in missing)
+        out.append(_D("shape_changed", 1 if carried else 3, "event", f"{src}|shape", f"{src}: {len(missing)} of {len(P)} rows vanished at once" + ("" if carried else ", carrying no votes"),
+                      "half the table is gone in one pull: the feed changed shape, or a county reloaded under new names." if carried else
+                      "the rows held no votes (placeholders a county dropped when it reloaded its file), so nothing was lost.", count=len(missing),
                       rows=[{"key": " | ".join(k), "column": "(row)", "prev": P[k][main], "curr": None, "delta": None} for k in missing]))
     elif missing:
         groups = defaultdict(list)
