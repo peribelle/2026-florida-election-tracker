@@ -544,9 +544,9 @@
      63
     ],
     "BAK": [
-     5998,
-     "11/03/2026 7:21:43 pm",
-     3,
+     8193,
+     "11/03/2026 7:38:30 pm",
+     7,
      9
     ],
     "BAY": [
@@ -562,9 +562,9 @@
      13
     ],
     "BRE": [
-     222182,
-     "11/03/2026 7:26:54 pm",
-     89,
+     242232,
+     "11/03/2026 7:37:05 pm",
+     118,
      166
     ],
     "CAL": [
@@ -580,32 +580,32 @@
      31
     ],
     "CLA": [
-     57989,
-     "11/03/2026 7:00:50 pm",
-     24,
+     92721,
+     "11/03/2026 7:39:55 pm",
+     47,
      48
     ],
     "CLL": [
-     120414,
-     "11/03/2026 7:09:36 pm",
-     0,
+     163497,
+     "11/03/2026 7:39:47 pm",
+     59,
      67
     ],
     "CLM": [
-     14265,
-     "11/03/2026 7:09:20 pm",
-     0,
+     14929,
+     "11/03/2026 7:36:10 pm",
+     6,
      28
     ],
     "DAD": [
-     546403,
-     "11/03/2026 7:09:28 pm",
-     0,
+     651083,
+     "11/03/2026 7:33:44 pm",
+     387,
      773
     ],
     "DES": [
-     0,
-     "10/16/2026 11:51:54 am",
+     5231,
+     "11/03/2026 7:30:20 pm",
      0,
      15
     ],
@@ -616,27 +616,27 @@
      10
     ],
     "DUV": [
-     276937,
-     "11/03/2026 7:21:36 pm",
-     64,
+     325266,
+     "11/03/2026 7:37:34 pm",
+     120,
      159
     ],
     "FLA": [
-     61243,
-     "11/03/2026 7:26:04 pm",
-     19,
+     62619,
+     "11/03/2026 7:37:34 pm",
+     21,
      22
     ],
     "FRA": [
-     0,
-     "11/03/2026 8:13:03 am",
-     0,
+     5075,
+     "11/03/2026 7:33:58 pm",
+     8,
      8
     ],
     "GAD": [
-     10395,
-     "11/03/2026 7:22:56 pm",
-     0,
+     17014,
+     "11/03/2026 7:33:36 pm",
+     22,
      25
     ],
     "GIL": [
@@ -646,9 +646,9 @@
      10
     ],
     "GLA": [
-     0,
-     "10/20/2026 9:07:12 am",
-     0,
+     1924,
+     "11/03/2026 7:36:40 pm",
+     3,
      13
     ],
     "GUL": [
@@ -670,15 +670,15 @@
      12
     ],
     "HEN": [
-     5859,
-     "11/03/2026 7:20:26 pm",
-     0,
+     9891,
+     "11/03/2026 7:36:22 pm",
+     10,
      10
     ],
     "HER": [
-     47445,
-     "11/03/2026 7:00:00 pm",
-     0,
+     49036,
+     "11/03/2026 7:37:11 pm",
+     2,
      32
     ],
     "HIL": [
@@ -712,27 +712,27 @@
      16
     ],
     "LAF": [
-     1106,
-     "11/03/2026 7:00:09 pm",
-     0,
+     1486,
+     "11/03/2026 7:33:55 pm",
+     2,
      5
     ],
     "LAK": [
-     144081,
-     "11/03/2026 7:27:45 pm",
-     59,
+     153511,
+     "11/03/2026 7:34:41 pm",
+     71,
      92
     ],
     "LEO": [
-     80930,
-     "11/03/2026 7:00:30 pm",
-     0,
+     95617,
+     "11/03/2026 7:36:30 pm",
+     18,
      134
     ],
     "LEV": [
-     9131,
-     "11/03/2026 7:15:02 pm",
-     0,
+     10037,
+     "11/03/2026 7:34:05 pm",
+     1,
      13
     ],
     "LIB": [
@@ -742,9 +742,9 @@
      0
     ],
     "MAN": [
-     133637,
-     "11/03/2026 7:17:53 pm",
-     21,
+     156610,
+     "11/03/2026 7:30:29 pm",
+     44,
      71
     ],
     "MON": [
@@ -766,15 +766,15 @@
      18
     ],
     "OKE": [
-     8930,
-     "11/03/2026 7:24:06 pm",
-     7,
+     9973,
+     "11/03/2026 7:30:20 pm",
+     9,
      11
     ],
     "PAS": [
-     198281,
-     "11/03/2026 7:26:58 pm",
-     83,
+     214249,
+     "11/03/2026 7:34:50 pm",
+     98,
      122
     ],
     "POL": [
@@ -796,21 +796,21 @@
      41
     ],
     "SAR": [
-     166889,
-     "11/03/2026 7:17:28 pm",
-     26,
+     192899,
+     "11/03/2026 7:30:43 pm",
+     75,
      98
     ],
     "SEM": [
-     136072,
-     "11/03/2026 7:25:46 pm",
-     6,
+     178795,
+     "11/03/2026 7:36:58 pm",
+     62,
      82
     ],
     "STJ": [
-     132572,
-     "11/03/2026 7:29:17 pm",
-     42,
+     138517,
+     "11/03/2026 7:34:28 pm",
+     46,
      55
     ],
     "STL": [
@@ -821,26 +821,26 @@
     ],
     "SUM": [
      95678,
-     "11/03/2026 7:28:14 pm",
+     "11/03/2026 7:30:55 pm",
      33,
      33
     ],
     "TAY": [
-     2841,
-     "11/03/2026 7:19:11 pm",
+     3835,
+     "11/03/2026 7:37:42 pm",
      0,
      14
     ],
     "UNI": [
-     2159,
-     "11/03/2026 7:10:25 pm",
-     0,
+     3462,
+     "11/03/2026 7:39:42 pm",
+     6,
      8
     ],
     "WAK": [
-     11212,
-     "11/03/2026 7:20:26 pm",
-     8,
+     12876,
+     "11/03/2026 7:31:11 pm",
+     9,
      12
     ],
     "WAL": [
@@ -923,7 +923,6 @@
     "BRA",
     "BRE",
     "CIT",
-    "CLL",
     "CLM",
     "DAD",
     "DIX",
@@ -957,7 +956,6 @@
     "BRA": 602,
     "BRE": 7963,
     "CIT": 1397,
-    "CLL": 3386,
     "CLM": 1371,
     "DAD": 49450,
     "DIX": 400,
@@ -986,8 +984,8 @@
     "WAK": 532,
     "WAL": 1797
    },
-   "prec_ok": 32,
-   "prec_rows": 126389
+   "prec_ok": 31,
+   "prec_rows": 123003
   },
   "slow": {
    "_failures": [
@@ -1265,20 +1263,76 @@
   }
  },
  "open": {
-  "source|county_stalled|ENR|stalled|CIT": {
-   "last": "2026-11-03 19:30:30",
+  "data|pct_mismatch|ENR|pct|GLA": {
+   "last": "2026-11-03 19:40:21",
    "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-193019-001",
+    "alert_id": "A-20261103-194011-005",
+    "count": 38,
+    "curr": null,
+    "delta": null,
+    "detail": "Ashley Moody (United States Senator); Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "event": "raised",
+    "fingerprint": "data|pct_mismatch|ENR|pct|GLA",
+    "first_seen": "2026-11-03 19:40:21",
+    "headline": "Percent does not match the votes in GLA: 38 rows",
+    "kind": "pct_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-193019",
+    "raised_local": "2026-11-03 19:40:21",
+    "raised_utc": "2026-11-04T00:40:21Z",
+    "scope": "ENR|pct|GLA",
+    "snapshot": "20261103-194011",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "source|county_stalled|ENR|stalled|ALA": {
+   "last": "2026-11-03 19:40:21",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-194011-002",
     "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "0/63 precincts in, last update 11/03/2026 7:04:35 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|ALA",
+    "first_seen": "2026-11-03 19:40:21",
+    "headline": "ALA has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-193019",
+    "raised_local": "2026-11-03 19:40:21",
+    "raised_utc": "2026-11-04T00:40:21Z",
+    "scope": "ENR|stalled|ALA",
+    "snapshot": "20261103-194011",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "source|county_stalled|ENR|stalled|CIT": {
+   "last": "2026-11-03 19:40:21",
+   "n": 2,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-193019-001",
+    "count": 4,
     "curr": null,
     "delta": null,
     "detail": "0/31 precincts in, last update 11/03/2026 7:00:00 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|CIT",
     "first_seen": "2026-11-03 19:30:30",
-    "headline": "CIT has not updated in 3 pulls (30 min)",
+    "headline": "CIT has not updated in 4 pulls (40 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-192008",
@@ -1293,27 +1347,27 @@
    "source": "results",
    "tier": 3
   },
-  "source|county_stalled|ENR|stalled|HER": {
-   "last": "2026-11-03 19:30:30",
+  "source|county_stalled|ENR|stalled|IND": {
+   "last": "2026-11-03 19:40:21",
    "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-193019-002",
+    "alert_id": "A-20261103-194011-003",
     "count": 3,
     "curr": null,
     "delta": null,
-    "detail": "0/32 precincts in, last update 11/03/2026 7:00:00 pm.",
+    "detail": "0/36 precincts in, last update 11/03/2026 7:05:56 pm.",
     "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|HER",
-    "first_seen": "2026-11-03 19:30:30",
-    "headline": "HER has not updated in 3 pulls (30 min)",
+    "fingerprint": "source|county_stalled|ENR|stalled|IND",
+    "first_seen": "2026-11-03 19:40:21",
+    "headline": "IND has not updated in 3 pulls (30 min)",
     "kind": "county_stalled",
     "prev": null,
-    "prev_snapshot": "20261103-192008",
-    "raised_local": "2026-11-03 19:30:30",
-    "raised_utc": "2026-11-04T00:30:30Z",
-    "scope": "ENR|stalled|HER",
-    "snapshot": "20261103-193019",
+    "prev_snapshot": "20261103-193019",
+    "raised_local": "2026-11-03 19:40:21",
+    "raised_utc": "2026-11-04T00:40:21Z",
+    "scope": "ENR|stalled|IND",
+    "snapshot": "20261103-194011",
     "source": "results",
     "tier": 3,
     "validator": "source"
@@ -1321,33 +1375,61 @@
    "source": "results",
    "tier": 3
   },
-  "source|county_stalled|ENR|stalled|LAF": {
-   "last": "2026-11-03 19:30:30",
+  "source|county_stalled|ENR|stalled|STL": {
+   "last": "2026-11-03 19:40:21",
    "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-193019-003",
+    "alert_id": "A-20261103-194011-004",
     "count": 3,
     "curr": null,
     "delta": null,
-    "detail": "0/5 precincts in, last update 11/03/2026 7:00:09 pm.",
+    "detail": "0/62 precincts in, last update 11/03/2026 7:06:45 pm.",
     "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|LAF",
-    "first_seen": "2026-11-03 19:30:30",
-    "headline": "LAF has not updated in 3 pulls (30 min)",
+    "fingerprint": "source|county_stalled|ENR|stalled|STL",
+    "first_seen": "2026-11-03 19:40:21",
+    "headline": "STL has not updated in 3 pulls (30 min)",
     "kind": "county_stalled",
     "prev": null,
-    "prev_snapshot": "20261103-192008",
-    "raised_local": "2026-11-03 19:30:30",
-    "raised_utc": "2026-11-04T00:30:30Z",
-    "scope": "ENR|stalled|LAF",
-    "snapshot": "20261103-193019",
+    "prev_snapshot": "20261103-193019",
+    "raised_local": "2026-11-03 19:40:21",
+    "raised_utc": "2026-11-04T00:40:21Z",
+    "scope": "ENR|stalled|STL",
+    "snapshot": "20261103-194011",
     "source": "results",
     "tier": 3,
     "validator": "source"
    },
    "source": "results",
    "tier": 3
+  },
+  "source|precinct_file_lost|PREC|CLL": {
+   "last": "2026-11-03 19:40:21",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-194011-001",
+    "count": 1,
+    "curr": null,
+    "delta": null,
+    "detail": "this county has produced one before.",
+    "event": "raised",
+    "fingerprint": "source|precinct_file_lost|PREC|CLL",
+    "first_seen": "2026-11-03 19:40:21",
+    "headline": "Precinct file missing for CLL",
+    "kind": "precinct_file_lost",
+    "prev": null,
+    "prev_snapshot": "20261103-193019",
+    "raised_local": "2026-11-03 19:40:21",
+    "raised_utc": "2026-11-04T00:40:21Z",
+    "scope": "PREC|CLL",
+    "snapshot": "20261103-194011",
+    "source": "results",
+    "tier": 2,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 2
   }
  },
  "recent": [
@@ -3576,11 +3658,1208 @@
    "source": "results",
    "tier": 2,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-006",
+   "count": 2,
+   "curr": 0,
+   "delta": -160,
+   "detail": "Allen Weiss\n                         \u2026 92 \u2192 0; Allen Weiss\n                         \u2026 68 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|CLL|Talis Park CDD, Seat 5|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in Talis Park CDD, Seat 5 \u00b7 CLL: \u2212160 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 92,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|CLL|Talis Park CDD, Seat 5",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-007",
+   "count": 2,
+   "curr": 0,
+   "delta": -148,
+   "detail": "Neil J. Gillespie 105 \u2192 0; Neil J. Gillespie 43 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|CLM|United States Senator|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in United States Senator \u00b7 CLM: \u2212148 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 105,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|CLM|United States Senator",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-008",
+   "count": 2,
+   "curr": 0,
+   "delta": -197,
+   "detail": "Mike Klein 127 \u2192 0; Mike Klein 70 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|CLM|Representative in Congress District 3|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in Representative in Congress District 3 \u00b7 CLM: \u2212197 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 127,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|CLM|Representative in Congress District 3",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-009",
+   "count": 2,
+   "curr": 0,
+   "delta": -72,
+   "detail": "Scott Eckhard Jewett/Nicole Skelly 42 \u2192 0; Scott Eckhard Jewett/Nicole Skelly 30 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|CLM|Governor and Lieutenant Governor|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in Governor and Lieutenant Governor \u00b7 CLM: \u221272 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 42,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|CLM|Governor and Lieutenant Governor",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-010",
+   "count": 2,
+   "curr": 0,
+   "delta": -114,
+   "detail": "Joseph Thornton 79 \u2192 0; Joseph Thornton 35 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|CLM|State Senator District 6|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in State Senator District 6 \u00b7 CLM: \u2212114 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 79,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|CLM|State Senator District 6",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-011",
+   "count": 2,
+   "curr": 0,
+   "delta": -1150,
+   "detail": "Everett Phillips 805 \u2192 0; Everett Phillips 345 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|CLM|County Commissioner District 4|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in County Commissioner District 4 \u00b7 CLM: \u22121,150 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 805,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|CLM|County Commissioner District 4",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-012",
+   "count": 2,
+   "curr": 0,
+   "delta": -128,
+   "detail": "Write-in 74 \u2192 0; Write-in 54 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|DAD|Representative Congress District 25|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in Representative Congress District 25 \u00b7 DAD: \u2212128 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 74,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|DAD|Representative Congress District 25",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-013",
+   "count": 4,
+   "curr": 0,
+   "delta": -1341,
+   "detail": "Margaret Mary ''Margie'' Love 456 \u2192 0; Eunice Diona Flowers 368 \u2192 0; Margaret Mary ''Margie'' Love 334 \u2192 0; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|DAD|North Miami Beach Group 4 Commissioner|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in North Miami Beach Group 4 Commissioner \u00b7 DAD: \u22121,341 across 4 numbers",
+   "kind": "parts_down",
+   "prev": 456,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|DAD|North Miami Beach Group 4 Commissioner",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-014",
+   "count": 2,
+   "curr": 0,
+   "delta": -559,
+   "detail": "Neil J. Gillespie 292 \u2192 0; Neil J. Gillespie 267 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|HER|United States Senator|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in United States Senator \u00b7 HER: \u2212559 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 292,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|HER|United States Senator",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-015",
+   "count": 8,
+   "curr": 0,
+   "delta": -587,
+   "detail": "Scott Eckhard Jewett 135 \u2192 0; Scott Eckhard Jewett 102 \u2192 0; Frank J. Russo 94 \u2192 0; and 5 more",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|HER|Governor and Lieutenant Governor|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in Governor and Lieutenant Governor \u00b7 HER: \u2212587 across 8 numbers",
+   "kind": "parts_down",
+   "prev": 135,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|HER|Governor and Lieutenant Governor",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-016",
+   "count": 2,
+   "curr": 0,
+   "delta": -227,
+   "detail": "Write-in 153 \u2192 0; Write-in 74 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|HER|Commissioner of Agriculture|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in Commissioner of Agriculture \u00b7 HER: \u2212227 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 153,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|HER|Commissioner of Agriculture",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-017",
+   "count": 2,
+   "curr": 0,
+   "delta": -527,
+   "detail": "Christopher Anger 286 \u2192 0; Christopher Anger 241 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|HER|State Representative, District 53|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in State Representative, District 53 \u00b7 HER: \u2212527 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 286,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|HER|State Representative, District 53",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-018",
+   "count": 4,
+   "curr": 0,
+   "delta": -166,
+   "detail": "Dean Ocean Abrams 49 \u2192 0; Charles Burkett 48 \u2192 0; Charles Burkett 36 \u2192 0; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|LEO|Governor|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in Governor \u00b7 LEO: \u2212166 across 4 numbers",
+   "kind": "parts_down",
+   "prev": 49,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|LEO|Governor",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-019",
+   "count": 4,
+   "curr": 0,
+   "delta": -1776,
+   "detail": "Jennifer Jankowski Green 764 \u2192 0; Jennifer Jankowski Green 422 \u2192 0; Kurt V. Christensen 361 \u2192 0; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|LEO|Capital Region Community Development District, Seat 5|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "A part fell while its total held in Capital Region Community Development District, Seat 5 \u00b7 LEO: \u22121,776 across 4 numbers",
+   "kind": "parts_down",
+   "prev": 764,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|LEO|Capital Region Community Development District, Seat 5",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-020",
+   "count": 1,
+   "curr": 15526,
+   "delta": -24479,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|votes_down|FEW-ED|Highlands|turnout|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Highlands: Election Day turnout 40,005 \u2192 15,526 (-24,479)",
+   "kind": "votes_down",
+   "prev": 40005,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "FEW-ED|Highlands|turnout",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 1,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-021",
+   "count": 1524,
+   "curr": null,
+   "delta": -184895,
+   "detail": "PRECINCT 694.0 Yes 810 \u2192 blank; PRECINCT 694.0 Jose Javier Rodriguez 767 \u2192 blank; PRECINCT 694.0 Annette Taddeo 756 \u2192 blank; and 1521 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|DAD|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in PREC|DAD (all counties, 1524 rows): 1524 (were 184,895 in all)",
+   "kind": "value_blanked",
+   "prev": 810,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|DAD",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-022",
+   "count": 4,
+   "curr": null,
+   "delta": -291,
+   "detail": "Precinct 225 Write-in 161 \u2192 blank; Precinct 185 Write-in 62 \u2192 blank; Precinct 225 Write-in 36 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|LAK|School Board, District 1|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in LAK precincts \u00b7 School Board, District 1: 4 (were 291 in all)",
+   "kind": "value_blanked",
+   "prev": 161,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|LAK|School Board, District 1",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-023",
+   "count": 6,
+   "curr": null,
+   "delta": -616,
+   "detail": "421 Angie Nixon 197 \u2192 blank; 217 Angie Nixon 125 \u2192 blank; 421 Angie Nixon 99 \u2192 blank; and 3 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|United States Senator|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 United States Senator: 6 (were 616 in all)",
+   "kind": "value_blanked",
+   "prev": 197,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|United States Senator",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-024",
+   "count": 8,
+   "curr": null,
+   "delta": -700,
+   "detail": "421 Matthew Montavon 202 \u2192 blank; 217 Matthew Montavon 129 \u2192 blank; 421 Matthew Montavon 99 \u2192 blank; and 5 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Representative in Congress District 17|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Representative in Congress District 17: 8 (were 700 in all)",
+   "kind": "value_blanked",
+   "prev": 202,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Representative in Congress District 17",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-025",
+   "count": 8,
+   "curr": null,
+   "delta": -704,
+   "detail": "421 David Jolly 206 \u2192 blank; 217 David Jolly 125 \u2192 blank; 421 David Jolly 98 \u2192 blank; and 5 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Governor and Lieutenant Governor|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Governor and Lieutenant Governor: 8 (were 704 in all)",
+   "kind": "value_blanked",
+   "prev": 206,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Governor and Lieutenant Governor",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-026",
+   "count": 8,
+   "curr": null,
+   "delta": -698,
+   "detail": "421 Jose Javier Rodriguez 199 \u2192 blank; 217 Jose Javier Rodriguez 126 \u2192 blank; 421 Jose Javier Rodriguez 102 \u2192 blank; and 5 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Attorney General|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Attorney General: 8 (were 698 in all)",
+   "kind": "value_blanked",
+   "prev": 199,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Attorney General",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-027",
+   "count": 8,
+   "curr": null,
+   "delta": -688,
+   "detail": "421 Annette Taddeo 202 \u2192 blank; 217 Annette Taddeo 124 \u2192 blank; 421 Annette Taddeo 97 \u2192 blank; and 5 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Chief Financial Officer|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Chief Financial Officer: 8 (were 688 in all)",
+   "kind": "value_blanked",
+   "prev": 202,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Chief Financial Officer",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-028",
+   "count": 6,
+   "curr": null,
+   "delta": -609,
+   "detail": "421 Joey Mendoza Atkins 195 \u2192 blank; 217 Joey Mendoza Atkins 127 \u2192 blank; 421 Joey Mendoza Atkins 93 \u2192 blank; and 3 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Commissioner of Agriculture|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Commissioner of Agriculture: 6 (were 609 in all)",
+   "kind": "value_blanked",
+   "prev": 195,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Commissioner of Agriculture",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-029",
+   "count": 14,
+   "curr": null,
+   "delta": -1025,
+   "detail": "421 Lew Wasserman 194 \u2192 blank; 217 Lew Wasserman 122 \u2192 blank; 421 Lew Wasserman 99 \u2192 blank; and 11 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|State Senator District 22|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 State Senator District 22: 14 (were 1,025 in all)",
+   "kind": "value_blanked",
+   "prev": 194,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|State Senator District 22",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-030",
+   "count": 12,
+   "curr": null,
+   "delta": -1094,
+   "detail": "421 Lisa Klein 194 \u2192 blank; 219 Lisa Klein 151 \u2192 blank; 307 Lisa Klein 126 \u2192 blank; and 9 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|State Representative District 73|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 State Representative District 73: 12 (were 1,094 in all)",
+   "kind": "value_blanked",
+   "prev": 194,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|State Representative District 73",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-031",
+   "count": 2,
+   "curr": null,
+   "delta": -298,
+   "detail": "421 Julie London 197 \u2192 blank; 421 Julie London 101 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Board of County Commissioners District 4|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Board of County Commissioners District 4: 2 (were 298 in all)",
+   "kind": "value_blanked",
+   "prev": 197,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Board of County Commissioners District 4",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-032",
+   "count": 8,
+   "curr": null,
+   "delta": -703,
+   "detail": "421 Jim Tate 200 \u2192 blank; 217 Jim Tate 130 \u2192 blank; 217 Jim Tate 97 \u2192 blank; and 5 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Charter Review Board District 3|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Charter Review Board District 3: 8 (were 703 in all)",
+   "kind": "value_blanked",
+   "prev": 200,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Charter Review Board District 3",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-033",
+   "count": 8,
+   "curr": null,
+   "delta": -684,
+   "detail": "421 Robin Williams 199 \u2192 blank; 217 Robin Williams 127 \u2192 blank; 421 Robin Williams 96 \u2192 blank; and 5 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Charter Review Board District 4|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Charter Review Board District 4: 8 (were 684 in all)",
+   "kind": "value_blanked",
+   "prev": 199,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Charter Review Board District 4",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-034",
+   "count": 8,
+   "curr": null,
+   "delta": -675,
+   "detail": "421 Andrea Doria Kale 195 \u2192 blank; 217 Andrea Doria Kale 123 \u2192 blank; 421 Andrea Doria Kale 96 \u2192 blank; and 5 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Charter Review Board District 5|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Charter Review Board District 5: 8 (were 675 in all)",
+   "kind": "value_blanked",
+   "prev": 195,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Charter Review Board District 5",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-035",
+   "count": 4,
+   "curr": null,
+   "delta": -316,
+   "detail": "421 No 120 \u2192 blank; 217 No 74 \u2192 blank; 217 No 68 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Justice of the Supreme Court Mu\u00f1iz|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Justice of the Supreme Court Mu\u00f1iz: 4 (were 316 in all)",
+   "kind": "value_blanked",
+   "prev": 120,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Justice of the Supreme Court Mu\u00f1iz",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-036",
+   "count": 4,
+   "curr": null,
+   "delta": -301,
+   "detail": "421 No 112 \u2192 blank; 217 No 72 \u2192 blank; 217 No 65 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Second District Court of Appeal Atkinson|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Second District Court of Appeal Atkinson: 4 (were 301 in all)",
+   "kind": "value_blanked",
+   "prev": 112,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Second District Court of Appeal Atkinson",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-037",
+   "count": 4,
+   "curr": null,
+   "delta": -491,
+   "detail": "203 No 222 \u2192 blank; 203 No 132 \u2192 blank; 421 No 87 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Second District Court of Appeal Silberman|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Second District Court of Appeal Silberman: 4 (were 491 in all)",
+   "kind": "value_blanked",
+   "prev": 222,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Second District Court of Appeal Silberman",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-038",
+   "count": 4,
+   "curr": null,
+   "delta": -291,
+   "detail": "421 No 108 \u2192 blank; 217 No 68 \u2192 blank; 217 No 66 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Second District Court of Appeal Sleet|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Second District Court of Appeal Sleet: 4 (were 291 in all)",
+   "kind": "value_blanked",
+   "prev": 108,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Second District Court of Appeal Sleet",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-039",
+   "count": 6,
+   "curr": null,
+   "delta": -674,
+   "detail": "203 No 253 \u2192 blank; 203 No 136 \u2192 blank; 421 No 105 \u2192 blank; and 3 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Second District Court of Appeal Smith|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Second District Court of Appeal Smith: 6 (were 674 in all)",
+   "kind": "value_blanked",
+   "prev": 253,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Second District Court of Appeal Smith",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-040",
+   "count": 4,
+   "curr": null,
+   "delta": -457,
+   "detail": "421 Jimmy Glover 180 \u2192 blank; 217 Jimmy Glover 125 \u2192 blank; 421 Jimmy Glover 81 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|School Board Member District 1|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 School Board Member District 1: 4 (were 457 in all)",
+   "kind": "value_blanked",
+   "prev": 180,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|School Board Member District 1",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-041",
+   "count": 4,
+   "curr": null,
+   "delta": -264,
+   "detail": "217 Flo Entler 111 \u2192 blank; 217 Flo Entler 65 \u2192 blank; 401 Jen Ahearn-Koch 52 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|City of Sarasota Commissioner At-Large|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 City of Sarasota Commissioner At-Large: 4 (were 264 in all)",
+   "kind": "value_blanked",
+   "prev": 111,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|City of Sarasota Commissioner At-Large",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-042",
+   "count": 2,
+   "curr": null,
+   "delta": -122,
+   "detail": "427 No 74 \u2192 blank; 427 No 48 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Constitutional Amendment No. 1|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Constitutional Amendment No. 1: 2 (were 122 in all)",
+   "kind": "value_blanked",
+   "prev": 74,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Constitutional Amendment No. 1",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-043",
+   "count": 4,
+   "curr": null,
+   "delta": -375,
+   "detail": "421 No 178 \u2192 blank; 421 No 103 \u2192 blank; 427 No 59 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Constitutional Amendment No. 2|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Constitutional Amendment No. 2: 4 (were 375 in all)",
+   "kind": "value_blanked",
+   "prev": 178,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Constitutional Amendment No. 2",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-044",
+   "count": 6,
+   "curr": null,
+   "delta": -534,
+   "detail": "421 No 172 \u2192 blank; 217 No 108 \u2192 blank; 421 No 95 \u2192 blank; and 3 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|Constitutional Amendment No. 3|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 Constitutional Amendment No. 3: 6 (were 534 in all)",
+   "kind": "value_blanked",
+   "prev": 172,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|Constitutional Amendment No. 3",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-045",
+   "count": 2,
+   "curr": null,
+   "delta": -86,
+   "detail": "421 No, against continuation of ad va\u2026 45 \u2192 blank; 421 No, against continuation of ad va\u2026 41 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|County Referendum|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 County Referendum: 2 (were 86 in all)",
+   "kind": "value_blanked",
+   "prev": 45,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|County Referendum",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-046",
+   "count": 2,
+   "curr": null,
+   "delta": -116,
+   "detail": "421 No, against bonds 60 \u2192 blank; 421 No, against bonds 56 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|SAR|County Bond Referendum|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in SAR precincts \u00b7 County Bond Referendum: 2 (were 116 in all)",
+   "kind": "value_blanked",
+   "prev": 60,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|SAR|County Bond Referendum",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-047",
+   "count": 2,
+   "curr": null,
+   "delta": -144,
+   "detail": "PCT 407 Angie Nixon 100 \u2192 blank; PCT 407 Angie Nixon 44 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|United States Senator|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 United States Senator: 2 (were 144 in all)",
+   "kind": "value_blanked",
+   "prev": 100,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|United States Senator",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-048",
+   "count": 2,
+   "curr": null,
+   "delta": -154,
+   "detail": "PCT 407 Rachel Grage 101 \u2192 blank; PCT 407 Rachel Grage 53 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Representative in Congress District 5|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Representative in Congress District 5: 2 (were 154 in all)",
+   "kind": "value_blanked",
+   "prev": 101,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|Representative in Congress District 5",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-049",
+   "count": 2,
+   "curr": null,
+   "delta": -159,
+   "detail": "PCT 407 David Jolly 106 \u2192 blank; PCT 407 David Jolly 53 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Governor and Lieutenant Governor|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Governor and Lieutenant Governor: 2 (were 159 in all)",
+   "kind": "value_blanked",
+   "prev": 106,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|Governor and Lieutenant Governor",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-050",
+   "count": 2,
+   "curr": null,
+   "delta": -149,
+   "detail": "PCT 407 Jose Javier Rodriguez 101 \u2192 blank; PCT 407 Jose Javier Rodriguez 48 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Attorney General|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Attorney General: 2 (were 149 in all)",
+   "kind": "value_blanked",
+   "prev": 101,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|Attorney General",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-051",
+   "count": 2,
+   "curr": null,
+   "delta": -150,
+   "detail": "PCT 407 Annette Taddeo 103 \u2192 blank; PCT 407 Annette Taddeo 47 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Chief Financial Officer|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Chief Financial Officer: 2 (were 150 in all)",
+   "kind": "value_blanked",
+   "prev": 103,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|Chief Financial Officer",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-052",
+   "count": 2,
+   "curr": null,
+   "delta": -159,
+   "detail": "PCT 407 Joey Mendoza Atkins 108 \u2192 blank; PCT 407 Joey Mendoza Atkins 51 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Commissioner of Agriculture|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Commissioner of Agriculture: 2 (were 159 in all)",
+   "kind": "value_blanked",
+   "prev": 108,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|Commissioner of Agriculture",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-053",
+   "count": 2,
+   "curr": null,
+   "delta": -148,
+   "detail": "PCT 407 Art Stresing 97 \u2192 blank; PCT 407 Art Stresing 51 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|State Representative District 18|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 State Representative District 18: 2 (were 148 in all)",
+   "kind": "value_blanked",
+   "prev": 97,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|State Representative District 18",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-054",
+   "count": 2,
+   "curr": null,
+   "delta": -132,
+   "detail": "PCT 407 No 90 \u2192 blank; PCT 407 No 42 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Retention Muniz|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Retention Muniz: 2 (were 132 in all)",
+   "kind": "value_blanked",
+   "prev": 90,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|Retention Muniz",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-055",
+   "count": 2,
+   "curr": null,
+   "delta": -151,
+   "detail": "PCT 407 Jillian Tozer 106 \u2192 blank; PCT 407 Jillian Tozer 45 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|School Board Member District 4|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 School Board Member District 4: 2 (were 151 in all)",
+   "kind": "value_blanked",
+   "prev": 106,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|School Board Member District 4",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-056",
+   "count": 2,
+   "curr": null,
+   "delta": -122,
+   "detail": "PCT 407 Tim Burton 84 \u2192 blank; PCT 407 Tim Burton 38 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Anastasia Mosquito Control District Seat 2|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Anastasia Mosquito Control District Seat 2: 2 (were 122 in all)",
+   "kind": "value_blanked",
+   "prev": 84,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|Anastasia Mosquito Control District Seat 2",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-057",
+   "count": 2,
+   "curr": null,
+   "delta": -104,
+   "detail": "PCT 407 Jason Smith 72 \u2192 blank; PCT 407 Jason Smith 32 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Anastasia Mosquito Control District Seat 4|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Anastasia Mosquito Control District Seat 4: 2 (were 104 in all)",
+   "kind": "value_blanked",
+   "prev": 72,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|Anastasia Mosquito Control District Seat 4",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-058",
+   "count": 2,
+   "curr": null,
+   "delta": -119,
+   "detail": "PCT 407 John H. Wilson 84 \u2192 blank; PCT 407 John H. Wilson 35 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|St. Johns County Airport Authority Group 2|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 St. Johns County Airport Authority Group 2: 2 (were 119 in all)",
+   "kind": "value_blanked",
+   "prev": 84,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|St. Johns County Airport Authority Group 2",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-059",
+   "count": 2,
+   "curr": null,
+   "delta": -98,
+   "detail": "PCT 407 Sean Hess 63 \u2192 blank; PCT 407 Sean Hess 35 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|St. Johns County Airport Authority Group 3|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 St. Johns County Airport Authority Group 3: 2 (were 98 in all)",
+   "kind": "value_blanked",
+   "prev": 63,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|St. Johns County Airport Authority Group 3",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-060",
+   "count": 2,
+   "curr": null,
+   "delta": -177,
+   "detail": "PCT 407 Yes 129 \u2192 blank; PCT 407 Yes 48 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|No. 1 Constitutional Amendment|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 No. 1 Constitutional Amendment: 2 (were 177 in all)",
+   "kind": "value_blanked",
+   "prev": 129,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|No. 1 Constitutional Amendment",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-061",
+   "count": 2,
+   "curr": null,
+   "delta": -157,
+   "detail": "PCT 407 No 97 \u2192 blank; PCT 407 No 60 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|No. 2 Constitutional Amendment|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 No. 2 Constitutional Amendment: 2 (were 157 in all)",
+   "kind": "value_blanked",
+   "prev": 97,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|No. 2 Constitutional Amendment",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-194011-062",
+   "count": 2,
+   "curr": null,
+   "delta": -119,
+   "detail": "PCT 407 No 83 \u2192 blank; PCT 407 No 36 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|No. 3 Constitutional Amendment|20261103-194011",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Numbers went blank in STJ precincts \u00b7 No. 3 Constitutional Amendment: 2 (were 119 in all)",
+   "kind": "value_blanked",
+   "prev": 83,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "PREC|STJ|No. 3 Constitutional Amendment",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
-   "n": 2,
+   "n": 3,
    "sig": [
     72137,
     "11/03/2026 7:04:35 pm",
@@ -3590,9 +4869,9 @@
   "BAK": {
    "n": 0,
    "sig": [
-    5998,
-    "11/03/2026 7:21:43 pm",
-    3
+    8193,
+    "11/03/2026 7:38:30 pm",
+    7
    ]
   },
   "BAY": {
@@ -3614,9 +4893,9 @@
   "BRE": {
    "n": 0,
    "sig": [
-    222182,
-    "11/03/2026 7:26:54 pm",
-    89
+    242232,
+    "11/03/2026 7:37:05 pm",
+    118
    ]
   },
   "CAL": {
@@ -3628,7 +4907,7 @@
    ]
   },
   "CIT": {
-   "n": 3,
+   "n": 4,
    "sig": [
     47666,
     "11/03/2026 7:00:00 pm",
@@ -3636,47 +4915,47 @@
    ]
   },
   "CLA": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    57989,
-    "11/03/2026 7:00:50 pm",
-    24
+    92721,
+    "11/03/2026 7:39:55 pm",
+    47
    ]
   },
   "CLL": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    120414,
-    "11/03/2026 7:09:36 pm",
-    0
+    163497,
+    "11/03/2026 7:39:47 pm",
+    59
    ]
   },
   "CLM": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    14265,
-    "11/03/2026 7:09:20 pm",
-    0
+    14929,
+    "11/03/2026 7:36:10 pm",
+    6
    ]
   },
   "DAD": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    546403,
-    "11/03/2026 7:09:28 pm",
-    0
+    651083,
+    "11/03/2026 7:33:44 pm",
+    387
    ]
   },
   "DES": {
    "n": 0,
    "sig": [
-    0,
-    "10/16/2026 11:51:54 am",
+    5231,
+    "11/03/2026 7:30:20 pm",
     0
    ]
   },
   "DIX": {
-   "n": 0,
+   "n": 1,
    "sig": [
     3787,
     "11/03/2026 7:25:52 pm",
@@ -3686,37 +4965,37 @@
   "DUV": {
    "n": 0,
    "sig": [
-    276937,
-    "11/03/2026 7:21:36 pm",
-    64
+    325266,
+    "11/03/2026 7:37:34 pm",
+    120
    ]
   },
   "FLA": {
    "n": 0,
    "sig": [
-    61243,
-    "11/03/2026 7:26:04 pm",
-    19
+    62619,
+    "11/03/2026 7:37:34 pm",
+    21
    ]
   },
   "FRA": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 8:13:03 am",
-    0
+    5075,
+    "11/03/2026 7:33:58 pm",
+    8
    ]
   },
   "GAD": {
    "n": 0,
    "sig": [
-    10395,
-    "11/03/2026 7:22:56 pm",
-    0
+    17014,
+    "11/03/2026 7:33:36 pm",
+    22
    ]
   },
   "GIL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     3865,
     "11/03/2026 7:23:38 pm",
@@ -3726,13 +5005,13 @@
   "GLA": {
    "n": 0,
    "sig": [
-    0,
-    "10/20/2026 9:07:12 am",
-    0
+    1924,
+    "11/03/2026 7:36:40 pm",
+    3
    ]
   },
   "GUL": {
-   "n": 1,
+   "n": 2,
    "sig": [
     4232,
     "11/03/2026 7:15:15 pm",
@@ -3740,7 +5019,7 @@
    ]
   },
   "HAM": {
-   "n": 1,
+   "n": 2,
    "sig": [
     2026,
     "11/03/2026 7:12:23 pm",
@@ -3748,7 +5027,7 @@
    ]
   },
   "HAR": {
-   "n": 1,
+   "n": 2,
    "sig": [
     3238,
     "11/03/2026 7:18:32 pm",
@@ -3758,21 +5037,21 @@
   "HEN": {
    "n": 0,
    "sig": [
-    5859,
-    "11/03/2026 7:20:26 pm",
-    0
+    9891,
+    "11/03/2026 7:36:22 pm",
+    10
    ]
   },
   "HER": {
-   "n": 3,
+   "n": 0,
    "sig": [
-    47445,
-    "11/03/2026 7:00:00 pm",
-    0
+    49036,
+    "11/03/2026 7:37:11 pm",
+    2
    ]
   },
   "HIL": {
-   "n": 1,
+   "n": 2,
    "sig": [
     359139,
     "11/03/2026 7:13:36 pm",
@@ -3788,7 +5067,7 @@
    ]
   },
   "IND": {
-   "n": 2,
+   "n": 3,
    "sig": [
     54888,
     "11/03/2026 7:05:56 pm",
@@ -3804,7 +5083,7 @@
    ]
   },
   "JEF": {
-   "n": 1,
+   "n": 2,
    "sig": [
     3610,
     "11/03/2026 7:17:47 pm",
@@ -3812,39 +5091,39 @@
    ]
   },
   "LAF": {
-   "n": 3,
+   "n": 0,
    "sig": [
-    1106,
-    "11/03/2026 7:00:09 pm",
-    0
+    1486,
+    "11/03/2026 7:33:55 pm",
+    2
    ]
   },
   "LAK": {
    "n": 0,
    "sig": [
-    144081,
-    "11/03/2026 7:27:45 pm",
-    59
+    153511,
+    "11/03/2026 7:34:41 pm",
+    71
    ]
   },
   "LEO": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    80930,
-    "11/03/2026 7:00:30 pm",
-    0
+    95617,
+    "11/03/2026 7:36:30 pm",
+    18
    ]
   },
   "LEV": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    9131,
-    "11/03/2026 7:15:02 pm",
-    0
+    10037,
+    "11/03/2026 7:34:05 pm",
+    1
    ]
   },
   "LIB": {
-   "n": 1,
+   "n": 2,
    "sig": [
     1525,
     "11/03/2026 7:15:18 pm",
@@ -3852,15 +5131,15 @@
    ]
   },
   "MAN": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    133637,
-    "11/03/2026 7:17:53 pm",
-    21
+    156610,
+    "11/03/2026 7:30:29 pm",
+    44
    ]
   },
   "MON": {
-   "n": 1,
+   "n": 2,
    "sig": [
     20675,
     "11/03/2026 7:12:33 pm",
@@ -3868,7 +5147,7 @@
    ]
   },
   "MRN": {
-   "n": 0,
+   "n": 1,
    "sig": [
     93188,
     "11/03/2026 7:28:54 pm",
@@ -3876,7 +5155,7 @@
    ]
   },
   "NAS": {
-   "n": 0,
+   "n": 1,
    "sig": [
     32202,
     "11/03/2026 7:22:05 pm",
@@ -3886,21 +5165,21 @@
   "OKE": {
    "n": 0,
    "sig": [
-    8930,
-    "11/03/2026 7:24:06 pm",
-    7
+    9973,
+    "11/03/2026 7:30:20 pm",
+    9
    ]
   },
   "PAS": {
    "n": 0,
    "sig": [
-    198281,
-    "11/03/2026 7:26:58 pm",
-    83
+    214249,
+    "11/03/2026 7:34:50 pm",
+    98
    ]
   },
   "POL": {
-   "n": 1,
+   "n": 2,
    "sig": [
     136267,
     "11/03/2026 7:11:11 pm",
@@ -3908,7 +5187,7 @@
    ]
   },
   "PUT": {
-   "n": 0,
+   "n": 1,
    "sig": [
     14203,
     "11/03/2026 7:28:32 pm",
@@ -3924,31 +5203,31 @@
    ]
   },
   "SAR": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    166889,
-    "11/03/2026 7:17:28 pm",
-    26
+    192899,
+    "11/03/2026 7:30:43 pm",
+    75
    ]
   },
   "SEM": {
    "n": 0,
    "sig": [
-    136072,
-    "11/03/2026 7:25:46 pm",
-    6
+    178795,
+    "11/03/2026 7:36:58 pm",
+    62
    ]
   },
   "STJ": {
    "n": 0,
    "sig": [
-    132572,
-    "11/03/2026 7:29:17 pm",
-    42
+    138517,
+    "11/03/2026 7:34:28 pm",
+    46
    ]
   },
   "STL": {
-   "n": 2,
+   "n": 3,
    "sig": [
     64785,
     "11/03/2026 7:06:45 pm",
@@ -3959,32 +5238,32 @@
    "n": 0,
    "sig": [
     95678,
-    "11/03/2026 7:28:14 pm",
+    "11/03/2026 7:30:55 pm",
     33
    ]
   },
   "TAY": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    2841,
-    "11/03/2026 7:19:11 pm",
+    3835,
+    "11/03/2026 7:37:42 pm",
     0
    ]
   },
   "UNI": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    2159,
-    "11/03/2026 7:10:25 pm",
-    0
+    3462,
+    "11/03/2026 7:39:42 pm",
+    6
    ]
   },
   "WAK": {
    "n": 0,
    "sig": [
-    11212,
-    "11/03/2026 7:20:26 pm",
-    8
+    12876,
+    "11/03/2026 7:31:11 pm",
+    9
    ]
   },
   "WAL": {
@@ -4005,15 +5284,15 @@
   }
  },
  "totals": {
-  "1": 2,
-  "2": 46,
-  "3": 182,
+  "1": 3,
+  "2": 89,
+  "3": 200,
   "acked": 107,
-  "alerts": 230
+  "alerts": 292
  },
  "validated": {
   "projections": "20261103-192008",
-  "results": "20261103-193019",
+  "results": "20261103-194011",
   "slow": "20261103-191510",
   "turnout": "20261103-185931"
  },
