@@ -1,0 +1,2 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|votes_down|FEW-ED|Bradford|turnout|20261103-204009,3,data,votes_down,FEW-ED|Bradford|turnout,20261103-204009,Bradford,turnout,4896,4895,-1

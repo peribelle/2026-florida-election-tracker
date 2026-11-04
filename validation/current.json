@@ -2,37 +2,85 @@
  "counts": {
   "1": 0,
   "2": 0,
-  "3": 0
+  "3": 2
  },
- "generated_local": "2026-11-03T20:36:44",
- "generated_utc": "2026-11-04T01:36:44Z",
- "items": [],
+ "generated_local": "2026-11-03T20:40:20",
+ "generated_utc": "2026-11-04T01:40:20Z",
+ "items": [
+  {
+   "alert_id": "A-20261103-204009-001",
+   "checks": 1,
+   "count": 3,
+   "curr": null,
+   "delta": null,
+   "detail": "0/8 precincts in, last update 11/03/2026 7:07:48 pm.",
+   "event": "raised",
+   "fingerprint": "source|county_stalled|ENR|stalled|HOL",
+   "first_seen": "2026-11-03 20:40:20",
+   "headline": "HOL has not updated in 3 pulls (30 min)",
+   "kind": "county_stalled",
+   "last_seen": "2026-11-03 20:40:20",
+   "prev": null,
+   "prev_snapshot": "20261103-203018",
+   "raised_local": "2026-11-03 20:40:20",
+   "raised_utc": "2026-11-04T01:40:20Z",
+   "scope": "ENR|stalled|HOL",
+   "snapshot": "20261103-204009",
+   "source": "results",
+   "state": "open",
+   "tier": 3,
+   "validator": "source"
+  },
+  {
+   "alert_id": "A-20261103-204009-002",
+   "count": 1,
+   "curr": 4895,
+   "delta": -1,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|votes_down|FEW-ED|Bradford|turnout|20261103-204009",
+   "first_seen": "2026-11-03 20:40:20",
+   "headline": "Bradford: Election Day turnout 4,896 \u2192 4,895 (-1)",
+   "kind": "votes_down",
+   "prev": 4896,
+   "prev_snapshot": "20261103-203018",
+   "raised_local": "2026-11-03 20:40:20",
+   "raised_utc": "2026-11-04T01:40:20Z",
+   "scope": "FEW-ED|Bradford|turnout",
+   "snapshot": "20261103-204009",
+   "source": "results",
+   "state": "event",
+   "tier": 3,
+   "validator": "data"
+  }
+ ],
  "last_run": {
   "cleared": 0,
+  "detail_rows": 1,
   "escalated": 0,
   "pulls": [
-   "acknowledge"
+   "results:20261103-204009"
   ],
-  "raised": 0,
-  "ran_local": "2026-11-03 20:36:44",
-  "run_id": "20261103-203644",
-  "seconds": 0,
+  "raised": 2,
+  "ran_local": "2026-11-03 20:40:20",
+  "run_id": "20261103-204020",
+  "seconds": 0.8,
   "tier1": 0,
   "tier2": 0,
-  "tier3": 0
+  "tier3": 2
  },
  "schema": 1,
- "status": "clear",
+ "status": "notice",
  "totals": {
   "1": 6,
   "2": 131,
-  "3": 323,
+  "3": 325,
   "acked": 388,
-  "alerts": 460
+  "alerts": 462
  },
  "validated": {
   "projections": "20261103-202006",
-  "results": "20261103-203018",
+  "results": "20261103-204009",
   "slow": "20261103-201508",
   "turnout": "20261103-185931"
  },
