@@ -1,0 +1,98 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | Attorney General | DEM Jose Javier Rodriguez | DEM,(row),8139,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | Attorney General | REP James Uthmeier | REP,(row),26824,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | Chief Financial Officer | DEM Annette Taddeo | DEM,(row),8088,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | Chief Financial Officer | REP Blaise Ingoglia | REP,(row),26685,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,"WAL | South Walton Fire District Seat 4 | Brian Christenson
+                                    (NON) | ",(row),11302,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,"WAL | South Walton Fire District Seat 4 | Jim Jaquess
+                                    (NON) | ",(row),2670,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | State Representative District 5 | DEM Alex Finney | DEM,(row),7798,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | State Representative District 5 | REP Shane Abbott | REP,(row),26869,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | State Senator District 2 | DEM Lauren Donahoo | DEM,(row),8071,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | State Senator District 2 | REP Jay Trumbull | REP,(row),26765,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | United States Senator | DEM Angie Nixon | DEM,(row),8053,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | United States Senator | NPA Neil J. Gillespie | NPA,(row),371,,
+data|rows_rekeyed|ENR|rekeyed|20261103-232001,3,data,rows_rekeyed,ENR|rekeyed,20261103-232001,WAL | United States Senator | REP Ashley Moody | REP,(row),26835,,
+data|rows_missing|ENR|WAL|Rep in Congress District 1|20261103-232001,1,data,rows_missing,ENR|WAL|Rep in Congress District 1,20261103-232001,WAL | Rep in Congress District 1 | REP Jimmy Patronis | REP,(row),17654,,
+data|rows_missing|ENR|WAL|Rep in Congress District 1|20261103-232001,1,data,rows_missing,ENR|WAL|Rep in Congress District 1,20261103-232001,WAL | Rep in Congress District 1 | DEM Gay Valimont | DEM,(row),5083,,
+data|rows_missing|ENR|WAL|Rep in Congress District 1|20261103-232001,1,data,rows_missing,ENR|WAL|Rep in Congress District 1,20261103-232001,WAL | Rep in Congress District 1 | NPA Tyler L. Davis | NPA,(row),379,,
+data|rows_missing|ENR|WAL|Rep in Congress District 2|20261103-232001,1,data,rows_missing,ENR|WAL|Rep in Congress District 2,20261103-232001,WAL | Rep in Congress District 2 | REP Austin Rogers | REP,(row),8802,,
+data|rows_missing|ENR|WAL|Rep in Congress District 2|20261103-232001,1,data,rows_missing,ENR|WAL|Rep in Congress District 2,20261103-232001,WAL | Rep in Congress District 2 | DEM Amanda Marie Green | DEM,(row),3177,,
+data|rows_missing|ENR|WAL|Governor and Lieutenant Governor|20261103-232001,1,data,rows_missing,ENR|WAL|Governor and Lieutenant Governor,20261103-232001,WAL | Governor and Lieutenant Governor | REP Byron Donalds | REP,(row),26626,,
+data|rows_missing|ENR|WAL|Governor and Lieutenant Governor|20261103-232001,1,data,rows_missing,ENR|WAL|Governor and Lieutenant Governor,20261103-232001,WAL | Governor and Lieutenant Governor | DEM David Jolly | DEM,(row),8128,,
+data|rows_missing|ENR|WAL|Governor and Lieutenant Governor|20261103-232001,1,data,rows_missing,ENR|WAL|Governor and Lieutenant Governor,20261103-232001,WAL | Governor and Lieutenant Governor | LPF Scott Eckhard Jewett | LPF,(row),176,,
+data|rows_missing|ENR|WAL|Governor and Lieutenant Governor|20261103-232001,1,data,rows_missing,ENR|WAL|Governor and Lieutenant Governor,20261103-232001,WAL | Governor and Lieutenant Governor | NPA Charles Burkett | NPA,(row),30,,
+data|rows_missing|ENR|WAL|Governor and Lieutenant Governor|20261103-232001,1,data,rows_missing,ENR|WAL|Governor and Lieutenant Governor,20261103-232001,WAL | Governor and Lieutenant Governor | NPA Frank J. Russo | NPA,(row),63,,
+data|rows_missing|ENR|WAL|Governor and Lieutenant Governor|20261103-232001,1,data,rows_missing,ENR|WAL|Governor and Lieutenant Governor,20261103-232001,"WAL | Governor and Lieutenant Governor | NPA Moliere ""Moe"" Dimanche | NPA",(row),14,,
+data|rows_missing|ENR|WAL|Governor and Lieutenant Governor|20261103-232001,1,data,rows_missing,ENR|WAL|Governor and Lieutenant Governor,20261103-232001,WAL | Governor and Lieutenant Governor | NPA Dean Ocean Abrams | NPA,(row),42,,
+data|rows_missing|ENR|WAL|Governor and Lieutenant Governor|20261103-232001,1,data,rows_missing,ENR|WAL|Governor and Lieutenant Governor,20261103-232001,WAL | Governor and Lieutenant Governor | NPA Jeffrey Peter Datto | NPA,(row),30,,
+data|rows_missing|ENR|WAL|Governor and Lieutenant Governor|20261103-232001,1,data,rows_missing,ENR|WAL|Governor and Lieutenant Governor,20261103-232001,"WAL | Governor and Lieutenant Governor | Write-in
+                                    (NON) | ",(row),73,,
+data|rows_missing|ENR|WAL|Commissioner of Agriculture|20261103-232001,1,data,rows_missing,ENR|WAL|Commissioner of Agriculture,20261103-232001,WAL | Commissioner of Agriculture | REP Wilton Simpson | REP,(row),26728,,
+data|rows_missing|ENR|WAL|Commissioner of Agriculture|20261103-232001,1,data,rows_missing,ENR|WAL|Commissioner of Agriculture,20261103-232001,WAL | Commissioner of Agriculture | DEM Joey Mendoza Atkins | DEM,(row),8111,,
+data|rows_missing|ENR|WAL|Commissioner of Agriculture|20261103-232001,1,data,rows_missing,ENR|WAL|Commissioner of Agriculture,20261103-232001,"WAL | Commissioner of Agriculture | Write-in
+                                    (NON) | ",(row),87,,
+data|rows_missing|ENR|WAL|Carlos G. Muniz|20261103-232001,1,data,rows_missing,ENR|WAL|Carlos G. Muniz,20261103-232001,"WAL | Carlos G. Muniz | Yes
+                                    (NON) | ",(row),22474,,
+data|rows_missing|ENR|WAL|Carlos G. Muniz|20261103-232001,1,data,rows_missing,ENR|WAL|Carlos G. Muniz,20261103-232001,"WAL | Carlos G. Muniz | No
+                                    (NON) | ",(row),9146,,
+data|rows_missing|ENR|WAL|Joseph Lewis Jr.|20261103-232001,1,data,rows_missing,ENR|WAL|Joseph Lewis Jr.,20261103-232001,"WAL | Joseph Lewis Jr. | Yes
+                                    (NON) | ",(row),21717,,
+data|rows_missing|ENR|WAL|Joseph Lewis Jr.|20261103-232001,1,data,rows_missing,ENR|WAL|Joseph Lewis Jr.,20261103-232001,"WAL | Joseph Lewis Jr. | No
+                                    (NON) | ",(row),9464,,
+data|rows_missing|ENR|WAL|Rachel Nordby|20261103-232001,1,data,rows_missing,ENR|WAL|Rachel Nordby,20261103-232001,"WAL | Rachel Nordby | Yes
+                                    (NON) | ",(row),22620,,
+data|rows_missing|ENR|WAL|Rachel Nordby|20261103-232001,1,data,rows_missing,ENR|WAL|Rachel Nordby,20261103-232001,"WAL | Rachel Nordby | No
+                                    (NON) | ",(row),8449,,
+data|rows_missing|ENR|WAL|Tim Osterhaus|20261103-232001,1,data,rows_missing,ENR|WAL|Tim Osterhaus,20261103-232001,"WAL | Tim Osterhaus | Yes
+                                    (NON) | ",(row),22287,,
+data|rows_missing|ENR|WAL|Tim Osterhaus|20261103-232001,1,data,rows_missing,ENR|WAL|Tim Osterhaus,20261103-232001,"WAL | Tim Osterhaus | No
+                                    (NON) | ",(row),8675,,
+data|rows_missing|ENR|WAL|Clay Roberts|20261103-232001,1,data,rows_missing,ENR|WAL|Clay Roberts,20261103-232001,"WAL | Clay Roberts | Yes
+                                    (NON) | ",(row),21420,,
+data|rows_missing|ENR|WAL|Clay Roberts|20261103-232001,1,data,rows_missing,ENR|WAL|Clay Roberts,20261103-232001,"WAL | Clay Roberts | No
+                                    (NON) | ",(row),9465,,
+data|rows_missing|ENR|WAL|Raymond Treadwell|20261103-232001,1,data,rows_missing,ENR|WAL|Raymond Treadwell,20261103-232001,"WAL | Raymond Treadwell | Yes
+                                    (NON) | ",(row),22636,,
+data|rows_missing|ENR|WAL|Raymond Treadwell|20261103-232001,1,data,rows_missing,ENR|WAL|Raymond Treadwell,20261103-232001,"WAL | Raymond Treadwell | No
+                                    (NON) | ",(row),8422,,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Representative in Congress District 1 | Jimmy Patronis | REP,(row),,17654,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Representative in Congress District 1 | Gay Valimont | DEM,(row),,5083,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Representative in Congress District 1 | Tyler L. Davis | NPA,(row),,379,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Representative in Congress District 2 | Austin Rogers | REP,(row),,8802,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Representative in Congress District 2 | Amanda Marie Green | DEM,(row),,3177,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Governor and Lieutenant Governor | Byron Donalds | REP,(row),,26626,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Governor and Lieutenant Governor | David Jolly | DEM,(row),,8128,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Governor and Lieutenant Governor | Scott Eckhard Jewett | LPF,(row),,176,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Governor and Lieutenant Governor | Charles Burkett | NPA,(row),,30,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Governor and Lieutenant Governor | Frank J. Russo | NPA,(row),,63,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Governor and Lieutenant Governor | Moliere ""Moe"" Dimanche | NPA",(row),,14,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Governor and Lieutenant Governor | Dean Ocean Abrams | NPA,(row),,42,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Governor and Lieutenant Governor | Jeffrey Peter Datto | NPA,(row),,30,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Commissioner of Agriculture | Wilton Simpson | REP,(row),,26728,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,WAL | Commissioner of Agriculture | Joey Mendoza Atkins | DEM,(row),,8111,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Carlos G. Muniz | Yes
+                                    (NON) | ",(row),,22474,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Carlos G. Muniz | No
+                                    (NON) | ",(row),,9146,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Joseph Lewis Jr. | Yes
+                                    (NON) | ",(row),,21717,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Joseph Lewis Jr. | No
+                                    (NON) | ",(row),,9464,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Rachel Nordby | Yes
+                                    (NON) | ",(row),,22620,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Rachel Nordby | No
+                                    (NON) | ",(row),,8449,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Tim Osterhaus | Yes
+                                    (NON) | ",(row),,22287,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Tim Osterhaus | No
+                                    (NON) | ",(row),,8675,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Clay Roberts | Yes
+                                    (NON) | ",(row),,21420,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Clay Roberts | No
+                                    (NON) | ",(row),,9465,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Raymond Treadwell | Yes
+                                    (NON) | ",(row),,22636,
+data|rows_new|ENR|new|20261103-232001,3,data,rows_new,ENR|new,20261103-232001,"WAL | Retention: Raymond Treadwell | No
+                                    (NON) | ",(row),,8422,
