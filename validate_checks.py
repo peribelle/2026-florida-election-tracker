@@ -102,6 +102,26 @@ def count_rows(path):
         return -1
 
 
+def sum_votes(path):
+    """Total votes in a precinct csv.gz (its Total column), or 0 if it cannot be read. A file that got shorter but did not lose votes was reloaded, not truncated."""
+    try:
+        with gzip.open(path, "rt", encoding="utf-8-sig", newline="") as fh:
+            rd = csv.reader(fh)
+            head = next(rd, [])
+            i = next((k for k, h in enumerate(head) if h.strip().lower() in ("total votes", "total")), None)
+            if i is None:
+                return 0
+            tot = 0.0
+            for r in rd:
+                try:
+                    tot += float((r[i] or "0").replace(",", ""))
+                except (ValueError, IndexError):
+                    pass
+            return int(tot)
+    except (OSError, EOFError, csv.Error):
+        return 0
+
+
 def f(n):
     return f"{n:,}" if isinstance(n, int) else (f"{n:,.2f}" if isinstance(n, float) else str(n))
 
@@ -214,6 +234,7 @@ def metrics_results(snap):
         "enr_codes": sorted({r["county_code"] for r in (es or [])}),
         "prec_codes": codes,
         "prec_lines": {c: count_rows(os.path.join(raw, f"precinct_{c}.csv.gz")) for c in codes},
+        "prec_votes": {c: sum_votes(os.path.join(raw, f"precinct_{c}.csv.gz")) for c in codes},
         "_enr_failed": sorted((en.get("failures") or {}).keys()),
         "_contests": s.get("contests") or {},
         "_files": {"county_status.csv": status is not None, "ed_turnout.csv": ed is not None, "contest_votes.csv": cv is not None,
@@ -234,6 +255,7 @@ def metrics_slow(snap):
                    if fn.startswith("precinct_") and fn.endswith(".csv.gz"))
     return {"ok": s.get("counties_ok", 0), "targeted": s.get("counties_targeted", 0), "rows": s.get("rows", 0),
             "codes": codes, "lines": {c: count_rows(os.path.join(raw, f"precinct_{c}.csv.gz")) for c in codes},
+            "line_votes": {c: sum_votes(os.path.join(raw, f"precinct_{c}.csv.gz")) for c in codes},
             "_failures": sorted((s.get("failures") or {}).keys())}
 
 
@@ -405,7 +427,7 @@ def source_results(snap, m, hwm, ever, prev, state):
         base = (hwm.get("prec_lines") or {}).get(c, 0)
         if n == -1:
             out.append(_S("precinct_file_corrupt", 2, f"PREC|{c}", f"Precinct file for {c} cannot be read", "the download is truncated or corrupt.", count=1))
-        elif base and n < 0.9 * base:
+        elif base and n < 0.9 * base and m["prec_votes"].get(c, 0) < 0.98 * (hwm.get("prec_votes") or {}).get(c, 0):       # shorter AND fewer votes: truncated
             out.append(_S("precinct_file_short", 2, f"PREC|{c}", f"Precinct file for {c} has {f(n)} rows, usually {f(base)}", "a truncated file loses whole precincts.", curr=n, prev=base, delta=n - base))
     # --- the wrong election
     if m["_bad_dates"]:
@@ -452,7 +474,7 @@ def source_slow(snap, m, hwm, ever, prev):
         base = (hwm.get("lines") or {}).get(c, 0)
         if n == -1:
             out.append(_S("precinct_file_corrupt", 2, f"SLOW|{c}", f"Slow precinct file for {c} cannot be read", "truncated or corrupt.", count=1))
-        elif base and n < 0.9 * base:
+        elif base and n < 0.9 * base and m["line_votes"].get(c, 0) < 0.98 * (hwm.get("line_votes") or {}).get(c, 0):
             out.append(_S("precinct_file_short", 2, f"SLOW|{c}", f"Slow precinct file for {c} has {f(n)} rows, usually {f(base)}", "", curr=n, prev=base, delta=n - base))
     if m["rows"] == 0 and hwm.get("rows", 0) > 0:
         out.append(_S("slow_all_failed", 1, "SLOW|rows", "The slow precinct pull wrote no rows", f"it was {f(hwm['rows'])}.", curr=0, prev=hwm["rows"]))

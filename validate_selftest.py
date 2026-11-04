@@ -438,6 +438,21 @@ def main():
         rows = T.run()
         check("...but a county coming online in the results is still announced (tier 3 rows_new)", has(rows, "rows_new", 3), summarize(rows))
 
+        print("\nSOURCE validator: a shorter precinct file")
+        T = tree()
+        T.pull("results", lambda d: ecsv(f"{d}/raw/precinct_BRA.csv.gz", lambda rs: [rs.pop(0) for _ in range(int(len(rs) * 0.6))], gz=True))
+        rows = T.run()
+        check("a precinct file that lost 60% of its rows AND its votes (truncated) -> tier 2 precinct_file_short", has(rows, "precinct_file_short", 2, contains="BRA"), summarize(rows))
+        T = tree()
+        def reload_file(d):
+            def fn(rs):
+                rs[0]["Total Votes"] = int(float(rs[0]["Total Votes"] or 0)) + 10
+                del rs[int(len(rs) * 0.4):]
+            ecsv(f"{d}/raw/precinct_BRA.csv.gz", fn, gz=True)
+        T.pull("results", reload_file)
+        rows = T.run()
+        check("...but a file that got shorter while its votes held or rose (the county reloaded it) is not flagged", not has(rows, "precinct_file_short"), summarize(rows))
+
         print("\nDATA validator, results: a county that stops publishing the breakdown is not losing votes")
         T = tree()
         def split(d):
