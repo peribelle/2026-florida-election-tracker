@@ -190,7 +190,7 @@
     "ORA": 7385658,
     "POL": 3619581,
     "PUT": 391108,
-    "SAR": 4812156,
+    "SAR": 4823056,
     "STJ": 2752768,
     "TAY": 105943,
     "WAK": 246665,
@@ -897,15 +897,15 @@
      41
     ],
     "SAR": [
-     224597,
-     "11/03/2026 9:48:23 pm",
+     225119,
+     "11/03/2026 10:05:08 pm",
      98,
      98
     ],
     "SEM": [
-     194943,
-     "11/03/2026 9:39:53 pm",
-     80,
+     196184,
+     "11/03/2026 10:01:22 pm",
+     82,
      82
     ],
     "STJ": [
@@ -915,9 +915,9 @@
      55
     ],
     "STL": [
-     133998,
-     "11/03/2026 8:58:13 pm",
-     58,
+     137054,
+     "11/03/2026 10:07:01 pm",
+     61,
      62
     ],
     "SUM": [
@@ -1139,7 +1139,7 @@
     "ORA": 7385658,
     "POL": 3619581,
     "PUT": 391108,
-    "SAR": 4812156,
+    "SAR": 4823056,
     "STJ": 2752768,
     "TAY": 105943,
     "WAK": 246665,
@@ -1441,19 +1441,19 @@
  },
  "open": {
   "source|county_stalled|ENR|stalled|STJ": {
-   "last": "2026-11-03 22:00:46",
-   "n": 3,
+   "last": "2026-11-03 22:10:18",
+   "n": 4,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-214014-001",
-    "count": 5,
+    "count": 6,
     "curr": null,
     "delta": null,
     "detail": "52/55 precincts in, last update 11/03/2026 9:09:38 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STJ",
     "first_seen": "2026-11-03 21:40:25",
-    "headline": "STJ has not updated in 5 pulls (50 min)",
+    "headline": "STJ has not updated in 6 pulls (60 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-213002",
@@ -1467,226 +1467,9 @@
    },
    "source": "results",
    "tier": 2
-  },
-  "source|county_stalled|ENR|stalled|STL": {
-   "last": "2026-11-03 22:00:46",
-   "n": 4,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-213002-001",
-    "count": 6,
-    "curr": null,
-    "delta": null,
-    "detail": "58/62 precincts in, last update 11/03/2026 8:58:13 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|STL",
-    "first_seen": "2026-11-03 21:30:14",
-    "headline": "STL has not updated in 6 pulls (60 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-212011",
-    "raised_local": "2026-11-03 21:30:14",
-    "raised_utc": "2026-11-04T02:30:14Z",
-    "scope": "ENR|stalled|STL",
-    "snapshot": "20261103-213002",
-    "source": "results",
-    "tier": 2,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 2
   }
  },
  "recent": [
-  {
-   "alert_id": "A-20261103-100146-002",
-   "count": 1,
-   "curr": 14,
-   "delta": -1,
-   "detail": "Provisional 15 \u2192 14",
-   "event": "raised",
-   "fingerprint": "data|ballots_down|TQV|by_type|WAKULLA|20261103-100146",
-   "first_seen": "2026-11-03 10:01:48",
-   "headline": "Ballots dropped in WAKULLA (by_type): \u22121",
-   "kind": "ballots_down",
-   "prev": 15,
-   "prev_snapshot": "20261103-094514",
-   "raised_local": "2026-11-03 10:01:48",
-   "raised_utc": "2026-11-03T15:01:48Z",
-   "scope": "TQV|by_type|WAKULLA",
-   "snapshot": "20261103-100146",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-100146-003",
-   "count": 1,
-   "curr": 1,
-   "delta": -1,
-   "detail": "OTH 2 \u2192 1",
-   "event": "raised",
-   "fingerprint": "data|ballots_down|TQV|by_party|WAKULLA|20261103-100146",
-   "first_seen": "2026-11-03 10:01:48",
-   "headline": "Ballots dropped in WAKULLA (by_party): \u22121",
-   "kind": "ballots_down",
-   "prev": 2,
-   "prev_snapshot": "20261103-094514",
-   "raised_local": "2026-11-03 10:01:48",
-   "raised_utc": "2026-11-03T15:01:48Z",
-   "scope": "TQV|by_party|WAKULLA",
-   "snapshot": "20261103-100146",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-100146-004",
-   "count": 2,
-   "curr": null,
-   "delta": null,
-   "detail": "e.g. GRE; OTH",
-   "event": "raised",
-   "fingerprint": "data|rows_new|TQV|by_party|new|20261103-100146",
-   "first_seen": "2026-11-03 10:01:48",
-   "headline": "New in TQV|by_party: 2 rows across 2 places",
-   "kind": "rows_new",
-   "prev": null,
-   "prev_snapshot": "20261103-094514",
-   "raised_local": "2026-11-03 10:01:48",
-   "raised_utc": "2026-11-03T15:01:48Z",
-   "scope": "TQV|by_party|new",
-   "snapshot": "20261103-100146",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-100146-005",
-   "count": 1,
-   "curr": 2,
-   "delta": -1,
-   "detail": "03.2 3 \u2192 2",
-   "event": "raised",
-   "fingerprint": "data|parts_down|TQV|by_precinct|WAKULLA|20261103-100146",
-   "first_seen": "2026-11-03 10:01:48",
-   "headline": "A part fell while its total held in WAKULLA (by_precinct): \u22121",
-   "kind": "parts_down",
-   "prev": 3,
-   "prev_snapshot": "20261103-094514",
-   "raised_local": "2026-11-03 10:01:48",
-   "raised_utc": "2026-11-03T15:01:48Z",
-   "scope": "TQV|by_precinct|WAKULLA",
-   "snapshot": "20261103-100146",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-100146-006",
-   "count": 2,
-   "curr": null,
-   "delta": null,
-   "detail": "e.g. 104.3; 417B",
-   "event": "raised",
-   "fingerprint": "data|rows_new|TQV|by_precinct|new|20261103-100146",
-   "first_seen": "2026-11-03 10:01:48",
-   "headline": "New in TQV|by_precinct: 2 rows across 2 places",
-   "kind": "rows_new",
-   "prev": null,
-   "prev_snapshot": "20261103-094514",
-   "raised_local": "2026-11-03 10:01:48",
-   "raised_utc": "2026-11-03T15:01:48Z",
-   "scope": "TQV|by_precinct|new",
-   "snapshot": "20261103-100146",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-100146-007",
-   "count": 1,
-   "curr": 3,
-   "delta": -1,
-   "detail": "10/31/2026 Provisional 4 \u2192 3",
-   "event": "raised",
-   "fingerprint": "data|ballots_down|TQV|by_date|WAKULLA|20261103-100146",
-   "first_seen": "2026-11-03 10:01:48",
-   "headline": "Ballots dropped in WAKULLA (by_date): \u22121",
-   "kind": "ballots_down",
-   "prev": 4,
-   "prev_snapshot": "20261103-094514",
-   "raised_local": "2026-11-03 10:01:48",
-   "raised_utc": "2026-11-03T15:01:48Z",
-   "scope": "TQV|by_date|WAKULLA",
-   "snapshot": "20261103-100146",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-100146-008",
-   "count": 4,
-   "curr": null,
-   "delta": null,
-   "detail": "e.g. 11/03/2026 Mail; 11/03/2026 Mail; 11/03/2026 Mail",
-   "event": "raised",
-   "fingerprint": "data|rows_new|TQV|by_date|new|20261103-100146",
-   "first_seen": "2026-11-03 10:01:48",
-   "headline": "New in TQV|by_date: 4 rows across 4 places",
-   "kind": "rows_new",
-   "prev": null,
-   "prev_snapshot": "20261103-094514",
-   "raised_local": "2026-11-03 10:01:48",
-   "raised_utc": "2026-11-03T15:01:48Z",
-   "scope": "TQV|by_date|new",
-   "snapshot": "20261103-100146",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-100146-009",
-   "count": 1,
-   "curr": 724,
-   "delta": -1,
-   "detail": "001 10/31/2026 725 \u2192 724",
-   "event": "raised",
-   "fingerprint": "data|ballots_down|TQV|location_day|WAKULLA|20261103-100146",
-   "first_seen": "2026-11-03 10:01:48",
-   "headline": "Ballots dropped in WAKULLA (location_day): \u22121",
-   "kind": "ballots_down",
-   "prev": 725,
-   "prev_snapshot": "20261103-094514",
-   "raised_local": "2026-11-03 10:01:48",
-   "raised_utc": "2026-11-03T15:01:48Z",
-   "scope": "TQV|location_day|WAKULLA",
-   "snapshot": "20261103-100146",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-100146-010",
-   "count": 1,
-   "curr": 1,
-   "delta": -1,
-   "detail": "001 OTH 2 \u2192 1",
-   "event": "raised",
-   "fingerprint": "data|ballots_down|TQV|location_party|WAKULLA|20261103-100146",
-   "first_seen": "2026-11-03 10:01:48",
-   "headline": "Ballots dropped in WAKULLA (location_party): \u22121",
-   "kind": "ballots_down",
-   "prev": 2,
-   "prev_snapshot": "20261103-094514",
-   "raised_local": "2026-11-03 10:01:48",
-   "raised_utc": "2026-11-03T15:01:48Z",
-   "scope": "TQV|location_party|WAKULLA",
-   "snapshot": "20261103-100146",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
   {
    "alert_id": "A-20261103-150023-001",
    "count": 120,
@@ -2278,7 +2061,7 @@
  ],
  "stale": {
   "ALA": {
-   "n": 1,
+   "n": 2,
    "sig": [
     103567,
     "11/03/2026 9:49:10 pm",
@@ -2358,7 +2141,7 @@
    ]
   },
   "DAD": {
-   "n": 0,
+   "n": 1,
    "sig": [
     788080,
     "11/03/2026 9:56:30 pm",
@@ -2630,7 +2413,7 @@
    ]
   },
   "PAL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     571227,
     "11/03/2026 9:57:26 pm",
@@ -2672,21 +2455,21 @@
   "SAR": {
    "n": 0,
    "sig": [
-    224597,
-    "11/03/2026 9:48:23 pm",
+    225119,
+    "11/03/2026 10:05:08 pm",
     98
    ]
   },
   "SEM": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    194943,
-    "11/03/2026 9:39:53 pm",
-    80
+    196184,
+    "11/03/2026 10:01:22 pm",
+    82
    ]
   },
   "STJ": {
-   "n": 5,
+   "n": 6,
    "sig": [
     153245,
     "11/03/2026 9:09:38 pm",
@@ -2694,11 +2477,11 @@
    ]
   },
   "STL": {
-   "n": 6,
+   "n": 0,
    "sig": [
-    133998,
-    "11/03/2026 8:58:13 pm",
-    58
+    137054,
+    "11/03/2026 10:07:01 pm",
+    61
    ]
   },
   "SUM": {
@@ -2767,7 +2550,7 @@
  },
  "validated": {
   "projections": "20261103-215002",
-  "results": "20261103-220033",
+  "results": "20261103-221006",
   "slow": "20261103-214505",
   "turnout": "20261103-185931"
  },
