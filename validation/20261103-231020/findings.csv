@@ -1,0 +1,6 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|rows_missing|ENR|WAL|County Commissioner|20261103-231007,1,data,rows_missing,ENR|WAL|County Commissioner,20261103-231007,WAL | County Commissioner | REP Warren Whitaker | REP,(row),28704,,
+data|rows_missing|ENR|WAL|County Commissioner|20261103-231007,1,data,rows_missing,ENR|WAL|County Commissioner,20261103-231007,"WAL | County Commissioner | Write-in
+                                    (NON) | ",(row),2354,,
+data|rows_missing|ENR|WAL|County Commissioner|20261103-231007,1,data,rows_missing,ENR|WAL|County Commissioner,20261103-231007,WAL | County Commissioner | REP Jim Bagby | REP,(row),28484,,
+data|precincts_regressed|FEW-status|Miami-Dade|precincts_reporting_pct|20261103-231007,2,data,precincts_regressed,FEW-status|Miami-Dade|precincts_reporting_pct,20261103-231007,Miami-Dade,precincts_reporting_pct,98.58,93.27,-5.310000000000002

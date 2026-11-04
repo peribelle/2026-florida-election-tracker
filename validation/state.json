@@ -173,7 +173,7 @@
     "CIT": 1196373,
     "CLL": 2897973,
     "CLM": 396690,
-    "DAD": 19700029,
+    "DAD": 19707802,
     "DIX": 80043,
     "FRA": 83287,
     "GAD": 283813,
@@ -195,10 +195,10 @@
     "MON": 533961,
     "NAS": 0,
     "OKE": 170194,
-    "ORA": 7385658,
+    "ORA": 7485357,
     "POL": 3619581,
     "PUT": 391108,
-    "SAR": 4823056,
+    "SAR": 4823142,
     "STJ": 2814770,
     "TAY": 105943,
     "WAK": 246665,
@@ -677,8 +677,8 @@
      28
     ],
     "DAD": [
-     789466,
-     "11/03/2026 10:12:15 pm",
+     789782,
+     "11/03/2026 10:58:46 pm",
      762,
      773
     ],
@@ -881,8 +881,8 @@
      11
     ],
     "ORA": [
-     468029,
-     "11/03/2026 9:38:10 pm",
+     474350,
+     "11/03/2026 11:05:07 pm",
      263,
      263
     ],
@@ -917,8 +917,8 @@
      41
     ],
     "SAR": [
-     225119,
-     "11/03/2026 10:32:18 pm",
+     225126,
+     "11/03/2026 11:04:34 pm",
      98,
      98
     ],
@@ -972,7 +972,7 @@
     ],
     "WAL": [
      35445,
-     "11/03/2026 8:15:32 pm",
+     "11/03/2026 10:09:28 pm",
      22,
      22
     ],
@@ -1048,7 +1048,7 @@
     "WAS"
    ],
    "enr_ok": 62,
-   "enr_rows": 3199,
+   "enr_rows": 3195,
    "enr_status_rows": 62,
    "few_contests": 172,
    "few_ed_rows": 68,
@@ -1142,7 +1142,7 @@
     "CIT": 1196373,
     "CLL": 2897973,
     "CLM": 396690,
-    "DAD": 19700029,
+    "DAD": 19707802,
     "DIX": 80043,
     "FRA": 83287,
     "GAD": 283813,
@@ -1164,10 +1164,10 @@
     "MON": 533961,
     "NAS": 0,
     "OKE": 170194,
-    "ORA": 7385658,
+    "ORA": 7485357,
     "POL": 3619581,
     "PUT": 391108,
-    "SAR": 4823056,
+    "SAR": 4823142,
     "STJ": 2814770,
     "TAY": 105943,
     "WAK": 246665,
@@ -1470,19 +1470,19 @@
  },
  "open": {
   "source|county_stalled|ENR|stalled|ALA": {
-   "last": "2026-11-03 23:00:47",
-   "n": 1,
+   "last": "2026-11-03 23:10:20",
+   "n": 2,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-230034-001",
-    "count": 3,
+    "count": 4,
     "curr": null,
     "delta": null,
     "detail": "62/63 precincts in, last update 11/03/2026 10:27:32 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|ALA",
     "first_seen": "2026-11-03 23:00:47",
-    "headline": "ALA has not updated in 3 pulls (30 min)",
+    "headline": "ALA has not updated in 4 pulls (40 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-225000",
@@ -1497,48 +1497,20 @@
    "source": "results",
    "tier": 3
   },
-  "source|county_stalled|ENR|stalled|DAD": {
-   "last": "2026-11-03 23:00:47",
-   "n": 2,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-225000-001",
-    "count": 4,
-    "curr": null,
-    "delta": null,
-    "detail": "762/773 precincts in, last update 11/03/2026 10:12:15 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|DAD",
-    "first_seen": "2026-11-03 22:50:12",
-    "headline": "DAD has not updated in 4 pulls (40 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-224007",
-    "raised_local": "2026-11-03 22:50:12",
-    "raised_utc": "2026-11-04T03:50:12Z",
-    "scope": "ENR|stalled|DAD",
-    "snapshot": "20261103-225000",
-    "source": "results",
-    "tier": 3,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 3
-  },
   "source|county_stalled|ENR|stalled|PAL": {
-   "last": "2026-11-03 23:00:47",
-   "n": 4,
+   "last": "2026-11-03 23:10:20",
+   "n": 5,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-223015-001",
-    "count": 6,
+    "count": 7,
     "curr": null,
     "delta": null,
     "detail": "786/814 precincts in, last update 11/03/2026 9:57:26 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|PAL",
     "first_seen": "2026-11-03 22:30:27",
-    "headline": "PAL has not updated in 6 pulls (60 min)",
+    "headline": "PAL has not updated in 7 pulls (70 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-222002",
@@ -2163,11 +2135,53 @@
    "source": "results",
    "tier": 3,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-231007-001",
+   "count": 3,
+   "curr": 0,
+   "delta": -59542,
+   "detail": "REP Warren Whitaker; Write-in\n                            \u2026; REP Jim Bagby",
+   "event": "raised",
+   "fingerprint": "data|rows_missing|ENR|WAL|County Commissioner|20261103-231007",
+   "first_seen": "2026-11-03 23:10:20",
+   "headline": "Rows disappeared from County Commissioner \u00b7 WAL: 3 gone, carrying 59,542 votes",
+   "kind": "rows_missing",
+   "prev": 59542,
+   "prev_snapshot": "20261103-230034",
+   "raised_local": "2026-11-03 23:10:20",
+   "raised_utc": "2026-11-04T04:10:20Z",
+   "scope": "ENR|WAL|County Commissioner",
+   "snapshot": "20261103-231007",
+   "source": "results",
+   "tier": 1,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-231007-002",
+   "count": 1,
+   "curr": 93.27,
+   "delta": -5.310000000000002,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|precincts_regressed|FEW-status|Miami-Dade|precincts_reporting_pct|20261103-231007",
+   "first_seen": "2026-11-03 23:10:20",
+   "headline": "Miami-Dade: precincts reporting % 98.58 \u2192 93.27 (-5.310000000000002)",
+   "kind": "precincts_regressed",
+   "prev": 98.58,
+   "prev_snapshot": "20261103-230034",
+   "raised_local": "2026-11-03 23:10:20",
+   "raised_utc": "2026-11-04T04:10:20Z",
+   "scope": "FEW-status|Miami-Dade|precincts_reporting_pct",
+   "snapshot": "20261103-231007",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
-   "n": 3,
+   "n": 4,
    "sig": [
     105083,
     "11/03/2026 10:27:32 pm",
@@ -2255,10 +2269,10 @@
    ]
   },
   "DAD": {
-   "n": 4,
+   "n": 0,
    "sig": [
-    789466,
-    "11/03/2026 10:12:15 pm",
+    789782,
+    "11/03/2026 10:58:46 pm",
     762
    ]
   },
@@ -2529,13 +2543,13 @@
   "ORA": {
    "n": 0,
    "sig": [
-    468029,
-    "11/03/2026 9:38:10 pm",
+    474350,
+    "11/03/2026 11:05:07 pm",
     263
    ]
   },
   "PAL": {
-   "n": 6,
+   "n": 7,
    "sig": [
     571227,
     "11/03/2026 9:57:26 pm",
@@ -2577,8 +2591,8 @@
   "SAR": {
    "n": 0,
    "sig": [
-    225119,
-    "11/03/2026 10:32:18 pm",
+    225126,
+    "11/03/2026 11:04:34 pm",
     98
    ]
   },
@@ -2599,7 +2613,7 @@
    ]
   },
   "STL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     137676,
     "11/03/2026 10:55:54 pm",
@@ -2650,7 +2664,7 @@
    "n": 0,
    "sig": [
     35445,
-    "11/03/2026 8:15:32 pm",
+    "11/03/2026 10:09:28 pm",
     22
    ]
   },
@@ -2664,15 +2678,15 @@
   }
  },
  "totals": {
-  "1": 7,
-  "2": 137,
+  "1": 8,
+  "2": 138,
   "3": 344,
   "acked": 394,
-  "alerts": 488
+  "alerts": 490
  },
  "validated": {
   "projections": "20261103-225000",
-  "results": "20261103-230034",
+  "results": "20261103-231007",
   "slow": "20261103-224500",
   "turnout": "20261103-185931"
  },
