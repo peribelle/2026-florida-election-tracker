@@ -125,6 +125,45 @@ function forecastBoardCard() {
   });
 }
 
+/* ---- how the forecast moved: the selected race's probabilities pull by pull, on a real time axis ---- */
+function fcWindow() {          // election-night pulls; the pre-election test pulls would squash tonight's movement into a corner
+  const day = new Date('2026-11-03T05:00:00Z').getTime();                       // midnight ET, election day
+  const idx = PSNAPS.map((_, i) => i).filter(i => new Date(PSNAPS[i].t).getTime() >= day);
+  return idx.length >= 2 ? idx : PSNAPS.map((_, i) => i);
+}
+const fcSeries = (pi, f, idx) => pjSources(pi).map(({ src }) => ({ name: PSRC_SHORT[src], color: src === 0 ? 'var(--ink)' : src === 1 ? 'var(--ink-2)' : 'var(--ink-3)', dash: src === 2 ? '5 4' : src === 1 ? '2 3' : null, width: src === 0 ? 2.5 : 2,
+  ys: idx.map(i => { const a = pjProbs(pi, i)[src][f.side]; return a == null ? null : 100 * a; }) }));
+function drawFcTime(host, w, api) {
+  const hd = currentContest(), pi = hd && hd.type === 'ew' ? pjIndexOf(hd.r) : null;
+  if (pi == null) { emptyCard(host, hd ? 'No forecaster covers this race, so there is nothing to track over time. Pick the governor, the U.S. Senate seat or a U.S. House seat.' : 'No race selected.'); api.label('No forecast for this race.'); return; }
+  const f = pjFavorite(pi), idx = fcWindow();
+  if (!f) { emptyCard(host, 'No forecast yet.'); return; }
+  if (idx.length < 2) { emptyCard(host, 'Only one projection pull is saved so far. The line appears with the next pull.'); return; }
+  const series = fcSeries(pi, f, idx), xs = idx.map(i => new Date(PSNAPS[i].t).getTime());
+  const all = series.flatMap(se => se.ys.filter(v => v != null)), lo = Math.max(0, Math.floor((Math.min(...all) - 4) / 10) * 10), hi = Math.min(100, Math.max(lo + 20, Math.ceil((Math.max(...all) + 4) / 10) * 10));
+  const call = pjCall(pi), ct = call ? new Date(call.at).getTime() : null;
+  kitLines(host, w, xs, series, { yFmt: v => v + '%', endFmt: v => fPct(v, 1), yMin: lo, yMax: hi, height: 280, xFmt: (m, i) => fmtClock(PSNAPS[idx[i]].t), tipHead: i => `${fmtDayClock(PSNAPS[idx[i]].t)} ET`, tipFmt: v => fPct(v, 1),
+    vlines: ct && ct > xs[0] && ct < xs[xs.length - 1] ? [{ x: ct, label: 'DDHQ called it' }] : [] });
+  api.label(`${sideName(f.sideObj)}’s win probability in ${PJR[pi].name} across ${idx.length} pulls: ${series.map(se => `${se.name} ${fPct(se.ys[0], 0)} to ${fPct(se.ys[se.ys.length - 1], 0)}`).join('; ')}.`);
+}
+function forecastTimeCard() {
+  return card({
+    id: 'r-fctime', kicker: 'Line chart', cat: 'pearl', stack: true, controls: [contestPicker()],
+    title: () => { const hd = currentContest(), pi = hd && hd.type === 'ew' ? pjIndexOf(hd.r) : null; if (pi == null) return 'How the forecast has moved'; const f = pjFavorite(pi); return `How ${hd.name}’s forecast has moved: ${sideName(f.sideObj)} is at ${fProb(f.p)} now`; },
+    sub: () => `The favorite’s chance of winning, from every projection pull since election day began. The axis is real time, so a quiet stretch looks quiet.`,
+    foot: () => `${plural(fcWindow().length, 'projection pull')} on election day, one about every 30 minutes from 7:20 PM ET. Sources are never averaged.`,
+    draw: drawFcTime,
+    notes: {
+      what: 'Each line is one forecaster’s chance that the favorite wins, re-read every half hour. DDHQ is a model; Kalshi and Polymarket are prediction markets where the price is the probability.',
+      how: 'Time runs left to right. A rising line means the source thinks the favorite is more likely to win than before. When votes are counted the lines can jump together; when only one jumps, that source saw something the others did not.',
+      shows: () => { const hd = currentContest(), pi = hd && hd.type === 'ew' ? pjIndexOf(hd.r) : null; if (pi == null) return 'This race has no forecast.'; const f = pjFavorite(pi), idx = fcWindow(); if (idx.length < 2) return 'One pull so far.'; const se = fcSeries(pi, f, idx).map(x => { const v = x.ys.filter(y => y != null); return v.length > 1 ? `${x.name} ${v[0] < v[v.length - 1] ? 'rose' : v[0] > v[v.length - 1] ? 'fell' : 'held'} from ${fPct(v[0], 0)} to ${fPct(v[v.length - 1], 0)}` : null; }).filter(Boolean); return se.join('; ') + '.'; },
+      watch: 'Early in the night, markets move on every precinct report, and thin markets (little money traded) can swing on a few trades. A forecast is a probability, not a result.',
+    },
+    table: () => { const hd = currentContest(), pi = hd && hd.type === 'ew' ? pjIndexOf(hd.r) : null; if (pi == null) return { head: ['Pull'], rows: [] }; const f = pjFavorite(pi), idx = fcWindow(), ss = fcSeries(pi, f, idx);
+      return { head: ['Pull (ET)', ...ss.map(x => x.name)], rows: idx.map((i, k) => [fmtDayClock(PSNAPS[i].t), ...ss.map(x => x.ys[k] == null ? '—' : fPct(x.ys[k], 1))]) }; },
+  });
+}
+
 /* ---- seats: what the forecasts add up to, beside the count ---- */
 function expectedSeats(office = 'US House') {
   const out = { rep: 0, dem: 0, ind: 0, oth: 0, n: 0, called: { rep: 0, dem: 0, ind: 0, oth: 0, n: 0 } };
