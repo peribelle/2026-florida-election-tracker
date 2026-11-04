@@ -184,7 +184,7 @@
     "LAK": 3207804,
     "LEV": 294430,
     "MAD": 110378,
-    "MON": 529448,
+    "MON": 533961,
     "NAS": 0,
     "OKE": 170194,
     "ORA": 7385658,
@@ -603,9 +603,9 @@
    "_primary": [],
    "_status": {
     "ALA": [
-     103567,
-     "11/03/2026 9:49:10 pm",
-     60,
+     105083,
+     "11/03/2026 10:27:32 pm",
+     62,
      63
     ],
     "BAK": [
@@ -831,8 +831,8 @@
      71
     ],
     "MON": [
-     32237,
-     "11/03/2026 7:53:52 pm",
+     32506,
+     "11/03/2026 10:22:00 pm",
      33,
      33
     ],
@@ -849,8 +849,8 @@
      18
     ],
     "OKA": [
-     77718,
-     "11/03/2026 8:01:05 pm",
+     77919,
+     "11/03/2026 9:26:24 pm",
      52,
      52
     ],
@@ -1133,7 +1133,7 @@
     "LAK": 3207804,
     "LEV": 294430,
     "MAD": 110378,
-    "MON": 529448,
+    "MON": 533961,
     "NAS": 0,
     "OKE": 170194,
     "ORA": 7385658,
@@ -1441,27 +1441,27 @@
   }
  },
  "open": {
-  "source|county_stalled|ENR|stalled|ALA": {
-   "last": "2026-11-03 22:20:14",
+  "source|county_stalled|ENR|stalled|PAL": {
+   "last": "2026-11-03 22:30:27",
    "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-222002-001",
+    "alert_id": "A-20261103-223015-001",
     "count": 3,
     "curr": null,
     "delta": null,
-    "detail": "60/63 precincts in, last update 11/03/2026 9:49:10 pm.",
+    "detail": "786/814 precincts in, last update 11/03/2026 9:57:26 pm.",
     "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|ALA",
-    "first_seen": "2026-11-03 22:20:14",
-    "headline": "ALA has not updated in 3 pulls (30 min)",
+    "fingerprint": "source|county_stalled|ENR|stalled|PAL",
+    "first_seen": "2026-11-03 22:30:27",
+    "headline": "PAL has not updated in 3 pulls (30 min)",
     "kind": "county_stalled",
     "prev": null,
-    "prev_snapshot": "20261103-221006",
-    "raised_local": "2026-11-03 22:20:14",
-    "raised_utc": "2026-11-04T03:20:14Z",
-    "scope": "ENR|stalled|ALA",
-    "snapshot": "20261103-222002",
+    "prev_snapshot": "20261103-222002",
+    "raised_local": "2026-11-03 22:30:27",
+    "raised_utc": "2026-11-04T03:30:27Z",
+    "scope": "ENR|stalled|PAL",
+    "snapshot": "20261103-223015",
     "source": "results",
     "tier": 3,
     "validator": "source"
@@ -1470,19 +1470,19 @@
    "tier": 3
   },
   "source|county_stalled|ENR|stalled|STJ": {
-   "last": "2026-11-03 22:20:14",
-   "n": 5,
+   "last": "2026-11-03 22:30:27",
+   "n": 6,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-214014-001",
-    "count": 7,
+    "count": 8,
     "curr": null,
     "delta": null,
     "detail": "52/55 precincts in, last update 11/03/2026 9:09:38 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STJ",
     "first_seen": "2026-11-03 21:40:25",
-    "headline": "STJ has not updated in 7 pulls (70 min)",
+    "headline": "STJ has not updated in 8 pulls (80 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-213002",
@@ -2090,11 +2090,11 @@
  ],
  "stale": {
   "ALA": {
-   "n": 3,
+   "n": 0,
    "sig": [
-    103567,
-    "11/03/2026 9:49:10 pm",
-    60
+    105083,
+    "11/03/2026 10:27:32 pm",
+    62
    ]
   },
   "BAK": {
@@ -2170,7 +2170,7 @@
    ]
   },
   "DAD": {
-   "n": 0,
+   "n": 1,
    "sig": [
     789466,
     "11/03/2026 10:12:15 pm",
@@ -2396,8 +2396,8 @@
   "MON": {
    "n": 0,
    "sig": [
-    32237,
-    "11/03/2026 7:53:52 pm",
+    32506,
+    "11/03/2026 10:22:00 pm",
     33
    ]
   },
@@ -2420,8 +2420,8 @@
   "OKA": {
    "n": 0,
    "sig": [
-    77718,
-    "11/03/2026 8:01:05 pm",
+    77919,
+    "11/03/2026 9:26:24 pm",
     52
    ]
   },
@@ -2442,7 +2442,7 @@
    ]
   },
   "PAL": {
-   "n": 2,
+   "n": 3,
    "sig": [
     571227,
     "11/03/2026 9:57:26 pm",
@@ -2498,7 +2498,7 @@
    ]
   },
   "STJ": {
-   "n": 7,
+   "n": 8,
    "sig": [
     153245,
     "11/03/2026 9:09:38 pm",
@@ -2506,7 +2506,7 @@
    ]
   },
   "STL": {
-   "n": 1,
+   "n": 2,
    "sig": [
     137054,
     "11/03/2026 10:07:01 pm",
@@ -2573,13 +2573,13 @@
  "totals": {
   "1": 7,
   "2": 136,
-  "3": 339,
+  "3": 340,
   "acked": 394,
-  "alerts": 482
+  "alerts": 483
  },
  "validated": {
   "projections": "20261103-222002",
-  "results": "20261103-222002",
+  "results": "20261103-223015",
   "slow": "20261103-221519",
   "turnout": "20261103-185931"
  },
