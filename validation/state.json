@@ -417,10 +417,10 @@
    "ddhq_forecast": 30,
    "ddhq_ok": 30,
    "kalshi_events": 5,
-   "kalshi_rows": 4,
+   "kalshi_rows": 2,
    "polymarket_races": 2,
    "polymarket_rows": 4,
-   "prediction_rows": 68,
+   "prediction_rows": 66,
    "sources_ok": 3,
    "sources_tried": 3
   },
@@ -2943,8 +2943,8 @@
   "alerts": 526
  },
  "validated": {
-  "projections": "20261104-015006",
-  "results": "20261104-021017",
+  "projections": "20261104-022018",
+  "results": "20261104-022018",
   "slow": "20261104-021510",
   "turnout": "20261103-185931"
  },

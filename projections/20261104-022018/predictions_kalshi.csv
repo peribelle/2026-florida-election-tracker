@@ -1,0 +1,3 @@
+fetched_utc,source,race_key,race,office,district,candidate,party,win_probability,price_cents,bid_cents,ask_cents,volume,source_updated_at,source_url
+2026-11-04T07:20:19+00:00,kalshi,FL-H13,US House 13,US House,13,Leela Gray,DEM,0.019,1.9,0.4,1.9,110171.75,2026-09-15T21:20:50.850615Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL13-26
+2026-11-04T07:20:19+00:00,kalshi,FL-H13,US House 13,US House,13,Anna Paulina Luna,GOP,0.99,99.0,99.0,100.0,251977.80,2026-10-16T16:31:41.533151Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL13-26
