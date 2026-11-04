@@ -119,6 +119,11 @@
   "id": "4106",
   "key": "HER"
  },
+ "HIG": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4127",
+  "key": "HIG"
+ },
  "HIL": {
   "base": "https://enr.electionsfl.org",
   "id": "4074",
@@ -168,6 +173,11 @@
   "base": "https://enr.electionsfl.org",
   "id": "4098",
   "key": "LIB"
+ },
+ "MAD": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4061",
+  "key": "MAD"
  },
  "MAN": {
   "base": "https://enr.electionsfl.org",
@@ -238,6 +248,11 @@
   "base": "https://enr.electionsfl.org",
   "id": "4056",
   "key": "SUM"
+ },
+ "SUW": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4112",
+  "key": "SUW"
  },
  "TAY": {
   "base": "https://enr.electionsfl.org",

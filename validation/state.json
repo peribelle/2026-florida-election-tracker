@@ -39,6 +39,7 @@
     "HAR",
     "HEN",
     "HER",
+    "HIG",
     "HIL",
     "HOL",
     "IND",
@@ -49,6 +50,7 @@
     "LEO",
     "LEV",
     "LIB",
+    "MAD",
     "MAN",
     "MON",
     "MRN",
@@ -63,15 +65,16 @@
     "STJ",
     "STL",
     "SUM",
+    "SUW",
     "TAY",
     "UNI",
     "WAK",
     "WAL",
     "WAS"
    ],
-   "enr_ok": 53,
-   "enr_rows": 2706,
-   "enr_status_rows": 53,
+   "enr_ok": 56,
+   "enr_rows": 2800,
+   "enr_status_rows": 56,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
@@ -91,6 +94,7 @@
     "GLA",
     "HAR",
     "HER",
+    "HIG",
     "HIL",
     "HOL",
     "IND",
@@ -99,6 +103,7 @@
     "LAF",
     "LAK",
     "LEV",
+    "MAD",
     "MON",
     "NAS",
     "OKE",
@@ -125,6 +130,7 @@
     "GLA": 483,
     "HAR": 432,
     "HER": 1438,
+    "HIG": 1597,
     "HIL": 24485,
     "HOL": 356,
     "IND": 1854,
@@ -133,6 +139,7 @@
     "LAF": 202,
     "LAK": 4743,
     "LEV": 585,
+    "MAD": 461,
     "MON": 1551,
     "NAS": 1353,
     "OKE": 451,
@@ -144,8 +151,8 @@
     "WAK": 532,
     "WAL": 1797
    },
-   "prec_ok": 32,
-   "prec_rows": 126477
+   "prec_ok": 34,
+   "prec_rows": 128447
   },
   "slow": {
    "codes": [
@@ -544,9 +551,9 @@
      63
     ],
     "BAK": [
-     8951,
-     "11/03/2026 7:48:07 pm",
-     8,
+     9864,
+     "11/03/2026 7:56:25 pm",
+     9,
      9
     ],
     "BAY": [
@@ -562,9 +569,9 @@
      13
     ],
     "BRE": [
-     246364,
-     "11/03/2026 7:44:28 pm",
-     124,
+     250505,
+     "11/03/2026 7:53:41 pm",
+     129,
      166
     ],
     "CAL": [
@@ -592,9 +599,9 @@
      67
     ],
     "CLM": [
-     16810,
-     "11/03/2026 7:48:32 pm",
-     13,
+     20717,
+     "11/03/2026 7:59:42 pm",
+     21,
      28
     ],
     "DAD": [
@@ -604,15 +611,15 @@
      773
     ],
     "DES": [
-     5231,
-     "11/03/2026 7:30:20 pm",
-     0,
+     6137,
+     "11/03/2026 7:54:48 pm",
+     6,
      15
     ],
     "DIX": [
-     5254,
-     "11/03/2026 7:42:58 pm",
-     7,
+     5338,
+     "11/03/2026 7:53:16 pm",
+     8,
      10
     ],
     "DUV": [
@@ -622,9 +629,9 @@
      159
     ],
     "FLA": [
-     62619,
-     "11/03/2026 7:37:34 pm",
-     21,
+     64378,
+     "11/03/2026 7:59:14 pm",
+     22,
      22
     ],
     "FRA": [
@@ -640,15 +647,15 @@
      25
     ],
     "GIL": [
-     6757,
-     "11/03/2026 7:41:46 pm",
-     8,
+     7857,
+     "11/03/2026 7:53:37 pm",
+     10,
      10
     ],
     "GLA": [
-     2134,
-     "11/03/2026 7:49:58 pm",
-     5,
+     2882,
+     "11/03/2026 8:01:15 pm",
+     10,
      13
     ],
     "GUL": [
@@ -676,10 +683,16 @@
      10
     ],
     "HER": [
-     49036,
-     "11/03/2026 7:37:11 pm",
-     2,
+     57438,
+     "11/03/2026 7:52:43 pm",
+     11,
      32
+    ],
+    "HIG": [
+     24428,
+     "11/03/2026 7:28:23 pm",
+     0,
+     25
     ],
     "HIL": [
      473184,
@@ -706,8 +719,8 @@
      14
     ],
     "JEF": [
-     3610,
-     "11/03/2026 7:17:47 pm",
+     4102,
+     "11/03/2026 7:53:12 pm",
      0,
      16
     ],
@@ -718,9 +731,9 @@
      5
     ],
     "LAK": [
-     159621,
-     "11/03/2026 7:44:24 pm",
-     79,
+     168069,
+     "11/03/2026 7:55:53 pm",
+     88,
      92
     ],
     "LEO": [
@@ -730,45 +743,51 @@
      134
     ],
     "LEV": [
-     10941,
-     "11/03/2026 7:40:10 pm",
-     3,
+     16570,
+     "11/03/2026 7:55:32 pm",
+     11,
      13
     ],
     "LIB": [
-     1525,
-     "11/03/2026 7:15:18 pm",
-     0,
+     1892,
+     "11/03/2026 7:55:04 pm",
+     3,
      0
     ],
+    "MAD": [
+     6779,
+     "11/03/2026 7:49:39 pm",
+     10,
+     11
+    ],
     "MAN": [
-     166507,
-     "11/03/2026 7:41:56 pm",
-     54,
+     174359,
+     "11/03/2026 7:54:52 pm",
+     64,
      71
     ],
     "MON": [
-     31031,
-     "11/03/2026 7:41:44 pm",
-     30,
+     32237,
+     "11/03/2026 7:53:52 pm",
+     33,
      33
     ],
     "MRN": [
-     93616,
-     "11/03/2026 7:44:33 pm",
-     1,
+     98690,
+     "11/03/2026 7:58:30 pm",
+     10,
      106
     ],
     "NAS": [
-     32202,
-     "11/03/2026 7:22:05 pm",
+     47139,
+     "11/03/2026 7:55:48 pm",
      0,
      18
     ],
     "OKE": [
-     10721,
-     "11/03/2026 7:49:51 pm",
-     10,
+     11202,
+     "11/03/2026 7:59:28 pm",
+     11,
      11
     ],
     "PAS": [
@@ -784,9 +803,9 @@
      177
     ],
     "PUT": [
-     14203,
-     "11/03/2026 7:28:32 pm",
-     0,
+     17621,
+     "11/03/2026 7:54:35 pm",
+     13,
      37
     ],
     "SAN": [
@@ -802,9 +821,9 @@
      98
     ],
     "SEM": [
-     178795,
-     "11/03/2026 7:36:58 pm",
-     62,
+     191109,
+     "11/03/2026 7:54:16 pm",
+     76,
      82
     ],
     "STJ": [
@@ -825,6 +844,12 @@
      33,
      33
     ],
+    "SUW": [
+     0,
+     "11/03/2026 7:34:18 pm",
+     0,
+     14
+    ],
     "TAY": [
      3835,
      "11/03/2026 7:37:42 pm",
@@ -832,15 +857,15 @@
      14
     ],
     "UNI": [
-     3462,
-     "11/03/2026 7:39:42 pm",
-     6,
+     4303,
+     "11/03/2026 7:56:55 pm",
+     8,
      8
     ],
     "WAK": [
-     13504,
-     "11/03/2026 7:45:44 pm",
-     10,
+     14244,
+     "11/03/2026 7:54:05 pm",
+     11,
      12
     ],
     "WAL": [
@@ -881,6 +906,7 @@
     "HAR",
     "HEN",
     "HER",
+    "HIG",
     "HIL",
     "HOL",
     "IND",
@@ -891,6 +917,7 @@
     "LEO",
     "LEV",
     "LIB",
+    "MAD",
     "MAN",
     "MON",
     "MRN",
@@ -905,15 +932,16 @@
     "STJ",
     "STL",
     "SUM",
+    "SUW",
     "TAY",
     "UNI",
     "WAK",
     "WAL",
     "WAS"
    ],
-   "enr_ok": 53,
-   "enr_rows": 2706,
-   "enr_status_rows": 53,
+   "enr_ok": 56,
+   "enr_rows": 2800,
+   "enr_status_rows": 56,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
@@ -933,6 +961,7 @@
     "GLA",
     "HAR",
     "HER",
+    "HIG",
     "HIL",
     "HOL",
     "IND",
@@ -941,6 +970,7 @@
     "LAF",
     "LAK",
     "LEV",
+    "MAD",
     "MON",
     "NAS",
     "OKE",
@@ -967,6 +997,7 @@
     "GLA": 483,
     "HAR": 432,
     "HER": 1438,
+    "HIG": 1597,
     "HIL": 24485,
     "HOL": 356,
     "IND": 1854,
@@ -975,6 +1006,7 @@
     "LAF": 202,
     "LAK": 4743,
     "LEV": 585,
+    "MAD": 461,
     "MON": 1551,
     "NAS": 1353,
     "OKE": 451,
@@ -986,8 +1018,8 @@
     "WAK": 532,
     "WAL": 1797
    },
-   "prec_ok": 32,
-   "prec_rows": 126389
+   "prec_ok": 34,
+   "prec_rows": 128447
   },
   "slow": {
    "_failures": [
@@ -1266,8 +1298,8 @@
  },
  "open": {
   "data|pct_mismatch|ENR|pct|GLA": {
-   "last": "2026-11-03 19:50:28",
-   "n": 2,
+   "last": "2026-11-03 20:00:36",
+   "n": 3,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-194011-005",
@@ -1287,26 +1319,26 @@
     "scope": "ENR|pct|GLA",
     "snapshot": "20261103-194011",
     "source": "results",
-    "tier": 3,
+    "tier": 2,
     "validator": "data"
    },
    "source": "results",
-   "tier": 3
+   "tier": 2
   },
   "source|county_stalled|ENR|stalled|HAR": {
-   "last": "2026-11-03 19:50:28",
-   "n": 1,
+   "last": "2026-11-03 20:00:36",
+   "n": 2,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-195017-001",
-    "count": 3,
+    "count": 4,
     "curr": null,
     "delta": null,
     "detail": "0/12 precincts in, last update 11/03/2026 7:18:32 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|HAR",
     "first_seen": "2026-11-03 19:50:28",
-    "headline": "HAR has not updated in 3 pulls (30 min)",
+    "headline": "HAR has not updated in 4 pulls (40 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-194011",
@@ -1321,76 +1353,20 @@
    "source": "results",
    "tier": 3
   },
-  "source|county_stalled|ENR|stalled|JEF": {
-   "last": "2026-11-03 19:50:28",
-   "n": 1,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-195017-002",
-    "count": 3,
-    "curr": null,
-    "delta": null,
-    "detail": "0/16 precincts in, last update 11/03/2026 7:17:47 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|JEF",
-    "first_seen": "2026-11-03 19:50:28",
-    "headline": "JEF has not updated in 3 pulls (30 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-194011",
-    "raised_local": "2026-11-03 19:50:28",
-    "raised_utc": "2026-11-04T00:50:28Z",
-    "scope": "ENR|stalled|JEF",
-    "snapshot": "20261103-195017",
-    "source": "results",
-    "tier": 3,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 3
-  },
-  "source|county_stalled|ENR|stalled|LIB": {
-   "last": "2026-11-03 19:50:28",
-   "n": 1,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-195017-003",
-    "count": 3,
-    "curr": null,
-    "delta": null,
-    "detail": "0/0 precincts in, last update 11/03/2026 7:15:18 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|LIB",
-    "first_seen": "2026-11-03 19:50:28",
-    "headline": "LIB has not updated in 3 pulls (30 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-194011",
-    "raised_local": "2026-11-03 19:50:28",
-    "raised_utc": "2026-11-04T00:50:28Z",
-    "scope": "ENR|stalled|LIB",
-    "snapshot": "20261103-195017",
-    "source": "results",
-    "tier": 3,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 3
-  },
   "source|county_stalled|ENR|stalled|STL": {
-   "last": "2026-11-03 19:50:28",
-   "n": 2,
+   "last": "2026-11-03 20:00:36",
+   "n": 3,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-194011-004",
-    "count": 4,
+    "count": 5,
     "curr": null,
     "delta": null,
     "detail": "0/62 precincts in, last update 11/03/2026 7:06:45 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STL",
     "first_seen": "2026-11-03 19:40:21",
-    "headline": "STL has not updated in 4 pulls (40 min)",
+    "headline": "STL has not updated in 5 pulls (50 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-193019",
@@ -1399,11 +1375,11 @@
     "scope": "ENR|stalled|STL",
     "snapshot": "20261103-194011",
     "source": "results",
-    "tier": 3,
+    "tier": 2,
     "validator": "source"
    },
    "source": "results",
-   "tier": 3
+   "tier": 2
   }
  },
  "recent": [
@@ -5564,11 +5540,263 @@
    "source": "results",
    "tier": 2,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-003",
+   "count": 94,
+   "curr": null,
+   "delta": null,
+   "detail": "e.g. Ashley Moody; Angie Nixon; Neil J. Gillespie",
+   "event": "raised",
+   "fingerprint": "data|rows_new|ENR|new|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "New in ENR: 94 rows across 2 places",
+   "kind": "rows_new",
+   "prev": null,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "ENR|new",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-004",
+   "count": 2,
+   "curr": null,
+   "delta": -70,
+   "detail": "47.0 Fort White Seth Harp 40 \u2192 blank; 47.0 Fort White Seth Harp 30 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CLM|Representative in Congress District 3|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in CLM precincts \u00b7 Representative in Congress District 3: 2 (were 70 in all)",
+   "kind": "value_blanked",
+   "prev": 40,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|CLM|Representative in Congress District 3",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-005",
+   "count": 2,
+   "curr": null,
+   "delta": -71,
+   "detail": "47.0 Fort White Jose Javier Rodriguez 38 \u2192 blank; 47.0 Fort White Jose Javier Rodriguez 33 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CLM|Attorney General|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in CLM precincts \u00b7 Attorney General: 2 (were 71 in all)",
+   "kind": "value_blanked",
+   "prev": 38,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|CLM|Attorney General",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-006",
+   "count": 2,
+   "curr": null,
+   "delta": -67,
+   "detail": "47.0 Fort White Annette Taddeo 37 \u2192 blank; 47.0 Fort White Annette Taddeo 30 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CLM|Chief Financial Officer|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in CLM precincts \u00b7 Chief Financial Officer: 2 (were 67 in all)",
+   "kind": "value_blanked",
+   "prev": 37,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|CLM|Chief Financial Officer",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-007",
+   "count": 2,
+   "curr": null,
+   "delta": -77,
+   "detail": "47.0 Fort White Joey Mendoza Atkins 44 \u2192 blank; 47.0 Fort White Joey Mendoza Atkins 33 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CLM|Commissioner of Agriculture|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in CLM precincts \u00b7 Commissioner of Agriculture: 2 (were 77 in all)",
+   "kind": "value_blanked",
+   "prev": 44,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|CLM|Commissioner of Agriculture",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-008",
+   "count": 2,
+   "curr": null,
+   "delta": -70,
+   "detail": "47.0 Fort White Jason Bellamy-Fults 40 \u2192 blank; 47.0 Fort White Jason Bellamy-Fults 30 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CLM|State Senator District 6|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in CLM precincts \u00b7 State Senator District 6: 2 (were 70 in all)",
+   "kind": "value_blanked",
+   "prev": 40,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|CLM|State Senator District 6",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-009",
+   "count": 4,
+   "curr": null,
+   "delta": -299,
+   "detail": "Precinct 445 Write-in 143 \u2192 blank; Precinct 445 Write-in 68 \u2192 blank; Precinct 540 Write-in 55 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|LAK|County Commissioner District 2|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in LAK precincts \u00b7 County Commissioner District 2: 4 (were 299 in all)",
+   "kind": "value_blanked",
+   "prev": 143,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|LAK|County Commissioner District 2",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-010",
+   "count": 6,
+   "curr": null,
+   "delta": -519,
+   "detail": "Precinct 230 Write-in 201 \u2192 blank; Precinct 445 Write-in 104 \u2192 blank; Precinct 230 Write-in 64 \u2192 blank; and 3 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|LAK|School Board, District 1|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in LAK precincts \u00b7 School Board, District 1: 6 (were 519 in all)",
+   "kind": "value_blanked",
+   "prev": 201,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|LAK|School Board, District 1",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-011",
+   "count": 2,
+   "curr": null,
+   "delta": -131,
+   "detail": "33-College of the Fl Keys NO 87 \u2192 blank; 33-College of the Fl Keys NO 44 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|MON|Court of Appeals-Kansas R. Gooden|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in MON precincts \u00b7 Court of Appeals-Kansas R. Gooden: 2 (were 131 in all)",
+   "kind": "value_blanked",
+   "prev": 87,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|MON|Court of Appeals-Kansas R. Gooden",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-012",
+   "count": 2,
+   "curr": null,
+   "delta": -128,
+   "detail": "33-College of the Fl Keys NO 86 \u2192 blank; 33-College of the Fl Keys NO 42 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|MON|Court of Appeals-Monica Gordo|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in MON precincts \u00b7 Court of Appeals-Monica Gordo: 2 (were 128 in all)",
+   "kind": "value_blanked",
+   "prev": 86,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|MON|Court of Appeals-Monica Gordo",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-013",
+   "count": 2,
+   "curr": null,
+   "delta": -125,
+   "detail": "33-College of the Fl Keys NO 86 \u2192 blank; 33-College of the Fl Keys NO 39 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|MON|Court of Appeals-Thomas Logue|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in MON precincts \u00b7 Court of Appeals-Thomas Logue: 2 (were 125 in all)",
+   "kind": "value_blanked",
+   "prev": 86,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|MON|Court of Appeals-Thomas Logue",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-200025-014",
+   "count": 2,
+   "curr": null,
+   "delta": -157,
+   "detail": "33-College of the Fl Keys NO 110 \u2192 blank; 33-College of the Fl Keys NO 47 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|MON|Court of Appeals-Bronwyn Catherine Miller|20261103-200025",
+   "first_seen": "2026-11-03 20:00:36",
+   "headline": "Numbers went blank in MON precincts \u00b7 Court of Appeals-Bronwyn Catherine Miller: 2 (were 157 in all)",
+   "kind": "value_blanked",
+   "prev": 110,
+   "prev_snapshot": "20261103-195017",
+   "raised_local": "2026-11-03 20:00:36",
+   "raised_utc": "2026-11-04T01:00:36Z",
+   "scope": "PREC|MON|Court of Appeals-Bronwyn Catherine Miller",
+   "snapshot": "20261103-200025",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
-   "n": 0,
+   "n": 1,
    "sig": [
     76543,
     "11/03/2026 7:49:15 pm",
@@ -5578,9 +5806,9 @@
   "BAK": {
    "n": 0,
    "sig": [
-    8951,
-    "11/03/2026 7:48:07 pm",
-    8
+    9864,
+    "11/03/2026 7:56:25 pm",
+    9
    ]
   },
   "BAY": {
@@ -5602,9 +5830,9 @@
   "BRE": {
    "n": 0,
    "sig": [
-    246364,
-    "11/03/2026 7:44:28 pm",
-    124
+    250505,
+    "11/03/2026 7:53:41 pm",
+    129
    ]
   },
   "CAL": {
@@ -5624,7 +5852,7 @@
    ]
   },
   "CLA": {
-   "n": 1,
+   "n": 2,
    "sig": [
     92721,
     "11/03/2026 7:39:55 pm",
@@ -5632,7 +5860,7 @@
    ]
   },
   "CLL": {
-   "n": 1,
+   "n": 2,
    "sig": [
     163497,
     "11/03/2026 7:39:47 pm",
@@ -5642,13 +5870,13 @@
   "CLM": {
    "n": 0,
    "sig": [
-    16810,
-    "11/03/2026 7:48:32 pm",
-    13
+    20717,
+    "11/03/2026 7:59:42 pm",
+    21
    ]
   },
   "DAD": {
-   "n": 0,
+   "n": 1,
    "sig": [
     742399,
     "11/03/2026 7:46:52 pm",
@@ -5656,23 +5884,23 @@
    ]
   },
   "DES": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    5231,
-    "11/03/2026 7:30:20 pm",
-    0
+    6137,
+    "11/03/2026 7:54:48 pm",
+    6
    ]
   },
   "DIX": {
    "n": 0,
    "sig": [
-    5254,
-    "11/03/2026 7:42:58 pm",
-    7
+    5338,
+    "11/03/2026 7:53:16 pm",
+    8
    ]
   },
   "DUV": {
-   "n": 0,
+   "n": 1,
    "sig": [
     342391,
     "11/03/2026 7:49:10 pm",
@@ -5680,11 +5908,11 @@
    ]
   },
   "FLA": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    62619,
-    "11/03/2026 7:37:34 pm",
-    21
+    64378,
+    "11/03/2026 7:59:14 pm",
+    22
    ]
   },
   "FRA": {
@@ -5696,7 +5924,7 @@
    ]
   },
   "GAD": {
-   "n": 1,
+   "n": 2,
    "sig": [
     17014,
     "11/03/2026 7:33:36 pm",
@@ -5706,21 +5934,21 @@
   "GIL": {
    "n": 0,
    "sig": [
-    6757,
-    "11/03/2026 7:41:46 pm",
-    8
+    7857,
+    "11/03/2026 7:53:37 pm",
+    10
    ]
   },
   "GLA": {
    "n": 0,
    "sig": [
-    2134,
-    "11/03/2026 7:49:58 pm",
-    5
+    2882,
+    "11/03/2026 8:01:15 pm",
+    10
    ]
   },
   "GUL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     5253,
     "11/03/2026 7:49:42 pm",
@@ -5728,7 +5956,7 @@
    ]
   },
   "HAM": {
-   "n": 0,
+   "n": 1,
    "sig": [
     2271,
     "11/03/2026 7:43:22 pm",
@@ -5736,7 +5964,7 @@
    ]
   },
   "HAR": {
-   "n": 3,
+   "n": 4,
    "sig": [
     3238,
     "11/03/2026 7:18:32 pm",
@@ -5752,15 +5980,23 @@
    ]
   },
   "HER": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    49036,
-    "11/03/2026 7:37:11 pm",
-    2
+    57438,
+    "11/03/2026 7:52:43 pm",
+    11
+   ]
+  },
+  "HIG": {
+   "n": 0,
+   "sig": [
+    24428,
+    "11/03/2026 7:28:23 pm",
+    0
    ]
   },
   "HIL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     473184,
     "11/03/2026 7:40:36 pm",
@@ -5792,15 +6028,15 @@
    ]
   },
   "JEF": {
-   "n": 3,
+   "n": 0,
    "sig": [
-    3610,
-    "11/03/2026 7:17:47 pm",
+    4102,
+    "11/03/2026 7:53:12 pm",
     0
    ]
   },
   "LAF": {
-   "n": 1,
+   "n": 2,
    "sig": [
     1486,
     "11/03/2026 7:33:55 pm",
@@ -5810,13 +6046,13 @@
   "LAK": {
    "n": 0,
    "sig": [
-    159621,
-    "11/03/2026 7:44:24 pm",
-    79
+    168069,
+    "11/03/2026 7:55:53 pm",
+    88
    ]
   },
   "LEO": {
-   "n": 0,
+   "n": 1,
    "sig": [
     106223,
     "11/03/2026 7:47:05 pm",
@@ -5826,61 +6062,69 @@
   "LEV": {
    "n": 0,
    "sig": [
-    10941,
-    "11/03/2026 7:40:10 pm",
-    3
+    16570,
+    "11/03/2026 7:55:32 pm",
+    11
    ]
   },
   "LIB": {
-   "n": 3,
+   "n": 0,
    "sig": [
-    1525,
-    "11/03/2026 7:15:18 pm",
-    0
+    1892,
+    "11/03/2026 7:55:04 pm",
+    3
+   ]
+  },
+  "MAD": {
+   "n": 0,
+   "sig": [
+    6779,
+    "11/03/2026 7:49:39 pm",
+    10
    ]
   },
   "MAN": {
    "n": 0,
    "sig": [
-    166507,
-    "11/03/2026 7:41:56 pm",
-    54
+    174359,
+    "11/03/2026 7:54:52 pm",
+    64
    ]
   },
   "MON": {
    "n": 0,
    "sig": [
-    31031,
-    "11/03/2026 7:41:44 pm",
-    30
+    32237,
+    "11/03/2026 7:53:52 pm",
+    33
    ]
   },
   "MRN": {
    "n": 0,
    "sig": [
-    93616,
-    "11/03/2026 7:44:33 pm",
-    1
+    98690,
+    "11/03/2026 7:58:30 pm",
+    10
    ]
   },
   "NAS": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    32202,
-    "11/03/2026 7:22:05 pm",
+    47139,
+    "11/03/2026 7:55:48 pm",
     0
    ]
   },
   "OKE": {
    "n": 0,
    "sig": [
-    10721,
-    "11/03/2026 7:49:51 pm",
-    10
+    11202,
+    "11/03/2026 7:59:28 pm",
+    11
    ]
   },
   "PAS": {
-   "n": 0,
+   "n": 1,
    "sig": [
     232482,
     "11/03/2026 7:49:01 pm",
@@ -5888,7 +6132,7 @@
    ]
   },
   "POL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     204860,
     "11/03/2026 7:40:15 pm",
@@ -5896,11 +6140,11 @@
    ]
   },
   "PUT": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    14203,
-    "11/03/2026 7:28:32 pm",
-    0
+    17621,
+    "11/03/2026 7:54:35 pm",
+    13
    ]
   },
   "SAN": {
@@ -5912,7 +6156,7 @@
    ]
   },
   "SAR": {
-   "n": 0,
+   "n": 1,
    "sig": [
     213984,
     "11/03/2026 7:45:42 pm",
@@ -5920,15 +6164,15 @@
    ]
   },
   "SEM": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    178795,
-    "11/03/2026 7:36:58 pm",
-    62
+    191109,
+    "11/03/2026 7:54:16 pm",
+    76
    ]
   },
   "STJ": {
-   "n": 0,
+   "n": 1,
    "sig": [
     146613,
     "11/03/2026 7:47:58 pm",
@@ -5936,7 +6180,7 @@
    ]
   },
   "STL": {
-   "n": 4,
+   "n": 5,
    "sig": [
     64785,
     "11/03/2026 7:06:45 pm",
@@ -5951,8 +6195,16 @@
     33
    ]
   },
+  "SUW": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 7:34:18 pm",
+    0
+   ]
+  },
   "TAY": {
-   "n": 1,
+   "n": 2,
    "sig": [
     3835,
     "11/03/2026 7:37:42 pm",
@@ -5960,19 +6212,19 @@
    ]
   },
   "UNI": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    3462,
-    "11/03/2026 7:39:42 pm",
-    6
+    4303,
+    "11/03/2026 7:56:55 pm",
+    8
    ]
   },
   "WAK": {
    "n": 0,
    "sig": [
-    13504,
-    "11/03/2026 7:45:44 pm",
-    10
+    14244,
+    "11/03/2026 7:54:05 pm",
+    11
    ]
   },
   "WAL": {
@@ -5994,14 +6246,14 @@
  },
  "totals": {
   "1": 3,
-  "2": 114,
-  "3": 213,
+  "2": 127,
+  "3": 214,
   "acked": 107,
-  "alerts": 330
+  "alerts": 344
  },
  "validated": {
   "projections": "20261103-195017",
-  "results": "20261103-195017",
+  "results": "20261103-200025",
   "slow": "20261103-194501",
   "turnout": "20261103-185931"
  },
