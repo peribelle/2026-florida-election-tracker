@@ -1,0 +1,2624 @@
+{
+ "run_id": "20261104-021017",
+ "county_enr": {
+  "counties_ok": 62,
+  "counties_configured": 62,
+  "contests": 1285,
+  "votes": 104267044,
+  "failures": {}
+ },
+ "precincts": {
+  "counties_ok": 37,
+  "counties_configured": 62,
+  "rows": 153633,
+  "votes": 76625741,
+  "failures": {
+   "ALA": "reports HTTP 404",
+   "BAY": "no precinct CSV link",
+   "CAL": "reports HTTP 404",
+   "CLA": "reports HTTP 404",
+   "DES": "reports HTTP 404",
+   "DUV": "reports HTTP 404",
+   "ESC": "reports HTTP 404",
+   "FLA": "reports HTTP 404",
+   "GUL": "reports HTTP 404",
+   "HAM": "reports HTTP 404",
+   "HEN": "reports HTTP 404",
+   "LEO": "reports HTTP 404",
+   "LIB": "reports HTTP 404",
+   "MAN": "reports HTTP 404",
+   "MRN": "no precinct CSV link",
+   "OKA": "reports HTTP 404",
+   "PAL": "no precinct CSV link",
+   "PAS": "no precinct CSV link",
+   "SAN": "no precinct CSV link",
+   "SEM": "reports HTTP 404",
+   "STL": "reports HTTP 404",
+   "SUM": "reports HTTP 404",
+   "SUW": "reports HTTP 404",
+   "UNI": "reports HTTP 404",
+   "WAS": "reports HTTP 404"
+  }
+ },
+ "created_local": "2026-11-04T02:10:17",
+ "created_utc": "2026-11-04T07:10:17+00:00",
+ "counties_reporting": 68,
+ "ballots": 8333641,
+ "eligible": 13704495,
+ "turnout_pct": 60.8095,
+ "contests": {
+  "160000": "Governor and Lieutenant Governor (General)",
+  "160200": "Attorney General (General)",
+  "160500": "Chief Financial Officer (General)",
+  "160800": "Commissioner of Agriculture (General)",
+  "120000": "United States Senator (General)",
+  "140010": "Representative in Congress, District 1 (General)",
+  "140020": "Representative in Congress, District 2 (General)",
+  "140030": "Representative in Congress, District 3 (General)",
+  "140040": "Representative in Congress, District 4 (General)",
+  "140050": "Representative in Congress, District 5 (General)",
+  "140060": "Representative in Congress, District 6 (General)",
+  "140070": "Representative in Congress, District 7 (General)",
+  "140080": "Representative in Congress, District 8 (General)",
+  "140090": "Representative in Congress, District 9 (General)",
+  "140110": "Representative in Congress, District 11 (General)",
+  "140120": "Representative in Congress, District 12 (General)",
+  "140130": "Representative in Congress, District 13 (General)",
+  "140140": "Representative in Congress, District 14 (General)",
+  "140150": "Representative in Congress, District 15 (General)",
+  "140160": "Representative in Congress, District 16 (General)",
+  "140170": "Representative in Congress, District 17 (General)",
+  "140180": "Representative in Congress, District 18 (General)",
+  "140190": "Representative in Congress, District 19 (General)",
+  "140200": "Representative in Congress, District 20 (General)",
+  "140210": "Representative in Congress, District 21 (General)",
+  "140220": "Representative in Congress, District 22 (General)",
+  "140230": "Representative in Congress, District 23 (General)",
+  "140240": "Representative in Congress, District 24 (General)",
+  "140250": "Representative in Congress, District 25 (General)",
+  "140260": "Representative in Congress, District 26 (General)",
+  "140270": "Representative in Congress, District 27 (General)",
+  "140280": "Representative in Congress, District 28 (General)",
+  "240020": "State Senator, District 2 (General)",
+  "240060": "State Senator, District 6 (General)",
+  "240080": "State Senator, District 8 (General)",
+  "240100": "State Senator, District 10 (General)",
+  "240120": "State Senator, District 12 (General)",
+  "240140": "State Senator, District 14 (General)",
+  "240180": "State Senator, District 18 (General)",
+  "240200": "State Senator, District 20 (General)",
+  "240210": "State Senator, District 21 (General)",
+  "240220": "State Senator, District 22 (General)",
+  "240240": "State Senator, District 24 (General)",
+  "240260": "State Senator, District 26 (General)",
+  "240280": "State Senator, District 28 (General)",
+  "240300": "State Senator, District 30 (General)",
+  "240320": "State Senator, District 32 (General)",
+  "240340": "State Senator, District 34 (General)",
+  "240360": "State Senator, District 36 (General)",
+  "240380": "State Senator, District 38 (General)",
+  "240400": "State Senator, District 40 (General)",
+  "260010": "State Representative, District 1 (General)",
+  "260020": "State Representative, District 2 (General)",
+  "260030": "State Representative, District 3 (General)",
+  "260040": "State Representative, District 4 (General)",
+  "260050": "State Representative, District 5 (General)",
+  "260060": "State Representative, District 6 (General)",
+  "260090": "State Representative, District 9 (General)",
+  "260100": "State Representative, District 10 (General)",
+  "260120": "State Representative, District 12 (General)",
+  "260150": "State Representative, District 15 (General)",
+  "260170": "State Representative, District 17 (General)",
+  "260180": "State Representative, District 18 (General)",
+  "260190": "State Representative, District 19 (General)",
+  "260200": "State Representative, District 20 (General)",
+  "260220": "State Representative, District 22 (General)",
+  "260230": "State Representative, District 23 (General)",
+  "260250": "State Representative, District 25 (General)",
+  "260260": "State Representative, District 26 (General)",
+  "260270": "State Representative, District 27 (General)",
+  "260280": "State Representative, District 28 (General)",
+  "260290": "State Representative, District 29 (General)",
+  "260300": "State Representative, District 30 (General)",
+  "260310": "State Representative, District 31 (General)",
+  "260320": "State Representative, District 32 (General)",
+  "260330": "State Representative, District 33 (General)",
+  "260340": "State Representative, District 34 (General)",
+  "260350": "State Representative, District 35 (General)",
+  "260360": "State Representative, District 36 (General)",
+  "260370": "State Representative, District 37 (General)",
+  "260380": "State Representative, District 38 (General)",
+  "260390": "State Representative, District 39 (General)",
+  "260400": "State Representative, District 40 (General)",
+  "260420": "State Representative, District 42 (General)",
+  "260430": "State Representative, District 43 (General)",
+  "260450": "State Representative, District 45 (General)",
+  "260460": "State Representative, District 46 (General)",
+  "260480": "State Representative, District 48 (General)",
+  "260490": "State Representative, District 49 (General)",
+  "260500": "State Representative, District 50 (General)",
+  "260510": "State Representative, District 51 (General)",
+  "260520": "State Representative, District 52 (General)",
+  "260530": "State Representative, District 53 (General)",
+  "260550": "State Representative, District 55 (General)",
+  "260560": "State Representative, District 56 (General)",
+  "260570": "State Representative, District 57 (General)",
+  "260580": "State Representative, District 58 (General)",
+  "260590": "State Representative, District 59 (General)",
+  "260600": "State Representative, District 60 (General)",
+  "260610": "State Representative, District 61 (General)",
+  "260640": "State Representative, District 64 (General)",
+  "260650": "State Representative, District 65 (General)",
+  "260660": "State Representative, District 66 (General)",
+  "260670": "State Representative, District 67 (General)",
+  "260680": "State Representative, District 68 (General)",
+  "260690": "State Representative, District 69 (General)",
+  "260700": "State Representative, District 70 (General)",
+  "260710": "State Representative, District 71 (General)",
+  "260720": "State Representative, District 72 (General)",
+  "260730": "State Representative, District 73 (General)",
+  "260740": "State Representative, District 74 (General)",
+  "260750": "State Representative, District 75 (General)",
+  "260760": "State Representative, District 76 (General)",
+  "260770": "State Representative, District 77 (General)",
+  "260780": "State Representative, District 78 (General)",
+  "260800": "State Representative, District 80 (General)",
+  "260810": "State Representative, District 81 (General)",
+  "260820": "State Representative, District 82 (General)",
+  "260830": "State Representative, District 83 (General)",
+  "260840": "State Representative, District 84 (General)",
+  "260850": "State Representative, District 85 (General)",
+  "260860": "State Representative, District 86 (General)",
+  "260870": "State Representative, District 87 (General)",
+  "260880": "State Representative, District 88 (General)",
+  "260890": "State Representative, District 89 (General)",
+  "260900": "State Representative, District 90 (General)",
+  "260910": "State Representative, District 91 (General)",
+  "260920": "State Representative, District 92 (General)",
+  "260930": "State Representative, District 93 (General)",
+  "260940": "State Representative, District 94 (General)",
+  "261000": "State Representative, District 100 (General)",
+  "261010": "State Representative, District 101 (General)",
+  "261020": "State Representative, District 102 (General)",
+  "261030": "State Representative, District 103 (General)",
+  "261060": "State Representative, District 106 (General)",
+  "261080": "State Representative, District 108 (General)",
+  "261130": "State Representative, District 113 (General)",
+  "261150": "State Representative, District 115 (General)",
+  "261160": "State Representative, District 116 (General)",
+  "261170": "State Representative, District 117 (General)",
+  "261180": "State Representative, District 118 (General)",
+  "261190": "State Representative, District 119 (General)",
+  "500001": "Shall Justice Carlos G. Mu\u00f1iz be retained in Office? (Nonpartisan)",
+  "520101": "Shall Judge Joseph Lewis Jr. be retained in Office? (Nonpartisan)",
+  "520102": "Shall Judge Rachel Nordby be retained in Office? (Nonpartisan)",
+  "520103": "Shall Judge Tim Osterhaus be retained in Office? (Nonpartisan)",
+  "520104": "Shall Judge Clay Roberts be retained in Office? (Nonpartisan)",
+  "520105": "Shall Judge Raymond Treadwell be retained in Office? (Nonpartisan)",
+  "520201": "Shall Judge Drew Atkinson be retained in Office? (Nonpartisan)",
+  "520202": "Shall Judge Morris Silberman be retained in Office? (Nonpartisan)",
+  "520203": "Shall Judge Daniel H. Sleet be retained in Office? (Nonpartisan)",
+  "520204": "Shall Judge Andrea Teves Smith be retained in Office? (Nonpartisan)",
+  "520301": "Shall Judge Kansas R. Gooden be retained in Office? (Nonpartisan)",
+  "520302": "Shall Judge Monica Gordo be retained in Office? (Nonpartisan)",
+  "520303": "Shall Judge Fleur Jeannine Lobree be retained in Office? (Nonpartisan)",
+  "520304": "Shall Judge Thomas Logue be retained in Office? (Nonpartisan)",
+  "520305": "Shall Judge Bronwyn Catherine Miller be retained in Office? (Nonpartisan)",
+  "520401": "Shall Judge Alan O. Forst be retained in Office? (Nonpartisan)",
+  "520402": "Shall Judge Mark W. Klingensmith be retained in Office? (Nonpartisan)",
+  "520403": "Shall Judge Johnathan D. Lott be retained in Office? (Nonpartisan)",
+  "520404": "Shall Judge Shannon K. Shaw be retained in Office? (Nonpartisan)",
+  "520405": "Shall Judge Caroline Cahill Shepherd be retained in Office? (Nonpartisan)",
+  "520501": "Shall Judge John M. Harris be retained in Office? (Nonpartisan)",
+  "520502": "Shall Judge Scott D. Makar be retained in Office? (Nonpartisan)",
+  "520503": "Shall Judge F. Rand Wallis be retained in Office? (Nonpartisan)",
+  "550901": "Circuit Judge, 9th Judicial Circuit, Group 1 (Nonpartisan)",
+  "551105": "Circuit Judge, 11th Judicial Circuit, Group 5 (Nonpartisan)",
+  "551169": "Circuit Judge, 11th Judicial Circuit, Group 69 (Nonpartisan)",
+  "551752": "Circuit Judge, 17th Judicial Circuit, Group 52 (Nonpartisan)",
+  "900001": "Budget Stabilization Fund (Nonpartisan)",
+  "900002": "Exemption of Tangible Personal Property on Agricultural Land From Taxation (Nonpartisan)",
+  "900003": "Increased Homestead Exemption; Lower Cap On Increases In Non-Homestead Property Assessments (Nonpartisan)"
+ },
+ "statewide": [
+  {
+   "contest": "Increased Homestead Exemption; Lower Cap On Increases In Non-Homestead Property Assessments (Nonpartisan)",
+   "candidate": "Yes for Approval",
+   "party": "",
+   "votes": 4916954
+  },
+  {
+   "contest": "Budget Stabilization Fund (Nonpartisan)",
+   "candidate": "No for Rejection",
+   "party": "",
+   "votes": 4579950
+  },
+  {
+   "contest": "Exemption of Tangible Personal Property on Agricultural Land From Taxation (Nonpartisan)",
+   "candidate": "Yes for Approval",
+   "party": "",
+   "votes": 4542101
+  },
+  {
+   "contest": "Shall Justice Carlos G. Mu\u00f1iz be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 4296033
+  },
+  {
+   "contest": "United States Senator (General)",
+   "candidate": "Ashley Moody",
+   "party": "REP",
+   "votes": 4207426
+  },
+  {
+   "contest": "Attorney General (General)",
+   "candidate": "James Uthmeier",
+   "party": "REP",
+   "votes": 4177332
+  },
+  {
+   "contest": "Commissioner of Agriculture (General)",
+   "candidate": "Wilton Simpson",
+   "party": "REP",
+   "votes": 4160012
+  },
+  {
+   "contest": "Chief Financial Officer (General)",
+   "candidate": "Blaise Ingoglia",
+   "party": "REP",
+   "votes": 4151036
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "Byron Donalds and Bryan Avila",
+   "party": "REP",
+   "votes": 4131777
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "David Jolly and Gwen Graham",
+   "party": "DEM",
+   "votes": 4023425
+  },
+  {
+   "contest": "Attorney General (General)",
+   "candidate": "Jose Javier Rodriguez",
+   "party": "DEM",
+   "votes": 4023327
+  },
+  {
+   "contest": "Chief Financial Officer (General)",
+   "candidate": "Annette Taddeo",
+   "party": "DEM",
+   "votes": 3996693
+  },
+  {
+   "contest": "Commissioner of Agriculture (General)",
+   "candidate": "Joey Mendoza Atkins",
+   "party": "DEM",
+   "votes": 3983399
+  },
+  {
+   "contest": "United States Senator (General)",
+   "candidate": "Angie Nixon",
+   "party": "DEM",
+   "votes": 3968054
+  },
+  {
+   "contest": "Exemption of Tangible Personal Property on Agricultural Land From Taxation (Nonpartisan)",
+   "candidate": "No for Rejection",
+   "party": "",
+   "votes": 3259919
+  },
+  {
+   "contest": "Budget Stabilization Fund (Nonpartisan)",
+   "candidate": "Yes for Approval",
+   "party": "",
+   "votes": 3169924
+  },
+  {
+   "contest": "Shall Justice Carlos G. Mu\u00f1iz be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 3150020
+  },
+  {
+   "contest": "Increased Homestead Exemption; Lower Cap On Increases In Non-Homestead Property Assessments (Nonpartisan)",
+   "candidate": "No for Rejection",
+   "party": "",
+   "votes": 3015349
+  },
+  {
+   "contest": "Shall Judge John M. Harris be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 1168192
+  },
+  {
+   "contest": "Shall Judge Scott D. Makar be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 1142924
+  },
+  {
+   "contest": "Shall Judge F. Rand Wallis be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 1127841
+  },
+  {
+   "contest": "Shall Judge Morris Silberman be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 912702
+  },
+  {
+   "contest": "Shall Judge Andrea Teves Smith be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 905721
+  },
+  {
+   "contest": "Shall Judge Drew Atkinson be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 872773
+  },
+  {
+   "contest": "Shall Judge Daniel H. Sleet be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 867314
+  },
+  {
+   "contest": "Shall Judge Caroline Cahill Shepherd be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 780817
+  },
+  {
+   "contest": "Shall Judge Shannon K. Shaw be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 770684
+  },
+  {
+   "contest": "Shall Judge Alan O. Forst be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 757125
+  },
+  {
+   "contest": "Shall Judge Johnathan D. Lott be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 751419
+  },
+  {
+   "contest": "Shall Judge Mark W. Klingensmith be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 738388
+  },
+  {
+   "contest": "Shall Judge F. Rand Wallis be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 668628
+  },
+  {
+   "contest": "Shall Judge Scott D. Makar be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 662061
+  },
+  {
+   "contest": "Shall Judge John M. Harris be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 650254
+  },
+  {
+   "contest": "Shall Judge Mark W. Klingensmith be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 607599
+  },
+  {
+   "contest": "Shall Judge Alan O. Forst be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 601146
+  },
+  {
+   "contest": "Shall Judge Johnathan D. Lott be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 594326
+  },
+  {
+   "contest": "Shall Judge Shannon K. Shaw be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 576524
+  },
+  {
+   "contest": "Shall Judge Caroline Cahill Shepherd be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 564951
+  },
+  {
+   "contest": "Shall Judge Drew Atkinson be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 527229
+  },
+  {
+   "contest": "Shall Judge Daniel H. Sleet be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 523370
+  },
+  {
+   "contest": "Shall Judge Andrea Teves Smith be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 484038
+  },
+  {
+   "contest": "Shall Judge Morris Silberman be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 478637
+  },
+  {
+   "contest": "Shall Judge Monica Gordo be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 456842
+  },
+  {
+   "contest": "Shall Judge Thomas Logue be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 454567
+  },
+  {
+   "contest": "Shall Judge Fleur Jeannine Lobree be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 445249
+  },
+  {
+   "contest": "Shall Judge Joseph Lewis Jr. be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 442366
+  },
+  {
+   "contest": "Shall Judge Bronwyn Catherine Miller be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 437951
+  },
+  {
+   "contest": "Shall Judge Kansas R. Gooden be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 435777
+  },
+  {
+   "contest": "Shall Judge Rachel Nordby be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 426757
+  },
+  {
+   "contest": "Shall Judge Raymond Treadwell be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 423754
+  },
+  {
+   "contest": "Shall Judge Tim Osterhaus be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 419933
+  },
+  {
+   "contest": "Shall Judge Clay Roberts be retained in Office? (Nonpartisan)",
+   "candidate": "Yes",
+   "party": "",
+   "votes": 418510
+  },
+  {
+   "contest": "Circuit Judge, 11th Judicial Circuit, Group 69 (Nonpartisan)",
+   "candidate": "Rita Maria Baez",
+   "party": "",
+   "votes": 398905
+  },
+  {
+   "contest": "Circuit Judge, 9th Judicial Circuit, Group 1 (Nonpartisan)",
+   "candidate": "Temika Hampton-Johnson",
+   "party": "",
+   "votes": 352944
+  },
+  {
+   "contest": "Circuit Judge, 11th Judicial Circuit, Group 5 (Nonpartisan)",
+   "candidate": "Arthur LeMar \"Marty\" McNeil",
+   "party": "",
+   "votes": 349614
+  },
+  {
+   "contest": "Circuit Judge, 11th Judicial Circuit, Group 5 (Nonpartisan)",
+   "candidate": "Monica Segura",
+   "party": "",
+   "votes": 332064
+  },
+  {
+   "contest": "Shall Judge Clay Roberts be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 306179
+  },
+  {
+   "contest": "Shall Judge Tim Osterhaus be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 304956
+  },
+  {
+   "contest": "Circuit Judge, 17th Judicial Circuit, Group 52 (Nonpartisan)",
+   "candidate": "Tamar Hamilton",
+   "party": "",
+   "votes": 304073
+  },
+  {
+   "contest": "Shall Judge Raymond Treadwell be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 300782
+  },
+  {
+   "contest": "Shall Judge Rachel Nordby be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 299104
+  },
+  {
+   "contest": "Shall Judge Kansas R. Gooden be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 298128
+  },
+  {
+   "contest": "Shall Judge Bronwyn Catherine Miller be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 290776
+  },
+  {
+   "contest": "Shall Judge Joseph Lewis Jr. be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 286982
+  },
+  {
+   "contest": "Shall Judge Fleur Jeannine Lobree be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 285519
+  },
+  {
+   "contest": "Circuit Judge, 11th Judicial Circuit, Group 69 (Nonpartisan)",
+   "candidate": "Bonita Jones-Peabody",
+   "party": "",
+   "votes": 284945
+  },
+  {
+   "contest": "Shall Judge Monica Gordo be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 276491
+  },
+  {
+   "contest": "Shall Judge Thomas Logue be retained in Office? (Nonpartisan)",
+   "candidate": "No",
+   "party": "",
+   "votes": 274354
+  },
+  {
+   "contest": "Circuit Judge, 17th Judicial Circuit, Group 52 (Nonpartisan)",
+   "candidate": "David Andrew Fry",
+   "party": "",
+   "votes": 261237
+  },
+  {
+   "contest": "Representative in Congress, District 17 (General)",
+   "candidate": "Greg Steube",
+   "party": "REP",
+   "votes": 209055
+  },
+  {
+   "contest": "Representative in Congress, District 19 (General)",
+   "candidate": "Jim Schwartzel",
+   "party": "REP",
+   "votes": 198668
+  },
+  {
+   "contest": "Representative in Congress, District 6 (General)",
+   "candidate": "Randy Fine",
+   "party": "REP",
+   "votes": 195252
+  },
+  {
+   "contest": "Representative in Congress, District 11 (General)",
+   "candidate": "Joe Strada",
+   "party": "REP",
+   "votes": 193518
+  },
+  {
+   "contest": "Circuit Judge, 9th Judicial Circuit, Group 1 (Nonpartisan)",
+   "candidate": "Charles Hart",
+   "party": "",
+   "votes": 192642
+  },
+  {
+   "contest": "Representative in Congress, District 5 (General)",
+   "candidate": "John H. Rutherford",
+   "party": "REP",
+   "votes": 187877
+  },
+  {
+   "contest": "Representative in Congress, District 21 (General)",
+   "candidate": "Brian Mast",
+   "party": "REP",
+   "votes": 183695
+  },
+  {
+   "contest": "Representative in Congress, District 20 (General)",
+   "candidate": "Debbie Wasserman Schultz",
+   "party": "DEM",
+   "votes": 182554
+  },
+  {
+   "contest": "Representative in Congress, District 1 (General)",
+   "candidate": "Jimmy Patronis",
+   "party": "REP",
+   "votes": 181723
+  },
+  {
+   "contest": "Representative in Congress, District 16 (General)",
+   "candidate": "Sydney Gruters",
+   "party": "REP",
+   "votes": 175512
+  },
+  {
+   "contest": "Representative in Congress, District 8 (General)",
+   "candidate": "Mike Haridopolos",
+   "party": "REP",
+   "votes": 169863
+  },
+  {
+   "contest": "Representative in Congress, District 23 (General)",
+   "candidate": "Lois Frankel",
+   "party": "DEM",
+   "votes": 169367
+  },
+  {
+   "contest": "Representative in Congress, District 11 (General)",
+   "candidate": "James Pericola",
+   "party": "DEM",
+   "votes": 168108
+  },
+  {
+   "contest": "Representative in Congress, District 3 (General)",
+   "candidate": "Kat Cammack",
+   "party": "REP",
+   "votes": 165313
+  },
+  {
+   "contest": "Representative in Congress, District 24 (General)",
+   "candidate": "Oliver G. Gilbert III",
+   "party": "DEM",
+   "votes": 164819
+  },
+  {
+   "contest": "Representative in Congress, District 15 (General)",
+   "candidate": "Laurel Lee",
+   "party": "REP",
+   "votes": 163251
+  },
+  {
+   "contest": "Representative in Congress, District 7 (General)",
+   "candidate": "Ryan Elijah",
+   "party": "REP",
+   "votes": 161019
+  },
+  {
+   "contest": "Representative in Congress, District 2 (General)",
+   "candidate": "Austin Rogers",
+   "party": "REP",
+   "votes": 160968
+  },
+  {
+   "contest": "Representative in Congress, District 16 (General)",
+   "candidate": "Kelly Kirschner",
+   "party": "DEM",
+   "votes": 160942
+  },
+  {
+   "contest": "Representative in Congress, District 7 (General)",
+   "candidate": "Bale Dalton",
+   "party": "DEM",
+   "votes": 159113
+  },
+  {
+   "contest": "Representative in Congress, District 13 (General)",
+   "candidate": "Anna Paulina Luna",
+   "party": "REP",
+   "votes": 155117
+  },
+  {
+   "contest": "Representative in Congress, District 14 (General)",
+   "candidate": "Kathy Castor",
+   "party": "DEM",
+   "votes": 153586
+  },
+  {
+   "contest": "Representative in Congress, District 22 (General)",
+   "candidate": "Pia Dandiya",
+   "party": "DEM",
+   "votes": 152950
+  },
+  {
+   "contest": "Representative in Congress, District 13 (General)",
+   "candidate": "Leela Gray",
+   "party": "DEM",
+   "votes": 152600
+  },
+  {
+   "contest": "Representative in Congress, District 21 (General)",
+   "candidate": "James T. Martin",
+   "party": "DEM",
+   "votes": 152319
+  },
+  {
+   "contest": "Representative in Congress, District 4 (General)",
+   "candidate": "Aaron Bean",
+   "party": "REP",
+   "votes": 151095
+  },
+  {
+   "contest": "Representative in Congress, District 12 (General)",
+   "candidate": "Gus Michael Bilirakis",
+   "party": "REP",
+   "votes": 150746
+  },
+  {
+   "contest": "Representative in Congress, District 8 (General)",
+   "candidate": "Jennifer Jenkins",
+   "party": "DEM",
+   "votes": 149586
+  },
+  {
+   "contest": "Representative in Congress, District 2 (General)",
+   "candidate": "Amanda Marie Green",
+   "party": "DEM",
+   "votes": 147791
+  },
+  {
+   "contest": "State Senator, District 22 (General)",
+   "candidate": "James Buchanan",
+   "party": "REP",
+   "votes": 146978
+  },
+  {
+   "contest": "State Senator, District 2 (General)",
+   "candidate": "Jay Trumbull",
+   "party": "REP",
+   "votes": 145305
+  },
+  {
+   "contest": "Representative in Congress, District 5 (General)",
+   "candidate": "Rachel Grage",
+   "party": "DEM",
+   "votes": 145081
+  },
+  {
+   "contest": "Representative in Congress, District 4 (General)",
+   "candidate": "LaShonda \"L.J.\" Holloway",
+   "party": "DEM",
+   "votes": 144752
+  },
+  {
+   "contest": "Representative in Congress, District 25 (General)",
+   "candidate": "Jared Moskowitz",
+   "party": "DEM",
+   "votes": 143639
+  },
+  {
+   "contest": "Representative in Congress, District 17 (General)",
+   "candidate": "Matthew Montavon",
+   "party": "DEM",
+   "votes": 143570
+  },
+  {
+   "contest": "Representative in Congress, District 9 (General)",
+   "candidate": "Darren Soto",
+   "party": "DEM",
+   "votes": 143174
+  },
+  {
+   "contest": "State Senator, District 32 (General)",
+   "candidate": "Rosalind Osgood",
+   "party": "DEM",
+   "votes": 142838
+  },
+  {
+   "contest": "State Senator, District 28 (General)",
+   "candidate": "Lauren Uhlich Melo",
+   "party": "REP",
+   "votes": 142378
+  },
+  {
+   "contest": "Representative in Congress, District 22 (General)",
+   "candidate": "Casey Askar",
+   "party": "REP",
+   "votes": 141856
+  },
+  {
+   "contest": "Representative in Congress, District 9 (General)",
+   "candidate": "Dan Green",
+   "party": "REP",
+   "votes": 141697
+  },
+  {
+   "contest": "Representative in Congress, District 14 (General)",
+   "candidate": "Mike Beltran",
+   "party": "REP",
+   "votes": 137599
+  },
+  {
+   "contest": "Representative in Congress, District 18 (General)",
+   "candidate": "Scott Franklin",
+   "party": "REP",
+   "votes": 137590
+  },
+  {
+   "contest": "Representative in Congress, District 15 (General)",
+   "candidate": "Robert People",
+   "party": "DEM",
+   "votes": 137390
+  },
+  {
+   "contest": "State Senator, District 26 (General)",
+   "candidate": "David Silvers",
+   "party": "DEM",
+   "votes": 134895
+  },
+  {
+   "contest": "State Senator, District 20 (General)",
+   "candidate": "Jim Boyd",
+   "party": "REP",
+   "votes": 134453
+  },
+  {
+   "contest": "Representative in Congress, District 6 (General)",
+   "candidate": "Eric Yonce",
+   "party": "DEM",
+   "votes": 132264
+  },
+  {
+   "contest": "Representative in Congress, District 12 (General)",
+   "candidate": "Kimberly Overman",
+   "party": "DEM",
+   "votes": 131309
+  },
+  {
+   "contest": "Representative in Congress, District 25 (General)",
+   "candidate": "Scott Singer",
+   "party": "REP",
+   "votes": 130728
+  },
+  {
+   "contest": "State Senator, District 21 (General)",
+   "candidate": "Chris Nocco",
+   "party": "REP",
+   "votes": 129015
+  },
+  {
+   "contest": "Representative in Congress, District 3 (General)",
+   "candidate": "Seth Harp",
+   "party": "DEM",
+   "votes": 128866
+  },
+  {
+   "contest": "Representative in Congress, District 18 (General)",
+   "candidate": "Curtis Gibson",
+   "party": "DEM",
+   "votes": 127564
+  },
+  {
+   "contest": "State Senator, District 8 (General)",
+   "candidate": "Jake Johansson",
+   "party": "REP",
+   "votes": 124994
+  },
+  {
+   "contest": "Representative in Congress, District 28 (General)",
+   "candidate": "Carlos A. Gimenez",
+   "party": "REP",
+   "votes": 124978
+  },
+  {
+   "contest": "State Senator, District 10 (General)",
+   "candidate": "John Lowndes",
+   "party": "DEM",
+   "votes": 124629
+  },
+  {
+   "contest": "Representative in Congress, District 27 (General)",
+   "candidate": "Maria Elvira Salazar",
+   "party": "REP",
+   "votes": 124474
+  },
+  {
+   "contest": "Representative in Congress, District 27 (General)",
+   "candidate": "Eliott Rodriguez",
+   "party": "DEM",
+   "votes": 123358
+  },
+  {
+   "contest": "Representative in Congress, District 19 (General)",
+   "candidate": "Victor Arias",
+   "party": "DEM",
+   "votes": 122351
+  },
+  {
+   "contest": "State Senator, District 6 (General)",
+   "candidate": "Jennifer Bradley",
+   "party": "REP",
+   "votes": 122289
+  },
+  {
+   "contest": "State Senator, District 34 (General)",
+   "candidate": "Ashley Viola Gantt",
+   "party": "DEM",
+   "votes": 115413
+  },
+  {
+   "contest": "State Senator, District 30 (General)",
+   "candidate": "Lauren Book",
+   "party": "DEM",
+   "votes": 115047
+  },
+  {
+   "contest": "Representative in Congress, District 26 (General)",
+   "candidate": "Mario Diaz-Balart",
+   "party": "REP",
+   "votes": 114547
+  },
+  {
+   "contest": "Representative in Congress, District 26 (General)",
+   "candidate": "Nicole Locklin",
+   "party": "DEM",
+   "votes": 112775
+  },
+  {
+   "contest": "State Senator, District 22 (General)",
+   "candidate": "Lew Wasserman",
+   "party": "DEM",
+   "votes": 109594
+  },
+  {
+   "contest": "State Senator, District 18 (General)",
+   "candidate": "Nick DiCeglie",
+   "party": "REP",
+   "votes": 108336
+  },
+  {
+   "contest": "Representative in Congress, District 28 (General)",
+   "candidate": "Phil \"Felipe\" Ehr",
+   "party": "DEM",
+   "votes": 107839
+  },
+  {
+   "contest": "State Senator, District 20 (General)",
+   "candidate": "Gerald Baldi",
+   "party": "DEM",
+   "votes": 106534
+  },
+  {
+   "contest": "State Senator, District 18 (General)",
+   "candidate": "Karla Kemp",
+   "party": "DEM",
+   "votes": 104578
+  },
+  {
+   "contest": "Representative in Congress, District 1 (General)",
+   "candidate": "Gay Valimont",
+   "party": "DEM",
+   "votes": 103429
+  },
+  {
+   "contest": "State Senator, District 14 (General)",
+   "candidate": "Brian Nathan",
+   "party": "DEM",
+   "votes": 101132
+  },
+  {
+   "contest": "State Senator, District 24 (General)",
+   "candidate": "Mack Bernard",
+   "party": "DEM",
+   "votes": 99404
+  },
+  {
+   "contest": "State Senator, District 10 (General)",
+   "candidate": "Jason Brodeur",
+   "party": "REP",
+   "votes": 98286
+  },
+  {
+   "contest": "State Senator, District 26 (General)",
+   "candidate": "Rick Roth",
+   "party": "REP",
+   "votes": 97608
+  },
+  {
+   "contest": "State Senator, District 8 (General)",
+   "candidate": "Judy M. Ngying",
+   "party": "DEM",
+   "votes": 96248
+  },
+  {
+   "contest": "State Senator, District 40 (General)",
+   "candidate": "Ana Maria Rodriguez",
+   "party": "REP",
+   "votes": 95323
+  },
+  {
+   "contest": "State Senator, District 21 (General)",
+   "candidate": "Jordan Hensley",
+   "party": "DEM",
+   "votes": 94570
+  },
+  {
+   "contest": "United States Senator (General)",
+   "candidate": "Neil J. Gillespie",
+   "party": "NPA",
+   "votes": 94516
+  },
+  {
+   "contest": "State Senator, District 12 (General)",
+   "candidate": "Colleen Burton",
+   "party": "REP",
+   "votes": 93924
+  },
+  {
+   "contest": "State Senator, District 38 (General)",
+   "candidate": "Alexis Maria Calatayud",
+   "party": "REP",
+   "votes": 92939
+  },
+  {
+   "contest": "State Senator, District 12 (General)",
+   "candidate": "Alfred Reynolds",
+   "party": "DEM",
+   "votes": 92605
+  },
+  {
+   "contest": "State Senator, District 14 (General)",
+   "candidate": "Josie Tomkow",
+   "party": "REP",
+   "votes": 92469
+  },
+  {
+   "contest": "State Senator, District 38 (General)",
+   "candidate": "Richard Lamondin Jr.",
+   "party": "DEM",
+   "votes": 91363
+  },
+  {
+   "contest": "Representative in Congress, District 23 (General)",
+   "candidate": "Deborah Adeimy",
+   "party": "REP",
+   "votes": 88725
+  },
+  {
+   "contest": "State Senator, District 28 (General)",
+   "candidate": "David Silverberg",
+   "party": "DEM",
+   "votes": 86454
+  },
+  {
+   "contest": "State Senator, District 6 (General)",
+   "candidate": "Jason Bellamy-Fults",
+   "party": "DEM",
+   "votes": 85682
+  },
+  {
+   "contest": "State Representative, District 52 (General)",
+   "candidate": "Samantha Scott",
+   "party": "REP",
+   "votes": 80376
+  },
+  {
+   "contest": "State Senator, District 40 (General)",
+   "candidate": "Jose Antonio Stoute",
+   "party": "DEM",
+   "votes": 75390
+  },
+  {
+   "contest": "State Senator, District 36 (General)",
+   "candidate": "Ileana Garcia",
+   "party": "REP",
+   "votes": 71103
+  },
+  {
+   "contest": "State Senator, District 36 (General)",
+   "candidate": "George Lav\u00edn",
+   "party": "DEM",
+   "votes": 69431
+  },
+  {
+   "contest": "State Representative, District 18 (General)",
+   "candidate": "Kim Kendall",
+   "party": "REP",
+   "votes": 69147
+  },
+  {
+   "contest": "State Senator, District 30 (General)",
+   "candidate": "Hector Rivera",
+   "party": "REP",
+   "votes": 68064
+  },
+  {
+   "contest": "State Representative, District 75 (General)",
+   "candidate": "Danny Nix Jr.",
+   "party": "REP",
+   "votes": 62839
+  },
+  {
+   "contest": "State Representative, District 23 (General)",
+   "candidate": "J.J. Grow",
+   "party": "REP",
+   "votes": 61262
+  },
+  {
+   "contest": "State Representative, District 80 (General)",
+   "candidate": "Adam Botana",
+   "party": "REP",
+   "votes": 59779
+  },
+  {
+   "contest": "State Senator, District 2 (General)",
+   "candidate": "Lauren Donahoo",
+   "party": "DEM",
+   "votes": 57177
+  },
+  {
+   "contest": "State Representative, District 81 (General)",
+   "candidate": "Yvette Benarroch",
+   "party": "REP",
+   "votes": 56972
+  },
+  {
+   "contest": "State Representative, District 9 (General)",
+   "candidate": "Allison Tant",
+   "party": "DEM",
+   "votes": 56893
+  },
+  {
+   "contest": "State Representative, District 72 (General)",
+   "candidate": "William \"Bill\" Conerly",
+   "party": "REP",
+   "votes": 56162
+  },
+  {
+   "contest": "State Representative, District 34 (General)",
+   "candidate": "Robert Brackett",
+   "party": "REP",
+   "votes": 54959
+  },
+  {
+   "contest": "State Representative, District 15 (General)",
+   "candidate": "Dean Black",
+   "party": "REP",
+   "votes": 54634
+  },
+  {
+   "contest": "State Senator, District 24 (General)",
+   "candidate": "Jackie Green",
+   "party": "REP",
+   "votes": 54546
+  },
+  {
+   "contest": "State Representative, District 74 (General)",
+   "candidate": "Nick Pachota",
+   "party": "REP",
+   "votes": 54534
+  },
+  {
+   "contest": "State Representative, District 19 (General)",
+   "candidate": "Sam Greco",
+   "party": "REP",
+   "votes": 54263
+  },
+  {
+   "contest": "State Representative, District 76 (General)",
+   "candidate": "Vanessa Oliver",
+   "party": "REP",
+   "votes": 54208
+  },
+  {
+   "contest": "State Representative, District 5 (General)",
+   "candidate": "Shane Abbott",
+   "party": "REP",
+   "votes": 53977
+  },
+  {
+   "contest": "Representative in Congress, District 20 (General)",
+   "candidate": "Brent Andersen",
+   "party": "REP",
+   "votes": 53361
+  },
+  {
+   "contest": "State Representative, District 92 (General)",
+   "candidate": "Kelly Skidmore",
+   "party": "DEM",
+   "votes": 51647
+  },
+  {
+   "contest": "State Representative, District 20 (General)",
+   "candidate": "Judson Sapp",
+   "party": "REP",
+   "votes": 51641
+  },
+  {
+   "contest": "State Representative, District 30 (General)",
+   "candidate": "Chase Tramont",
+   "party": "REP",
+   "votes": 51340
+  },
+  {
+   "contest": "State Representative, District 86 (General)",
+   "candidate": "John Snyder",
+   "party": "REP",
+   "votes": 50942
+  },
+  {
+   "contest": "State Representative, District 55 (General)",
+   "candidate": "Walter Price",
+   "party": "REP",
+   "votes": 50934
+  },
+  {
+   "contest": "State Representative, District 27 (General)",
+   "candidate": "Richard Gentry",
+   "party": "REP",
+   "votes": 50866
+  },
+  {
+   "contest": "State Representative, District 32 (General)",
+   "candidate": "Brian Hodgers",
+   "party": "REP",
+   "votes": 49854
+  },
+  {
+   "contest": "State Representative, District 42 (General)",
+   "candidate": "Felipe Sousa Lazaballet",
+   "party": "DEM",
+   "votes": 49752
+  },
+  {
+   "contest": "State Representative, District 3 (General)",
+   "candidate": "Nathan Boyles",
+   "party": "REP",
+   "votes": 49676
+  },
+  {
+   "contest": "State Representative, District 70 (General)",
+   "candidate": "Michael Owen",
+   "party": "REP",
+   "votes": 49343
+  },
+  {
+   "contest": "State Representative, District 6 (General)",
+   "candidate": "Tricia Berry",
+   "party": "REP",
+   "votes": 48328
+  },
+  {
+   "contest": "State Representative, District 73 (General)",
+   "candidate": "Fiona McFarland",
+   "party": "REP",
+   "votes": 47836
+  },
+  {
+   "contest": "State Representative, District 103 (General)",
+   "candidate": "Robin Bartleman",
+   "party": "DEM",
+   "votes": 47287
+  },
+  {
+   "contest": "State Representative, District 26 (General)",
+   "candidate": "Nan Cobb",
+   "party": "REP",
+   "votes": 47212
+  },
+  {
+   "contest": "State Representative, District 57 (General)",
+   "candidate": "Adam C. Anderson",
+   "party": "REP",
+   "votes": 46960
+  },
+  {
+   "contest": "State Representative, District 31 (General)",
+   "candidate": "Matt Woodside",
+   "party": "REP",
+   "votes": 46783
+  },
+  {
+   "contest": "State Representative, District 70 (General)",
+   "candidate": "Luther Keith Wilkins",
+   "party": "DEM",
+   "votes": 44734
+  },
+  {
+   "contest": "State Representative, District 25 (General)",
+   "candidate": "Taylor Yarkosky",
+   "party": "REP",
+   "votes": 44414
+  },
+  {
+   "contest": "State Representative, District 53 (General)",
+   "candidate": "Brian Hawkins",
+   "party": "REP",
+   "votes": 44369
+  },
+  {
+   "contest": "State Representative, District 10 (General)",
+   "candidate": "Marshall Rawson",
+   "party": "REP",
+   "votes": 43597
+  },
+  {
+   "contest": "State Representative, District 4 (General)",
+   "candidate": "Patt Maney",
+   "party": "REP",
+   "votes": 43524
+  },
+  {
+   "contest": "State Representative, District 85 (General)",
+   "candidate": "Anthony Bonna",
+   "party": "REP",
+   "votes": 42894
+  },
+  {
+   "contest": "State Representative, District 102 (General)",
+   "candidate": "Michael \"Mike\" Friend",
+   "party": "DEM",
+   "votes": 42889
+  },
+  {
+   "contest": "State Representative, District 45 (General)",
+   "candidate": "Leonard Spencer",
+   "party": "DEM",
+   "votes": 42840
+  },
+  {
+   "contest": "State Representative, District 85 (General)",
+   "candidate": "Wayne Richter",
+   "party": "DEM",
+   "votes": 42112
+  },
+  {
+   "contest": "State Representative, District 90 (General)",
+   "candidate": "Rob Long",
+   "party": "DEM",
+   "votes": 42013
+  },
+  {
+   "contest": "State Representative, District 25 (General)",
+   "candidate": "Farmer Banks Helfrich",
+   "party": "DEM",
+   "votes": 41652
+  },
+  {
+   "contest": "State Representative, District 73 (General)",
+   "candidate": "Lisa Klein",
+   "party": "DEM",
+   "votes": 41533
+  },
+  {
+   "contest": "State Representative, District 83 (General)",
+   "candidate": "Kaylee Tuck",
+   "party": "REP",
+   "votes": 41285
+  },
+  {
+   "contest": "State Representative, District 28 (General)",
+   "candidate": "Bill Partington",
+   "party": "REP",
+   "votes": 41090
+  },
+  {
+   "contest": "State Representative, District 35 (General)",
+   "candidate": "Eric Gray",
+   "party": "DEM",
+   "votes": 41028
+  },
+  {
+   "contest": "State Representative, District 93 (General)",
+   "candidate": "August Mangeney",
+   "party": "DEM",
+   "votes": 40546
+  },
+  {
+   "contest": "State Representative, District 39 (General)",
+   "candidate": "Jarod Fox",
+   "party": "DEM",
+   "votes": 40469
+  },
+  {
+   "contest": "State Representative, District 22 (General)",
+   "candidate": "Amy Trask",
+   "party": "DEM",
+   "votes": 40402
+  },
+  {
+   "contest": "State Representative, District 60 (General)",
+   "candidate": "Lindsay Polega-Quigley",
+   "party": "DEM",
+   "votes": 40134
+  },
+  {
+   "contest": "State Representative, District 91 (General)",
+   "candidate": "Peggy Gossett-Seidman",
+   "party": "REP",
+   "votes": 39809
+  },
+  {
+   "contest": "State Representative, District 66 (General)",
+   "candidate": "Traci Koster",
+   "party": "REP",
+   "votes": 39796
+  },
+  {
+   "contest": "Representative in Congress, District 24 (General)",
+   "candidate": "Te Mayonna Brown",
+   "party": "REP",
+   "votes": 39534
+  },
+  {
+   "contest": "State Representative, District 40 (General)",
+   "candidate": "Ra'Shon Young",
+   "party": "DEM",
+   "votes": 39332
+  },
+  {
+   "contest": "State Representative, District 108 (General)",
+   "candidate": "Daphne Campbell",
+   "party": "DEM",
+   "votes": 39264
+  },
+  {
+   "contest": "State Representative, District 82 (General)",
+   "candidate": "Liesa Priddy",
+   "party": "REP",
+   "votes": 39138
+  },
+  {
+   "contest": "State Representative, District 61 (General)",
+   "candidate": "Linda Chaney",
+   "party": "REP",
+   "votes": 39057
+  },
+  {
+   "contest": "State Representative, District 58 (General)",
+   "candidate": "Kimberly \"Kim\" Berfield",
+   "party": "REP",
+   "votes": 38989
+  },
+  {
+   "contest": "State Representative, District 38 (General)",
+   "candidate": "Nik Dean",
+   "party": "DEM",
+   "votes": 38911
+  },
+  {
+   "contest": "State Representative, District 2 (General)",
+   "candidate": "Jon Fay",
+   "party": "REP",
+   "votes": 38683
+  },
+  {
+   "contest": "State Representative, District 87 (General)",
+   "candidate": "Jon Maples",
+   "party": "REP",
+   "votes": 38616
+  },
+  {
+   "contest": "State Representative, District 19 (General)",
+   "candidate": "Suzanna Pavelle",
+   "party": "DEM",
+   "votes": 38394
+  },
+  {
+   "contest": "State Representative, District 22 (General)",
+   "candidate": "Chad Johnson",
+   "party": "REP",
+   "votes": 38313
+  },
+  {
+   "contest": "State Representative, District 94 (General)",
+   "candidate": "Elizabeth Holmes",
+   "party": "DEM",
+   "votes": 38281
+  },
+  {
+   "contest": "State Representative, District 1 (General)",
+   "candidate": "Michelle Salzman",
+   "party": "REP",
+   "votes": 37941
+  },
+  {
+   "contest": "State Representative, District 57 (General)",
+   "candidate": "Wendy Hoy",
+   "party": "DEM",
+   "votes": 37905
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "Scott Eckhard Jewett and Nicole Skelly",
+   "party": "LPF",
+   "votes": 37878
+  },
+  {
+   "contest": "State Representative, District 36 (General)",
+   "candidate": "Darryl Block",
+   "party": "DEM",
+   "votes": 37855
+  },
+  {
+   "contest": "State Representative, District 115 (General)",
+   "candidate": "Omar Blanco",
+   "party": "REP",
+   "votes": 37711
+  },
+  {
+   "contest": "State Representative, District 100 (General)",
+   "candidate": "Michael Terence Ferguson",
+   "party": "DEM",
+   "votes": 37695
+  },
+  {
+   "contest": "State Representative, District 87 (General)",
+   "candidate": "Emily Gregory",
+   "party": "DEM",
+   "votes": 37550
+  },
+  {
+   "contest": "State Representative, District 92 (General)",
+   "candidate": "Steve Byers",
+   "party": "REP",
+   "votes": 37549
+  },
+  {
+   "contest": "State Representative, District 74 (General)",
+   "candidate": "Ryan Neill",
+   "party": "DEM",
+   "votes": 37242
+  },
+  {
+   "contest": "State Representative, District 18 (General)",
+   "candidate": "Art Stresing",
+   "party": "DEM",
+   "votes": 36978
+  },
+  {
+   "contest": "State Representative, District 65 (General)",
+   "candidate": "Karen Gonzalez Pittman",
+   "party": "REP",
+   "votes": 36911
+  },
+  {
+   "contest": "State Representative, District 32 (General)",
+   "candidate": "Juan J. Hinojosa",
+   "party": "DEM",
+   "votes": 36596
+  },
+  {
+   "contest": "State Representative, District 61 (General)",
+   "candidate": "May Thach",
+   "party": "DEM",
+   "votes": 36516
+  },
+  {
+   "contest": "State Representative, District 94 (General)",
+   "candidate": "Megan Weinberger",
+   "party": "REP",
+   "votes": 36515
+  },
+  {
+   "contest": "State Representative, District 33 (General)",
+   "candidate": "Daniel R. McDow",
+   "party": "DEM",
+   "votes": 36394
+  },
+  {
+   "contest": "State Representative, District 51 (General)",
+   "candidate": "Octavio E. Hernandez",
+   "party": "DEM",
+   "votes": 36266
+  },
+  {
+   "contest": "State Representative, District 118 (General)",
+   "candidate": "Mike Redondo",
+   "party": "REP",
+   "votes": 36161
+  },
+  {
+   "contest": "State Representative, District 33 (General)",
+   "candidate": "Monique Miller",
+   "party": "REP",
+   "votes": 36120
+  },
+  {
+   "contest": "State Representative, District 59 (General)",
+   "candidate": "Berny Jacques",
+   "party": "REP",
+   "votes": 36062
+  },
+  {
+   "contest": "State Representative, District 66 (General)",
+   "candidate": "Jose A. \"Dante\" Sanchez Sanchez",
+   "party": "DEM",
+   "votes": 35948
+  },
+  {
+   "contest": "State Representative, District 68 (General)",
+   "candidate": "Ryan Gill",
+   "party": "REP",
+   "votes": 35916
+  },
+  {
+   "contest": "State Representative, District 84 (General)",
+   "candidate": "Dana Trabulsy",
+   "party": "REP",
+   "votes": 35589
+  },
+  {
+   "contest": "State Representative, District 78 (General)",
+   "candidate": "Susan Frantz",
+   "party": "REP",
+   "votes": 35543
+  },
+  {
+   "contest": "State Representative, District 65 (General)",
+   "candidate": "Ben Braver",
+   "party": "DEM",
+   "votes": 35494
+  },
+  {
+   "contest": "State Representative, District 91 (General)",
+   "candidate": "Luis Garcia",
+   "party": "DEM",
+   "votes": 35398
+  },
+  {
+   "contest": "State Representative, District 69 (General)",
+   "candidate": "Ashley Elizabeth Herrmann",
+   "party": "DEM",
+   "votes": 35388
+  },
+  {
+   "contest": "State Representative, District 55 (General)",
+   "candidate": "Zach Funkhouser",
+   "party": "DEM",
+   "votes": 35313
+  },
+  {
+   "contest": "State Representative, District 49 (General)",
+   "candidate": "Jennifer Kincart Jonsson",
+   "party": "REP",
+   "votes": 35178
+  },
+  {
+   "contest": "State Representative, District 75 (General)",
+   "candidate": "Cynthia L. Butler",
+   "party": "DEM",
+   "votes": 35149
+  },
+  {
+   "contest": "State Representative, District 72 (General)",
+   "candidate": "Harvey Shifrin",
+   "party": "DEM",
+   "votes": 35092
+  },
+  {
+   "contest": "State Representative, District 29 (General)",
+   "candidate": "Webster Barnaby",
+   "party": "REP",
+   "votes": 35074
+  },
+  {
+   "contest": "State Representative, District 17 (General)",
+   "candidate": "Jessica Baker",
+   "party": "REP",
+   "votes": 34916
+  },
+  {
+   "contest": "State Representative, District 45 (General)",
+   "candidate": "Erin Huntley",
+   "party": "REP",
+   "votes": 34811
+  },
+  {
+   "contest": "State Representative, District 100 (General)",
+   "candidate": "Yoni Anijar",
+   "party": "REP",
+   "votes": 34803
+  },
+  {
+   "contest": "State Representative, District 52 (General)",
+   "candidate": "Pamala Kaye Bivins",
+   "party": "DEM",
+   "votes": 34640
+  },
+  {
+   "contest": "State Representative, District 48 (General)",
+   "candidate": "Jonathan Albert",
+   "party": "REP",
+   "votes": 34486
+  },
+  {
+   "contest": "State Representative, District 67 (General)",
+   "candidate": "Luis Viera",
+   "party": "DEM",
+   "votes": 34466
+  },
+  {
+   "contest": "State Representative, District 88 (General)",
+   "candidate": "Jervonte \"Tae\" Edmonds",
+   "party": "DEM",
+   "votes": 34464
+  },
+  {
+   "contest": "State Representative, District 84 (General)",
+   "candidate": "Jennifer Massey",
+   "party": "DEM",
+   "votes": 34399
+  },
+  {
+   "contest": "State Representative, District 37 (General)",
+   "candidate": "Jane Aman",
+   "party": "DEM",
+   "votes": 34263
+  },
+  {
+   "contest": "State Representative, District 77 (General)",
+   "candidate": "Tiffany Esposito",
+   "party": "REP",
+   "votes": 34225
+  },
+  {
+   "contest": "State Representative, District 58 (General)",
+   "candidate": "Bryan Beckman",
+   "party": "DEM",
+   "votes": 34217
+  },
+  {
+   "contest": "State Representative, District 119 (General)",
+   "candidate": "Juan Carlos Porras",
+   "party": "REP",
+   "votes": 34203
+  },
+  {
+   "contest": "State Representative, District 17 (General)",
+   "candidate": "Jacob Guerrero",
+   "party": "DEM",
+   "votes": 33961
+  },
+  {
+   "contest": "State Representative, District 15 (General)",
+   "candidate": "Chadd Charland",
+   "party": "NPA",
+   "votes": 33920
+  },
+  {
+   "contest": "State Representative, District 116 (General)",
+   "candidate": "Ashley Perez-Biliskov",
+   "party": "REP",
+   "votes": 33525
+  },
+  {
+   "contest": "State Representative, District 115 (General)",
+   "candidate": "Marcos Reyes",
+   "party": "DEM",
+   "votes": 33372
+  },
+  {
+   "contest": "State Representative, District 51 (General)",
+   "candidate": "Hilary Holley",
+   "party": "REP",
+   "votes": 33263
+  },
+  {
+   "contest": "State Representative, District 69 (General)",
+   "candidate": "Daniel \"Danny\" Alvarez",
+   "party": "REP",
+   "votes": 33130
+  },
+  {
+   "contest": "State Representative, District 29 (General)",
+   "candidate": "Don Kanfer",
+   "party": "DEM",
+   "votes": 33053
+  },
+  {
+   "contest": "State Representative, District 12 (General)",
+   "candidate": "Terrance Freeman",
+   "party": "REP",
+   "votes": 32853
+  },
+  {
+   "contest": "State Representative, District 9 (General)",
+   "candidate": "Tracy Robinson",
+   "party": "REP",
+   "votes": 32768
+  },
+  {
+   "contest": "State Representative, District 39 (General)",
+   "candidate": "Doug Bankson",
+   "party": "REP",
+   "votes": 32503
+  },
+  {
+   "contest": "State Representative, District 56 (General)",
+   "candidate": "Brad Yeager",
+   "party": "REP",
+   "votes": 32292
+  },
+  {
+   "contest": "State Representative, District 34 (General)",
+   "candidate": "Jordyn Guadalupe Balderas",
+   "party": "DEM",
+   "votes": 32261
+  },
+  {
+   "contest": "State Representative, District 48 (General)",
+   "candidate": "Alethea Pugh",
+   "party": "DEM",
+   "votes": 32204
+  },
+  {
+   "contest": "State Representative, District 35 (General)",
+   "candidate": "Erika Booth",
+   "party": "REP",
+   "votes": 32103
+  },
+  {
+   "contest": "State Representative, District 50 (General)",
+   "candidate": "Jennifer Canady",
+   "party": "REP",
+   "votes": 32093
+  },
+  {
+   "contest": "State Representative, District 80 (General)",
+   "candidate": "William Moskal",
+   "party": "DEM",
+   "votes": 31756
+  },
+  {
+   "contest": "State Representative, District 93 (General)",
+   "candidate": "Anne Gerwig",
+   "party": "REP",
+   "votes": 31635
+  },
+  {
+   "contest": "State Representative, District 43 (General)",
+   "candidate": "Samuel Vilchez Santiago",
+   "party": "DEM",
+   "votes": 31519
+  },
+  {
+   "contest": "State Representative, District 31 (General)",
+   "candidate": "Daniel Lewis Cicirelli",
+   "party": "DEM",
+   "votes": 31518
+  },
+  {
+   "contest": "State Representative, District 36 (General)",
+   "candidate": "Rachel Plakon",
+   "party": "REP",
+   "votes": 31390
+  },
+  {
+   "contest": "State Representative, District 59 (General)",
+   "candidate": "Susan Rochelle Leff",
+   "party": "DEM",
+   "votes": 31355
+  },
+  {
+   "contest": "State Representative, District 28 (General)",
+   "candidate": "Sammy Jackson",
+   "party": "DEM",
+   "votes": 31333
+  },
+  {
+   "contest": "State Representative, District 81 (General)",
+   "candidate": "Kim Finer",
+   "party": "DEM",
+   "votes": 31237
+  },
+  {
+   "contest": "State Representative, District 71 (General)",
+   "candidate": "Jordan Varnadore",
+   "party": "REP",
+   "votes": 31150
+  },
+  {
+   "contest": "State Representative, District 30 (General)",
+   "candidate": "Edwin Munoz",
+   "party": "DEM",
+   "votes": 31012
+  },
+  {
+   "contest": "State Representative, District 86 (General)",
+   "candidate": "Elizabeth Brendel Pandich",
+   "party": "DEM",
+   "votes": 31003
+  },
+  {
+   "contest": "State Senator, District 34 (General)",
+   "candidate": "Elizabeth Jeanty",
+   "party": "REP",
+   "votes": 30990
+  },
+  {
+   "contest": "State Representative, District 106 (General)",
+   "candidate": "Lucia Baez-Geller",
+   "party": "DEM",
+   "votes": 30912
+  },
+  {
+   "contest": "State Representative, District 12 (General)",
+   "candidate": "Benjamin Sandlin",
+   "party": "DEM",
+   "votes": 30644
+  },
+  {
+   "contest": "State Representative, District 46 (General)",
+   "candidate": "Jose Alvarez",
+   "party": "DEM",
+   "votes": 30388
+  },
+  {
+   "contest": "State Representative, District 38 (General)",
+   "candidate": "Emily Duda Buckley",
+   "party": "REP",
+   "votes": 30339
+  },
+  {
+   "contest": "State Representative, District 78 (General)",
+   "candidate": "Cindy Banyai",
+   "party": "DEM",
+   "votes": 30095
+  },
+  {
+   "contest": "State Representative, District 42 (General)",
+   "candidate": "Bonnie Jackson",
+   "party": "REP",
+   "votes": 29972
+  },
+  {
+   "contest": "State Representative, District 26 (General)",
+   "candidate": "Robyn Elaine Lawrence",
+   "party": "DEM",
+   "votes": 29660
+  },
+  {
+   "contest": "State Representative, District 2 (General)",
+   "candidate": "Johnny Austin Thompson",
+   "party": "DEM",
+   "votes": 29541
+  },
+  {
+   "contest": "State Representative, District 117 (General)",
+   "candidate": "Kevin Chambliss",
+   "party": "DEM",
+   "votes": 29306
+  },
+  {
+   "contest": "State Representative, District 102 (General)",
+   "candidate": "Mery Lopez-Palma",
+   "party": "REP",
+   "votes": 28758
+  },
+  {
+   "contest": "State Representative, District 60 (General)",
+   "candidate": "Melissa Rutland",
+   "party": "REP",
+   "votes": 28571
+  },
+  {
+   "contest": "State Representative, District 101 (General)",
+   "candidate": "Todd Delmay",
+   "party": "DEM",
+   "votes": 28316
+  },
+  {
+   "contest": "State Representative, District 76 (General)",
+   "candidate": "Phillip Ray Carter",
+   "party": "DEM",
+   "votes": 27754
+  },
+  {
+   "contest": "State Representative, District 68 (General)",
+   "candidate": "Tony Smith",
+   "party": "DEM",
+   "votes": 27545
+  },
+  {
+   "contest": "State Representative, District 27 (General)",
+   "candidate": "Andy Ferrari",
+   "party": "DEM",
+   "votes": 27474
+  },
+  {
+   "contest": "State Representative, District 77 (General)",
+   "candidate": "Cornelius Fowler",
+   "party": "DEM",
+   "votes": 27450
+  },
+  {
+   "contest": "State Representative, District 119 (General)",
+   "candidate": "Rey Lazaro Sordo",
+   "party": "DEM",
+   "votes": 27066
+  },
+  {
+   "contest": "State Representative, District 106 (General)",
+   "candidate": "Fabi\u00e1n Basabe",
+   "party": "REP",
+   "votes": 26376
+  },
+  {
+   "contest": "State Representative, District 64 (General)",
+   "candidate": "Luis Salazar",
+   "party": "DEM",
+   "votes": 26126
+  },
+  {
+   "contest": "State Representative, District 118 (General)",
+   "candidate": "Armando \"A.C.\" Castillo",
+   "party": "DEM",
+   "votes": 25843
+  },
+  {
+   "contest": "State Representative, District 50 (General)",
+   "candidate": "Ricky Santiago",
+   "party": "DEM",
+   "votes": 25780
+  },
+  {
+   "contest": "State Representative, District 1 (General)",
+   "candidate": "Francesca Yabraian",
+   "party": "DEM",
+   "votes": 25727
+  },
+  {
+   "contest": "State Representative, District 53 (General)",
+   "candidate": "Tony Claude",
+   "party": "DEM",
+   "votes": 25605
+  },
+  {
+   "contest": "State Representative, District 89 (General)",
+   "candidate": "Debra Tendrich",
+   "party": "DEM",
+   "votes": 25604
+  },
+  {
+   "contest": "State Representative, District 82 (General)",
+   "candidate": "Arthur Boyer",
+   "party": "DEM",
+   "votes": 25414
+  },
+  {
+   "contest": "State Representative, District 71 (General)",
+   "candidate": "Ocean Fitts",
+   "party": "DEM",
+   "votes": 25283
+  },
+  {
+   "contest": "State Representative, District 90 (General)",
+   "candidate": "Ionel Roiban",
+   "party": "REP",
+   "votes": 24766
+  },
+  {
+   "contest": "State Representative, District 113 (General)",
+   "candidate": "Gloria Romero Roses",
+   "party": "DEM",
+   "votes": 24759
+  },
+  {
+   "contest": "State Representative, District 23 (General)",
+   "candidate": "Mark Leland Baker",
+   "party": "DEM",
+   "votes": 24589
+  },
+  {
+   "contest": "State Representative, District 37 (General)",
+   "candidate": "Robert Prater",
+   "party": "REP",
+   "votes": 24077
+  },
+  {
+   "contest": "State Representative, District 49 (General)",
+   "candidate": "Robert Anzalone",
+   "party": "DEM",
+   "votes": 23899
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "Frank J. Russo and Rachel Rodriguez",
+   "party": "NPA",
+   "votes": 23196
+  },
+  {
+   "contest": "State Representative, District 116 (General)",
+   "candidate": "Nicolas Ramos",
+   "party": "DEM",
+   "votes": 23105
+  },
+  {
+   "contest": "State Senator, District 32 (General)",
+   "candidate": "Crescente Furnaguera",
+   "party": "NPA",
+   "votes": 23010
+  },
+  {
+   "contest": "State Representative, District 56 (General)",
+   "candidate": "Jose Freites",
+   "party": "DEM",
+   "votes": 22706
+  },
+  {
+   "contest": "State Representative, District 101 (General)",
+   "candidate": "Hillary Cassel",
+   "party": "REP",
+   "votes": 22272
+  },
+  {
+   "contest": "State Representative, District 20 (General)",
+   "candidate": "Lee Butler",
+   "party": "DEM",
+   "votes": 21482
+  },
+  {
+   "contest": "State Representative, District 6 (General)",
+   "candidate": "Stephanie Lyn Leonard",
+   "party": "DEM",
+   "votes": 21037
+  },
+  {
+   "contest": "State Representative, District 103 (General)",
+   "candidate": "Imtiaz Mohammad",
+   "party": "REP",
+   "votes": 20917
+  },
+  {
+   "contest": "State Representative, District 4 (General)",
+   "candidate": "John Peter Emerling",
+   "party": "DEM",
+   "votes": 20577
+  },
+  {
+   "contest": "State Representative, District 113 (General)",
+   "candidate": "Bruno A. Barreiro",
+   "party": "REP",
+   "votes": 20545
+  },
+  {
+   "contest": "State Representative, District 10 (General)",
+   "candidate": "Merrillee Malwitz Jipson",
+   "party": "DEM",
+   "votes": 20373
+  },
+  {
+   "contest": "State Representative, District 83 (General)",
+   "candidate": "Leigh Estes",
+   "party": "DEM",
+   "votes": 18801
+  },
+  {
+   "contest": "State Representative, District 3 (General)",
+   "candidate": "Ingrid D. Wadsworth",
+   "party": "DEM",
+   "votes": 18477
+  },
+  {
+   "contest": "State Representative, District 64 (General)",
+   "candidate": "Dan Weldon",
+   "party": "REP",
+   "votes": 18194
+  },
+  {
+   "contest": "State Representative, District 67 (General)",
+   "candidate": "Lisette Bonano",
+   "party": "REP",
+   "votes": 17468
+  },
+  {
+   "contest": "State Representative, District 117 (General)",
+   "candidate": "Miguel Granda",
+   "party": "REP",
+   "votes": 16310
+  },
+  {
+   "contest": "State Representative, District 43 (General)",
+   "candidate": "Jorge Malavet",
+   "party": "REP",
+   "votes": 16112
+  },
+  {
+   "contest": "State Representative, District 5 (General)",
+   "candidate": "Alex Finney",
+   "party": "DEM",
+   "votes": 15640
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "Charles Burkett and Ruben A. Coto",
+   "party": "NPA",
+   "votes": 15232
+  },
+  {
+   "contest": "State Representative, District 89 (General)",
+   "candidate": "Cathy Higgins",
+   "party": "REP",
+   "votes": 13830
+  },
+  {
+   "contest": "State Representative, District 46 (General)",
+   "candidate": "Michael Cruz",
+   "party": "REP",
+   "votes": 13617
+  },
+  {
+   "contest": "State Representative, District 40 (General)",
+   "candidate": "Tuan Le",
+   "party": "REP",
+   "votes": 13003
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "Dean Ocean Abrams and Joe Van Vactor",
+   "party": "NPA",
+   "votes": 12530
+  },
+  {
+   "contest": "Representative in Congress, District 20 (General)",
+   "candidate": "Kedner Maxime",
+   "party": "IND",
+   "votes": 9590
+  },
+  {
+   "contest": "State Representative, District 108 (General)",
+   "candidate": "Wancito Francius",
+   "party": "REP",
+   "votes": 9283
+  },
+  {
+   "contest": "State Senator, District 22 (General)",
+   "candidate": "Martin Hyde",
+   "party": "NPA",
+   "votes": 8749
+  },
+  {
+   "contest": "Representative in Congress, District 14 (General)",
+   "candidate": "Brian Lambert",
+   "party": "LPF",
+   "votes": 8730
+  },
+  {
+   "contest": "State Representative, District 88 (General)",
+   "candidate": "William Joseph",
+   "party": "REP",
+   "votes": 8703
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "Jeffrey Peter \"Dr. Jeff\" Datto and Juan Santana",
+   "party": "NPA",
+   "votes": 8308
+  },
+  {
+   "contest": "Representative in Congress, District 18 (General)",
+   "candidate": "Deva Simmons",
+   "party": "NPA",
+   "votes": 8110
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "Moliere \"Moe\" Dimanche and Benjiman Rojas",
+   "party": "NPA",
+   "votes": 7590
+  },
+  {
+   "contest": "Representative in Congress, District 16 (General)",
+   "candidate": "Mark Davis",
+   "party": "NPA",
+   "votes": 6275
+  },
+  {
+   "contest": "Representative in Congress, District 25 (General)",
+   "candidate": "Peter Jassenoff",
+   "party": "LPF",
+   "votes": 5871
+  },
+  {
+   "contest": "Representative in Congress, District 13 (General)",
+   "candidate": "Tony D'Arrigo",
+   "party": "NPA",
+   "votes": 5779
+  },
+  {
+   "contest": "Representative in Congress, District 3 (General)",
+   "candidate": "Mike Klein",
+   "party": "NPA",
+   "votes": 5599
+  },
+  {
+   "contest": "Representative in Congress, District 1 (General)",
+   "candidate": "Tyler L. Davis",
+   "party": "NPA",
+   "votes": 5322
+  },
+  {
+   "contest": "Representative in Congress, District 17 (General)",
+   "candidate": "Michael J. Quirk",
+   "party": "NPA",
+   "votes": 5008
+  },
+  {
+   "contest": "Representative in Congress, District 21 (General)",
+   "candidate": "Alexander Cooke",
+   "party": "NPA",
+   "votes": 4451
+  },
+  {
+   "contest": "Representative in Congress, District 19 (General)",
+   "candidate": "Seth Haskin",
+   "party": "NPA",
+   "votes": 3996
+  },
+  {
+   "contest": "Representative in Congress, District 11 (General)",
+   "candidate": "Ralph Groves",
+   "party": "LPF",
+   "votes": 3955
+  },
+  {
+   "contest": "State Senator, District 8 (General)",
+   "candidate": "Gabriel Jude Wozniak",
+   "party": "LPF",
+   "votes": 3936
+  },
+  {
+   "contest": "Representative in Congress, District 12 (General)",
+   "candidate": "Branden Scrivener",
+   "party": "NPA",
+   "votes": 3783
+  },
+  {
+   "contest": "Representative in Congress, District 6 (General)",
+   "candidate": "Andrew Parrott",
+   "party": "LPF",
+   "votes": 3725
+  },
+  {
+   "contest": "Representative in Congress, District 7 (General)",
+   "candidate": "Christopher Dennison",
+   "party": "LPF",
+   "votes": 3471
+  },
+  {
+   "contest": "Representative in Congress, District 28 (General)",
+   "candidate": "Eddy Rojas",
+   "party": "NPA",
+   "votes": 3443
+  },
+  {
+   "contest": "State Senator, District 38 (General)",
+   "candidate": "Jeffrey \"Doc\" Solomon",
+   "party": "NPA",
+   "votes": 3380
+  },
+  {
+   "contest": "Representative in Congress, District 4 (General)",
+   "candidate": "Todd Schaefer",
+   "party": "NPA",
+   "votes": 3191
+  },
+  {
+   "contest": "Representative in Congress, District 26 (General)",
+   "candidate": "Deborah Ann Meidinger Hosey",
+   "party": "NPA",
+   "votes": 2348
+  },
+  {
+   "contest": "State Senator, District 6 (General)",
+   "candidate": "Joseph Thornton",
+   "party": "ASP",
+   "votes": 2038
+  },
+  {
+   "contest": "State Senator, District 40 (General)",
+   "candidate": "Ramiro Orta",
+   "party": "NPA",
+   "votes": 1864
+  },
+  {
+   "contest": "Representative in Congress, District 4 (General)",
+   "candidate": "Mike Sell",
+   "party": "FFP",
+   "votes": 1831
+  },
+  {
+   "contest": "State Representative, District 28 (General)",
+   "candidate": "Joseph \"Joe\" Hannoush",
+   "party": "LPF",
+   "votes": 1368
+  },
+  {
+   "contest": "State Representative, District 71 (General)",
+   "candidate": "Joseph Hoolihan",
+   "party": "NPA",
+   "votes": 1321
+  },
+  {
+   "contest": "State Representative, District 94 (General)",
+   "candidate": "Doug Barrow",
+   "party": "NPA",
+   "votes": 1277
+  },
+  {
+   "contest": "State Representative, District 53 (General)",
+   "candidate": "Christopher Anger",
+   "party": "CPF",
+   "votes": 1183
+  },
+  {
+   "contest": "State Representative, District 50 (General)",
+   "candidate": "Jarvis Washington",
+   "party": "NPA",
+   "votes": 1180
+  },
+  {
+   "contest": "State Representative, District 46 (General)",
+   "candidate": "Ivan A. Rivera",
+   "party": "NPA",
+   "votes": 859
+  },
+  {
+   "contest": "State Representative, District 85 (General)",
+   "candidate": "Amr Metwally",
+   "party": "MGT",
+   "votes": 354
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "Kathy Anderson and Daniel Nokovich",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Governor and Lieutenant Governor (General)",
+   "candidate": "Erik Morris and LeRoy Alaways",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Commissioner of Agriculture (General)",
+   "candidate": "Kyle \"KC\" Gibson",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Representative in Congress, District 5 (General)",
+   "candidate": "William Lintag Upham",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Representative in Congress, District 6 (General)",
+   "candidate": "Alec Pavlik",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Representative in Congress, District 14 (General)",
+   "candidate": "Salomon Hernandez Sr.",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Representative in Congress, District 14 (General)",
+   "candidate": "Keith Varian",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Representative in Congress, District 15 (General)",
+   "candidate": "Angie Boone",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Representative in Congress, District 19 (General)",
+   "candidate": "Alexandra Zakhvatayev",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Representative in Congress, District 21 (General)",
+   "candidate": "David Fabrikant",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Representative in Congress, District 24 (General)",
+   "candidate": "Patricia Gonzalez",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "Representative in Congress, District 25 (General)",
+   "candidate": "Michaelangelo Hamilton",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "State Representative, District 10 (General)",
+   "candidate": "James Hunter Batley",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "State Representative, District 15 (General)",
+   "candidate": "Lloyd Caulker",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "State Representative, District 85 (General)",
+   "candidate": "Hunter Stone",
+   "party": "WRI",
+   "votes": 0
+  },
+  {
+   "contest": "State Representative, District 113 (General)",
+   "candidate": "Paola V\u00e1zquez del Mercado",
+   "party": "WRI",
+   "votes": 0
+  }
+ ],
+ "files": [
+  "contest_votes.csv",
+  "county_contests.csv",
+  "county_enr_status.csv",
+  "county_enr_summary.json",
+  "county_status.csv",
+  "ed_turnout.csv",
+  "precinct_summary.json",
+  "precincts",
+  "raw"
+ ]
+}
