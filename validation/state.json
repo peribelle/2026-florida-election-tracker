@@ -821,8 +821,8 @@
      99
     ],
     "LEO": [
-     124803,
-     "11/03/2026 9:26:02 pm",
+     125981,
+     "11/03/2026 11:26:45 pm",
      134,
      134
     ],
@@ -1471,19 +1471,19 @@
  "open": {
   "source|county_stalled|ENR|stalled|ALA": {
    "acked": "Alachua: 62 of 63 precincts in, last update 10:27 PM; one precinct outstanding. Returns by itself if it gets worse.",
-   "last": "2026-11-03 23:20:14",
-   "n": 3,
+   "last": "2026-11-03 23:30:26",
+   "n": 4,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-230034-001",
-    "count": 5,
+    "count": 6,
     "curr": null,
     "delta": null,
     "detail": "62/63 precincts in, last update 11/03/2026 10:27:32 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|ALA",
     "first_seen": "2026-11-03 23:00:47",
-    "headline": "ALA has not updated in 5 pulls (50 min)",
+    "headline": "ALA has not updated in 6 pulls (60 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-225000",
@@ -1497,6 +1497,34 @@
    },
    "source": "results",
    "tier": 2
+  },
+  "source|county_stalled|ENR|stalled|STL": {
+   "last": "2026-11-03 23:30:26",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-233014-001",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "61/62 precincts in, last update 11/03/2026 10:55:54 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|STL",
+    "first_seen": "2026-11-03 23:30:26",
+    "headline": "STL has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-232001",
+    "raised_local": "2026-11-03 23:30:26",
+    "raised_utc": "2026-11-04T04:30:26Z",
+    "scope": "ENR|stalled|STL",
+    "snapshot": "20261103-233014",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
   }
  },
  "recent": [
@@ -2024,11 +2052,32 @@
    "source": "turnout",
    "tier": 3,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-233014-002",
+   "count": 1,
+   "curr": 0,
+   "delta": -98.41,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|precincts_regressed|FEW-status|Alachua|precincts_reporting_pct|20261103-233014",
+   "first_seen": "2026-11-03 23:30:26",
+   "headline": "Alachua: precincts reporting % 98.41 \u2192 0 (-98.41)",
+   "kind": "precincts_regressed",
+   "prev": 98.41,
+   "prev_snapshot": "20261103-232001",
+   "raised_local": "2026-11-03 23:30:26",
+   "raised_utc": "2026-11-04T04:30:26Z",
+   "scope": "FEW-status|Alachua|precincts_reporting_pct",
+   "snapshot": "20261103-233014",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
-   "n": 5,
+   "n": 6,
    "sig": [
     105083,
     "11/03/2026 10:27:32 pm",
@@ -2310,8 +2359,8 @@
   "LEO": {
    "n": 0,
    "sig": [
-    124803,
-    "11/03/2026 9:26:02 pm",
+    125981,
+    "11/03/2026 11:26:45 pm",
     134
    ]
   },
@@ -2460,7 +2509,7 @@
    ]
   },
   "STL": {
-   "n": 2,
+   "n": 3,
    "sig": [
     137676,
     "11/03/2026 10:55:54 pm",
@@ -2526,14 +2575,14 @@
  },
  "totals": {
   "1": 18,
-  "2": 139,
-  "3": 346,
+  "2": 140,
+  "3": 347,
   "acked": 413,
-  "alerts": 503
+  "alerts": 505
  },
  "validated": {
   "projections": "20261103-232001",
-  "results": "20261103-232001",
+  "results": "20261103-233014",
   "slow": "20261103-231500",
   "turnout": "20261103-185931"
  },

@@ -1,0 +1,2 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|precincts_regressed|FEW-status|Alachua|precincts_reporting_pct|20261103-233014,2,data,precincts_regressed,FEW-status|Alachua|precincts_reporting_pct,20261103-233014,Alachua,precincts_reporting_pct,98.41,0,-98.41
