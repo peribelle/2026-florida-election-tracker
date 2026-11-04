@@ -4,8 +4,8 @@
   "2": 69,
   "3": 53
  },
- "generated_local": "2026-11-03T19:40:21",
- "generated_utc": "2026-11-04T00:40:21Z",
+ "generated_local": "2026-11-03T19:45:37",
+ "generated_utc": "2026-11-04T00:45:37Z",
  "items": [
   {
    "alert_id": "A-20261103-194011-020",
@@ -1550,6 +1550,30 @@
    "validator": "data"
   },
   {
+   "alert_id": "A-20261103-194011-005",
+   "checks": 1,
+   "count": 38,
+   "curr": null,
+   "delta": null,
+   "detail": "Ashley Moody (United States Senator); Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+   "event": "raised",
+   "fingerprint": "data|pct_mismatch|ENR|pct|GLA",
+   "first_seen": "2026-11-03 19:40:21",
+   "headline": "Percent does not match the votes in GLA: 38 rows",
+   "kind": "pct_mismatch",
+   "last_seen": "2026-11-03 19:40:21",
+   "prev": null,
+   "prev_snapshot": "20261103-193019",
+   "raised_local": "2026-11-03 19:40:21",
+   "raised_utc": "2026-11-04T00:40:21Z",
+   "scope": "ENR|pct|GLA",
+   "snapshot": "20261103-194011",
+   "source": "results",
+   "state": "open",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
    "alert_id": "A-20261103-194011-002",
    "checks": 1,
    "count": 3,
@@ -1620,30 +1644,6 @@
    "state": "open",
    "tier": 3,
    "validator": "source"
-  },
-  {
-   "alert_id": "A-20261103-194011-005",
-   "checks": 1,
-   "count": 38,
-   "curr": null,
-   "delta": null,
-   "detail": "Ashley Moody (United States Senator); Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
-   "event": "raised",
-   "fingerprint": "data|pct_mismatch|ENR|pct|GLA",
-   "first_seen": "2026-11-03 19:40:21",
-   "headline": "Percent does not match the votes in GLA: 38 rows",
-   "kind": "pct_mismatch",
-   "last_seen": "2026-11-03 19:40:21",
-   "prev": null,
-   "prev_snapshot": "20261103-193019",
-   "raised_local": "2026-11-03 19:40:21",
-   "raised_utc": "2026-11-04T00:40:21Z",
-   "scope": "ENR|pct|GLA",
-   "snapshot": "20261103-194011",
-   "source": "results",
-   "state": "open",
-   "tier": 3,
-   "validator": "data"
   },
   {
    "alert_id": "A-20261103-194011-006",
@@ -2727,19 +2727,19 @@
   }
  ],
  "last_run": {
-  "cleared": 2,
-  "detail_rows": 1781,
+  "cleared": 0,
+  "detail_rows": 0,
   "escalated": 0,
   "pulls": [
-   "results:20261103-194011"
+   "slow:20261103-194501"
   ],
-  "raised": 62,
-  "ran_local": "2026-11-03 19:40:21",
-  "run_id": "20261103-194021",
-  "seconds": 0.8,
-  "tier1": 1,
-  "tier2": 43,
-  "tier3": 18
+  "raised": 0,
+  "ran_local": "2026-11-03 19:45:37",
+  "run_id": "20261103-194537",
+  "seconds": 0.1,
+  "tier1": 0,
+  "tier2": 0,
+  "tier3": 0
  },
  "schema": 1,
  "status": "critical",
@@ -2753,7 +2753,7 @@
  "validated": {
   "projections": "20261103-192008",
   "results": "20261103-194011",
-  "slow": "20261103-191510",
+  "slow": "20261103-194501",
   "turnout": "20261103-185931"
  },
  "window_hours": 3

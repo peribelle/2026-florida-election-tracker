@@ -1,0 +1,17 @@
+{
+ "run_id": "20261103-194501",
+ "created_local": "2026-11-03 19:45:36",
+ "counties_ok": 13,
+ "counties_targeted": 21,
+ "rows": 33695,
+ "failures": {
+  "BAY": "no rows",
+  "CLA": "no rows",
+  "DES": "no rows",
+  "FLA": "no rows",
+  "HAM": "no rows",
+  "MAN": "no rows",
+  "PAS": "no rows",
+  "STL": "no rows"
+ }
+}
