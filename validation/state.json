@@ -536,14 +536,14 @@
    "_primary": [],
    "_status": {
     "ALA": [
-     0,
-     "11/03/2026 11:36:33 am",
+     72137,
+     "11/03/2026 7:04:35 pm",
      0,
      63
     ],
     "BAK": [
-     0,
-     "11/03/2026 1:05:03 pm",
+     5055,
+     "11/03/2026 7:02:28 pm",
      0,
      9
     ],
@@ -554,14 +554,14 @@
      30
     ],
     "BRA": [
-     0,
-     "11/03/2026 6:26:43 pm",
+     4877,
+     "11/03/2026 7:04:47 pm",
      13,
      13
     ],
     "BRE": [
-     0,
-     "11/03/2026 6:01:35 pm",
+     177803,
+     "11/03/2026 7:00:50 pm",
      0,
      166
     ],
@@ -578,9 +578,9 @@
      31
     ],
     "CLA": [
-     0,
-     "10/14/2026 1:29:58 pm",
-     0,
+     57989,
+     "11/03/2026 7:00:50 pm",
+     24,
      48
     ],
     "CLL": [
@@ -590,8 +590,8 @@
      67
     ],
     "CLM": [
-     0,
-     "10/27/2026 12:59:02 pm",
+     14265,
+     "11/03/2026 7:09:20 pm",
      0,
      28
     ],
@@ -614,14 +614,14 @@
      10
     ],
     "DUV": [
-     0,
-     "11/03/2026 9:56:11 am",
+     233545,
+     "11/03/2026 7:06:30 pm",
      0,
      159
     ],
     "FLA": [
-     0,
-     "11/03/2026 6:00:16 am",
+     46853,
+     "11/03/2026 7:02:10 pm",
      0,
      22
     ],
@@ -692,8 +692,8 @@
      8
     ],
     "IND": [
-     0,
-     "11/02/2026 3:41:11 pm",
+     54888,
+     "11/03/2026 7:05:56 pm",
      0,
      36
     ],
@@ -716,14 +716,14 @@
      5
     ],
     "LAK": [
-     0,
-     "10/21/2026 8:46:36 am",
+     104522,
+     "11/03/2026 7:09:00 pm",
      0,
      92
     ],
     "LEO": [
-     0,
-     "11/03/2026 10:01:02 am",
+     80930,
+     "11/03/2026 7:00:30 pm",
      0,
      134
     ],
@@ -740,8 +740,8 @@
      0
     ],
     "MAN": [
-     0,
-     "11/03/2026 4:11:52 pm",
+     120876,
+     "11/03/2026 7:09:01 pm",
      0,
      71
     ],
@@ -758,21 +758,21 @@
      106
     ],
     "NAS": [
-     0,
-     "11/03/2026 6:14:50 pm",
+     32202,
+     "11/03/2026 7:09:05 pm",
      0,
      18
     ],
     "OKE": [
-     0,
-     "10/28/2026 10:59:54 am",
+     5922,
+     "11/03/2026 7:05:05 pm",
      0,
      11
     ],
     "PAS": [
-     0,
-     "11/02/2026 2:46:48 pm",
-     0,
+     143119,
+     "11/03/2026 7:09:15 pm",
+     5,
      122
     ],
     "POL": [
@@ -794,8 +794,8 @@
      41
     ],
     "SAR": [
-     0,
-     "11/03/2026 10:12:11 am",
+     156663,
+     "11/03/2026 7:06:07 pm",
      0,
      98
     ],
@@ -806,20 +806,20 @@
      82
     ],
     "STJ": [
-     0,
-     "10/15/2026 3:34:25 pm",
+     98716,
+     "11/03/2026 7:07:56 pm",
      0,
      55
     ],
     "STL": [
-     0,
-     "10/27/2026 3:01:11 pm",
+     64785,
+     "11/03/2026 7:06:45 pm",
      0,
      62
     ],
     "SUM": [
-     0,
-     "11/02/2026 4:54:35 pm",
+     72196,
+     "11/03/2026 7:10:06 pm",
      0,
      33
     ],
@@ -978,14 +978,14 @@
     "OKE": 451,
     "POL": 7016,
     "PUT": 1641,
-    "SAR": 5686,
+    "SAR": 5684,
     "STJ": 3100,
     "TAY": 546,
     "WAK": 532,
     "WAL": 1797
    },
    "prec_ok": 32,
-   "prec_rows": 126477
+   "prec_rows": 126475
   },
   "slow": {
    "_failures": [
@@ -1263,20 +1263,104 @@
   }
  },
  "open": {
-  "data|parts_mismatch|ENR|parts|CIT": {
-   "last": "2026-11-03 19:00:39",
+  "data|parts_mismatch|ENR|parts|ALA": {
+   "last": "2026-11-03 19:10:30",
    "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-190028-001",
-    "count": 47,
+    "alert_id": "A-20261103-191020-001",
+    "count": 8,
     "curr": null,
     "delta": null,
-    "detail": "REP Ashley Moody (United States Senator); DEM Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "detail": "Moliere \"Moe\" Dimanche (Governor and Lieutenant Gover\u2026); Jeffrey Peter \"Dr. Jeff\" Da\u2026 (Governor and Lieutenant Gover\u2026); Write-in (Governor and Lieutenant Gover\u2026)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|ALA",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in ALA: 8 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|ALA",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|BAK": {
+   "last": "2026-11-03 19:10:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-191020-002",
+    "count": 11,
+    "curr": null,
+    "delta": null,
+    "detail": "Neil J. Gillespie (United States Senator); Mike Klein (Representative in Congress, D\u2026); Scott Eckhard Jewett and Ni\u2026 (Governor and Lieutenant Gover\u2026)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|BAK",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in BAK: 11 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|BAK",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|BRA": {
+   "last": "2026-11-03 19:10:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-191020-003",
+    "count": 12,
+    "curr": null,
+    "delta": null,
+    "detail": "NPA Neil J. Gillespie (US Senate); NPA Mike Klein (US Rep); LPF Scott Eckhard Jewett (Governor)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|BRA",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in BRA: 12 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|BRA",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|CIT": {
+   "last": "2026-11-03 19:10:30",
+   "n": 2,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-190028-001",
+    "count": 4,
+    "curr": null,
+    "delta": null,
+    "detail": "Write-in Candidate (Representative in Congress - \u2026); Moliere \"Moe\" Dimanche (Governor and Lieutenant Gover\u2026); Dean Ocean Abrams (Governor and Lieutenant Gover\u2026)",
     "event": "raised",
     "fingerprint": "data|parts_mismatch|ENR|parts|CIT",
     "first_seen": "2026-11-03 19:00:39",
-    "headline": "Total is not the sum of its parts in CIT: 47 rows",
+    "headline": "Total is not the sum of its parts in CIT: 4 rows",
     "kind": "parts_mismatch",
     "prev": null,
     "prev_snapshot": "20261102-215553",
@@ -1291,20 +1375,76 @@
    "source": "results",
    "tier": 3
   },
-  "data|parts_mismatch|ENR|parts|HER": {
-   "last": "2026-11-03 19:00:39",
+  "data|parts_mismatch|ENR|parts|CLM": {
+   "last": "2026-11-03 19:10:30",
    "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-190028-002",
-    "count": 53,
+    "alert_id": "A-20261103-191020-004",
+    "count": 13,
     "curr": null,
     "delta": null,
-    "detail": "Ashley Moody (United States Senator); Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "detail": "Charles Burkett/ Ruben A. C\u2026 (Governor and Lieutenant Gover\u2026); Frank J. Russo/Rachel Rodri\u2026 (Governor and Lieutenant Gover\u2026); Moliere \"Moe\" Dimanche/Benj\u2026 (Governor and Lieutenant Gover\u2026)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|CLM",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in CLM: 13 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|CLM",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|DUV": {
+   "last": "2026-11-03 19:10:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-191020-005",
+    "count": 5,
+    "curr": null,
+    "delta": null,
+    "detail": "Write-in (School Board - District 4); Adesina Braxton (Trails CDD - Seat 2); Corina K. Buck (Trails CDD - Seat 2)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|DUV",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in DUV: 5 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|DUV",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|HER": {
+   "last": "2026-11-03 19:10:30",
+   "n": 2,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-190028-002",
+    "count": 4,
+    "curr": null,
+    "delta": null,
+    "detail": "Write-in (Representative in Congress, D\u2026); Moliere \"Moe\" Dimanche (Governor and Lieutenant Gover\u2026); Dean Ocean Abrams (Governor and Lieutenant Gover\u2026)",
     "event": "raised",
     "fingerprint": "data|parts_mismatch|ENR|parts|HER",
     "first_seen": "2026-11-03 19:00:39",
-    "headline": "Total is not the sum of its parts in HER: 53 rows",
+    "headline": "Total is not the sum of its parts in HER: 4 rows",
     "kind": "parts_mismatch",
     "prev": null,
     "prev_snapshot": "20261102-215553",
@@ -1320,8 +1460,8 @@
    "tier": 3
   },
   "data|parts_mismatch|ENR|parts|LAF": {
-   "last": "2026-11-03 19:00:39",
-   "n": 1,
+   "last": "2026-11-03 19:10:30",
+   "n": 2,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-190028-003",
@@ -1347,27 +1487,27 @@
    "source": "results",
    "tier": 3
   },
-  "data|pct_mismatch|ENR|pct|CIT": {
-   "last": "2026-11-03 19:00:39",
+  "data|parts_mismatch|ENR|parts|LAK": {
+   "last": "2026-11-03 19:10:30",
    "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-190028-004",
-    "count": 47,
+    "alert_id": "A-20261103-191020-006",
+    "count": 6,
     "curr": null,
     "delta": null,
-    "detail": "REP Ashley Moody (United States Senator); DEM Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "detail": "Andrew Parrott (Representative in Congress, D\u2026); Write-in\n                  \u2026 (Representative in Congress, D\u2026); Jeffrey Peter \"Dr. Jeff\" Da\u2026 (Governor and Lieutenant Gover\u2026)",
     "event": "raised",
-    "fingerprint": "data|pct_mismatch|ENR|pct|CIT",
-    "first_seen": "2026-11-03 19:00:39",
-    "headline": "Percent does not match the votes in CIT: 47 rows",
-    "kind": "pct_mismatch",
+    "fingerprint": "data|parts_mismatch|ENR|parts|LAK",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in LAK: 6 rows",
+    "kind": "parts_mismatch",
     "prev": null,
-    "prev_snapshot": "20261102-215553",
-    "raised_local": "2026-11-03 19:00:39",
-    "raised_utc": "2026-11-04T00:00:39Z",
-    "scope": "ENR|pct|CIT",
-    "snapshot": "20261103-190028",
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|LAK",
+    "snapshot": "20261103-191020",
     "source": "results",
     "tier": 3,
     "validator": "data"
@@ -1375,27 +1515,167 @@
    "source": "results",
    "tier": 3
   },
-  "data|pct_mismatch|ENR|pct|HER": {
-   "last": "2026-11-03 19:00:39",
+  "data|parts_mismatch|ENR|parts|LEO": {
+   "last": "2026-11-03 19:10:30",
    "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-190028-005",
-    "count": 53,
+    "alert_id": "A-20261103-191020-007",
+    "count": 3,
     "curr": null,
     "delta": null,
-    "detail": "Ashley Moody (United States Senator); Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "detail": "Moliere \"Moe\" Dimanche (Governor); Jeffrey Peter \"Dr. Jeff\" Da\u2026 (Governor); Write-in (Governor)",
     "event": "raised",
-    "fingerprint": "data|pct_mismatch|ENR|pct|HER",
-    "first_seen": "2026-11-03 19:00:39",
-    "headline": "Percent does not match the votes in HER: 53 rows",
-    "kind": "pct_mismatch",
+    "fingerprint": "data|parts_mismatch|ENR|parts|LEO",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in LEO: 3 rows",
+    "kind": "parts_mismatch",
     "prev": null,
-    "prev_snapshot": "20261102-215553",
-    "raised_local": "2026-11-03 19:00:39",
-    "raised_utc": "2026-11-04T00:00:39Z",
-    "scope": "ENR|pct|HER",
-    "snapshot": "20261103-190028",
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|LEO",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|OKE": {
+   "last": "2026-11-03 19:10:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-191020-008",
+    "count": 9,
+    "curr": null,
+    "delta": null,
+    "detail": "Neil J. Gillespie (United States Senator); Scott Eckhard Jewett and Ni\u2026 (Governor and Lieutenant Gover\u2026); Charles Burkett and Ruben A\u2026 (Governor and Lieutenant Gover\u2026)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|OKE",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in OKE: 9 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|OKE",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|PAS": {
+   "last": "2026-11-03 19:10:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-191020-009",
+    "count": 14,
+    "curr": null,
+    "delta": null,
+    "detail": "Neil J. Gillespie (United States Senator); Branden Scrivener (Representative in Congress Di\u2026); Scott Eckhard Jewett (Governor and Lieutenant Gover\u2026)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|PAS",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in PAS: 14 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|PAS",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|SAR": {
+   "last": "2026-11-03 19:10:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-191020-010",
+    "count": 2,
+    "curr": null,
+    "delta": null,
+    "detail": "Paula Johnson Taylor\n      \u2026 (Bobcat Trail CDD Seat 1); Roy Martin Winters\n        \u2026 (Windward at Lakewood Ranch CD\u2026)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|SAR",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in SAR: 2 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|SAR",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|STJ": {
+   "last": "2026-11-03 19:10:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-191020-011",
+    "count": 8,
+    "curr": null,
+    "delta": null,
+    "detail": "Write-in (Representative in Congress Di\u2026); Andrew Parrott (Representative in Congress Di\u2026); Write-in (Representative in Congress Di\u2026)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|STJ",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in STJ: 8 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|STJ",
+    "snapshot": "20261103-191020",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|SUM": {
+   "last": "2026-11-03 19:10:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-191020-012",
+    "count": 7,
+    "curr": null,
+    "delta": null,
+    "detail": "Charles Burkett (Governor and Lieutenant Gover\u2026); Moliere \"Moe\" Dimanche (Governor and Lieutenant Gover\u2026); Dean Ocean Abrams (Governor and Lieutenant Gover\u2026)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|SUM",
+    "first_seen": "2026-11-03 19:10:30",
+    "headline": "Total is not the sum of its parts in SUM: 7 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261103-190028",
+    "raised_local": "2026-11-03 19:10:30",
+    "raised_utc": "2026-11-04T00:10:30Z",
+    "scope": "ENR|parts|SUM",
+    "snapshot": "20261103-191020",
     "source": "results",
     "tier": 3,
     "validator": "data"
@@ -3273,22 +3553,232 @@
    "source": "results",
    "tier": 2,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-013",
+   "count": 100,
+   "curr": 0,
+   "delta": -1521362,
+   "detail": "Jeff Holcomb 31,771 \u2192 0; REP Wilton Simpson 31,443 \u2192 0; REP Ashley Moody 31,405 \u2192 0; and 97 more",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "A part fell while its total held in ENR (all counties, 100 rows): \u22121,521,362 across 100 numbers",
+   "kind": "parts_down",
+   "prev": 31771,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "ENR",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-014",
+   "count": 1,
+   "curr": 155275,
+   "delta": 239,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|count_changed|ENR-status|CLA|registered|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "CLA: registered voters 155,036 \u2192 155,275 (+239)",
+   "kind": "count_changed",
+   "prev": 155036,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "ENR-status|CLA|registered",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-015",
+   "count": 1,
+   "curr": 41610,
+   "delta": 110,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|count_changed|ENR-status|CLM|registered|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "CLM: registered voters 41,500 \u2192 41,610 (+110)",
+   "kind": "count_changed",
+   "prev": 41500,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "ENR-status|CLM|registered",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-016",
+   "count": 332,
+   "curr": 0,
+   "delta": 0,
+   "detail": "100 Yes; 102 Yes; 141 Yes",
+   "event": "raised",
+   "fingerprint": "data|rows_missing|PREC|BRE|Budget Stabilization Fund|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "Rows disappeared from BRE precincts \u00b7 Budget Stabilization Fund: 332 gone, carrying 0 votes",
+   "kind": "rows_missing",
+   "prev": 0,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "PREC|BRE|Budget Stabilization Fund",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-017",
+   "count": 332,
+   "curr": 0,
+   "delta": 0,
+   "detail": "100 Yes; 102 Yes; 141 Yes",
+   "event": "raised",
+   "fingerprint": "data|rows_missing|PREC|BRE|Exemption of Tangible Personal Property on Agricultural Land from Taxation|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "Rows disappeared from BRE precincts \u00b7 Exemption of Tangible Personal Property on Agricu\u2026: 332 gone, carrying 0 votes",
+   "kind": "rows_missing",
+   "prev": 0,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "PREC|BRE|Exemption of Tangible Personal Property on Agricultural Land from Taxation",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-018",
+   "count": 332,
+   "curr": 0,
+   "delta": 0,
+   "detail": "100 Yes; 102 Yes; 141 Yes",
+   "event": "raised",
+   "fingerprint": "data|rows_missing|PREC|BRE|Increased Homestead Exemption; Lower Cap on Increases in Non-Homestead Property Assessments|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "Rows disappeared from BRE precincts \u00b7 Increased Homestead Exemption; Lower Cap on Incre\u2026: 332 gone, carrying 0 votes",
+   "kind": "rows_missing",
+   "prev": 0,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "PREC|BRE|Increased Homestead Exemption; Lower Cap on Increases in Non-Homestead Property Assessments",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-019",
+   "count": 996,
+   "curr": null,
+   "delta": null,
+   "detail": "e.g. 100 Yes; 102 Yes; 141 Yes",
+   "event": "raised",
+   "fingerprint": "data|rows_new|PREC|BRE|new|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "New in PREC|BRE: 996 rows across 3 places",
+   "kind": "rows_new",
+   "prev": null,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "PREC|BRE|new",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-020",
+   "count": 22,
+   "curr": 0,
+   "delta": 0,
+   "detail": "01 Yes; 10 Yes; 11 Yes",
+   "event": "raised",
+   "fingerprint": "data|rows_missing|PREC|OKE|No. 2 Constitutional Admendment|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "Rows disappeared from OKE precincts \u00b7 No. 2 Constitutional Admendment: 22 gone, carrying 0 votes",
+   "kind": "rows_missing",
+   "prev": 0,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "PREC|OKE|No. 2 Constitutional Admendment",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-021",
+   "count": 22,
+   "curr": null,
+   "delta": null,
+   "detail": "e.g. 01 Yes; 10 Yes; 11 Yes",
+   "event": "raised",
+   "fingerprint": "data|rows_new|PREC|OKE|new|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "New in PREC|OKE: 22 rows across 1 place",
+   "kind": "rows_new",
+   "prev": null,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "PREC|OKE|new",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-191020-022",
+   "count": 2,
+   "curr": 0,
+   "delta": 0,
+   "detail": "106 Tryn Stimart; 106 Henry N. White Jr.",
+   "event": "raised",
+   "fingerprint": "data|rows_missing|PREC|SAR|Lakewood Ranch Stewardship Development District Seat 3|20261103-191020",
+   "first_seen": "2026-11-03 19:10:30",
+   "headline": "Rows disappeared from SAR precincts \u00b7 Lakewood Ranch Stewardship Development District S\u2026: 2 gone, carrying 0 votes",
+   "kind": "rows_missing",
+   "prev": 0,
+   "prev_snapshot": "20261103-190028",
+   "raised_local": "2026-11-03 19:10:30",
+   "raised_utc": "2026-11-04T00:10:30Z",
+   "scope": "PREC|SAR|Lakewood Ranch Stewardship Development District Seat 3",
+   "snapshot": "20261103-191020",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 11:36:33 am",
+    72137,
+    "11/03/2026 7:04:35 pm",
     0
    ]
   },
   "BAK": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 1:05:03 pm",
+    5055,
+    "11/03/2026 7:02:28 pm",
     0
    ]
   },
@@ -3303,16 +3793,16 @@
   "BRA": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 6:26:43 pm",
+    4877,
+    "11/03/2026 7:04:47 pm",
     13
    ]
   },
   "BRE": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 6:01:35 pm",
+    177803,
+    "11/03/2026 7:00:50 pm",
     0
    ]
   },
@@ -3325,7 +3815,7 @@
    ]
   },
   "CIT": {
-   "n": 0,
+   "n": 1,
    "sig": [
     47666,
     "11/03/2026 7:00:00 pm",
@@ -3335,9 +3825,9 @@
   "CLA": {
    "n": 0,
    "sig": [
-    0,
-    "10/14/2026 1:29:58 pm",
-    0
+    57989,
+    "11/03/2026 7:00:50 pm",
+    24
    ]
   },
   "CLL": {
@@ -3351,8 +3841,8 @@
   "CLM": {
    "n": 0,
    "sig": [
-    0,
-    "10/27/2026 12:59:02 pm",
+    14265,
+    "11/03/2026 7:09:20 pm",
     0
    ]
   },
@@ -3383,16 +3873,16 @@
   "DUV": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 9:56:11 am",
+    233545,
+    "11/03/2026 7:06:30 pm",
     0
    ]
   },
   "FLA": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 6:00:16 am",
+    46853,
+    "11/03/2026 7:02:10 pm",
     0
    ]
   },
@@ -3461,7 +3951,7 @@
    ]
   },
   "HER": {
-   "n": 0,
+   "n": 1,
    "sig": [
     47445,
     "11/03/2026 7:00:00 pm",
@@ -3487,8 +3977,8 @@
   "IND": {
    "n": 0,
    "sig": [
-    0,
-    "11/02/2026 3:41:11 pm",
+    54888,
+    "11/03/2026 7:05:56 pm",
     0
    ]
   },
@@ -3509,7 +3999,7 @@
    ]
   },
   "LAF": {
-   "n": 0,
+   "n": 1,
    "sig": [
     1106,
     "11/03/2026 7:00:09 pm",
@@ -3519,16 +4009,16 @@
   "LAK": {
    "n": 0,
    "sig": [
-    0,
-    "10/21/2026 8:46:36 am",
+    104522,
+    "11/03/2026 7:09:00 pm",
     0
    ]
   },
   "LEO": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 10:01:02 am",
+    80930,
+    "11/03/2026 7:00:30 pm",
     0
    ]
   },
@@ -3551,8 +4041,8 @@
   "MAN": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 4:11:52 pm",
+    120876,
+    "11/03/2026 7:09:01 pm",
     0
    ]
   },
@@ -3575,25 +4065,25 @@
   "NAS": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 6:14:50 pm",
+    32202,
+    "11/03/2026 7:09:05 pm",
     0
    ]
   },
   "OKE": {
    "n": 0,
    "sig": [
-    0,
-    "10/28/2026 10:59:54 am",
+    5922,
+    "11/03/2026 7:05:05 pm",
     0
    ]
   },
   "PAS": {
    "n": 0,
    "sig": [
-    0,
-    "11/02/2026 2:46:48 pm",
-    0
+    143119,
+    "11/03/2026 7:09:15 pm",
+    5
    ]
   },
   "POL": {
@@ -3623,8 +4113,8 @@
   "SAR": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 10:12:11 am",
+    156663,
+    "11/03/2026 7:06:07 pm",
     0
    ]
   },
@@ -3639,24 +4129,24 @@
   "STJ": {
    "n": 0,
    "sig": [
-    0,
-    "10/15/2026 3:34:25 pm",
+    98716,
+    "11/03/2026 7:07:56 pm",
     0
    ]
   },
   "STL": {
    "n": 0,
    "sig": [
-    0,
-    "10/27/2026 3:01:11 pm",
+    64785,
+    "11/03/2026 7:06:45 pm",
     0
    ]
   },
   "SUM": {
    "n": 0,
    "sig": [
-    0,
-    "11/02/2026 4:54:35 pm",
+    72196,
+    "11/03/2026 7:10:06 pm",
     0
    ]
   },
@@ -3703,14 +4193,14 @@
  },
  "totals": {
   "1": 2,
-  "2": 19,
-  "3": 124,
+  "2": 20,
+  "3": 145,
   "acked": 39,
-  "alerts": 145
+  "alerts": 167
  },
  "validated": {
   "projections": "20261102-224747",
-  "results": "20261103-190028",
+  "results": "20261103-191020",
   "slow": "20261102-215117",
   "turnout": "20261103-185931"
  },
