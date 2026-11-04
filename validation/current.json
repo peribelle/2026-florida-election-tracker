@@ -4,8 +4,8 @@
   "2": 0,
   "3": 2
  },
- "generated_local": "2026-11-03T20:40:20",
- "generated_utc": "2026-11-04T01:40:20Z",
+ "generated_local": "2026-11-03T20:45:37",
+ "generated_utc": "2026-11-04T01:45:37Z",
  "items": [
   {
    "alert_id": "A-20261103-204009-001",
@@ -56,18 +56,18 @@
  ],
  "last_run": {
   "cleared": 0,
-  "detail_rows": 1,
+  "detail_rows": 0,
   "escalated": 0,
   "pulls": [
-   "results:20261103-204009"
+   "slow:20261103-204500"
   ],
-  "raised": 2,
-  "ran_local": "2026-11-03 20:40:20",
-  "run_id": "20261103-204020",
-  "seconds": 0.8,
+  "raised": 0,
+  "ran_local": "2026-11-03 20:45:37",
+  "run_id": "20261103-204537",
+  "seconds": 0.1,
   "tier1": 0,
   "tier2": 0,
-  "tier3": 2
+  "tier3": 0
  },
  "schema": 1,
  "status": "notice",
@@ -81,7 +81,7 @@
  "validated": {
   "projections": "20261103-202006",
   "results": "20261103-204009",
-  "slow": "20261103-201508",
+  "slow": "20261103-204500",
   "turnout": "20261103-185931"
  },
  "window_hours": 3
