@@ -1,0 +1,3 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|parts_down|CALLS|ddhq|FL-H22|20261104-002015,3,data,parts_down,CALLS|ddhq|FL-H22,20261104-002015,ddhq | FL-H22 | Pia Dandiya | DEM,precincts_in,855,147,-708
+data|parts_down|CALLS|ddhq|FL-H22|20261104-002015,3,data,parts_down,CALLS|ddhq|FL-H22,20261104-002015,ddhq | FL-H22 | Casey Askar | GOP,precincts_in,855,147,-708

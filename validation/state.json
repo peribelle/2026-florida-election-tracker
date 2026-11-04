@@ -1470,19 +1470,19 @@
  },
  "open": {
   "source|county_stalled|ENR|stalled|STL": {
-   "last": "2026-11-04 00:10:30",
-   "n": 1,
+   "last": "2026-11-04 00:20:28",
+   "n": 2,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261104-001017-001",
-    "count": 3,
+    "count": 4,
     "curr": null,
     "delta": null,
     "detail": "61/62 precincts in, last update 11/03/2026 11:36:48 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STL",
     "first_seen": "2026-11-04 00:10:30",
-    "headline": "STL has not updated in 3 pulls (30 min)",
+    "headline": "STL has not updated in 4 pulls (40 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261104-000025",
@@ -2065,6 +2065,27 @@
    "source": "results",
    "tier": 2,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261104-002015-001",
+   "count": 2,
+   "curr": 147,
+   "delta": -1416,
+   "detail": "Pia Dandiya 855 \u2192 147; Casey Askar 855 \u2192 147",
+   "event": "raised",
+   "fingerprint": "data|parts_down|CALLS|ddhq|FL-H22|20261104-002015",
+   "first_seen": "2026-11-04 00:20:18",
+   "headline": "A part fell while its total held in DDHQ FL-H22: \u22121,416 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 855,
+   "prev_snapshot": "20261103-235014",
+   "raised_local": "2026-11-04 00:20:18",
+   "raised_utc": "2026-11-04T05:20:18Z",
+   "scope": "CALLS|ddhq|FL-H22",
+   "snapshot": "20261104-002015",
+   "source": "projections",
+   "tier": 3,
+   "validator": "data"
   }
  ],
  "stale": {
@@ -2501,7 +2522,7 @@
    ]
   },
   "STL": {
-   "n": 3,
+   "n": 4,
    "sig": [
     138179,
     "11/03/2026 11:36:48 pm",
@@ -2568,13 +2589,13 @@
  "totals": {
   "1": 18,
   "2": 141,
-  "3": 348,
+  "3": 349,
   "acked": 413,
-  "alerts": 507
+  "alerts": 508
  },
  "validated": {
-  "projections": "20261103-235014",
-  "results": "20261104-001017",
+  "projections": "20261104-002015",
+  "results": "20261104-002015",
   "slow": "20261104-001510",
   "turnout": "20261103-185931"
  },
