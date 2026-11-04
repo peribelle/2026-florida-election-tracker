@@ -1,0 +1,10 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|call_made|PROJ|call|ddhq|FL-H01|20261103-202006,3,data,call_made,PROJ|call|ddhq|FL-H01,20261103-202006,ddhq | FL-H01 | Jimmy  Patronis,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H13|20261103-202006,3,data,call_made,PROJ|call|ddhq|FL-H13,20261103-202006,ddhq | FL-H13 | Anna Paulina Luna,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H15|20261103-202006,3,data,call_made,PROJ|call|ddhq|FL-H15,20261103-202006,ddhq | FL-H15 | Laurel Lee,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H16|20261103-202006,3,data,call_made,PROJ|call|ddhq|FL-H16,20261103-202006,ddhq | FL-H16 | Sydney Gruters,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H18|20261103-202006,3,data,call_made,PROJ|call|ddhq|FL-H18,20261103-202006,ddhq | FL-H18 | Scott Franklin,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H22|20261103-202006,3,data,call_made,PROJ|call|ddhq|FL-H22,20261103-202006,ddhq | FL-H22 | Pia Dandiya,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H25|20261103-202006,3,data,call_made,PROJ|call|ddhq|FL-H25,20261103-202006,ddhq | FL-H25 | Jared Moskowitz,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H03|20261103-202006,3,data,call_made,PROJ|call|ddhq|FL-H03,20261103-202006,ddhq | FL-H03 | Kat Cammack,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-SEN|20261103-202006,3,data,call_made,PROJ|call|ddhq|FL-SEN,20261103-202006,ddhq | FL-SEN | Ashley Moody,winner,False,True,
