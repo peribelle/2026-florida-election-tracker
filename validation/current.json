@@ -1,37 +1,12 @@
 {
  "counts": {
   "1": 0,
-  "2": 1,
+  "2": 0,
   "3": 0
  },
- "generated_local": "2026-11-03T20:05:47",
- "generated_utc": "2026-11-04T01:05:47Z",
- "items": [
-  {
-   "alert_id": "A-20261103-194011-005",
-   "checks": 3,
-   "count": 34,
-   "curr": null,
-   "delta": null,
-   "detail": "Ashley Moody (United States Senator); Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
-   "event": "raised",
-   "fingerprint": "data|pct_mismatch|ENR|pct|GLA",
-   "first_seen": "2026-11-03 19:40:21",
-   "headline": "Percent does not match the votes in GLA: 34 rows",
-   "kind": "pct_mismatch",
-   "last_seen": "2026-11-03 20:00:36",
-   "prev": null,
-   "prev_snapshot": "20261103-193019",
-   "raised_local": "2026-11-03 19:40:21",
-   "raised_utc": "2026-11-04T00:40:21Z",
-   "scope": "ENR|pct|GLA",
-   "snapshot": "20261103-194011",
-   "source": "results",
-   "state": "open",
-   "tier": 2,
-   "validator": "data"
-  }
- ],
+ "generated_local": "2026-11-03T20:11:03",
+ "generated_utc": "2026-11-04T01:11:03Z",
+ "items": [],
  "last_run": {
   "cleared": 0,
   "escalated": 0,
@@ -39,25 +14,25 @@
    "acknowledge"
   ],
   "raised": 0,
-  "ran_local": "2026-11-03 20:05:47",
-  "run_id": "20261103-200547",
+  "ran_local": "2026-11-03 20:11:03",
+  "run_id": "20261103-201103",
   "seconds": 0,
   "tier1": 0,
   "tier2": 0,
   "tier3": 0
  },
  "schema": 1,
- "status": "warning",
+ "status": "clear",
  "totals": {
   "1": 3,
   "2": 127,
-  "3": 214,
-  "acked": 273,
-  "alerts": 344
+  "3": 248,
+  "acked": 307,
+  "alerts": 378
  },
  "validated": {
   "projections": "20261103-195017",
-  "results": "20261103-200025",
+  "results": "20261103-201016",
   "slow": "20261103-194501",
   "turnout": "20261103-185931"
  },

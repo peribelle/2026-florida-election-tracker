@@ -545,9 +545,9 @@
    "_primary": [],
    "_status": {
     "ALA": [
-     76543,
-     "11/03/2026 7:49:15 pm",
-     11,
+     85564,
+     "11/03/2026 8:07:34 pm",
+     28,
      63
     ],
     "BAK": [
@@ -557,8 +557,8 @@
      9
     ],
     "BAY": [
-     0,
-     "11/02/2026 3:37:10 pm",
+     46616,
+     "11/03/2026 7:03:11 pm",
      0,
      30
     ],
@@ -569,9 +569,9 @@
      13
     ],
     "BRE": [
-     250505,
-     "11/03/2026 7:53:41 pm",
-     129,
+     258082,
+     "11/03/2026 8:07:01 pm",
+     153,
      166
     ],
     "CAL": [
@@ -605,9 +605,9 @@
      28
     ],
     "DAD": [
-     742399,
-     "11/03/2026 7:46:52 pm",
-     628,
+     760436,
+     "11/03/2026 8:04:20 pm",
+     679,
      773
     ],
     "DES": [
@@ -623,9 +623,9 @@
      10
     ],
     "DUV": [
-     342391,
-     "11/03/2026 7:49:10 pm",
-     142,
+     352126,
+     "11/03/2026 8:02:25 pm",
+     154,
      159
     ],
     "FLA": [
@@ -641,9 +641,9 @@
      8
     ],
     "GAD": [
-     17014,
-     "11/03/2026 7:33:36 pm",
-     22,
+     17735,
+     "11/03/2026 8:05:05 pm",
+     24,
      25
     ],
     "GIL": [
@@ -659,21 +659,21 @@
      13
     ],
     "GUL": [
-     5253,
-     "11/03/2026 7:49:42 pm",
-     6,
+     6750,
+     "11/03/2026 8:04:36 pm",
+     10,
      10
     ],
     "HAM": [
-     2271,
-     "11/03/2026 7:43:22 pm",
-     1,
+     3438,
+     "11/03/2026 8:07:37 pm",
+     5,
      8
     ],
     "HAR": [
-     3238,
-     "11/03/2026 7:18:32 pm",
-     0,
+     3684,
+     "11/03/2026 8:06:19 pm",
+     3,
      12
     ],
     "HEN": [
@@ -683,26 +683,26 @@
      10
     ],
     "HER": [
-     57438,
-     "11/03/2026 7:52:43 pm",
-     11,
+     68298,
+     "11/03/2026 8:06:00 pm",
+     21,
      32
     ],
     "HIG": [
-     24428,
-     "11/03/2026 7:28:23 pm",
-     0,
+     39206,
+     "11/03/2026 8:01:33 pm",
+     25,
      25
     ],
     "HIL": [
-     473184,
-     "11/03/2026 7:40:36 pm",
-     335,
+     506906,
+     "11/03/2026 8:07:58 pm",
+     422,
      446
     ],
     "HOL": [
-     0,
-     "11/03/2026 9:16:07 am",
+     2640,
+     "11/03/2026 7:07:48 pm",
      0,
      8
     ],
@@ -725,27 +725,27 @@
      16
     ],
     "LAF": [
-     1486,
-     "11/03/2026 7:33:55 pm",
-     2,
+     2639,
+     "11/03/2026 8:01:56 pm",
+     5,
      5
     ],
     "LAK": [
      168069,
-     "11/03/2026 7:55:53 pm",
+     "11/03/2026 8:03:23 pm",
      88,
      92
     ],
     "LEO": [
-     106223,
-     "11/03/2026 7:47:05 pm",
-     34,
+     118135,
+     "11/03/2026 8:02:44 pm",
+     70,
      134
     ],
     "LEV": [
-     16570,
-     "11/03/2026 7:55:32 pm",
-     11,
+     18224,
+     "11/03/2026 8:02:49 pm",
+     13,
      13
     ],
     "LIB": [
@@ -755,9 +755,9 @@
      0
     ],
     "MAD": [
-     6779,
-     "11/03/2026 7:49:39 pm",
-     10,
+     7038,
+     "11/03/2026 8:05:48 pm",
+     11,
      11
     ],
     "MAN": [
@@ -791,38 +791,38 @@
      11
     ],
     "PAS": [
-     232482,
-     "11/03/2026 7:49:01 pm",
-     117,
+     234454,
+     "11/03/2026 8:04:13 pm",
+     118,
      122
     ],
     "POL": [
      204860,
-     "11/03/2026 7:40:15 pm",
+     "11/03/2026 8:03:07 pm",
      120,
      177
     ],
     "PUT": [
-     17621,
-     "11/03/2026 7:54:35 pm",
-     13,
+     19404,
+     "11/03/2026 8:07:17 pm",
+     17,
      37
     ],
     "SAN": [
-     0,
-     "11/02/2026 11:57:35 am",
+     40702,
+     "11/03/2026 7:01:00 pm",
      0,
      41
     ],
     "SAR": [
-     213984,
-     "11/03/2026 7:45:42 pm",
-     89,
+     219181,
+     "11/03/2026 8:01:06 pm",
+     95,
      98
     ],
     "SEM": [
      191109,
-     "11/03/2026 7:54:16 pm",
+     "11/03/2026 8:09:02 pm",
      76,
      82
     ],
@@ -845,9 +845,9 @@
      33
     ],
     "SUW": [
-     0,
-     "11/03/2026 7:34:18 pm",
-     0,
+     15929,
+     "11/03/2026 8:04:57 pm",
+     14,
      14
     ],
     "TAY": [
@@ -875,9 +875,9 @@
      22
     ],
     "WAS": [
-     0,
-     "10/22/2026 10:50:22 am",
-     0,
+     3190,
+     "11/03/2026 7:03:17 pm",
+     12,
      12
     ]
    },
@@ -1297,56 +1297,57 @@
   }
  },
  "open": {
-  "data|pct_mismatch|ENR|pct|GLA": {
-   "last": "2026-11-03 20:00:36",
-   "n": 3,
+  "source|county_stalled|ENR|stalled|CLA": {
+   "acked": "Clay, Collier and Taylor have not posted new numbers for 30 minutes: small counties between batch updates. Returns by itself if it gets worse.",
+   "last": "2026-11-03 20:10:28",
+   "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-194011-005",
-    "count": 34,
+    "alert_id": "A-20261103-201016-001",
+    "count": 3,
     "curr": null,
     "delta": null,
-    "detail": "Ashley Moody (United States Senator); Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "detail": "47/48 precincts in, last update 11/03/2026 7:39:55 pm.",
     "event": "raised",
-    "fingerprint": "data|pct_mismatch|ENR|pct|GLA",
-    "first_seen": "2026-11-03 19:40:21",
-    "headline": "Percent does not match the votes in GLA: 34 rows",
-    "kind": "pct_mismatch",
-    "prev": null,
-    "prev_snapshot": "20261103-193019",
-    "raised_local": "2026-11-03 19:40:21",
-    "raised_utc": "2026-11-04T00:40:21Z",
-    "scope": "ENR|pct|GLA",
-    "snapshot": "20261103-194011",
-    "source": "results",
-    "tier": 2,
-    "validator": "data"
-   },
-   "source": "results",
-   "tier": 2
-  },
-  "source|county_stalled|ENR|stalled|HAR": {
-   "acked": "St. Lucie has 0 of 62 precincts in as of 7:06 PM: the county has not started reporting. Real and known; it returns by itself if it gets worse.",
-   "last": "2026-11-03 20:00:36",
-   "n": 2,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-195017-001",
-    "count": 4,
-    "curr": null,
-    "delta": null,
-    "detail": "0/12 precincts in, last update 11/03/2026 7:18:32 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|HAR",
-    "first_seen": "2026-11-03 19:50:28",
-    "headline": "HAR has not updated in 4 pulls (40 min)",
+    "fingerprint": "source|county_stalled|ENR|stalled|CLA",
+    "first_seen": "2026-11-03 20:10:28",
+    "headline": "CLA has not updated in 3 pulls (30 min)",
     "kind": "county_stalled",
     "prev": null,
-    "prev_snapshot": "20261103-194011",
-    "raised_local": "2026-11-03 19:50:28",
-    "raised_utc": "2026-11-04T00:50:28Z",
-    "scope": "ENR|stalled|HAR",
-    "snapshot": "20261103-195017",
+    "prev_snapshot": "20261103-200025",
+    "raised_local": "2026-11-03 20:10:28",
+    "raised_utc": "2026-11-04T01:10:28Z",
+    "scope": "ENR|stalled|CLA",
+    "snapshot": "20261103-201016",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "source|county_stalled|ENR|stalled|CLL": {
+   "acked": "Clay, Collier and Taylor have not posted new numbers for 30 minutes: small counties between batch updates. Returns by itself if it gets worse.",
+   "last": "2026-11-03 20:10:28",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-201016-002",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "59/67 precincts in, last update 11/03/2026 7:39:47 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|CLL",
+    "first_seen": "2026-11-03 20:10:28",
+    "headline": "CLL has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-200025",
+    "raised_local": "2026-11-03 20:10:28",
+    "raised_utc": "2026-11-04T01:10:28Z",
+    "scope": "ENR|stalled|CLL",
+    "snapshot": "20261103-201016",
     "source": "results",
     "tier": 3,
     "validator": "source"
@@ -1356,19 +1357,19 @@
   },
   "source|county_stalled|ENR|stalled|STL": {
    "acked": "St. Lucie has 0 of 62 precincts in as of 7:06 PM: the county has not started reporting. Real and known; it returns by itself if it gets worse.",
-   "last": "2026-11-03 20:00:36",
-   "n": 3,
+   "last": "2026-11-03 20:10:28",
+   "n": 4,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-194011-004",
-    "count": 5,
+    "count": 6,
     "curr": null,
     "delta": null,
     "detail": "0/62 precincts in, last update 11/03/2026 7:06:45 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STL",
     "first_seen": "2026-11-03 19:40:21",
-    "headline": "STL has not updated in 5 pulls (50 min)",
+    "headline": "STL has not updated in 6 pulls (60 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-193019",
@@ -1382,6 +1383,35 @@
    },
    "source": "results",
    "tier": 2
+  },
+  "source|county_stalled|ENR|stalled|TAY": {
+   "acked": "Clay, Collier and Taylor have not posted new numbers for 30 minutes: small counties between batch updates. Returns by itself if it gets worse.",
+   "last": "2026-11-03 20:10:28",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-201016-003",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "0/14 precincts in, last update 11/03/2026 7:37:42 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|TAY",
+    "first_seen": "2026-11-03 20:10:28",
+    "headline": "TAY has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-200025",
+    "raised_local": "2026-11-03 20:10:28",
+    "raised_utc": "2026-11-04T01:10:28Z",
+    "scope": "ENR|stalled|TAY",
+    "snapshot": "20261103-201016",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
   }
  },
  "recent": [
@@ -2354,11 +2384,11 @@
  ],
  "stale": {
   "ALA": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    76543,
-    "11/03/2026 7:49:15 pm",
-    11
+    85564,
+    "11/03/2026 8:07:34 pm",
+    28
    ]
   },
   "BAK": {
@@ -2372,8 +2402,8 @@
   "BAY": {
    "n": 0,
    "sig": [
-    0,
-    "11/02/2026 3:37:10 pm",
+    46616,
+    "11/03/2026 7:03:11 pm",
     0
    ]
   },
@@ -2388,9 +2418,9 @@
   "BRE": {
    "n": 0,
    "sig": [
-    250505,
-    "11/03/2026 7:53:41 pm",
-    129
+    258082,
+    "11/03/2026 8:07:01 pm",
+    153
    ]
   },
   "CAL": {
@@ -2410,7 +2440,7 @@
    ]
   },
   "CLA": {
-   "n": 2,
+   "n": 3,
    "sig": [
     92721,
     "11/03/2026 7:39:55 pm",
@@ -2418,7 +2448,7 @@
    ]
   },
   "CLL": {
-   "n": 2,
+   "n": 3,
    "sig": [
     163497,
     "11/03/2026 7:39:47 pm",
@@ -2426,7 +2456,7 @@
    ]
   },
   "CLM": {
-   "n": 0,
+   "n": 1,
    "sig": [
     20717,
     "11/03/2026 7:59:42 pm",
@@ -2434,15 +2464,15 @@
    ]
   },
   "DAD": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    742399,
-    "11/03/2026 7:46:52 pm",
-    628
+    760436,
+    "11/03/2026 8:04:20 pm",
+    679
    ]
   },
   "DES": {
-   "n": 0,
+   "n": 1,
    "sig": [
     6137,
     "11/03/2026 7:54:48 pm",
@@ -2450,7 +2480,7 @@
    ]
   },
   "DIX": {
-   "n": 0,
+   "n": 1,
    "sig": [
     5338,
     "11/03/2026 7:53:16 pm",
@@ -2458,11 +2488,11 @@
    ]
   },
   "DUV": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    342391,
-    "11/03/2026 7:49:10 pm",
-    142
+    352126,
+    "11/03/2026 8:02:25 pm",
+    154
    ]
   },
   "FLA": {
@@ -2482,11 +2512,11 @@
    ]
   },
   "GAD": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    17014,
-    "11/03/2026 7:33:36 pm",
-    22
+    17735,
+    "11/03/2026 8:05:05 pm",
+    24
    ]
   },
   "GIL": {
@@ -2498,7 +2528,7 @@
    ]
   },
   "GLA": {
-   "n": 0,
+   "n": 1,
    "sig": [
     2882,
     "11/03/2026 8:01:15 pm",
@@ -2506,27 +2536,27 @@
    ]
   },
   "GUL": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    5253,
-    "11/03/2026 7:49:42 pm",
-    6
+    6750,
+    "11/03/2026 8:04:36 pm",
+    10
    ]
   },
   "HAM": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    2271,
-    "11/03/2026 7:43:22 pm",
-    1
+    3438,
+    "11/03/2026 8:07:37 pm",
+    5
    ]
   },
   "HAR": {
-   "n": 4,
+   "n": 0,
    "sig": [
-    3238,
-    "11/03/2026 7:18:32 pm",
-    0
+    3684,
+    "11/03/2026 8:06:19 pm",
+    3
    ]
   },
   "HEN": {
@@ -2540,32 +2570,32 @@
   "HER": {
    "n": 0,
    "sig": [
-    57438,
-    "11/03/2026 7:52:43 pm",
-    11
+    68298,
+    "11/03/2026 8:06:00 pm",
+    21
    ]
   },
   "HIG": {
    "n": 0,
    "sig": [
-    24428,
-    "11/03/2026 7:28:23 pm",
-    0
+    39206,
+    "11/03/2026 8:01:33 pm",
+    25
    ]
   },
   "HIL": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    473184,
-    "11/03/2026 7:40:36 pm",
-    335
+    506906,
+    "11/03/2026 8:07:58 pm",
+    422
    ]
   },
   "HOL": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 9:16:07 am",
+    2640,
+    "11/03/2026 7:07:48 pm",
     0
    ]
   },
@@ -2586,7 +2616,7 @@
    ]
   },
   "JEF": {
-   "n": 0,
+   "n": 1,
    "sig": [
     4102,
     "11/03/2026 7:53:12 pm",
@@ -2594,39 +2624,39 @@
    ]
   },
   "LAF": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    1486,
-    "11/03/2026 7:33:55 pm",
-    2
+    2639,
+    "11/03/2026 8:01:56 pm",
+    5
    ]
   },
   "LAK": {
    "n": 0,
    "sig": [
     168069,
-    "11/03/2026 7:55:53 pm",
+    "11/03/2026 8:03:23 pm",
     88
    ]
   },
   "LEO": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    106223,
-    "11/03/2026 7:47:05 pm",
-    34
+    118135,
+    "11/03/2026 8:02:44 pm",
+    70
    ]
   },
   "LEV": {
    "n": 0,
    "sig": [
-    16570,
-    "11/03/2026 7:55:32 pm",
-    11
+    18224,
+    "11/03/2026 8:02:49 pm",
+    13
    ]
   },
   "LIB": {
-   "n": 0,
+   "n": 1,
    "sig": [
     1892,
     "11/03/2026 7:55:04 pm",
@@ -2636,13 +2666,13 @@
   "MAD": {
    "n": 0,
    "sig": [
-    6779,
-    "11/03/2026 7:49:39 pm",
-    10
+    7038,
+    "11/03/2026 8:05:48 pm",
+    11
    ]
   },
   "MAN": {
-   "n": 0,
+   "n": 1,
    "sig": [
     174359,
     "11/03/2026 7:54:52 pm",
@@ -2658,7 +2688,7 @@
    ]
   },
   "MRN": {
-   "n": 0,
+   "n": 1,
    "sig": [
     98690,
     "11/03/2026 7:58:30 pm",
@@ -2666,7 +2696,7 @@
    ]
   },
   "NAS": {
-   "n": 0,
+   "n": 1,
    "sig": [
     47139,
     "11/03/2026 7:55:48 pm",
@@ -2682,55 +2712,55 @@
    ]
   },
   "PAS": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    232482,
-    "11/03/2026 7:49:01 pm",
-    117
+    234454,
+    "11/03/2026 8:04:13 pm",
+    118
    ]
   },
   "POL": {
-   "n": 1,
+   "n": 0,
    "sig": [
     204860,
-    "11/03/2026 7:40:15 pm",
+    "11/03/2026 8:03:07 pm",
     120
    ]
   },
   "PUT": {
    "n": 0,
    "sig": [
-    17621,
-    "11/03/2026 7:54:35 pm",
-    13
+    19404,
+    "11/03/2026 8:07:17 pm",
+    17
    ]
   },
   "SAN": {
    "n": 0,
    "sig": [
-    0,
-    "11/02/2026 11:57:35 am",
+    40702,
+    "11/03/2026 7:01:00 pm",
     0
    ]
   },
   "SAR": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    213984,
-    "11/03/2026 7:45:42 pm",
-    89
+    219181,
+    "11/03/2026 8:01:06 pm",
+    95
    ]
   },
   "SEM": {
    "n": 0,
    "sig": [
     191109,
-    "11/03/2026 7:54:16 pm",
+    "11/03/2026 8:09:02 pm",
     76
    ]
   },
   "STJ": {
-   "n": 1,
+   "n": 2,
    "sig": [
     146613,
     "11/03/2026 7:47:58 pm",
@@ -2738,7 +2768,7 @@
    ]
   },
   "STL": {
-   "n": 5,
+   "n": 6,
    "sig": [
     64785,
     "11/03/2026 7:06:45 pm",
@@ -2756,13 +2786,13 @@
   "SUW": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 7:34:18 pm",
-    0
+    15929,
+    "11/03/2026 8:04:57 pm",
+    14
    ]
   },
   "TAY": {
-   "n": 2,
+   "n": 3,
    "sig": [
     3835,
     "11/03/2026 7:37:42 pm",
@@ -2778,7 +2808,7 @@
    ]
   },
   "WAK": {
-   "n": 0,
+   "n": 1,
    "sig": [
     14244,
     "11/03/2026 7:54:05 pm",
@@ -2796,22 +2826,22 @@
   "WAS": {
    "n": 0,
    "sig": [
-    0,
-    "10/22/2026 10:50:22 am",
-    0
+    3190,
+    "11/03/2026 7:03:17 pm",
+    12
    ]
   }
  },
  "totals": {
   "1": 3,
   "2": 127,
-  "3": 214,
-  "acked": 273,
-  "alerts": 344
+  "3": 248,
+  "acked": 307,
+  "alerts": 378
  },
  "validated": {
   "projections": "20261103-195017",
-  "results": "20261103-200025",
+  "results": "20261103-201016",
   "slow": "20261103-194501",
   "turnout": "20261103-185931"
  },
