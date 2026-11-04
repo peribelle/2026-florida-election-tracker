@@ -168,7 +168,7 @@
    "prec_votes": {
     "BAK": 160017,
     "BRA": 155414,
-    "BRE": 4905439,
+    "BRE": 4908670,
     "CHA": 1486818,
     "CIT": 1196373,
     "CLL": 2897973,
@@ -611,9 +611,9 @@
    "_primary": [],
    "_status": {
     "ALA": [
-     105083,
-     "11/03/2026 10:27:32 pm",
-     62,
+     105976,
+     "11/03/2026 11:30:43 pm",
+     63,
      63
     ],
     "BAK": [
@@ -635,8 +635,8 @@
      13
     ],
     "BRE": [
-     267594,
-     "11/03/2026 10:11:15 pm",
+     267772,
+     "11/03/2026 11:30:24 pm",
      166,
      166
     ],
@@ -882,7 +882,7 @@
     ],
     "ORA": [
      474350,
-     "11/03/2026 11:05:07 pm",
+     "11/03/2026 11:33:44 pm",
      263,
      263
     ],
@@ -935,8 +935,8 @@
      55
     ],
     "STL": [
-     137676,
-     "11/03/2026 10:55:54 pm",
+     138179,
+     "11/03/2026 11:36:48 pm",
      61,
      62
     ],
@@ -1137,7 +1137,7 @@
    "prec_votes": {
     "BAK": 160017,
     "BRA": 155414,
-    "BRE": 4905439,
+    "BRE": 4908670,
     "CHA": 1486818,
     "CIT": 1196373,
     "CLL": 2897973,
@@ -1468,65 +1468,7 @@
    "precinct_rows": 8688
   }
  },
- "open": {
-  "source|county_stalled|ENR|stalled|ALA": {
-   "acked": "Alachua: 62 of 63 precincts in, last update 10:27 PM; one precinct outstanding. Returns by itself if it gets worse.",
-   "last": "2026-11-03 23:30:26",
-   "n": 4,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-230034-001",
-    "count": 6,
-    "curr": null,
-    "delta": null,
-    "detail": "62/63 precincts in, last update 11/03/2026 10:27:32 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|ALA",
-    "first_seen": "2026-11-03 23:00:47",
-    "headline": "ALA has not updated in 6 pulls (60 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-225000",
-    "raised_local": "2026-11-03 23:00:47",
-    "raised_utc": "2026-11-04T04:00:47Z",
-    "scope": "ENR|stalled|ALA",
-    "snapshot": "20261103-230034",
-    "source": "results",
-    "tier": 2,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 2
-  },
-  "source|county_stalled|ENR|stalled|STL": {
-   "last": "2026-11-03 23:30:26",
-   "n": 1,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-233014-001",
-    "count": 3,
-    "curr": null,
-    "delta": null,
-    "detail": "61/62 precincts in, last update 11/03/2026 10:55:54 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|STL",
-    "first_seen": "2026-11-03 23:30:26",
-    "headline": "STL has not updated in 3 pulls (30 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-232001",
-    "raised_local": "2026-11-03 23:30:26",
-    "raised_utc": "2026-11-04T04:30:26Z",
-    "scope": "ENR|stalled|STL",
-    "snapshot": "20261103-233014",
-    "source": "results",
-    "tier": 3,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 3
-  }
- },
+ "open": {},
  "recent": [
   {
    "alert_id": "A-20261103-150023-001",
@@ -2077,11 +2019,11 @@
  ],
  "stale": {
   "ALA": {
-   "n": 6,
+   "n": 0,
    "sig": [
-    105083,
-    "11/03/2026 10:27:32 pm",
-    62
+    105976,
+    "11/03/2026 11:30:43 pm",
+    63
    ]
   },
   "BAK": {
@@ -2111,8 +2053,8 @@
   "BRE": {
    "n": 0,
    "sig": [
-    267594,
-    "11/03/2026 10:11:15 pm",
+    267772,
+    "11/03/2026 11:30:24 pm",
     166
    ]
   },
@@ -2440,7 +2382,7 @@
    "n": 0,
    "sig": [
     474350,
-    "11/03/2026 11:05:07 pm",
+    "11/03/2026 11:33:44 pm",
     263
    ]
   },
@@ -2509,10 +2451,10 @@
    ]
   },
   "STL": {
-   "n": 3,
+   "n": 0,
    "sig": [
-    137676,
-    "11/03/2026 10:55:54 pm",
+    138179,
+    "11/03/2026 11:36:48 pm",
     61
    ]
   },
@@ -2582,7 +2524,7 @@
  },
  "validated": {
   "projections": "20261103-232001",
-  "results": "20261103-233014",
+  "results": "20261103-234006",
   "slow": "20261103-231500",
   "turnout": "20261103-185931"
  },

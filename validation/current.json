@@ -2,10 +2,10 @@
  "counts": {
   "1": 0,
   "2": 1,
-  "3": 1
+  "3": 0
  },
- "generated_local": "2026-11-03T23:30:26",
- "generated_utc": "2026-11-04T04:30:26Z",
+ "generated_local": "2026-11-03T23:40:19",
+ "generated_utc": "2026-11-04T04:40:19Z",
  "items": [
   {
    "alert_id": "A-20261103-233014-002",
@@ -28,46 +28,22 @@
    "state": "event",
    "tier": 2,
    "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-233014-001",
-   "checks": 1,
-   "count": 3,
-   "curr": null,
-   "delta": null,
-   "detail": "61/62 precincts in, last update 11/03/2026 10:55:54 pm.",
-   "event": "raised",
-   "fingerprint": "source|county_stalled|ENR|stalled|STL",
-   "first_seen": "2026-11-03 23:30:26",
-   "headline": "STL has not updated in 3 pulls (30 min)",
-   "kind": "county_stalled",
-   "last_seen": "2026-11-03 23:30:26",
-   "prev": null,
-   "prev_snapshot": "20261103-232001",
-   "raised_local": "2026-11-03 23:30:26",
-   "raised_utc": "2026-11-04T04:30:26Z",
-   "scope": "ENR|stalled|STL",
-   "snapshot": "20261103-233014",
-   "source": "results",
-   "state": "open",
-   "tier": 3,
-   "validator": "source"
   }
  ],
  "last_run": {
-  "cleared": 0,
-  "detail_rows": 1,
+  "cleared": 2,
+  "detail_rows": 0,
   "escalated": 0,
   "pulls": [
-   "results:20261103-233014"
+   "results:20261103-234006"
   ],
-  "raised": 2,
-  "ran_local": "2026-11-03 23:30:26",
-  "run_id": "20261103-233026",
-  "seconds": 1.3,
+  "raised": 0,
+  "ran_local": "2026-11-03 23:40:19",
+  "run_id": "20261103-234019",
+  "seconds": 1.2,
   "tier1": 0,
-  "tier2": 1,
-  "tier3": 1
+  "tier2": 0,
+  "tier3": 0
  },
  "schema": 1,
  "status": "warning",
@@ -80,7 +56,7 @@
  },
  "validated": {
   "projections": "20261103-232001",
-  "results": "20261103-233014",
+  "results": "20261103-234006",
   "slow": "20261103-231500",
   "turnout": "20261103-185931"
  },
