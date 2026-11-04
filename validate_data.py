@@ -332,9 +332,10 @@ def inv_county_contests(rows, status):
     ballots = {r["county_code"]: num(r.get("ballots_cast")) for r in status}
     neg, parts, pct = defaultdict(list), defaultdict(list), defaultdict(list)
     over = defaultdict(list)
-    by_contest = defaultdict(int)
+    by_contest, psum = defaultdict(int), defaultdict(float)
     for r in rows:
         by_contest[(r["county_code"], r["contest"])] += num(r.get("total")) or 0
+        psum[(r["county_code"], r["contest"])] += num(r.get("pct")) or 0
     for r in rows:
         cols = {c: num(r.get(c)) for c in ("election_day", "early", "mail", "provisional", "total")}
         code = r["county_code"]
@@ -345,7 +346,9 @@ def inv_county_contests(rows, status):
             parts[code].append(r)
         s = by_contest[(code, r["contest"])]
         rep = num(r.get("pct"))
-        if s > 0 and rep is not None and cols["total"] is not None and abs(100 * cols["total"] / s - rep) > (0.51 if rep == int(rep) else 0.06):     # some counties publish whole-number percents
+        ps = psum[(code, r["contest"])]
+        multi = ps > 150 and abs(ps / 100 - round(ps / 100)) < 0.03        # vote-for-N contests: percents are shares of ballots and sum to N x 100
+        if s > 0 and not multi and rep is not None and cols["total"] is not None and abs(100 * cols["total"] / s - rep) > (0.51 if rep == int(rep) else 0.06):     # some counties publish whole-number percents
             pct[code].append(r)
         b = ballots.get(code)
         if b is not None and cols["total"] is not None and cols["total"] > b + max(5, 0.001 * b):

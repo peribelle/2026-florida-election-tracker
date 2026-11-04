@@ -438,6 +438,19 @@ def main():
         rows = T.run()
         check("...but a county coming online in the results is still announced (tier 3 rows_new)", has(rows, "rows_new", 3), summarize(rows))
 
+        T = tree()
+        def vote_for_two(d):
+            def fn(rs):
+                rows_ = [r for r in rs if r["county_code"] == "ALA" and r["contest"] == next(x["contest"] for x in rs if x["county_code"] == "ALA")]
+                for r, (t, p_) in zip(rows_, ((600, 120.0), (400, 80.0))):
+                    r.update(total=t, election_day=t, early=0, mail=0, provisional=0, pct=p_)
+                for r in rows_[2:]:
+                    r.update(total=0, election_day=0, early=0, mail=0, provisional=0, pct=0)
+            ecsv(f"{d}/county_contests.csv", fn)
+        T.pull("results", vote_for_two)
+        rows = T.run()
+        check("a vote-for-two contest whose percents are shares of ballots (summing to 200) is not a pct_mismatch", not has(rows, "pct_mismatch"), summarize(rows))
+
         print("\nSOURCE validator: a shorter precinct file")
         T = tree()
         T.pull("results", lambda d: ecsv(f"{d}/raw/precinct_BRA.csv.gz", lambda rs: [rs.pop(0) for _ in range(int(len(rs) * 0.6))], gz=True))
