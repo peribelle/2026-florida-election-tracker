@@ -1,0 +1,9 @@
+race_key,who,sources,min_prob,max_prob,spread,p_ddhq,p_kalshi,p_polymarket
+FL-GOV,GOP,"ddhq,kalshi,polymarket",0.63,0.935,0.305,0.63,0.86,0.935
+FL-GOV,DEM,"ddhq,kalshi,polymarket",0.07,0.37,0.3,0.37,0.15,0.07
+FL-H13,DEM,"ddhq,kalshi",0.28,0.53,0.25,0.28,0.53,
+FL-H13,GOP,"ddhq,kalshi",0.48,0.72,0.24,0.72,0.48,
+FL-SEN,GOP,"ddhq,kalshi,polymarket",0.76,0.9505,0.1905,0.76,0.902,0.9505
+FL-SEN,DEM,"ddhq,kalshi,polymarket",0.0515,0.24,0.1885,0.24,0.11,0.0515
+FL-H23,GOP,"ddhq,kalshi",0.001,0.01,0.009,0.01,0.001,
+FL-H23,DEM,"ddhq,kalshi",0.99,0.99,0.0,0.99,0.99,

@@ -1,0 +1,15 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|prob_jump|PROJ|jump|kalshi|FL-GOV|20261103-192008,3,data,prob_jump,PROJ|jump|kalshi|FL-GOV,20261103-192008,kalshi | FL-GOV | David Jolly,win_probability,0.38,0.15,-0.23
+data|prob_jump|PROJ|jump|kalshi|FL-GOV|20261103-192008,3,data,prob_jump,PROJ|jump|kalshi|FL-GOV,20261103-192008,kalshi | FL-GOV | Byron Donalds,win_probability,0.63,0.86,0.23
+data|prob_jump|PROJ|jump|kalshi|FL-CFO|20261103-192008,3,data,prob_jump,PROJ|jump|kalshi|FL-CFO,20261103-192008,kalshi | FL-CFO | Blaise Ingoglia,win_probability,0.75,0.97,0.22
+data|prob_jump|PROJ|jump|kalshi|FL-H13|20261103-192008,3,data,prob_jump,PROJ|jump|kalshi|FL-H13,20261103-192008,kalshi | FL-H13 | Anna Paulina Luna,win_probability,0.68,0.48,-0.2
+data|prob_jump|PROJ|jump|polymarket|FL-GOV|20261103-192008,3,data,prob_jump,PROJ|jump|polymarket|FL-GOV,20261103-192008,polymarket | FL-GOV | DEM,win_probability,0.355,0.07,-0.285
+data|prob_jump|PROJ|jump|polymarket|FL-GOV|20261103-192008,3,data,prob_jump,PROJ|jump|polymarket|FL-GOV,20261103-192008,polymarket | FL-GOV | GOP,win_probability,0.645,0.935,0.29
+data|call_made|PROJ|call|ddhq|FL-H10|20261103-192008,3,data,call_made,PROJ|call|ddhq|FL-H10,20261103-192008,ddhq | FL-H10 | Maxwell Frost,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H17|20261103-192008,3,data,call_made,PROJ|call|ddhq|FL-H17,20261103-192008,ddhq | FL-H17 | Greg Steube,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H19|20261103-192008,3,data,call_made,PROJ|call|ddhq|FL-H19,20261103-192008,ddhq | FL-H19 | Jim Schwartzel,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H20|20261103-192008,3,data,call_made,PROJ|call|ddhq|FL-H20,20261103-192008,ddhq | FL-H20 | Debbie Wasserman Schultz,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H23|20261103-192008,3,data,call_made,PROJ|call|ddhq|FL-H23,20261103-192008,ddhq | FL-H23 | Lois Frankel,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H24|20261103-192008,3,data,call_made,PROJ|call|ddhq|FL-H24,20261103-192008,ddhq | FL-H24 | Oliver Gilbert,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H05|20261103-192008,3,data,call_made,PROJ|call|ddhq|FL-H05,20261103-192008,ddhq | FL-H05 | John Rutherford,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H06|20261103-192008,3,data,call_made,PROJ|call|ddhq|FL-H06,20261103-192008,ddhq | FL-H06 | Randy Fine,winner,False,True,

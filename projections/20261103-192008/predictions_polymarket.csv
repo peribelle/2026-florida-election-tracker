@@ -1,0 +1,5 @@
+fetched_utc,source,race_key,race,office,district,candidate,party,win_probability,price_cents,bid_cents,ask_cents,volume,source_updated_at,source_url
+2026-11-04T00:20:08+00:00,polymarket,FL-GOV,Governor,Governor,,,DEM,0.07,7.0,,,1507213.74,2026-11-04T00:15:57.28352Z,https://polymarket.com/event/florida-governor-winner-2026
+2026-11-04T00:20:08+00:00,polymarket,FL-GOV,Governor,Governor,,,GOP,0.935,93.5,,,2554265.67,2026-11-04T00:15:57.28352Z,https://polymarket.com/event/florida-governor-winner-2026
+2026-11-04T00:20:09+00:00,polymarket,FL-SEN,United States Senator (special),US Senate,,,DEM,0.0515,5.15,,,546644.31,2026-11-04T00:15:57.28352Z,https://polymarket.com/event/florida-senate-election-winner
+2026-11-04T00:20:09+00:00,polymarket,FL-SEN,United States Senator (special),US Senate,,,GOP,0.9505,95.05,,,756053.77,2026-11-04T00:15:57.28352Z,https://polymarket.com/event/florida-senate-election-winner
