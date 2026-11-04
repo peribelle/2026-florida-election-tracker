@@ -16,8 +16,11 @@
   "results": {
    "enr_codes": [
     "ALA",
+    "BAK",
     "BAY",
     "BRA",
+    "BRE",
+    "CAL",
     "CIT",
     "CLA",
     "CLL",
@@ -27,6 +30,7 @@
     "DIX",
     "DUV",
     "FLA",
+    "FRA",
     "GAD",
     "GIL",
     "GLA",
@@ -36,9 +40,11 @@
     "HEN",
     "HER",
     "HIL",
+    "HOL",
     "IND",
     "JAC",
     "JEF",
+    "LAF",
     "LAK",
     "LEO",
     "LEV",
@@ -57,34 +63,40 @@
     "STJ",
     "STL",
     "SUM",
+    "TAY",
     "UNI",
     "WAK",
     "WAL",
     "WAS"
    ],
-   "enr_ok": 46,
-   "enr_rows": 2553,
-   "enr_status_rows": 46,
+   "enr_ok": 53,
+   "enr_rows": 2706,
+   "enr_status_rows": 53,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
    "few_vote_rows": 3445,
    "prec_codes": [
+    "BAK",
     "BRA",
+    "BRE",
     "CIT",
     "CLL",
     "CLM",
     "DAD",
     "DIX",
+    "FRA",
     "GAD",
     "GIL",
     "GLA",
     "HAR",
     "HER",
     "HIL",
+    "HOL",
     "IND",
     "JAC",
     "JEF",
+    "LAF",
     "LAK",
     "LEV",
     "MON",
@@ -94,24 +106,31 @@
     "PUT",
     "SAR",
     "STJ",
+    "TAY",
+    "WAK",
     "WAL"
    ],
    "prec_lines": {
+    "BAK": 414,
     "BRA": 602,
+    "BRE": 7963,
     "CIT": 1397,
     "CLL": 3386,
     "CLM": 1371,
     "DAD": 49499,
     "DIX": 400,
+    "FRA": 351,
     "GAD": 1059,
     "GIL": 470,
     "GLA": 483,
     "HAR": 432,
     "HER": 1438,
     "HIL": 24485,
+    "HOL": 356,
     "IND": 1854,
     "JAC": 616,
     "JEF": 698,
+    "LAF": 202,
     "LAK": 4743,
     "LEV": 585,
     "MON": 1551,
@@ -121,10 +140,12 @@
     "PUT": 1641,
     "SAR": 5686,
     "STJ": 3100,
+    "TAY": 546,
+    "WAK": 532,
     "WAL": 1797
    },
-   "prec_ok": 25,
-   "prec_rows": 116113
+   "prec_ok": 32,
+   "prec_rows": 126477
   },
   "slow": {
    "codes": [
@@ -516,9 +537,15 @@
    "_status": {
     "ALA": [
      0,
-     "10/08/2026 8:44:56 am",
+     "11/03/2026 11:36:33 am",
      0,
      63
+    ],
+    "BAK": [
+     0,
+     "11/03/2026 1:05:03 pm",
+     0,
+     9
     ],
     "BAY": [
      0,
@@ -528,13 +555,25 @@
     ],
     "BRA": [
      0,
-     "10/16/2026 3:29:52 pm",
+     "11/03/2026 6:26:43 pm",
      13,
      13
     ],
-    "CIT": [
+    "BRE": [
      0,
-     "11/02/2026 4:53:23 pm",
+     "11/03/2026 6:01:35 pm",
+     0,
+     166
+    ],
+    "CAL": [
+     0,
+     "11/03/2026 9:03:05 am",
+     0,
+     10
+    ],
+    "CIT": [
+     47666,
+     "11/03/2026 7:00:00 pm",
      0,
      31
     ],
@@ -576,15 +615,21 @@
     ],
     "DUV": [
      0,
-     "10/26/2026 4:04:07 pm",
+     "11/03/2026 9:56:11 am",
      0,
      159
     ],
     "FLA": [
      0,
-     "10/23/2026 11:16:27 am",
+     "11/03/2026 6:00:16 am",
      0,
      22
+    ],
+    "FRA": [
+     0,
+     "11/03/2026 8:13:03 am",
+     0,
+     8
     ],
     "GAD": [
      0,
@@ -612,7 +657,7 @@
     ],
     "HAM": [
      0,
-     "11/02/2026 6:08:54 pm",
+     "11/03/2026 6:25:31 pm",
      0,
      8
     ],
@@ -624,13 +669,13 @@
     ],
     "HEN": [
      0,
-     "10/19/2026 2:39:12 pm",
+     "11/03/2026 5:02:16 pm",
      0,
      10
     ],
     "HER": [
-     0,
-     "10/09/2026 10:50:18 am",
+     47445,
+     "11/03/2026 7:00:00 pm",
      0,
      32
     ],
@@ -639,6 +684,12 @@
      "10/08/2026 10:37:37 am",
      0,
      446
+    ],
+    "HOL": [
+     0,
+     "11/03/2026 9:16:07 am",
+     0,
+     8
     ],
     "IND": [
      0,
@@ -658,6 +709,12 @@
      0,
      16
     ],
+    "LAF": [
+     1106,
+     "11/03/2026 7:00:09 pm",
+     0,
+     5
+    ],
     "LAK": [
      0,
      "10/21/2026 8:46:36 am",
@@ -666,7 +723,7 @@
     ],
     "LEO": [
      0,
-     "10/21/2026 10:46:12 am",
+     "11/03/2026 10:01:02 am",
      0,
      134
     ],
@@ -684,7 +741,7 @@
     ],
     "MAN": [
      0,
-     "10/29/2026 6:30:40 pm",
+     "11/03/2026 4:11:52 pm",
      0,
      71
     ],
@@ -696,13 +753,13 @@
     ],
     "MRN": [
      0,
-     "10/22/2026 1:33:26 pm",
+     "11/03/2026 5:12:59 pm",
      0,
      106
     ],
     "NAS": [
      0,
-     "10/23/2026 11:11:35 am",
+     "11/03/2026 6:14:50 pm",
      0,
      18
     ],
@@ -720,7 +777,7 @@
     ],
     "POL": [
      0,
-     "10/29/2026 11:26:20 am",
+     "11/03/2026 6:43:01 pm",
      0,
      177
     ],
@@ -738,7 +795,7 @@
     ],
     "SAR": [
      0,
-     "10/28/2026 4:30:02 pm",
+     "11/03/2026 10:12:11 am",
      0,
      98
     ],
@@ -766,6 +823,12 @@
      0,
      33
     ],
+    "TAY": [
+     0,
+     "11/03/2026 9:44:13 am",
+     0,
+     14
+    ],
     "UNI": [
      0,
      "10/28/2026 4:11:41 pm",
@@ -774,7 +837,7 @@
     ],
     "WAK": [
      0,
-     "10/20/2026 2:15:47 pm",
+     "11/03/2026 8:36:00 am",
      0,
      12
     ],
@@ -793,8 +856,11 @@
    },
    "enr_codes": [
     "ALA",
+    "BAK",
     "BAY",
     "BRA",
+    "BRE",
+    "CAL",
     "CIT",
     "CLA",
     "CLL",
@@ -804,6 +870,7 @@
     "DIX",
     "DUV",
     "FLA",
+    "FRA",
     "GAD",
     "GIL",
     "GLA",
@@ -813,9 +880,11 @@
     "HEN",
     "HER",
     "HIL",
+    "HOL",
     "IND",
     "JAC",
     "JEF",
+    "LAF",
     "LAK",
     "LEO",
     "LEV",
@@ -834,34 +903,40 @@
     "STJ",
     "STL",
     "SUM",
+    "TAY",
     "UNI",
     "WAK",
     "WAL",
     "WAS"
    ],
-   "enr_ok": 46,
-   "enr_rows": 2553,
-   "enr_status_rows": 46,
+   "enr_ok": 53,
+   "enr_rows": 2706,
+   "enr_status_rows": 53,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
    "few_vote_rows": 3445,
    "prec_codes": [
+    "BAK",
     "BRA",
+    "BRE",
     "CIT",
     "CLL",
     "CLM",
     "DAD",
     "DIX",
+    "FRA",
     "GAD",
     "GIL",
     "GLA",
     "HAR",
     "HER",
     "HIL",
+    "HOL",
     "IND",
     "JAC",
     "JEF",
+    "LAF",
     "LAK",
     "LEV",
     "MON",
@@ -871,24 +946,31 @@
     "PUT",
     "SAR",
     "STJ",
+    "TAY",
+    "WAK",
     "WAL"
    ],
    "prec_lines": {
+    "BAK": 414,
     "BRA": 602,
+    "BRE": 7963,
     "CIT": 1397,
     "CLL": 3386,
     "CLM": 1371,
     "DAD": 49499,
     "DIX": 400,
+    "FRA": 351,
     "GAD": 1059,
     "GIL": 470,
     "GLA": 483,
     "HAR": 432,
     "HER": 1438,
     "HIL": 24485,
+    "HOL": 356,
     "IND": 1854,
     "JAC": 616,
     "JEF": 698,
+    "LAF": 202,
     "LAK": 4743,
     "LEV": 585,
     "MON": 1551,
@@ -898,10 +980,12 @@
     "PUT": 1641,
     "SAR": 5686,
     "STJ": 3100,
+    "TAY": 546,
+    "WAK": 532,
     "WAL": 1797
    },
-   "prec_ok": 25,
-   "prec_rows": 116113
+   "prec_ok": 32,
+   "prec_rows": 126477
   },
   "slow": {
    "_failures": [
@@ -1178,155 +1262,149 @@
    "precinct_rows": 8688
   }
  },
- "open": {},
+ "open": {
+  "data|parts_mismatch|ENR|parts|CIT": {
+   "last": "2026-11-03 19:00:39",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-190028-001",
+    "count": 47,
+    "curr": null,
+    "delta": null,
+    "detail": "REP Ashley Moody (United States Senator); DEM Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|CIT",
+    "first_seen": "2026-11-03 19:00:39",
+    "headline": "Total is not the sum of its parts in CIT: 47 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261102-215553",
+    "raised_local": "2026-11-03 19:00:39",
+    "raised_utc": "2026-11-04T00:00:39Z",
+    "scope": "ENR|parts|CIT",
+    "snapshot": "20261103-190028",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|HER": {
+   "last": "2026-11-03 19:00:39",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-190028-002",
+    "count": 53,
+    "curr": null,
+    "delta": null,
+    "detail": "Ashley Moody (United States Senator); Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|HER",
+    "first_seen": "2026-11-03 19:00:39",
+    "headline": "Total is not the sum of its parts in HER: 53 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261102-215553",
+    "raised_local": "2026-11-03 19:00:39",
+    "raised_utc": "2026-11-04T00:00:39Z",
+    "scope": "ENR|parts|HER",
+    "snapshot": "20261103-190028",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|parts_mismatch|ENR|parts|LAF": {
+   "last": "2026-11-03 19:00:39",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-190028-003",
+    "count": 10,
+    "curr": null,
+    "delta": null,
+    "detail": "NPA Neil J. Gillespie (United States Senator); REP Austin Rogers (Representative in Congress, D\u2026); DEM Amanda Marie Green (Representative in Congress, D\u2026)",
+    "event": "raised",
+    "fingerprint": "data|parts_mismatch|ENR|parts|LAF",
+    "first_seen": "2026-11-03 19:00:39",
+    "headline": "Total is not the sum of its parts in LAF: 10 rows",
+    "kind": "parts_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261102-215553",
+    "raised_local": "2026-11-03 19:00:39",
+    "raised_utc": "2026-11-04T00:00:39Z",
+    "scope": "ENR|parts|LAF",
+    "snapshot": "20261103-190028",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|pct_mismatch|ENR|pct|CIT": {
+   "last": "2026-11-03 19:00:39",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-190028-004",
+    "count": 47,
+    "curr": null,
+    "delta": null,
+    "detail": "REP Ashley Moody (United States Senator); DEM Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "event": "raised",
+    "fingerprint": "data|pct_mismatch|ENR|pct|CIT",
+    "first_seen": "2026-11-03 19:00:39",
+    "headline": "Percent does not match the votes in CIT: 47 rows",
+    "kind": "pct_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261102-215553",
+    "raised_local": "2026-11-03 19:00:39",
+    "raised_utc": "2026-11-04T00:00:39Z",
+    "scope": "ENR|pct|CIT",
+    "snapshot": "20261103-190028",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "data|pct_mismatch|ENR|pct|HER": {
+   "last": "2026-11-03 19:00:39",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-190028-005",
+    "count": 53,
+    "curr": null,
+    "delta": null,
+    "detail": "Ashley Moody (United States Senator); Angie Nixon (United States Senator); Neil J. Gillespie (United States Senator)",
+    "event": "raised",
+    "fingerprint": "data|pct_mismatch|ENR|pct|HER",
+    "first_seen": "2026-11-03 19:00:39",
+    "headline": "Percent does not match the votes in HER: 53 rows",
+    "kind": "pct_mismatch",
+    "prev": null,
+    "prev_snapshot": "20261102-215553",
+    "raised_local": "2026-11-03 19:00:39",
+    "raised_utc": "2026-11-04T00:00:39Z",
+    "scope": "ENR|pct|HER",
+    "snapshot": "20261103-190028",
+    "source": "results",
+    "tier": 3,
+    "validator": "data"
+   },
+   "source": "results",
+   "tier": 3
+  }
+ },
  "recent": [
-  {
-   "alert_id": "A-20261103-070033-001",
-   "count": 6,
-   "curr": null,
-   "delta": null,
-   "detail": "e.g. ElectionDay; ElectionDay; ElectionDay",
-   "event": "raised",
-   "fingerprint": "data|rows_new|TQV|by_type|new|20261103-070033",
-   "first_seen": "2026-11-03 07:00:35",
-   "headline": "New in TQV|by_type: 6 rows across 6 places",
-   "kind": "rows_new",
-   "prev": null,
-   "prev_snapshot": "20261103-005557",
-   "raised_local": "2026-11-03 07:00:35",
-   "raised_utc": "2026-11-03T12:00:35Z",
-   "scope": "TQV|by_type|new",
-   "snapshot": "20261103-070033",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-070033-002",
-   "count": 1,
-   "curr": 137384,
-   "delta": -1,
-   "detail": "NPA 137,385 \u2192 137,384",
-   "event": "raised",
-   "fingerprint": "data|ballots_down|TQV|by_party|MIAMI-DADE|20261103-070033",
-   "first_seen": "2026-11-03 07:00:35",
-   "headline": "Ballots dropped in MIAMI-DADE (by_party): \u22121",
-   "kind": "ballots_down",
-   "prev": 137385,
-   "prev_snapshot": "20261103-005557",
-   "raised_local": "2026-11-03 07:00:35",
-   "raised_utc": "2026-11-03T12:00:35Z",
-   "scope": "TQV|by_party|MIAMI-DADE",
-   "snapshot": "20261103-070033",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-070033-003",
-   "count": 20,
-   "curr": null,
-   "delta": null,
-   "detail": "e.g. 11/03/2026 Mail; 11/03/2026 ElectionDay; 11/03/2026 ElectionDay",
-   "event": "raised",
-   "fingerprint": "data|rows_new|TQV|by_date|new|20261103-070033",
-   "first_seen": "2026-11-03 07:00:35",
-   "headline": "New in TQV|by_date: 20 rows across 18 places",
-   "kind": "rows_new",
-   "prev": null,
-   "prev_snapshot": "20261103-005557",
-   "raised_local": "2026-11-03 07:00:35",
-   "raised_utc": "2026-11-03T12:00:35Z",
-   "scope": "TQV|by_date|new",
-   "snapshot": "20261103-070033",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-070033-004",
-   "count": 1,
-   "curr": 5002,
-   "delta": -1,
-   "detail": "34 NPA 5,003 \u2192 5,002",
-   "event": "raised",
-   "fingerprint": "data|ballots_down|TQV|location_party|MIAMI-DADE|20261103-070033",
-   "first_seen": "2026-11-03 07:00:35",
-   "headline": "Ballots dropped in MIAMI-DADE (location_party): \u22121",
-   "kind": "ballots_down",
-   "prev": 5003,
-   "prev_snapshot": "20261103-005557",
-   "raised_local": "2026-11-03 07:00:35",
-   "raised_utc": "2026-11-03T12:00:35Z",
-   "scope": "TQV|location_party|MIAMI-DADE",
-   "snapshot": "20261103-070033",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-070033-005",
-   "count": 120,
-   "curr": null,
-   "delta": null,
-   "detail": "e.g. EV00412 DEM; EV00412 NPA; EV00412 OTH",
-   "event": "raised",
-   "fingerprint": "data|rows_rekeyed|TQV|location_party|rekeyed|20261103-070033",
-   "first_seen": "2026-11-03 07:00:35",
-   "headline": "TQV|location_party: 120 rows got new keys; the numbers carried over",
-   "kind": "rows_rekeyed",
-   "prev": null,
-   "prev_snapshot": "20261103-005557",
-   "raised_local": "2026-11-03 07:00:35",
-   "raised_utc": "2026-11-03T12:00:35Z",
-   "scope": "TQV|location_party|rekeyed",
-   "snapshot": "20261103-070033",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-070033-006",
-   "count": 1,
-   "curr": 78,
-   "delta": -5,
-   "detail": "",
-   "event": "raised",
-   "fingerprint": "data|count_changed|TQV|counties|BRE|locations_ed|20261103-070033",
-   "first_seen": "2026-11-03 07:00:35",
-   "headline": "BRE: Election Day sites 83 \u2192 78 (-5)",
-   "kind": "count_changed",
-   "prev": 83,
-   "prev_snapshot": "20261103-005557",
-   "raised_local": "2026-11-03 07:00:35",
-   "raised_utc": "2026-11-03T12:00:35Z",
-   "scope": "TQV|counties|BRE|locations_ed",
-   "snapshot": "20261103-070033",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
-  {
-   "alert_id": "A-20261103-070033-007",
-   "count": 1,
-   "curr": 1312819,
-   "delta": -1,
-   "detail": "",
-   "event": "raised",
-   "fingerprint": "data|count_changed|TQV|counties|DAD|eligible_voters|20261103-070033",
-   "first_seen": "2026-11-03 07:00:35",
-   "headline": "DAD: registered voters 1,312,820 \u2192 1,312,819 (-1)",
-   "kind": "count_changed",
-   "prev": 1312820,
-   "prev_snapshot": "20261103-005557",
-   "raised_local": "2026-11-03 07:00:35",
-   "raised_utc": "2026-11-03T12:00:35Z",
-   "scope": "TQV|counties|DAD|eligible_voters",
-   "snapshot": "20261103-070033",
-   "source": "turnout",
-   "tier": 3,
-   "validator": "data"
-  },
   {
    "alert_id": "A-20261103-094514-001",
    "count": 1,
@@ -2859,19 +2937,780 @@
    "source": "turnout",
    "tier": 3,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-006",
+   "count": 65,
+   "curr": 0,
+   "delta": 0,
+   "detail": "Juan Canelones; Walter Repak; Elena Korsakova",
+   "event": "raised",
+   "fingerprint": "data|rows_missing|ENR|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Rows disappeared from ENR (65 rows): 65 gone, carrying 0 votes",
+   "kind": "rows_missing",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "ENR",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-007",
+   "count": 218,
+   "curr": null,
+   "delta": null,
+   "detail": "e.g. Ashley Moody; Angie Nixon; Neil J. Gillespie",
+   "event": "raised",
+   "fingerprint": "data|rows_new|ENR|new|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "New in ENR: 218 rows across 4 places",
+   "kind": "rows_new",
+   "prev": null,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "ENR|new",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-008",
+   "count": 1,
+   "curr": 166910,
+   "delta": 3541,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|count_changed|ENR-status|ALA|registered|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "ALA: registered voters 163,369 \u2192 166,910 (+3,541)",
+   "kind": "count_changed",
+   "prev": 163369,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "ENR-status|ALA|registered",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-009",
+   "count": 1,
+   "curr": 100550,
+   "delta": 329,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|count_changed|ENR-status|FLA|registered|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "FLA: registered voters 100,221 \u2192 100,550 (+329)",
+   "kind": "count_changed",
+   "prev": 100221,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "ENR-status|FLA|registered",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-010",
+   "count": 1,
+   "curr": 138085,
+   "delta": 280,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|count_changed|ENR-status|HER|registered|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "HER: registered voters 137,805 \u2192 138,085 (+280)",
+   "kind": "count_changed",
+   "prev": 137805,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "ENR-status|HER|registered",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-011",
+   "count": 93,
+   "curr": null,
+   "delta": 0,
+   "detail": "406 - Redemption Point AG Neil J. Gil\u2026 0 \u2192 blank; 406 - Redemption Point AG Neil J. Gil\u2026 0 \u2192 blank; 406 - Redemption Point AG Neil J. Gil\u2026 0 \u2192 blank; and 90 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CIT|United States Senator|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in CIT precincts \u00b7 United States Senator: 93 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|CIT|United States Senator",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-012",
+   "count": 69,
+   "curr": null,
+   "delta": 0,
+   "detail": "406 - Redemption Point AG Write-in Ca\u2026 0 \u2192 blank; 406 - Redemption Point AG Write-in Ca\u2026 0 \u2192 blank; 406 - Redemption Point AG Write-in Ca\u2026 0 \u2192 blank; and 66 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CIT|Representative in Congress - Dist 15|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in CIT precincts \u00b7 Representative in Congress - Dist 15: 69 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|CIT|Representative in Congress - Dist 15",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-013",
+   "count": 552,
+   "curr": null,
+   "delta": 0,
+   "detail": "406 - Redemption Point AG LPF Scott E\u2026 0 \u2192 blank; 406 - Redemption Point AG LPF Scott E\u2026 0 \u2192 blank; 406 - Redemption Point AG LPF Scott E\u2026 0 \u2192 blank; and 549 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CIT|Governor and Lieutenant Governor|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in CIT precincts \u00b7 Governor and Lieutenant Governor: 552 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|CIT|Governor and Lieutenant Governor",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-014",
+   "count": 90,
+   "curr": null,
+   "delta": 0,
+   "detail": "406 - Redemption Point AG Write-in Ca\u2026 0 \u2192 blank; 406 - Redemption Point AG Write-in Ca\u2026 0 \u2192 blank; 406 - Redemption Point AG Write-in Ca\u2026 0 \u2192 blank; and 87 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CIT|Commissioner of Agriculture|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in CIT precincts \u00b7 Commissioner of Agriculture: 90 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|CIT|Commissioner of Agriculture",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-015",
+   "count": 3,
+   "curr": null,
+   "delta": 0,
+   "detail": "104 - 1st Baptist Church of C.R. Tyle\u2026 0 \u2192 blank; 104 - 1st Baptist Church of C.R. Tyle\u2026 0 \u2192 blank; 104 - 1st Baptist Church of C.R. Tyle\u2026 0 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|CIT|Mosquito Control Board - Seat 1|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in CIT precincts \u00b7 Mosquito Control Board - Seat 1: 3 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|CIT|Mosquito Control Board - Seat 1",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-016",
+   "count": 96,
+   "curr": null,
+   "delta": 0,
+   "detail": "100 Neil J. Gillespie 0 \u2192 blank; 100 Neil J. Gillespie 0 \u2192 blank; 100 Neil J. Gillespie 0 \u2192 blank; and 93 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|HER|United States Senator|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in HER precincts \u00b7 United States Senator: 96 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|HER|United States Senator",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-017",
+   "count": 69,
+   "curr": null,
+   "delta": 0,
+   "detail": "240 Write-in 0 \u2192 blank; 240 Write-in 0 \u2192 blank; 240 Write-in 0 \u2192 blank; and 66 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|HER|Representative in Congress, District 15|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in HER precincts \u00b7 Representative in Congress, District 15: 69 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|HER|Representative in Congress, District 15",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-018",
+   "count": 537,
+   "curr": null,
+   "delta": 0,
+   "detail": "100 Scott Eckhard Jewett 0 \u2192 blank; 100 Scott Eckhard Jewett 0 \u2192 blank; 100 Scott Eckhard Jewett 0 \u2192 blank; and 534 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|HER|Governor and Lieutenant Governor|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in HER precincts \u00b7 Governor and Lieutenant Governor: 537 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|HER|Governor and Lieutenant Governor",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-019",
+   "count": 87,
+   "curr": null,
+   "delta": 0,
+   "detail": "100 Write-in 0 \u2192 blank; 100 Write-in 0 \u2192 blank; 100 Write-in 0 \u2192 blank; and 84 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|HER|Commissioner of Agriculture|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in HER precincts \u00b7 Commissioner of Agriculture: 87 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|HER|Commissioner of Agriculture",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-020",
+   "count": 69,
+   "curr": null,
+   "delta": 0,
+   "detail": "100 Christopher Anger 0 \u2192 blank; 100 Christopher Anger 0 \u2192 blank; 100 Christopher Anger 0 \u2192 blank; and 66 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|HER|State Representative, District 53|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in HER precincts \u00b7 State Representative, District 53: 69 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|HER|State Representative, District 53",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-190028-021",
+   "count": 6,
+   "curr": null,
+   "delta": 0,
+   "detail": "230 Write-in 0 \u2192 blank; 230 Write-in 0 \u2192 blank; 230 Write-in 0 \u2192 blank; and 3 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|HER|County Commissioner, District 4|20261103-190028",
+   "first_seen": "2026-11-03 19:00:39",
+   "headline": "Numbers went blank in HER precincts \u00b7 County Commissioner, District 4: 6 (were 0 in all)",
+   "kind": "value_blanked",
+   "prev": 0,
+   "prev_snapshot": "20261102-215553",
+   "raised_local": "2026-11-03 19:00:39",
+   "raised_utc": "2026-11-04T00:00:39Z",
+   "scope": "PREC|HER|County Commissioner, District 4",
+   "snapshot": "20261103-190028",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
   }
  ],
- "stale": {},
+ "stale": {
+  "ALA": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 11:36:33 am",
+    0
+   ]
+  },
+  "BAK": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 1:05:03 pm",
+    0
+   ]
+  },
+  "BAY": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 3:37:10 pm",
+    0
+   ]
+  },
+  "BRA": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 6:26:43 pm",
+    13
+   ]
+  },
+  "BRE": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 6:01:35 pm",
+    0
+   ]
+  },
+  "CAL": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 9:03:05 am",
+    0
+   ]
+  },
+  "CIT": {
+   "n": 0,
+   "sig": [
+    47666,
+    "11/03/2026 7:00:00 pm",
+    0
+   ]
+  },
+  "CLA": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/14/2026 1:29:58 pm",
+    0
+   ]
+  },
+  "CLL": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 2:25:25 pm",
+    0
+   ]
+  },
+  "CLM": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/27/2026 12:59:02 pm",
+    0
+   ]
+  },
+  "DAD": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/20/2026 3:08:12 pm",
+    0
+   ]
+  },
+  "DES": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/16/2026 11:51:54 am",
+    0
+   ]
+  },
+  "DIX": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/15/2026 4:31:55 pm",
+    0
+   ]
+  },
+  "DUV": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 9:56:11 am",
+    0
+   ]
+  },
+  "FLA": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 6:00:16 am",
+    0
+   ]
+  },
+  "FRA": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 8:13:03 am",
+    0
+   ]
+  },
+  "GAD": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/15/2026 4:09:42 pm",
+    0
+   ]
+  },
+  "GIL": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 8:00:39 am",
+    0
+   ]
+  },
+  "GLA": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/20/2026 9:07:12 am",
+    0
+   ]
+  },
+  "GUL": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/16/2026 11:24:29 am",
+    0
+   ]
+  },
+  "HAM": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 6:25:31 pm",
+    0
+   ]
+  },
+  "HAR": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/16/2026 10:03:50 am",
+    0
+   ]
+  },
+  "HEN": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 5:02:16 pm",
+    0
+   ]
+  },
+  "HER": {
+   "n": 0,
+   "sig": [
+    47445,
+    "11/03/2026 7:00:00 pm",
+    0
+   ]
+  },
+  "HIL": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/08/2026 10:37:37 am",
+    0
+   ]
+  },
+  "HOL": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 9:16:07 am",
+    0
+   ]
+  },
+  "IND": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 3:41:11 pm",
+    0
+   ]
+  },
+  "JAC": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/16/2026 11:26:02 am",
+    0
+   ]
+  },
+  "JEF": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/19/2026 9:42:44 am",
+    0
+   ]
+  },
+  "LAF": {
+   "n": 0,
+   "sig": [
+    1106,
+    "11/03/2026 7:00:09 pm",
+    0
+   ]
+  },
+  "LAK": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/21/2026 8:46:36 am",
+    0
+   ]
+  },
+  "LEO": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 10:01:02 am",
+    0
+   ]
+  },
+  "LEV": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 9:56:21 am",
+    0
+   ]
+  },
+  "LIB": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 3:16:48 pm",
+    0
+   ]
+  },
+  "MAN": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 4:11:52 pm",
+    0
+   ]
+  },
+  "MON": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/16/2026 10:09:43 am",
+    0
+   ]
+  },
+  "MRN": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 5:12:59 pm",
+    0
+   ]
+  },
+  "NAS": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 6:14:50 pm",
+    0
+   ]
+  },
+  "OKE": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/28/2026 10:59:54 am",
+    0
+   ]
+  },
+  "PAS": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 2:46:48 pm",
+    0
+   ]
+  },
+  "POL": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 6:43:01 pm",
+    0
+   ]
+  },
+  "PUT": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 11:35:53 am",
+    0
+   ]
+  },
+  "SAN": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 11:57:35 am",
+    0
+   ]
+  },
+  "SAR": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 10:12:11 am",
+    0
+   ]
+  },
+  "SEM": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/27/2026 5:19:54 pm",
+    0
+   ]
+  },
+  "STJ": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/15/2026 3:34:25 pm",
+    0
+   ]
+  },
+  "STL": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/27/2026 3:01:11 pm",
+    0
+   ]
+  },
+  "SUM": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/02/2026 4:54:35 pm",
+    0
+   ]
+  },
+  "TAY": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 9:44:13 am",
+    0
+   ]
+  },
+  "UNI": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/28/2026 4:11:41 pm",
+    0
+   ]
+  },
+  "WAK": {
+   "n": 0,
+   "sig": [
+    0,
+    "11/03/2026 8:36:00 am",
+    0
+   ]
+  },
+  "WAL": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/16/2026 10:00:26 am",
+    0
+   ]
+  },
+  "WAS": {
+   "n": 0,
+   "sig": [
+    0,
+    "10/22/2026 10:50:22 am",
+    0
+   ]
+  }
+ },
  "totals": {
   "1": 2,
-  "2": 6,
-  "3": 116,
+  "2": 19,
+  "3": 124,
   "acked": 39,
-  "alerts": 124
+  "alerts": 145
  },
  "validated": {
   "projections": "20261102-224747",
-  "results": "20261102-215553",
+  "results": "20261103-190028",
   "slow": "20261102-215117",
   "turnout": "20261103-185931"
  },
