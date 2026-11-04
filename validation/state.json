@@ -544,9 +544,9 @@
      63
     ],
     "BAK": [
-     5055,
-     "11/03/2026 7:02:28 pm",
-     0,
+     5998,
+     "11/03/2026 7:21:43 pm",
+     3,
      9
     ],
     "BAY": [
@@ -562,9 +562,9 @@
      13
     ],
     "BRE": [
-     192829,
-     "11/03/2026 7:17:17 pm",
-     34,
+     222182,
+     "11/03/2026 7:26:54 pm",
+     89,
      166
     ],
     "CAL": [
@@ -610,21 +610,21 @@
      15
     ],
     "DIX": [
-     3150,
-     "11/03/2026 7:15:02 pm",
-     0,
+     3787,
+     "11/03/2026 7:25:52 pm",
+     1,
      10
     ],
     "DUV": [
-     243575,
-     "11/03/2026 7:12:56 pm",
-     14,
+     276937,
+     "11/03/2026 7:21:36 pm",
+     64,
      159
     ],
     "FLA": [
-     57382,
-     "11/03/2026 7:17:38 pm",
-     14,
+     61243,
+     "11/03/2026 7:26:04 pm",
+     19,
      22
     ],
     "FRA": [
@@ -634,15 +634,15 @@
      8
     ],
     "GAD": [
-     0,
-     "10/15/2026 4:09:42 pm",
+     10395,
+     "11/03/2026 7:22:56 pm",
      0,
      25
     ],
     "GIL": [
-     3561,
-     "11/03/2026 7:14:23 pm",
-     0,
+     3865,
+     "11/03/2026 7:23:38 pm",
+     1,
      10
     ],
     "GLA": [
@@ -670,8 +670,8 @@
      12
     ],
     "HEN": [
-     0,
-     "11/03/2026 5:02:16 pm",
+     5859,
+     "11/03/2026 7:20:26 pm",
      0,
      10
     ],
@@ -718,9 +718,9 @@
      5
     ],
     "LAK": [
-     104522,
-     "11/03/2026 7:09:00 pm",
-     0,
+     144081,
+     "11/03/2026 7:27:45 pm",
+     59,
      92
     ],
     "LEO": [
@@ -754,27 +754,27 @@
      33
     ],
     "MRN": [
-     0,
-     "11/03/2026 5:12:59 pm",
+     93188,
+     "11/03/2026 7:28:54 pm",
      0,
      106
     ],
     "NAS": [
      32202,
-     "11/03/2026 7:09:05 pm",
+     "11/03/2026 7:22:05 pm",
      0,
      18
     ],
     "OKE": [
-     5922,
-     "11/03/2026 7:05:05 pm",
-     0,
+     8930,
+     "11/03/2026 7:24:06 pm",
+     7,
      11
     ],
     "PAS": [
-     159152,
-     "11/03/2026 7:15:15 pm",
-     36,
+     198281,
+     "11/03/2026 7:26:58 pm",
+     83,
      122
     ],
     "POL": [
@@ -784,8 +784,8 @@
      177
     ],
     "PUT": [
-     0,
-     "11/02/2026 11:35:53 am",
+     14203,
+     "11/03/2026 7:28:32 pm",
      0,
      37
     ],
@@ -802,15 +802,15 @@
      98
     ],
     "SEM": [
-     0,
-     "10/27/2026 5:19:54 pm",
-     0,
+     136072,
+     "11/03/2026 7:25:46 pm",
+     6,
      82
     ],
     "STJ": [
-     107324,
-     "11/03/2026 7:15:04 pm",
-     15,
+     132572,
+     "11/03/2026 7:29:17 pm",
+     42,
      55
     ],
     "STL": [
@@ -820,9 +820,9 @@
      62
     ],
     "SUM": [
-     82975,
-     "11/03/2026 7:19:03 pm",
-     19,
+     95678,
+     "11/03/2026 7:28:14 pm",
+     33,
      33
     ],
     "TAY": [
@@ -838,9 +838,9 @@
      8
     ],
     "WAK": [
-     8279,
-     "11/03/2026 7:10:23 pm",
-     0,
+     11212,
+     "11/03/2026 7:20:26 pm",
+     8,
      12
     ],
     "WAL": [
@@ -979,7 +979,7 @@
     "NAS": 1353,
     "OKE": 451,
     "POL": 7016,
-    "PUT": 1641,
+    "PUT": 1604,
     "SAR": 5684,
     "STJ": 3100,
     "TAY": 546,
@@ -987,7 +987,7 @@
     "WAL": 1797
    },
    "prec_ok": 32,
-   "prec_rows": 126426
+   "prec_rows": 126389
   },
   "slow": {
    "_failures": [
@@ -1264,7 +1264,92 @@
    "precinct_rows": 8688
   }
  },
- "open": {},
+ "open": {
+  "source|county_stalled|ENR|stalled|CIT": {
+   "last": "2026-11-03 19:30:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-193019-001",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "0/31 precincts in, last update 11/03/2026 7:00:00 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|CIT",
+    "first_seen": "2026-11-03 19:30:30",
+    "headline": "CIT has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-192008",
+    "raised_local": "2026-11-03 19:30:30",
+    "raised_utc": "2026-11-04T00:30:30Z",
+    "scope": "ENR|stalled|CIT",
+    "snapshot": "20261103-193019",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "source|county_stalled|ENR|stalled|HER": {
+   "last": "2026-11-03 19:30:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-193019-002",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "0/32 precincts in, last update 11/03/2026 7:00:00 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|HER",
+    "first_seen": "2026-11-03 19:30:30",
+    "headline": "HER has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-192008",
+    "raised_local": "2026-11-03 19:30:30",
+    "raised_utc": "2026-11-04T00:30:30Z",
+    "scope": "ENR|stalled|HER",
+    "snapshot": "20261103-193019",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "source|county_stalled|ENR|stalled|LAF": {
+   "last": "2026-11-03 19:30:30",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-193019-003",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "0/5 precincts in, last update 11/03/2026 7:00:09 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|LAF",
+    "first_seen": "2026-11-03 19:30:30",
+    "headline": "LAF has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-192008",
+    "raised_local": "2026-11-03 19:30:30",
+    "raised_utc": "2026-11-04T00:30:30Z",
+    "scope": "ENR|stalled|LAF",
+    "snapshot": "20261103-193019",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
+  }
+ },
  "recent": [
   {
    "alert_id": "A-20261103-094514-001",
@@ -3281,11 +3366,221 @@
    "source": "results",
    "tier": 2,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-004",
+   "count": 2,
+   "curr": 0,
+   "delta": -84,
+   "detail": "Moliere \"Moe\" Dimanche 54 \u2192 0; Moliere \"Moe\" Dimanche 30 \u2192 0",
+   "event": "raised",
+   "fingerprint": "data|parts_down|ENR|LAK|Governor and Lieutenant Governor|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "A part fell while its total held in Governor and Lieutenant Governor \u00b7 LAK: \u221284 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 54,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "ENR|LAK|Governor and Lieutenant Governor",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-005",
+   "count": 2,
+   "curr": null,
+   "delta": -101,
+   "detail": "Precinct 485 Andy Ferrari 63 \u2192 blank; Precinct 485 Andy Ferrari 38 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|LAK|State Representative, District 27|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "Numbers went blank in LAK precincts \u00b7 State Representative, District 27: 2 (were 101 in all)",
+   "kind": "value_blanked",
+   "prev": 63,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "PREC|LAK|State Representative, District 27",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-006",
+   "count": 12,
+   "curr": null,
+   "delta": -561,
+   "detail": "Precinct 535 Write-in 82 \u2192 blank; Precinct 500 Write-in 61 \u2192 blank; Precinct 465 Write-in 56 \u2192 blank; and 9 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|LAK|County Commissioner District 2|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "Numbers went blank in LAK precincts \u00b7 County Commissioner District 2: 12 (were 561 in all)",
+   "kind": "value_blanked",
+   "prev": 82,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "PREC|LAK|County Commissioner District 2",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-007",
+   "count": 12,
+   "curr": null,
+   "delta": -662,
+   "detail": "Precinct 215 Write-in 142 \u2192 blank; Precinct 535 Write-in 75 \u2192 blank; Precinct 215 Write-in 62 \u2192 blank; and 9 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|LAK|School Board, District 1|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "Numbers went blank in LAK precincts \u00b7 School Board, District 1: 12 (were 662 in all)",
+   "kind": "value_blanked",
+   "prev": 142,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "PREC|LAK|School Board, District 1",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-008",
+   "count": 37,
+   "curr": 0,
+   "delta": 0,
+   "detail": "01.0 - South Putnam Government Center\u2026; 10.0 - The Church of Eleven22 Michael\u2026; 11.0 - Putnam County Ag Center Michae\u2026",
+   "event": "raised",
+   "fingerprint": "data|rows_missing|PREC|PUT|Representative in Congress, District 6|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "Rows disappeared from PUT precincts \u00b7 Representative in Congress, District 6: 37 gone, carrying 0 votes",
+   "kind": "rows_missing",
+   "prev": 0,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "PREC|PUT|Representative in Congress, District 6",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-009",
+   "count": 2,
+   "curr": null,
+   "delta": -182,
+   "detail": "PCT 308 Eric Yonce 130 \u2192 blank; PCT 308 Eric Yonce 52 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Representative in Congress District 6|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Representative in Congress District 6: 2 (were 182 in all)",
+   "kind": "value_blanked",
+   "prev": 130,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "PREC|STJ|Representative in Congress District 6",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-010",
+   "count": 2,
+   "curr": null,
+   "delta": -125,
+   "detail": "PCT 211 Suzanna Pavelle 87 \u2192 blank; PCT 211 Suzanna Pavelle 38 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|State Representative District 19|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "Numbers went blank in STJ precincts \u00b7 State Representative District 19: 2 (were 125 in all)",
+   "kind": "value_blanked",
+   "prev": 87,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "PREC|STJ|State Representative District 19",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-011",
+   "count": 8,
+   "curr": null,
+   "delta": -675,
+   "detail": "PCT 307 Sandra Fein 149 \u2192 blank; PCT 301 Sandra Fein 134 \u2192 blank; PCT 401 Ed Slavin 125 \u2192 blank; and 5 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Anastasia Mosquito Control District Seat 2|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Anastasia Mosquito Control District Seat 2: 8 (were 675 in all)",
+   "kind": "value_blanked",
+   "prev": 149,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "PREC|STJ|Anastasia Mosquito Control District Seat 2",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-012",
+   "count": 4,
+   "curr": null,
+   "delta": -382,
+   "detail": "PCT 307 Jason Smith 166 \u2192 blank; PCT 211 George Tom Anagnos 116 \u2192 blank; PCT 307 Jason Smith 67 \u2192 blank; and 1 more",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|Anastasia Mosquito Control District Seat 4|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "Numbers went blank in STJ precincts \u00b7 Anastasia Mosquito Control District Seat 4: 4 (were 382 in all)",
+   "kind": "value_blanked",
+   "prev": 166,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "PREC|STJ|Anastasia Mosquito Control District Seat 4",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-193019-013",
+   "count": 2,
+   "curr": null,
+   "delta": -239,
+   "detail": "PCT 307 Sean Hess 170 \u2192 blank; PCT 307 Sean Hess 69 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|value_blanked|PREC|STJ|St. Johns County Airport Authority Group 3|20261103-193019",
+   "first_seen": "2026-11-03 19:30:30",
+   "headline": "Numbers went blank in STJ precincts \u00b7 St. Johns County Airport Authority Group 3: 2 (were 239 in all)",
+   "kind": "value_blanked",
+   "prev": 170,
+   "prev_snapshot": "20261103-192008",
+   "raised_local": "2026-11-03 19:30:30",
+   "raised_utc": "2026-11-04T00:30:30Z",
+   "scope": "PREC|STJ|St. Johns County Airport Authority Group 3",
+   "snapshot": "20261103-193019",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
-   "n": 1,
+   "n": 2,
    "sig": [
     72137,
     "11/03/2026 7:04:35 pm",
@@ -3293,11 +3588,11 @@
    ]
   },
   "BAK": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    5055,
-    "11/03/2026 7:02:28 pm",
-    0
+    5998,
+    "11/03/2026 7:21:43 pm",
+    3
    ]
   },
   "BAY": {
@@ -3319,9 +3614,9 @@
   "BRE": {
    "n": 0,
    "sig": [
-    192829,
-    "11/03/2026 7:17:17 pm",
-    34
+    222182,
+    "11/03/2026 7:26:54 pm",
+    89
    ]
   },
   "CAL": {
@@ -3333,7 +3628,7 @@
    ]
   },
   "CIT": {
-   "n": 2,
+   "n": 3,
    "sig": [
     47666,
     "11/03/2026 7:00:00 pm",
@@ -3341,7 +3636,7 @@
    ]
   },
   "CLA": {
-   "n": 1,
+   "n": 2,
    "sig": [
     57989,
     "11/03/2026 7:00:50 pm",
@@ -3349,7 +3644,7 @@
    ]
   },
   "CLL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     120414,
     "11/03/2026 7:09:36 pm",
@@ -3357,7 +3652,7 @@
    ]
   },
   "CLM": {
-   "n": 1,
+   "n": 2,
    "sig": [
     14265,
     "11/03/2026 7:09:20 pm",
@@ -3365,7 +3660,7 @@
    ]
   },
   "DAD": {
-   "n": 0,
+   "n": 1,
    "sig": [
     546403,
     "11/03/2026 7:09:28 pm",
@@ -3383,25 +3678,25 @@
   "DIX": {
    "n": 0,
    "sig": [
-    3150,
-    "11/03/2026 7:15:02 pm",
-    0
+    3787,
+    "11/03/2026 7:25:52 pm",
+    1
    ]
   },
   "DUV": {
    "n": 0,
    "sig": [
-    243575,
-    "11/03/2026 7:12:56 pm",
-    14
+    276937,
+    "11/03/2026 7:21:36 pm",
+    64
    ]
   },
   "FLA": {
    "n": 0,
    "sig": [
-    57382,
-    "11/03/2026 7:17:38 pm",
-    14
+    61243,
+    "11/03/2026 7:26:04 pm",
+    19
    ]
   },
   "FRA": {
@@ -3415,17 +3710,17 @@
   "GAD": {
    "n": 0,
    "sig": [
-    0,
-    "10/15/2026 4:09:42 pm",
+    10395,
+    "11/03/2026 7:22:56 pm",
     0
    ]
   },
   "GIL": {
    "n": 0,
    "sig": [
-    3561,
-    "11/03/2026 7:14:23 pm",
-    0
+    3865,
+    "11/03/2026 7:23:38 pm",
+    1
    ]
   },
   "GLA": {
@@ -3437,7 +3732,7 @@
    ]
   },
   "GUL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     4232,
     "11/03/2026 7:15:15 pm",
@@ -3445,7 +3740,7 @@
    ]
   },
   "HAM": {
-   "n": 0,
+   "n": 1,
    "sig": [
     2026,
     "11/03/2026 7:12:23 pm",
@@ -3453,7 +3748,7 @@
    ]
   },
   "HAR": {
-   "n": 0,
+   "n": 1,
    "sig": [
     3238,
     "11/03/2026 7:18:32 pm",
@@ -3463,13 +3758,13 @@
   "HEN": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 5:02:16 pm",
+    5859,
+    "11/03/2026 7:20:26 pm",
     0
    ]
   },
   "HER": {
-   "n": 2,
+   "n": 3,
    "sig": [
     47445,
     "11/03/2026 7:00:00 pm",
@@ -3477,7 +3772,7 @@
    ]
   },
   "HIL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     359139,
     "11/03/2026 7:13:36 pm",
@@ -3493,7 +3788,7 @@
    ]
   },
   "IND": {
-   "n": 1,
+   "n": 2,
    "sig": [
     54888,
     "11/03/2026 7:05:56 pm",
@@ -3509,7 +3804,7 @@
    ]
   },
   "JEF": {
-   "n": 0,
+   "n": 1,
    "sig": [
     3610,
     "11/03/2026 7:17:47 pm",
@@ -3517,7 +3812,7 @@
    ]
   },
   "LAF": {
-   "n": 2,
+   "n": 3,
    "sig": [
     1106,
     "11/03/2026 7:00:09 pm",
@@ -3525,15 +3820,15 @@
    ]
   },
   "LAK": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    104522,
-    "11/03/2026 7:09:00 pm",
-    0
+    144081,
+    "11/03/2026 7:27:45 pm",
+    59
    ]
   },
   "LEO": {
-   "n": 1,
+   "n": 2,
    "sig": [
     80930,
     "11/03/2026 7:00:30 pm",
@@ -3541,7 +3836,7 @@
    ]
   },
   "LEV": {
-   "n": 0,
+   "n": 1,
    "sig": [
     9131,
     "11/03/2026 7:15:02 pm",
@@ -3549,7 +3844,7 @@
    ]
   },
   "LIB": {
-   "n": 0,
+   "n": 1,
    "sig": [
     1525,
     "11/03/2026 7:15:18 pm",
@@ -3557,7 +3852,7 @@
    ]
   },
   "MAN": {
-   "n": 0,
+   "n": 1,
    "sig": [
     133637,
     "11/03/2026 7:17:53 pm",
@@ -3565,7 +3860,7 @@
    ]
   },
   "MON": {
-   "n": 0,
+   "n": 1,
    "sig": [
     20675,
     "11/03/2026 7:12:33 pm",
@@ -3575,37 +3870,37 @@
   "MRN": {
    "n": 0,
    "sig": [
-    0,
-    "11/03/2026 5:12:59 pm",
+    93188,
+    "11/03/2026 7:28:54 pm",
     0
    ]
   },
   "NAS": {
-   "n": 1,
+   "n": 0,
    "sig": [
     32202,
-    "11/03/2026 7:09:05 pm",
+    "11/03/2026 7:22:05 pm",
     0
    ]
   },
   "OKE": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    5922,
-    "11/03/2026 7:05:05 pm",
-    0
+    8930,
+    "11/03/2026 7:24:06 pm",
+    7
    ]
   },
   "PAS": {
    "n": 0,
    "sig": [
-    159152,
-    "11/03/2026 7:15:15 pm",
-    36
+    198281,
+    "11/03/2026 7:26:58 pm",
+    83
    ]
   },
   "POL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     136267,
     "11/03/2026 7:11:11 pm",
@@ -3615,8 +3910,8 @@
   "PUT": {
    "n": 0,
    "sig": [
-    0,
-    "11/02/2026 11:35:53 am",
+    14203,
+    "11/03/2026 7:28:32 pm",
     0
    ]
   },
@@ -3629,7 +3924,7 @@
    ]
   },
   "SAR": {
-   "n": 0,
+   "n": 1,
    "sig": [
     166889,
     "11/03/2026 7:17:28 pm",
@@ -3639,21 +3934,21 @@
   "SEM": {
    "n": 0,
    "sig": [
-    0,
-    "10/27/2026 5:19:54 pm",
-    0
+    136072,
+    "11/03/2026 7:25:46 pm",
+    6
    ]
   },
   "STJ": {
    "n": 0,
    "sig": [
-    107324,
-    "11/03/2026 7:15:04 pm",
-    15
+    132572,
+    "11/03/2026 7:29:17 pm",
+    42
    ]
   },
   "STL": {
-   "n": 1,
+   "n": 2,
    "sig": [
     64785,
     "11/03/2026 7:06:45 pm",
@@ -3663,13 +3958,13 @@
   "SUM": {
    "n": 0,
    "sig": [
-    82975,
-    "11/03/2026 7:19:03 pm",
-    19
+    95678,
+    "11/03/2026 7:28:14 pm",
+    33
    ]
   },
   "TAY": {
-   "n": 0,
+   "n": 1,
    "sig": [
     2841,
     "11/03/2026 7:19:11 pm",
@@ -3677,7 +3972,7 @@
    ]
   },
   "UNI": {
-   "n": 0,
+   "n": 1,
    "sig": [
     2159,
     "11/03/2026 7:10:25 pm",
@@ -3687,9 +3982,9 @@
   "WAK": {
    "n": 0,
    "sig": [
-    8279,
-    "11/03/2026 7:10:23 pm",
-    0
+    11212,
+    "11/03/2026 7:20:26 pm",
+    8
    ]
   },
   "WAL": {
@@ -3711,14 +4006,14 @@
  },
  "totals": {
   "1": 2,
-  "2": 38,
-  "3": 177,
+  "2": 46,
+  "3": 182,
   "acked": 107,
-  "alerts": 217
+  "alerts": 230
  },
  "validated": {
   "projections": "20261103-192008",
-  "results": "20261103-192008",
+  "results": "20261103-193019",
   "slow": "20261103-191510",
   "turnout": "20261103-185931"
  },
