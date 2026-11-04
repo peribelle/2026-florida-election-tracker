@@ -189,7 +189,7 @@
    },
    "ok": 13,
    "rows": 33695,
-   "targeted": 21
+   "targeted": 22
   },
   "turnout": {
    "counties": 67,
@@ -1030,7 +1030,8 @@
     "HAM",
     "MAN",
     "PAS",
-    "STL"
+    "STL",
+    "SUW"
    ],
    "codes": [
     "ALA",
@@ -1064,7 +1065,7 @@
    },
    "ok": 13,
    "rows": 33695,
-   "targeted": 21
+   "targeted": 22
   },
   "turnout": {
    "_broward": {
@@ -2842,7 +2843,7 @@
  "validated": {
   "projections": "20261103-195017",
   "results": "20261103-201016",
-  "slow": "20261103-194501",
+  "slow": "20261103-201508",
   "turnout": "20261103-185931"
  },
  "version": 1
