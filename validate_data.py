@@ -66,7 +66,8 @@ def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src,
             if a is None:
                 continue
             if b is None:
-                blanks.append((k, col, a, None))
+                if a:                                      # a zero placeholder turning blank loses nothing
+                    blanks.append((k, col, a, None))
             elif b < a:
                 (drops if col == main else parts).append((k, col, a, b))
     dropped = {k for k, *_ in drops}
@@ -141,7 +142,7 @@ def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src,
             groups = {(): missing}
         for g, ks in groups.items():
             lost = sum((P[k][main] or 0) for k in ks)
-            tier = tier_fn(lost, 0) if lost else 2
+            tier = tier_fn(lost, 0) if lost else 3          # rows that carried nothing (pre-count placeholders) are a notice
             where = src if collapsed else f"{src}|{'|'.join(g)}"
             who_txt = f"{src} ({len(ks)} rows)" if collapsed else label(g, ks[0])
             out.append(_D("rows_missing", tier, "event", where, f"Rows disappeared from {who_txt}: {len(ks)} gone, carrying {f(lost)} {unit}",
@@ -332,7 +333,8 @@ def inv_county_contests(rows, status):
         code = r["county_code"]
         if any(v is not None and v < 0 for v in cols.values()):
             neg[code].append(r)
-        if all(v is not None for v in cols.values()) and cols["total"] != cols["election_day"] + cols["early"] + cols["mail"] + cols["provisional"]:
+        if all(v is not None for v in cols.values()) and cols["total"] != cols["election_day"] + cols["early"] + cols["mail"] + cols["provisional"] \
+                and (cols["election_day"] or cols["early"] or cols["mail"] or cols["provisional"]):    # a county that publishes only a total ("-" for every part) has no breakdown to check
             parts[code].append(r)
         s = by_contest[(code, r["contest"])]
         rep = num(r.get("pct"))

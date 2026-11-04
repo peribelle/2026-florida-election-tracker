@@ -85,7 +85,7 @@ class Tree:
                 rd = csv.DictReader(fh)
                 cols, rows = rd.fieldnames, list(rd)
             ok = [r for r in rows if os.path.isdir(os.path.join(src_base, r["run_id"])) and len(r["run_id"]) == 15]
-            last = ok[-1]
+            last = [r for r in ok if r["run_id"] < "20261103-000000"][-1]      # the last pre-election pull: live counting must not leak into the fixture
             # Copy the newest real pull but give it a fixed id from before the election. The real history now reaches into the
             # schedule (today's runs), and a test must not depend on how old the real data is.
             base_id = "20261102-120000"
@@ -117,6 +117,13 @@ class Tree:
                 os.remove(os.path.join(base, new, "data", "broward", "blend.json"))
             with open(os.path.join(base, new, "data", "broward", "status.json"), "w") as fh:
                 json.dump({"ok": True, "attempted_at": t.isoformat(timespec="seconds"), "data_collected_at": t.isoformat(timespec="seconds"), "error": None}, fh)
+        if kind == "turnout":                              # the feeds were touched as this pull ran, unless the scenario says otherwise
+            mp = os.path.join(base, new, "manifest.json")
+            with open(mp) as fh:
+                man = json.load(fh)
+            man["feed_time"] = (t + timedelta(hours=5)).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+            with open(mp, "w") as fh:
+                json.dump(man, fh)
         if mutate:
             mutate(os.path.join(base, new))
         with open(os.path.join(base, "INDEX.csv"), newline="") as fh:
@@ -445,7 +452,7 @@ def main():
         T.pull("turnout", broward("2026-11-03T10:00:30"), at=datetime(2026, 11, 3, 11, 0, 0))
         T.run()
         T.run("--ack", "--tier", "2", "--alert-kind", "broward_stale", "--note", "known")
-        check("acknowledged by kind: the Broward warning is off the board", T.current()["counts"]["2"] == 0, str(T.current()["counts"]))
+        check("acknowledged by kind: the Broward warning is off the board", not any(i["kind"] == "broward_stale" for i in T.current()["items"]), str(T.current()["counts"]))
         T.pull("turnout", broward("2026-11-03T10:00:30"), at=datetime(2026, 11, 3, 13, 30, 0))
         rows = T.run()
         check("...but it is back on the board the moment it gets worse (acknowledging never buries a growing problem)", T.current()["counts"]["1"] == 1 and

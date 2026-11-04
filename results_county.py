@@ -82,6 +82,12 @@ def parse_county(code, cfg, timeout=30):
         tb = hdr.find_next("table")
         if not tb:
             continue
+        # Counties differ in which columns they publish (Citrus and Hernando have no Provisional): map by header, not position.
+        heads = [h.get_text(" ", strip=True).lower() for h in tb.find_all("th")]
+        want = {"election_day": "election day", "early": "early", "mail": "mail", "provisional": "provisional", "total": "total", "pct": "percent"}
+        col = {k: next((i for i, h in enumerate(heads) if v in h), None) for k, v in want.items()}
+        if col["total"] is None:                           # no usable header: the layout this code was written against
+            col = {"election_day": 1, "early": 2, "mail": 3, "provisional": 4, "total": 5, "pct": 6}
         for tr in tb.find_all("tr"):
             cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
             if len(cells) < 5:
@@ -94,12 +100,7 @@ def parse_county(code, cfg, timeout=30):
             cand = PARTY.sub("", choice).strip()
             out["contests"].append({
                 "county_code": code, "contest": race, "candidate": cand, "party": party,
-                "election_day": num(cells[1]) if len(cells) > 1 else 0,
-                "early": num(cells[2]) if len(cells) > 2 else 0,
-                "mail": num(cells[3]) if len(cells) > 3 else 0,
-                "provisional": num(cells[4]) if len(cells) > 4 else 0,
-                "total": num(cells[5]) if len(cells) > 5 else 0,
-                "pct": num(cells[6]) if len(cells) > 6 else 0,
+                **{k: (num(cells[n]) if n is not None and n < len(cells) else 0) for k, n in col.items()},
             })
     return out
 
