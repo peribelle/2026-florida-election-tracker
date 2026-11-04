@@ -1,0 +1,121 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | United States Senator | Ashley Moody | REP,(row),,159666,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | United States Senator | Angie Nixon | DEM,(row),,287843,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | United States Senator | Neil J. Gillespie | NPA,(row),,4329,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | U.S. Congress, District 8 | Mike Haridopolos | REP",(row),,17829,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | U.S. Congress, District 8 | Jennifer Jenkins | DEM",(row),,29847,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | U.S. Congress, District 9 | Dan Green | REP",(row),,13884,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | U.S. Congress, District 9 | Darren Soto | DEM",(row),,25523,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | U.S. Congress, District 11 | Joe Strada | REP",(row),,58006,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | U.S. Congress, District 11 | James Pericola | DEM",(row),,81925,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | U.S. Congress, District 11 | Ralph Groves | LPF",(row),,1612,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Governor and Lieutenant Governor | Byron Donalds | REP,(row),,156589,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Governor and Lieutenant Governor | David Jolly | DEM,(row),,289124,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Governor and Lieutenant Governor | Scott Eckhard Jewett | LPF,(row),,2080,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Governor and Lieutenant Governor | Charles Burkett | NPA,(row),,674,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Governor and Lieutenant Governor | Frank J. Russo | NPA,(row),,1121,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Governor and Lieutenant Governor | Moliere ""Moe"" Dimanche | NPA",(row),,542,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Governor and Lieutenant Governor | Dean Ocean Abrams | NPA,(row),,710,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Governor and Lieutenant Governor | Jeffrey Peter ""Dr. Jeff"" Datto | NPA",(row),,433,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Governor and Lieutenant Governor | Write-in
+                                    (NON) | ",(row),,568,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Attorney General | James Uthmeier | REP,(row),,157369,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Attorney General | Jose Javier Rodriguez | DEM,(row),,291853,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Chief Financial Officer | Blaise Ingoglia | REP,(row),,158536,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Chief Financial Officer | Annette Taddeo | DEM,(row),,287054,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Commissioner of Agriculture | Wilton Simpson | REP,(row),,157551,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Commissioner of Agriculture | Joey Mendoza Atkins | DEM,(row),,287242,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Commissioner of Agriculture | Write-in
+                                    (NON) | ",(row),,1543,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Senator, District 10 | Jason Brodeur | REP",(row),,10398,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Senator, District 10 | John Lowndes | DEM",(row),,17283,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 35 | Erika Booth | REP",(row),,20860,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 35 | Eric Gray | DEM",(row),,30764,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 37 | Robert Prater | REP",(row),,8015,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 37 | Jane Aman | DEM",(row),,16023,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 39 | Doug Bankson | REP",(row),,20227,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 39 | Jarod Fox | DEM",(row),,28652,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 40 | Tuan Le | REP",(row),,12858,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 40 | Ra'Shon Young | DEM",(row),,38829,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 42 | Bonnie Jackson | REP",(row),,28293,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 42 | Felipe Sousa Lazaballet | DEM",(row),,47458,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 43 | Jorge Malavet | REP",(row),,14438,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 43 | Samuel Vilchez Santiago | DEM",(row),,29047,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 45 | Erin Huntley | REP",(row),,28347,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | State Representative, District 45 | Leonard Spencer | DEM",(row),,33624,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Clerk of Courts | Roberta Walton Johnson | DEM,(row),,298925,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,ORA | Clerk of Courts | Terrell Thomas | NPA,(row),,126426,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Retain Justice Carlos G. Muñiz? | Yes
+                                    (NON) | ",(row),,195097,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Retain Justice Carlos G. Muñiz? | No
+                                    (NON) | ",(row),,226430,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Circuit Judge, 9th Judicial, Group 1 | Temika Hampton-Johnson
+                                    (NON) | ",(row),,269723,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Circuit Judge, 9th Judicial, Group 1 | Charles Hart
+                                    (NON) | ",(row),,138819,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Mayor | Chris Messina
+                                    (NON) | ",(row),,158247,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Mayor | Tiffany Moore Russell
+                                    (NON) | ",(row),,266945,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 2 | Kamia Brown
+                                    (NON) | ",(row),,38558,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 2 | Mike Crabb
+                                    (NON) | ",(row),,22640,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 4 | Brian Jones
+                                    (NON) | ",(row),,18213,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 4 | Johanna Lopez
+                                    (NON) | ",(row),,33795,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 4 | Write-in
+                                    (NON) | ",(row),,298,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 6 | Lawanna Gelzer
+                                    (NON) | ",(row),,13129,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 6 | Michael ""Mike"" Scott
+                                    (NON) | ",(row),,16434,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 7 | Patricia Rumph
+                                    (NON) | ",(row),,31723,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 7 | Vicki Vargo
+                                    (NON) | ",(row),,13744,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 8 | Jeannette Quinones Hernandez
+                                    (NON) | ",(row),,21541,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | County Commissioner, District 8 | Victor M.Torres Jr.
+                                    (NON) | ",(row),,29563,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | School Board Member, District 3 | Diana Moore
+                                    (NON) | ",(row),,23920,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | School Board Member, District 3 | Susanne Peña
+                                    (NON) | ",(row),,32961,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Soil and Water, District 1 | Quinnie Perez
+                                    (NON) | ",(row),,34523,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Soil and Water, District 1 | Vicente Rafael Perez Carreno
+                                    (NON) | ",(row),,16876,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Soil and Water, District 1 | Doug Sahr
+                                    (NON) | ",(row),,30149,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Soil and Water, District 3 | Chuck Drake
+                                    (NON) | ",(row),,37338,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Soil and Water, District 3 | Erik LaMont Melear
+                                    (NON) | ",(row),,46329,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Soil and Water, District 3 | José Antonio Rodriguez
+                                    (NON) | ",(row),,50024,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Soil and Water, District 5 | Zack Green
+                                    (NON) | ",(row),,30495,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Soil and Water, District 5 | Jimm Middleton
+                                    (NON) | ",(row),,40529,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Vista Lakes CDD Seat 3 | Bennie Hichez
+                                    (NON) | ",(row),,1111,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | Vista Lakes CDD Seat 3 | Frank J. Sebestyen
+                                    (NON) | ",(row),,916,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | No. 1 Constitutional Amendment | Yes
+                                    (NON) | ",(row),,152941,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | No. 1 Constitutional Amendment | No
+                                    (NON) | ",(row),,281290,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | No. 2 Constitutional Amendment | Yes
+                                    (NON) | ",(row),,206111,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | No. 2 Constitutional Amendment | No
+                                    (NON) | ",(row),,229510,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | No. 3 Constitutional Amendment | Yes
+                                    (NON) | ",(row),,220644,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | No. 3 Constitutional Amendment | No
+                                    (NON) | ",(row),,212457,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | School Board Question | Yes for Approval
+                                    (NON) | ",(row),,335993,
+data|rows_new|ENR|new|20261103-210028,3,data,rows_new,ENR|new,20261103-210028,"ORA | School Board Question | No for Rejection
+                                    (NON) | ",(row),,91921,

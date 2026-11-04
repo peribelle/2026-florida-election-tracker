@@ -29,6 +29,7 @@
     "DES",
     "DIX",
     "DUV",
+    "ESC",
     "FLA",
     "FRA",
     "GAD",
@@ -55,7 +56,9 @@
     "MON",
     "MRN",
     "NAS",
+    "OKA",
     "OKE",
+    "ORA",
     "PAS",
     "POL",
     "PUT",
@@ -72,9 +75,9 @@
     "WAL",
     "WAS"
    ],
-   "enr_ok": 56,
-   "enr_rows": 2806,
-   "enr_status_rows": 56,
+   "enr_ok": 59,
+   "enr_rows": 2887,
+   "enr_status_rows": 59,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
@@ -107,6 +110,7 @@
     "MON",
     "NAS",
     "OKE",
+    "ORA",
     "POL",
     "PUT",
     "SAR",
@@ -143,6 +147,7 @@
     "MON": 1551,
     "NAS": 1353,
     "OKE": 451,
+    "ORA": 19235,
     "POL": 7016,
     "PUT": 1641,
     "SAR": 5686,
@@ -151,8 +156,45 @@
     "WAK": 532,
     "WAL": 1797
    },
-   "prec_ok": 34,
-   "prec_rows": 128447
+   "prec_ok": 35,
+   "prec_rows": 146941,
+   "prec_votes": {
+    "BAK": 160017,
+    "BRA": 155414,
+    "BRE": 4864777,
+    "CIT": 1196373,
+    "CLL": 2897973,
+    "CLM": 396690,
+    "DAD": 19514662,
+    "DIX": 80043,
+    "FRA": 83287,
+    "GAD": 283813,
+    "GIL": 134980,
+    "GLA": 52371,
+    "HAR": 76438,
+    "HER": 1295527,
+    "HIG": 530856,
+    "HIL": 10850002,
+    "HOL": 46505,
+    "IND": 1464640,
+    "JAC": 262598,
+    "JEF": 83976,
+    "LAF": 37752,
+    "LAK": 3203891,
+    "LEV": 294430,
+    "MAD": 110378,
+    "MON": 529448,
+    "NAS": 0,
+    "OKE": 170194,
+    "ORA": 7167180,
+    "POL": 3526941,
+    "PUT": 391108,
+    "SAR": 4732431,
+    "STJ": 2752768,
+    "TAY": 105943,
+    "WAK": 246665,
+    "WAL": 663815
+   }
   },
   "slow": {
    "codes": [
@@ -628,6 +670,12 @@
      159,
      159
     ],
+    "ESC": [
+     113675,
+     "11/03/2026 7:39:40 pm",
+     78,
+     80
+    ],
     "FLA": [
      64378,
      "11/03/2026 7:59:14 pm",
@@ -696,7 +744,7 @@
     ],
     "HIL": [
      513592,
-     "11/03/2026 8:35:57 pm",
+     "11/03/2026 8:53:14 pm",
      435,
      446
     ],
@@ -726,7 +774,7 @@
     ],
     "LAF": [
      2639,
-     "11/03/2026 8:01:56 pm",
+     "11/03/2026 8:54:24 pm",
      5,
      5
     ],
@@ -737,9 +785,9 @@
      92
     ],
     "LEO": [
-     121351,
-     "11/03/2026 8:16:24 pm",
-     80,
+     122394,
+     "11/03/2026 8:56:03 pm",
+     83,
      134
     ],
     "LEV": [
@@ -773,9 +821,9 @@
      33
     ],
     "MRN": [
-     120854,
-     "11/03/2026 8:42:45 pm",
-     52,
+     136178,
+     "11/03/2026 8:57:02 pm",
+     67,
      106
     ],
     "NAS": [
@@ -784,11 +832,23 @@
      18,
      18
     ],
+    "OKA": [
+     77209,
+     "11/03/2026 7:45:34 pm",
+     51,
+     52
+    ],
     "OKE": [
      11202,
      "11/03/2026 7:59:28 pm",
      11,
      11
+    ],
+    "ORA": [
+     454306,
+     "11/03/2026 8:25:14 pm",
+     258,
+     263
     ],
     "PAS": [
      237577,
@@ -797,9 +857,9 @@
      122
     ],
     "POL": [
-     242214,
-     "11/03/2026 8:13:05 pm",
-     164,
+     252861,
+     "11/03/2026 8:48:20 pm",
+     177,
      177
     ],
     "PUT": [
@@ -809,9 +869,9 @@
      37
     ],
     "SAN": [
-     62758,
-     "11/03/2026 7:38:12 pm",
-     27,
+     69678,
+     "11/03/2026 7:56:11 pm",
+     33,
      41
     ],
     "SAR": [
@@ -822,7 +882,7 @@
     ],
     "SEM": [
      193657,
-     "11/03/2026 8:34:52 pm",
+     "11/03/2026 8:55:53 pm",
      78,
      82
     ],
@@ -833,9 +893,9 @@
      55
     ],
     "STL": [
-     124010,
-     "11/03/2026 8:41:23 pm",
-     51,
+     133998,
+     "11/03/2026 8:58:13 pm",
+     58,
      62
     ],
     "SUM": [
@@ -896,6 +956,7 @@
     "DES",
     "DIX",
     "DUV",
+    "ESC",
     "FLA",
     "FRA",
     "GAD",
@@ -922,7 +983,9 @@
     "MON",
     "MRN",
     "NAS",
+    "OKA",
     "OKE",
+    "ORA",
     "PAS",
     "POL",
     "PUT",
@@ -939,9 +1002,9 @@
     "WAL",
     "WAS"
    ],
-   "enr_ok": 56,
-   "enr_rows": 2806,
-   "enr_status_rows": 56,
+   "enr_ok": 59,
+   "enr_rows": 2887,
+   "enr_status_rows": 59,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
@@ -974,6 +1037,7 @@
     "MON",
     "NAS",
     "OKE",
+    "ORA",
     "POL",
     "PUT",
     "SAR",
@@ -1010,6 +1074,7 @@
     "MON": 1551,
     "NAS": 1353,
     "OKE": 451,
+    "ORA": 19235,
     "POL": 7016,
     "PUT": 1604,
     "SAR": 5684,
@@ -1018,8 +1083,45 @@
     "WAK": 532,
     "WAL": 1115
    },
-   "prec_ok": 34,
-   "prec_rows": 127706
+   "prec_ok": 35,
+   "prec_rows": 146941,
+   "prec_votes": {
+    "BAK": 160017,
+    "BRA": 155414,
+    "BRE": 4864777,
+    "CIT": 1196373,
+    "CLL": 2897973,
+    "CLM": 396690,
+    "DAD": 19514662,
+    "DIX": 80043,
+    "FRA": 83287,
+    "GAD": 283813,
+    "GIL": 134980,
+    "GLA": 52371,
+    "HAR": 76438,
+    "HER": 1295527,
+    "HIG": 530856,
+    "HIL": 10850002,
+    "HOL": 46505,
+    "IND": 1464640,
+    "JAC": 262598,
+    "JEF": 83976,
+    "LAF": 37752,
+    "LAK": 3203891,
+    "LEV": 294430,
+    "MAD": 110378,
+    "MON": 529448,
+    "NAS": 0,
+    "OKE": 170194,
+    "ORA": 7167180,
+    "POL": 3526941,
+    "PUT": 391108,
+    "SAR": 4732431,
+    "STJ": 2752768,
+    "TAY": 105943,
+    "WAK": 246665,
+    "WAL": 663815
+   }
   },
   "slow": {
    "_failures": [
@@ -1298,48 +1400,20 @@
   }
  },
  "open": {
-  "data|pct_mismatch|ENR|pct|WAL": {
-   "last": "2026-11-03 20:50:29",
+  "source|county_stalled|ENR|stalled|HOL": {
+   "last": "2026-11-03 21:00:40",
    "n": 3,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-203018-003",
-    "count": 4,
-    "curr": null,
-    "delta": null,
-    "detail": "REP Warren Whitaker (County Commissioner); Write-in\n                  \u2026 (County Commissioner); REP Jim Bagby (County Commissioner)",
-    "event": "raised",
-    "fingerprint": "data|pct_mismatch|ENR|pct|WAL",
-    "first_seen": "2026-11-03 20:30:29",
-    "headline": "Percent does not match the votes in WAL: 4 rows",
-    "kind": "pct_mismatch",
-    "prev": null,
-    "prev_snapshot": "20261103-202006",
-    "raised_local": "2026-11-03 20:30:29",
-    "raised_utc": "2026-11-04T01:30:29Z",
-    "scope": "ENR|pct|WAL",
-    "snapshot": "20261103-203018",
-    "source": "results",
-    "tier": 2,
-    "validator": "data"
-   },
-   "source": "results",
-   "tier": 2
-  },
-  "source|county_stalled|ENR|stalled|HOL": {
-   "last": "2026-11-03 20:50:29",
-   "n": 2,
-   "origin": "snapshot",
-   "row": {
     "alert_id": "A-20261103-204009-001",
-    "count": 4,
+    "count": 5,
     "curr": null,
     "delta": null,
     "detail": "0/8 precincts in, last update 11/03/2026 7:07:48 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|HOL",
     "first_seen": "2026-11-03 20:40:20",
-    "headline": "HOL has not updated in 4 pulls (40 min)",
+    "headline": "HOL has not updated in 5 pulls (50 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-203018",
@@ -1348,54 +1422,26 @@
     "scope": "ENR|stalled|HOL",
     "snapshot": "20261103-204009",
     "source": "results",
-    "tier": 3,
+    "tier": 2,
     "validator": "source"
    },
    "source": "results",
-   "tier": 3
-  },
-  "source|county_stalled|ENR|stalled|LEO": {
-   "last": "2026-11-03 20:50:29",
-   "n": 1,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-205017-002",
-    "count": 3,
-    "curr": null,
-    "delta": null,
-    "detail": "80/134 precincts in, last update 11/03/2026 8:16:24 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|LEO",
-    "first_seen": "2026-11-03 20:50:29",
-    "headline": "LEO has not updated in 3 pulls (30 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-204009",
-    "raised_local": "2026-11-03 20:50:29",
-    "raised_utc": "2026-11-04T01:50:29Z",
-    "scope": "ENR|stalled|LEO",
-    "snapshot": "20261103-205017",
-    "source": "results",
-    "tier": 3,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 3
+   "tier": 2
   },
   "source|county_stalled|ENR|stalled|PAS": {
-   "last": "2026-11-03 20:50:29",
-   "n": 1,
+   "last": "2026-11-03 21:00:40",
+   "n": 2,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-205017-003",
-    "count": 3,
+    "count": 4,
     "curr": null,
     "delta": null,
     "detail": "120/122 precincts in, last update 11/03/2026 8:15:44 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|PAS",
     "first_seen": "2026-11-03 20:50:29",
-    "headline": "PAS has not updated in 3 pulls (30 min)",
+    "headline": "PAS has not updated in 4 pulls (40 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-204009",
@@ -1409,62 +1455,6 @@
    },
    "source": "results",
    "tier": 3
-  },
-  "source|county_stalled|ENR|stalled|POL": {
-   "last": "2026-11-03 20:50:29",
-   "n": 1,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-205017-004",
-    "count": 3,
-    "curr": null,
-    "delta": null,
-    "detail": "164/177 precincts in, last update 11/03/2026 8:13:05 pm.",
-    "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|POL",
-    "first_seen": "2026-11-03 20:50:29",
-    "headline": "POL has not updated in 3 pulls (30 min)",
-    "kind": "county_stalled",
-    "prev": null,
-    "prev_snapshot": "20261103-204009",
-    "raised_local": "2026-11-03 20:50:29",
-    "raised_utc": "2026-11-04T01:50:29Z",
-    "scope": "ENR|stalled|POL",
-    "snapshot": "20261103-205017",
-    "source": "results",
-    "tier": 3,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 3
-  },
-  "source|precinct_file_short|PREC|WAL": {
-   "last": "2026-11-03 20:50:29",
-   "n": 3,
-   "origin": "snapshot",
-   "row": {
-    "alert_id": "A-20261103-203018-001",
-    "count": 1,
-    "curr": 1115,
-    "delta": -682,
-    "detail": "a truncated file loses whole precincts.",
-    "event": "raised",
-    "fingerprint": "source|precinct_file_short|PREC|WAL",
-    "first_seen": "2026-11-03 20:30:29",
-    "headline": "Precinct file for WAL has 1,115 rows, usually 1,797",
-    "kind": "precinct_file_short",
-    "prev": 1797,
-    "prev_snapshot": "20261103-202006",
-    "raised_local": "2026-11-03 20:30:29",
-    "raised_utc": "2026-11-04T01:30:29Z",
-    "scope": "PREC|WAL",
-    "snapshot": "20261103-203018",
-    "source": "results",
-    "tier": 1,
-    "validator": "source"
-   },
-   "source": "results",
-   "tier": 1
   }
  },
  "recent": [
@@ -2496,11 +2486,32 @@
    "source": "projections",
    "tier": 3,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-210028-002",
+   "count": 81,
+   "curr": null,
+   "delta": null,
+   "detail": "e.g. Ashley Moody; Angie Nixon; Neil J. Gillespie",
+   "event": "raised",
+   "fingerprint": "data|rows_new|ENR|new|20261103-210028",
+   "first_seen": "2026-11-03 21:00:40",
+   "headline": "New in ENR: 81 rows across 1 place",
+   "kind": "rows_new",
+   "prev": null,
+   "prev_snapshot": "20261103-205017",
+   "raised_local": "2026-11-03 21:00:40",
+   "raised_utc": "2026-11-04T02:00:40Z",
+   "scope": "ENR|new",
+   "snapshot": "20261103-210028",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
-   "n": 0,
+   "n": 1,
    "sig": [
     101386,
     "11/03/2026 8:48:17 pm",
@@ -2532,7 +2543,7 @@
    ]
   },
   "BRE": {
-   "n": 0,
+   "n": 1,
    "sig": [
     265378,
     "11/03/2026 8:40:58 pm",
@@ -2580,7 +2591,7 @@
    ]
   },
   "DAD": {
-   "n": 0,
+   "n": 1,
    "sig": [
     782527,
     "11/03/2026 8:45:29 pm",
@@ -2609,6 +2620,14 @@
     358225,
     "11/03/2026 8:33:37 pm",
     159
+   ]
+  },
+  "ESC": {
+   "n": 0,
+   "sig": [
+    113675,
+    "11/03/2026 7:39:40 pm",
+    78
    ]
   },
   "FLA": {
@@ -2700,15 +2719,15 @@
    ]
   },
   "HIL": {
-   "n": 1,
+   "n": 0,
    "sig": [
     513592,
-    "11/03/2026 8:35:57 pm",
+    "11/03/2026 8:53:14 pm",
     435
    ]
   },
   "HOL": {
-   "n": 4,
+   "n": 5,
    "sig": [
     2640,
     "11/03/2026 7:07:48 pm",
@@ -2732,7 +2751,7 @@
    ]
   },
   "JEF": {
-   "n": 0,
+   "n": 1,
    "sig": [
     5275,
     "11/03/2026 8:40:11 pm",
@@ -2743,7 +2762,7 @@
    "n": 0,
    "sig": [
     2639,
-    "11/03/2026 8:01:56 pm",
+    "11/03/2026 8:54:24 pm",
     5
    ]
   },
@@ -2756,11 +2775,11 @@
    ]
   },
   "LEO": {
-   "n": 3,
+   "n": 0,
    "sig": [
-    121351,
-    "11/03/2026 8:16:24 pm",
-    80
+    122394,
+    "11/03/2026 8:56:03 pm",
+    83
    ]
   },
   "LEV": {
@@ -2806,9 +2825,9 @@
   "MRN": {
    "n": 0,
    "sig": [
-    120854,
-    "11/03/2026 8:42:45 pm",
-    52
+    136178,
+    "11/03/2026 8:57:02 pm",
+    67
    ]
   },
   "NAS": {
@@ -2819,6 +2838,14 @@
     18
    ]
   },
+  "OKA": {
+   "n": 0,
+   "sig": [
+    77209,
+    "11/03/2026 7:45:34 pm",
+    51
+   ]
+  },
   "OKE": {
    "n": 0,
    "sig": [
@@ -2827,8 +2854,16 @@
     11
    ]
   },
+  "ORA": {
+   "n": 0,
+   "sig": [
+    454306,
+    "11/03/2026 8:25:14 pm",
+    258
+   ]
+  },
   "PAS": {
-   "n": 3,
+   "n": 4,
    "sig": [
     237577,
     "11/03/2026 8:15:44 pm",
@@ -2836,11 +2871,11 @@
    ]
   },
   "POL": {
-   "n": 3,
+   "n": 0,
    "sig": [
-    242214,
-    "11/03/2026 8:13:05 pm",
-    164
+    252861,
+    "11/03/2026 8:48:20 pm",
+    177
    ]
   },
   "PUT": {
@@ -2852,15 +2887,15 @@
    ]
   },
   "SAN": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    62758,
-    "11/03/2026 7:38:12 pm",
-    27
+    69678,
+    "11/03/2026 7:56:11 pm",
+    33
    ]
   },
   "SAR": {
-   "n": 0,
+   "n": 1,
    "sig": [
     220825,
     "11/03/2026 8:47:18 pm",
@@ -2868,15 +2903,15 @@
    ]
   },
   "SEM": {
-   "n": 1,
+   "n": 0,
    "sig": [
     193657,
-    "11/03/2026 8:34:52 pm",
+    "11/03/2026 8:55:53 pm",
     78
    ]
   },
   "STJ": {
-   "n": 0,
+   "n": 1,
    "sig": [
     153245,
     "11/03/2026 8:43:09 pm",
@@ -2886,9 +2921,9 @@
   "STL": {
    "n": 0,
    "sig": [
-    124010,
-    "11/03/2026 8:41:23 pm",
-    51
+    133998,
+    "11/03/2026 8:58:13 pm",
+    58
    ]
   },
   "SUM": {
@@ -2932,7 +2967,7 @@
    ]
   },
   "WAL": {
-   "n": 1,
+   "n": 2,
    "sig": [
     34867,
     "11/03/2026 7:39:25 pm",
@@ -2950,14 +2985,14 @@
  },
  "totals": {
   "1": 7,
-  "2": 132,
-  "3": 330,
+  "2": 133,
+  "3": 331,
   "acked": 388,
-  "alerts": 469
+  "alerts": 471
  },
  "validated": {
   "projections": "20261103-205017",
-  "results": "20261103-205017",
+  "results": "20261103-210028",
   "slow": "20261103-204500",
   "turnout": "20261103-185931"
  },

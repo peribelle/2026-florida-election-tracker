@@ -69,6 +69,11 @@
   "id": "4076",
   "key": "DUV"
  },
+ "ESC": {
+  "base": "https://enr.electionsfl.org",
+  "id": "3977",
+  "key": "ESC"
+ },
  "FLA": {
   "base": "https://enr.electionsfl.org",
   "id": "4088",
@@ -199,10 +204,20 @@
   "id": "4080",
   "key": "NAS"
  },
+ "OKA": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4092",
+  "key": "OKA"
+ },
  "OKE": {
   "base": "https://enr.electionsfl.org",
   "id": "4060",
   "key": "OKE"
+ },
+ "ORA": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4090",
+  "key": "ORA"
  },
  "PAS": {
   "base": "https://enr.electionsfl.org",
