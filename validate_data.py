@@ -18,6 +18,7 @@ Invariants are checked inside one pull and are conditions (they stay open until 
 to their parts, a candidate cannot have more votes than the county has ballots, probabilities stay in [0, 1].
 """
 import os
+import re
 from collections import defaultdict
 
 from validate_checks import (ballot_tier, f, finding, j, MASS_FRACTION, MIN_FOR_MASS, num, pl, read_csv, read_gz_csv, short, vote_tier)
@@ -120,6 +121,17 @@ def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src,
     for k in added:
         ag[grp(k)].append(k)
     gone_keys, came_keys = set(), set()
+    # a county dropping a party prefix ("REP Jimmy Patronis" -> "Jimmy Patronis") or tidying whitespace renames a row; votes may have grown in the same pull
+    def norm(k):
+        return tuple(re.sub(r"\s*\((?:NON|[A-Z]{3})\)\s*$", "", re.sub(r"^[A-Z]{3}\s+(?=\S)", "", re.sub(r"\s+", " ", str(x or "")).strip())).strip().lower() for x in k)
+    came_by = defaultdict(list)
+    for k in added:
+        came_by[norm(k)].append(k)
+    for k in missing:
+        cands = [a_ for a_ in came_by.get(norm(k), []) if a_ not in came_keys and (C[a_][main] or 0) >= (P[k][main] or 0)]
+        if cands:
+            gone_keys.add(k)
+            came_keys.add(cands[0])
     for g in set(mg) & set(ag):
         lost, gained = sum(P[k][main] or 0 for k in mg[g]), sum(C[k][main] or 0 for k in ag[g])
         same = abs(gained - lost) <= max(2, 0.001 * lost) if lost else (not gained and len(mg[g]) == len(ag[g]))

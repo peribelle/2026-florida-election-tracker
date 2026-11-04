@@ -451,6 +451,13 @@ def main():
         rows = T.run()
         check("a vote-for-two contest whose percents are shares of ballots (summing to 200) is not a pct_mismatch", not has(rows, "pct_mismatch"), summarize(rows))
 
+        T = tree()
+        T.pull("results", lambda d: ecsv(f"{d}/county_contests.csv", lambda rs: [r.update(candidate="REP " + r["candidate"], total=5000, election_day=5000, early=0, mail=0, provisional=0) for r in rs if r["county_code"] == "ALA" and r["total"] == "5000"]))
+        T.run()
+        T.pull("results", lambda d: ecsv(f"{d}/county_contests.csv", lambda rs: [r.update(candidate=r["candidate"][4:], total=5010, election_day=5010) for r in rs if r["county_code"] == "ALA" and r["candidate"].startswith("REP ")]))
+        rows = T.run()
+        check("a county drops the party prefix from its candidates while votes grow -> a rename notice, never rows_missing", has(rows, "rows_rekeyed", 3) and not has(rows, "rows_missing"), summarize(rows))
+
         print("\nSOURCE validator: a shorter precinct file")
         T = tree()
         T.pull("results", lambda d: ecsv(f"{d}/raw/precinct_BRA.csv.gz", lambda rs: [rs.pop(0) for _ in range(int(len(rs) * 0.6))], gz=True))
