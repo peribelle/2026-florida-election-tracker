@@ -1,0 +1,3 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|call_made|PROJ|call|ddhq|FL-GOV|20261103-205017,3,data,call_made,PROJ|call|ddhq|FL-GOV,20261103-205017,ddhq | FL-GOV | Byron Donalds,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H04|20261103-205017,3,data,call_made,PROJ|call|ddhq|FL-H04,20261103-205017,ddhq | FL-H04 | Aaron Bean,winner,False,True,

@@ -351,10 +351,10 @@
    "ddhq_forecast": 30,
    "ddhq_ok": 30,
    "kalshi_events": 5,
-   "kalshi_rows": 8,
+   "kalshi_rows": 6,
    "polymarket_races": 2,
    "polymarket_rows": 4,
-   "prediction_rows": 72,
+   "prediction_rows": 70,
    "sources_ok": 3,
    "sources_tried": 3
   },
@@ -545,9 +545,9 @@
    "_primary": [],
    "_status": {
     "ALA": [
-     96161,
-     "11/03/2026 8:32:02 pm",
-     47,
+     101386,
+     "11/03/2026 8:48:17 pm",
+     57,
      63
     ],
     "BAK": [
@@ -557,9 +557,9 @@
      9
     ],
     "BAY": [
-     66022,
-     "11/03/2026 7:22:14 pm",
-     22,
+     70630,
+     "11/03/2026 7:42:11 pm",
+     30,
      30
     ],
     "BRA": [
@@ -569,9 +569,9 @@
      13
     ],
     "BRE": [
-     263907,
-     "11/03/2026 8:29:39 pm",
-     160,
+     265378,
+     "11/03/2026 8:40:58 pm",
+     161,
      166
     ],
     "CAL": [
@@ -600,19 +600,19 @@
     ],
     "CLM": [
      22710,
-     "11/03/2026 8:30:25 pm",
+     "11/03/2026 8:41:03 pm",
      28,
      28
     ],
     "DAD": [
-     774591,
-     "11/03/2026 8:26:41 pm",
-     707,
+     782527,
+     "11/03/2026 8:45:29 pm",
+     713,
      773
     ],
     "DES": [
      9180,
-     "11/03/2026 8:26:35 pm",
+     "11/03/2026 8:43:47 pm",
      15,
      15
     ],
@@ -642,7 +642,7 @@
     ],
     "GAD": [
      17890,
-     "11/03/2026 8:39:38 pm",
+     "11/03/2026 8:46:26 pm",
      25,
      25
     ],
@@ -683,9 +683,9 @@
      10
     ],
     "HER": [
-     75237,
-     "11/03/2026 8:19:12 pm",
-     28,
+     80357,
+     "11/03/2026 8:41:12 pm",
+     32,
      32
     ],
     "HIG": [
@@ -713,15 +713,15 @@
      35
     ],
     "JAC": [
-     15233,
-     "11/03/2026 7:33:16 pm",
-     13,
+     15766,
+     "11/03/2026 7:43:12 pm",
+     14,
      14
     ],
     "JEF": [
      5275,
-     "11/03/2026 8:22:48 pm",
-     0,
+     "11/03/2026 8:40:11 pm",
+     15,
      16
     ],
     "LAF": [
@@ -761,9 +761,9 @@
      11
     ],
     "MAN": [
-     180884,
-     "11/03/2026 8:31:26 pm",
-     69,
+     182499,
+     "11/03/2026 8:48:38 pm",
+     71,
      71
     ],
     "MON": [
@@ -773,9 +773,9 @@
      33
     ],
     "MRN": [
-     113155,
-     "11/03/2026 8:28:01 pm",
-     37,
+     120854,
+     "11/03/2026 8:42:45 pm",
+     52,
      106
     ],
     "NAS": [
@@ -815,8 +815,8 @@
      41
     ],
     "SAR": [
-     220406,
-     "11/03/2026 8:31:51 pm",
+     220825,
+     "11/03/2026 8:47:18 pm",
      95,
      98
     ],
@@ -827,15 +827,15 @@
      82
     ],
     "STJ": [
-     152535,
-     "11/03/2026 8:35:49 pm",
-     51,
+     153245,
+     "11/03/2026 8:43:09 pm",
+     52,
      55
     ],
     "STL": [
-     104777,
-     "11/03/2026 8:14:01 pm",
-     45,
+     124010,
+     "11/03/2026 8:41:23 pm",
+     51,
      62
     ],
     "SUM": [
@@ -851,9 +851,9 @@
      14
     ],
     "TAY": [
-     3835,
-     "11/03/2026 7:37:42 pm",
-     0,
+     6996,
+     "11/03/2026 8:42:05 pm",
+     14,
      14
     ],
     "UNI": [
@@ -1299,9 +1299,8 @@
  },
  "open": {
   "data|pct_mismatch|ENR|pct|WAL": {
-   "acked": "Walton's percents are off by rounding while the file reloads; they re-derive on the next pull.",
-   "last": "2026-11-03 20:40:20",
-   "n": 2,
+   "last": "2026-11-03 20:50:29",
+   "n": 3,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-203018-003",
@@ -1321,26 +1320,26 @@
     "scope": "ENR|pct|WAL",
     "snapshot": "20261103-203018",
     "source": "results",
-    "tier": 3,
+    "tier": 2,
     "validator": "data"
    },
    "source": "results",
-   "tier": 3
+   "tier": 2
   },
   "source|county_stalled|ENR|stalled|HOL": {
-   "last": "2026-11-03 20:40:20",
-   "n": 1,
+   "last": "2026-11-03 20:50:29",
+   "n": 2,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-204009-001",
-    "count": 3,
+    "count": 4,
     "curr": null,
     "delta": null,
     "detail": "0/8 precincts in, last update 11/03/2026 7:07:48 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|HOL",
     "first_seen": "2026-11-03 20:40:20",
-    "headline": "HOL has not updated in 3 pulls (30 min)",
+    "headline": "HOL has not updated in 4 pulls (40 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-203018",
@@ -1355,39 +1354,93 @@
    "source": "results",
    "tier": 3
   },
-  "source|county_stalled|ENR|stalled|TAY": {
-   "acked": "Taylor has not posted new numbers for 50 minutes: a small county between batch updates. Returns by itself if it gets worse.",
-   "last": "2026-11-03 20:40:20",
-   "n": 4,
+  "source|county_stalled|ENR|stalled|LEO": {
+   "last": "2026-11-03 20:50:29",
+   "n": 1,
    "origin": "snapshot",
    "row": {
-    "alert_id": "A-20261103-201016-003",
-    "count": 6,
+    "alert_id": "A-20261103-205017-002",
+    "count": 3,
     "curr": null,
     "delta": null,
-    "detail": "0/14 precincts in, last update 11/03/2026 7:37:42 pm.",
+    "detail": "80/134 precincts in, last update 11/03/2026 8:16:24 pm.",
     "event": "raised",
-    "fingerprint": "source|county_stalled|ENR|stalled|TAY",
-    "first_seen": "2026-11-03 20:10:28",
-    "headline": "TAY has not updated in 6 pulls (60 min)",
+    "fingerprint": "source|county_stalled|ENR|stalled|LEO",
+    "first_seen": "2026-11-03 20:50:29",
+    "headline": "LEO has not updated in 3 pulls (30 min)",
     "kind": "county_stalled",
     "prev": null,
-    "prev_snapshot": "20261103-200025",
-    "raised_local": "2026-11-03 20:10:28",
-    "raised_utc": "2026-11-04T01:10:28Z",
-    "scope": "ENR|stalled|TAY",
-    "snapshot": "20261103-201016",
+    "prev_snapshot": "20261103-204009",
+    "raised_local": "2026-11-03 20:50:29",
+    "raised_utc": "2026-11-04T01:50:29Z",
+    "scope": "ENR|stalled|LEO",
+    "snapshot": "20261103-205017",
     "source": "results",
-    "tier": 2,
+    "tier": 3,
     "validator": "source"
    },
    "source": "results",
-   "tier": 2
+   "tier": 3
+  },
+  "source|county_stalled|ENR|stalled|PAS": {
+   "last": "2026-11-03 20:50:29",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-205017-003",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "120/122 precincts in, last update 11/03/2026 8:15:44 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|PAS",
+    "first_seen": "2026-11-03 20:50:29",
+    "headline": "PAS has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-204009",
+    "raised_local": "2026-11-03 20:50:29",
+    "raised_utc": "2026-11-04T01:50:29Z",
+    "scope": "ENR|stalled|PAS",
+    "snapshot": "20261103-205017",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
+  },
+  "source|county_stalled|ENR|stalled|POL": {
+   "last": "2026-11-03 20:50:29",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-205017-004",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "164/177 precincts in, last update 11/03/2026 8:13:05 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|POL",
+    "first_seen": "2026-11-03 20:50:29",
+    "headline": "POL has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-204009",
+    "raised_local": "2026-11-03 20:50:29",
+    "raised_utc": "2026-11-04T01:50:29Z",
+    "scope": "ENR|stalled|POL",
+    "snapshot": "20261103-205017",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
   },
   "source|precinct_file_short|PREC|WAL": {
-   "acked": "Walton's file is shorter because zero-vote placeholder rows were dropped (see the shape_changed note); its votes rose.",
-   "last": "2026-11-03 20:40:20",
-   "n": 2,
+   "last": "2026-11-03 20:50:29",
+   "n": 3,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-203018-001",
@@ -1407,11 +1460,11 @@
     "scope": "PREC|WAL",
     "snapshot": "20261103-203018",
     "source": "results",
-    "tier": 2,
+    "tier": 1,
     "validator": "source"
    },
    "source": "results",
-   "tier": 2
+   "tier": 1
   }
  },
  "recent": [
@@ -2401,15 +2454,57 @@
    "source": "results",
    "tier": 3,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-205017-001",
+   "count": 1,
+   "curr": null,
+   "delta": null,
+   "detail": "precincts in: 4716/5067",
+   "event": "raised",
+   "fingerprint": "data|call_made|PROJ|call|ddhq|FL-GOV|20261103-205017",
+   "first_seen": "2026-11-03 20:50:20",
+   "headline": "DDHQ called FL-GOV for Byron Donalds (GOP)",
+   "kind": "call_made",
+   "prev": null,
+   "prev_snapshot": "20261103-202006",
+   "raised_local": "2026-11-03 20:50:20",
+   "raised_utc": "2026-11-04T01:50:20Z",
+   "scope": "PROJ|call|ddhq|FL-GOV",
+   "snapshot": "20261103-205017",
+   "source": "projections",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-205017-002",
+   "count": 1,
+   "curr": null,
+   "delta": null,
+   "detail": "precincts in: 144/144",
+   "event": "raised",
+   "fingerprint": "data|call_made|PROJ|call|ddhq|FL-H04|20261103-205017",
+   "first_seen": "2026-11-03 20:50:20",
+   "headline": "DDHQ called FL-H04 for Aaron Bean (GOP)",
+   "kind": "call_made",
+   "prev": null,
+   "prev_snapshot": "20261103-202006",
+   "raised_local": "2026-11-03 20:50:20",
+   "raised_utc": "2026-11-04T01:50:20Z",
+   "scope": "PROJ|call|ddhq|FL-H04",
+   "snapshot": "20261103-205017",
+   "source": "projections",
+   "tier": 3,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
    "n": 0,
    "sig": [
-    96161,
-    "11/03/2026 8:32:02 pm",
-    47
+    101386,
+    "11/03/2026 8:48:17 pm",
+    57
    ]
   },
   "BAK": {
@@ -2421,11 +2516,11 @@
    ]
   },
   "BAY": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    66022,
-    "11/03/2026 7:22:14 pm",
-    22
+    70630,
+    "11/03/2026 7:42:11 pm",
+    30
    ]
   },
   "BRA": {
@@ -2437,11 +2532,11 @@
    ]
   },
   "BRE": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    263907,
-    "11/03/2026 8:29:39 pm",
-    160
+    265378,
+    "11/03/2026 8:40:58 pm",
+    161
    ]
   },
   "CAL": {
@@ -2480,23 +2575,23 @@
    "n": 0,
    "sig": [
     22710,
-    "11/03/2026 8:30:25 pm",
+    "11/03/2026 8:41:03 pm",
     28
    ]
   },
   "DAD": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    774591,
-    "11/03/2026 8:26:41 pm",
-    707
+    782527,
+    "11/03/2026 8:45:29 pm",
+    713
    ]
   },
   "DES": {
    "n": 0,
    "sig": [
     9180,
-    "11/03/2026 8:26:35 pm",
+    "11/03/2026 8:43:47 pm",
     15
    ]
   },
@@ -2536,7 +2631,7 @@
    "n": 0,
    "sig": [
     17890,
-    "11/03/2026 8:39:38 pm",
+    "11/03/2026 8:46:26 pm",
     25
    ]
   },
@@ -2589,11 +2684,11 @@
    ]
   },
   "HER": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    75237,
-    "11/03/2026 8:19:12 pm",
-    28
+    80357,
+    "11/03/2026 8:41:12 pm",
+    32
    ]
   },
   "HIG": {
@@ -2605,7 +2700,7 @@
    ]
   },
   "HIL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     513592,
     "11/03/2026 8:35:57 pm",
@@ -2613,7 +2708,7 @@
    ]
   },
   "HOL": {
-   "n": 3,
+   "n": 4,
    "sig": [
     2640,
     "11/03/2026 7:07:48 pm",
@@ -2631,17 +2726,17 @@
   "JAC": {
    "n": 0,
    "sig": [
-    15233,
-    "11/03/2026 7:33:16 pm",
-    13
+    15766,
+    "11/03/2026 7:43:12 pm",
+    14
    ]
   },
   "JEF": {
-   "n": 1,
+   "n": 0,
    "sig": [
     5275,
-    "11/03/2026 8:22:48 pm",
-    0
+    "11/03/2026 8:40:11 pm",
+    15
    ]
   },
   "LAF": {
@@ -2661,7 +2756,7 @@
    ]
   },
   "LEO": {
-   "n": 2,
+   "n": 3,
    "sig": [
     121351,
     "11/03/2026 8:16:24 pm",
@@ -2695,9 +2790,9 @@
   "MAN": {
    "n": 0,
    "sig": [
-    180884,
-    "11/03/2026 8:31:26 pm",
-    69
+    182499,
+    "11/03/2026 8:48:38 pm",
+    71
    ]
   },
   "MON": {
@@ -2709,11 +2804,11 @@
    ]
   },
   "MRN": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    113155,
-    "11/03/2026 8:28:01 pm",
-    37
+    120854,
+    "11/03/2026 8:42:45 pm",
+    52
    ]
   },
   "NAS": {
@@ -2733,7 +2828,7 @@
    ]
   },
   "PAS": {
-   "n": 2,
+   "n": 3,
    "sig": [
     237577,
     "11/03/2026 8:15:44 pm",
@@ -2741,7 +2836,7 @@
    ]
   },
   "POL": {
-   "n": 2,
+   "n": 3,
    "sig": [
     242214,
     "11/03/2026 8:13:05 pm",
@@ -2757,7 +2852,7 @@
    ]
   },
   "SAN": {
-   "n": 0,
+   "n": 1,
    "sig": [
     62758,
     "11/03/2026 7:38:12 pm",
@@ -2767,13 +2862,13 @@
   "SAR": {
    "n": 0,
    "sig": [
-    220406,
-    "11/03/2026 8:31:51 pm",
+    220825,
+    "11/03/2026 8:47:18 pm",
     95
    ]
   },
   "SEM": {
-   "n": 0,
+   "n": 1,
    "sig": [
     193657,
     "11/03/2026 8:34:52 pm",
@@ -2783,17 +2878,17 @@
   "STJ": {
    "n": 0,
    "sig": [
-    152535,
-    "11/03/2026 8:35:49 pm",
-    51
+    153245,
+    "11/03/2026 8:43:09 pm",
+    52
    ]
   },
   "STL": {
-   "n": 2,
+   "n": 0,
    "sig": [
-    104777,
-    "11/03/2026 8:14:01 pm",
-    45
+    124010,
+    "11/03/2026 8:41:23 pm",
+    51
    ]
   },
   "SUM": {
@@ -2813,11 +2908,11 @@
    ]
   },
   "TAY": {
-   "n": 6,
+   "n": 0,
    "sig": [
-    3835,
-    "11/03/2026 7:37:42 pm",
-    0
+    6996,
+    "11/03/2026 8:42:05 pm",
+    14
    ]
   },
   "UNI": {
@@ -2837,7 +2932,7 @@
    ]
   },
   "WAL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     34867,
     "11/03/2026 7:39:25 pm",
@@ -2854,15 +2949,15 @@
   }
  },
  "totals": {
-  "1": 6,
-  "2": 131,
-  "3": 325,
+  "1": 7,
+  "2": 132,
+  "3": 330,
   "acked": 388,
-  "alerts": 462
+  "alerts": 469
  },
  "validated": {
-  "projections": "20261103-202006",
-  "results": "20261103-204009",
+  "projections": "20261103-205017",
+  "results": "20261103-205017",
   "slow": "20261103-204500",
   "turnout": "20261103-185931"
  },

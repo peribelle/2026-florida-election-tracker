@@ -1,0 +1,7 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|pct_mismatch|ENR|pct|WAL,2,data,pct_mismatch,ENR|pct|WAL,20261103-205017,WAL | County Commissioner | REP Warren Whitaker,pct,,28246,
+data|pct_mismatch|ENR|pct|WAL,2,data,pct_mismatch,ENR|pct|WAL,20261103-205017,"WAL | County Commissioner | Write-in
+                                    (NON)",pct,,1153,
+data|pct_mismatch|ENR|pct|WAL,2,data,pct_mismatch,ENR|pct|WAL,20261103-205017,WAL | County Commissioner | REP Jim Bagby,pct,,28035,
+data|pct_mismatch|ENR|pct|WAL,2,data,pct_mismatch,ENR|pct|WAL,20261103-205017,"WAL | County Commissioner | Write-in
+                                    (NON)",pct,,1153,
