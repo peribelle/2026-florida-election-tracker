@@ -430,6 +430,22 @@ def main():
         rows = T.run()
         check("...but a county coming online in the results is still announced (tier 3 rows_new)", has(rows, "rows_new", 3), summarize(rows))
 
+        print("\nDATA validator, results: a county that stops publishing the breakdown is not losing votes")
+        T = tree()
+        def split(d):
+            ecsv(f"{d}/county_contests.csv", lambda rs: [r.update(election_day=2000, early=2000, mail=1000, provisional=0, total=5000) for r in rs if r["county_code"] == "ALA" and r["total"] == "5000"])
+        T.pull("results", split)
+        T.run()
+        T.pull("results", lambda d: ecsv(f"{d}/county_contests.csv", lambda rs: [r.update(election_day="", early="", mail="") for r in rs if r["county_code"] == "ALA" and r["total"] == "5000"]))
+        rows = T.run()
+        check("parts blank but the total held -> a notice about the breakdown, never a value_blanked warning", not has(rows, "value_blanked") and has(rows, "parts_down", 3) and not any(int(r["tier"]) <= 2 for r in rows if r["event"] == "raised" and r["kind"] in ("parts_down", "value_blanked")), summarize(rows))
+        T = tree()
+        T.pull("results", split)
+        T.run()
+        T.pull("results", lambda d: ecsv(f"{d}/county_contests.csv", lambda rs: [r.update(total=4000, election_day="", early="", mail="") for r in rs if r["county_code"] == "ALA" and r["total"] == "5000"]))
+        rows = T.run()
+        check("...but when the total fell too, it is still flagged as lost votes", has(rows, "votes_down", contains="ALA") or has(rows, "value_blanked") or any(r["kind"] == "votes_down" for r in rows), summarize(rows))
+
         print("\nacknowledging what has been looked at (--ack)")
         T = tree()
         T.pull("turnout", both(lambda d: ejson(f"{d}/manifest.json", lambda m: m["totals"].update(early=m["totals"]["early"] - 7)), broward("2026-11-03T10:00:30")),

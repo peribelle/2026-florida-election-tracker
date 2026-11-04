@@ -66,7 +66,12 @@ def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src,
             if a is None:
                 continue
             if b is None:
-                if a:                                      # a zero placeholder turning blank loses nothing
+                if not a:                                  # a zero placeholder turning blank loses nothing
+                    continue
+                pm, cm = pv.get(main), cv.get(main)
+                if col != main and pm is not None and cm is not None and cm >= pm:
+                    parts.append((k, col, a, None))        # the county stopped publishing the breakdown but the total held: not lost votes
+                else:
                     blanks.append((k, col, a, None))
             elif b < a:
                 (drops if col == main else parts).append((k, col, a, b))
@@ -92,7 +97,7 @@ def table_events(old, new, *, keycols, valcols, main, group_by, title, who, src,
             tiers = [tier_of(a, b if b is not None else 0) for _, _, a, b in its]
             tier = min(tiers)
             lost = sum(a - (b or 0) for _, _, a, b in its)
-            if len(its) >= 10 and tier > 2 and lost >= (50 if unit == "ballots" else 10):
+            if kind != "parts_down" and len(its) >= 10 and tier > 2 and lost >= (50 if unit == "ballots" else 10):
                 tier = 2                                    # a pile of small losses in one place is a warning once they add up to something
             if bump and not collapsed:
                 tier = bump(g, tier)
@@ -338,7 +343,7 @@ def inv_county_contests(rows, status):
             parts[code].append(r)
         s = by_contest[(code, r["contest"])]
         rep = num(r.get("pct"))
-        if s > 0 and rep is not None and cols["total"] is not None and abs(100 * cols["total"] / s - rep) > 0.06:
+        if s > 0 and rep is not None and cols["total"] is not None and abs(100 * cols["total"] / s - rep) > (0.51 if rep == int(rep) else 0.06):     # some counties publish whole-number percents
             pct[code].append(r)
         b = ballots.get(code)
         if b is not None and cols["total"] is not None and cols["total"] > b + max(5, 0.001 * b):
