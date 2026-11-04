@@ -1,0 +1,9 @@
+fetched_utc,source,race_key,race,office,district,candidate,party,win_probability,price_cents,bid_cents,ask_cents,volume,source_updated_at,source_url
+2026-11-04T00:50:18+00:00,kalshi,FL-GOV,Governor,Governor,,David Jolly,DEM,0.048,4.8,4.8,5.0,12562963.52,2026-09-15T21:48:12.905807Z,https://api.elections.kalshi.com/trade-api/v2/events/GOVPARTYFL-26
+2026-11-04T00:50:18+00:00,kalshi,FL-GOV,Governor,Governor,,Byron Donalds,GOP,0.951,95.1,95.1,95.2,23941637.59,2026-10-16T16:30:36.492307Z,https://api.elections.kalshi.com/trade-api/v2/events/GOVPARTYFL-26
+2026-11-04T00:50:18+00:00,kalshi,FL-SEN,United States Senator (special),US Senate,,Ashley Moody,GOP,0.92,92.0,92.0,92.7,3345997.75,2026-10-19T16:49:36.923573Z,https://api.elections.kalshi.com/trade-api/v2/events/SENATEFLS-26
+2026-11-04T00:50:18+00:00,kalshi,FL-SEN,United States Senator (special),US Senate,,Angie Nixon,DEM,0.077,7.7,6.8,7.7,5160174.77,2026-10-19T16:49:36.923573Z,https://api.elections.kalshi.com/trade-api/v2/events/SENATEFLS-26
+2026-11-04T00:50:18+00:00,kalshi,FL-CFO,Chief Financial Officer,CFO,,Annette Taddeo,DEM,0.01,1.0,0.0,91.0,250.55,2026-10-13T04:32:49.060328Z,https://api.elections.kalshi.com/trade-api/v2/events/KXFLCFO-26NOV03
+2026-11-04T00:50:18+00:00,kalshi,FL-CFO,Chief Financial Officer,CFO,,Blaise Ingoglia,GOP,0.99,99.0,9.0,100.0,1559.62,2026-10-16T16:34:18.63583Z,https://api.elections.kalshi.com/trade-api/v2/events/KXFLCFO-26NOV03
+2026-11-04T00:50:18+00:00,kalshi,FL-H13,US House 13,US House,13,Leela Gray,DEM,0.02,2.0,1.6,4.9,81280.48,2026-09-15T21:20:50.850615Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL13-26
+2026-11-04T00:50:18+00:00,kalshi,FL-H13,US House 13,US House,13,Anna Paulina Luna,GOP,0.923,92.3,92.1,98.8,214498.77,2026-10-16T16:31:41.533151Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL13-26

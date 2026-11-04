@@ -1,0 +1,9 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|prob_jump|PROJ|jump|kalshi|FL-H13|20261103-195017,2,data,prob_jump,PROJ|jump|kalshi|FL-H13,20261103-195017,kalshi | FL-H13 | Leela Gray,win_probability,0.53,0.02,-0.51
+data|prob_jump|PROJ|jump|kalshi|FL-H13|20261103-195017,2,data,prob_jump,PROJ|jump|kalshi|FL-H13,20261103-195017,kalshi | FL-H13 | Anna Paulina Luna,win_probability,0.48,0.923,0.443
+data|call_made|PROJ|call|ddhq|FL-H11|20261103-195017,3,data,call_made,PROJ|call|ddhq|FL-H11,20261103-195017,ddhq | FL-H11 | Joe Strada,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H12|20261103-195017,3,data,call_made,PROJ|call|ddhq|FL-H12,20261103-195017,ddhq | FL-H12 | Gus Bilirakis,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H14|20261103-195017,3,data,call_made,PROJ|call|ddhq|FL-H14,20261103-195017,ddhq | FL-H14 | Kathy Castor,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H21|20261103-195017,3,data,call_made,PROJ|call|ddhq|FL-H21,20261103-195017,ddhq | FL-H21 | Brian Mast,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H28|20261103-195017,3,data,call_made,PROJ|call|ddhq|FL-H28,20261103-195017,ddhq | FL-H28 | Carlos Gimenez,winner,False,True,
+data|call_made|PROJ|call|ddhq|FL-H08|20261103-195017,3,data,call_made,PROJ|call|ddhq|FL-H08,20261103-195017,ddhq | FL-H08 | Mike Haridopolos,winner,False,True,

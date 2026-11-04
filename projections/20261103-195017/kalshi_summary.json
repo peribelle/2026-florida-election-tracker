@@ -1,0 +1,11 @@
+{
+ "series_configured": 7,
+ "events_ok": 5,
+ "rows": 8,
+ "races": 4,
+ "empty_series": [
+  "FL-H01/HOUSEFL1",
+  "FL-H06/HOUSEFL6"
+ ],
+ "failures": {}
+}
