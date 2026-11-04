@@ -832,7 +832,7 @@
     ],
     "MON": [
      32506,
-     "11/03/2026 10:22:00 pm",
+     "11/03/2026 10:30:11 pm",
      33,
      33
     ],
@@ -898,7 +898,7 @@
     ],
     "SAR": [
      225119,
-     "11/03/2026 10:17:13 pm",
+     "11/03/2026 10:32:18 pm",
      98,
      98
     ],
@@ -1442,19 +1442,19 @@
  },
  "open": {
   "source|county_stalled|ENR|stalled|PAL": {
-   "last": "2026-11-03 22:30:27",
-   "n": 1,
+   "last": "2026-11-03 22:40:20",
+   "n": 2,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-223015-001",
-    "count": 3,
+    "count": 4,
     "curr": null,
     "delta": null,
     "detail": "786/814 precincts in, last update 11/03/2026 9:57:26 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|PAL",
     "first_seen": "2026-11-03 22:30:27",
-    "headline": "PAL has not updated in 3 pulls (30 min)",
+    "headline": "PAL has not updated in 4 pulls (40 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-222002",
@@ -1470,19 +1470,19 @@
    "tier": 3
   },
   "source|county_stalled|ENR|stalled|STJ": {
-   "last": "2026-11-03 22:30:27",
-   "n": 6,
+   "last": "2026-11-03 22:40:20",
+   "n": 7,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-214014-001",
-    "count": 8,
+    "count": 9,
     "curr": null,
     "delta": null,
     "detail": "52/55 precincts in, last update 11/03/2026 9:09:38 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STJ",
     "first_seen": "2026-11-03 21:40:25",
-    "headline": "STJ has not updated in 8 pulls (80 min)",
+    "headline": "STJ has not updated in 9 pulls (90 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-213002",
@@ -1496,6 +1496,34 @@
    },
    "source": "results",
    "tier": 2
+  },
+  "source|county_stalled|ENR|stalled|STL": {
+   "last": "2026-11-03 22:40:20",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-224007-001",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "61/62 precincts in, last update 11/03/2026 10:07:01 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|STL",
+    "first_seen": "2026-11-03 22:40:20",
+    "headline": "STL has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-223015",
+    "raised_local": "2026-11-03 22:40:20",
+    "raised_utc": "2026-11-04T03:40:20Z",
+    "scope": "ENR|stalled|STL",
+    "snapshot": "20261103-224007",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
   }
  },
  "recent": [
@@ -2090,7 +2118,7 @@
  ],
  "stale": {
   "ALA": {
-   "n": 0,
+   "n": 1,
    "sig": [
     105083,
     "11/03/2026 10:27:32 pm",
@@ -2170,7 +2198,7 @@
    ]
   },
   "DAD": {
-   "n": 1,
+   "n": 2,
    "sig": [
     789466,
     "11/03/2026 10:12:15 pm",
@@ -2397,7 +2425,7 @@
    "n": 0,
    "sig": [
     32506,
-    "11/03/2026 10:22:00 pm",
+    "11/03/2026 10:30:11 pm",
     33
    ]
   },
@@ -2442,7 +2470,7 @@
    ]
   },
   "PAL": {
-   "n": 3,
+   "n": 4,
    "sig": [
     571227,
     "11/03/2026 9:57:26 pm",
@@ -2485,7 +2513,7 @@
    "n": 0,
    "sig": [
     225119,
-    "11/03/2026 10:17:13 pm",
+    "11/03/2026 10:32:18 pm",
     98
    ]
   },
@@ -2498,7 +2526,7 @@
    ]
   },
   "STJ": {
-   "n": 8,
+   "n": 9,
    "sig": [
     153245,
     "11/03/2026 9:09:38 pm",
@@ -2506,7 +2534,7 @@
    ]
   },
   "STL": {
-   "n": 2,
+   "n": 3,
    "sig": [
     137054,
     "11/03/2026 10:07:01 pm",
@@ -2573,13 +2601,13 @@
  "totals": {
   "1": 7,
   "2": 136,
-  "3": 340,
+  "3": 341,
   "acked": 394,
-  "alerts": 483
+  "alerts": 484
  },
  "validated": {
   "projections": "20261103-222002",
-  "results": "20261103-223015",
+  "results": "20261103-224007",
   "slow": "20261103-221519",
   "turnout": "20261103-185931"
  },
