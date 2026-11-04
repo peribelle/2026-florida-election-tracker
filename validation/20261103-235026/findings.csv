@@ -1,0 +1,2 @@
+fingerprint,tier,validator,kind,scope,snapshot,key,column,prev,curr,delta
+data|precincts_regressed|FEW-status|Miami-Dade|precincts_reporting_pct|20261103-235015,2,data,precincts_regressed,FEW-status|Miami-Dade|precincts_reporting_pct,20261103-235015,Miami-Dade,precincts_reporting_pct,100,93.27,-6.730000000000004

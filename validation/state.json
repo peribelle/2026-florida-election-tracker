@@ -887,8 +887,8 @@
      263
     ],
     "PAL": [
-     572081,
-     "11/03/2026 11:10:44 pm",
+     575378,
+     "11/03/2026 11:48:35 pm",
      814,
      814
     ],
@@ -2015,6 +2015,27 @@
    "source": "results",
    "tier": 2,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-235015-001",
+   "count": 1,
+   "curr": 93.27,
+   "delta": -6.730000000000004,
+   "detail": "",
+   "event": "raised",
+   "fingerprint": "data|precincts_regressed|FEW-status|Miami-Dade|precincts_reporting_pct|20261103-235015",
+   "first_seen": "2026-11-03 23:50:26",
+   "headline": "Miami-Dade: precincts reporting % 100 \u2192 93.27 (-6.730000000000004)",
+   "kind": "precincts_regressed",
+   "prev": 100,
+   "prev_snapshot": "20261103-234006",
+   "raised_local": "2026-11-03 23:50:26",
+   "raised_utc": "2026-11-04T04:50:26Z",
+   "scope": "FEW-status|Miami-Dade|precincts_reporting_pct",
+   "snapshot": "20261103-235015",
+   "source": "results",
+   "tier": 2,
+   "validator": "data"
   }
  ],
  "stale": {
@@ -2389,8 +2410,8 @@
   "PAL": {
    "n": 0,
    "sig": [
-    572081,
-    "11/03/2026 11:10:44 pm",
+    575378,
+    "11/03/2026 11:48:35 pm",
     814
    ]
   },
@@ -2451,7 +2472,7 @@
    ]
   },
   "STL": {
-   "n": 0,
+   "n": 1,
    "sig": [
     138179,
     "11/03/2026 11:36:48 pm",
@@ -2517,14 +2538,14 @@
  },
  "totals": {
   "1": 18,
-  "2": 140,
+  "2": 141,
   "3": 347,
   "acked": 413,
-  "alerts": 505
+  "alerts": 506
  },
  "validated": {
-  "projections": "20261103-232001",
-  "results": "20261103-234006",
+  "projections": "20261103-235014",
+  "results": "20261103-235015",
   "slow": "20261103-234519",
   "turnout": "20261103-185931"
  },
