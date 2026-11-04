@@ -1,0 +1,32 @@
+{
+ "counties_ok": 35,
+ "counties_configured": 59,
+ "rows": 146941,
+ "votes": 68934593,
+ "failures": {
+  "ALA": "reports HTTP 404",
+  "BAY": "no precinct CSV link",
+  "CAL": "reports HTTP 404",
+  "CLA": "reports HTTP 404",
+  "DES": "reports HTTP 404",
+  "DUV": "reports HTTP 404",
+  "ESC": "reports HTTP 404",
+  "FLA": "reports HTTP 404",
+  "GUL": "reports HTTP 404",
+  "HAM": "reports HTTP 404",
+  "HEN": "reports HTTP 404",
+  "LEO": "reports HTTP 404",
+  "LIB": "reports HTTP 404",
+  "MAN": "reports HTTP 404",
+  "MRN": "no precinct CSV link",
+  "OKA": "reports HTTP 404",
+  "PAS": "no precinct CSV link",
+  "SAN": "no precinct CSV link",
+  "SEM": "reports HTTP 404",
+  "STL": "reports HTTP 404",
+  "SUM": "reports HTTP 404",
+  "SUW": "reports HTTP 404",
+  "UNI": "reports HTTP 404",
+  "WAS": "reports HTTP 404"
+ }
+}
