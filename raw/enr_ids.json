@@ -219,6 +219,11 @@
   "id": "4090",
   "key": "ORA"
  },
+ "PAL": {
+  "base": "https://enr.electionsfl.org",
+  "id": "4131",
+  "key": "PAL"
+ },
  "PAS": {
   "base": "https://enr.electionsfl.org",
   "id": "4085",

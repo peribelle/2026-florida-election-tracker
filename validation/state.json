@@ -59,6 +59,7 @@
     "OKA",
     "OKE",
     "ORA",
+    "PAL",
     "PAS",
     "POL",
     "PUT",
@@ -75,9 +76,9 @@
     "WAL",
     "WAS"
    ],
-   "enr_ok": 59,
-   "enr_rows": 2887,
-   "enr_status_rows": 59,
+   "enr_ok": 60,
+   "enr_rows": 2988,
+   "enr_status_rows": 60,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
@@ -165,7 +166,7 @@
     "CIT": 1196373,
     "CLL": 2897973,
     "CLM": 396690,
-    "DAD": 19636786,
+    "DAD": 19660857,
     "DIX": 80043,
     "FRA": 83287,
     "GAD": 283813,
@@ -187,7 +188,7 @@
     "NAS": 0,
     "OKE": 170194,
     "ORA": 7385658,
-    "POL": 3526941,
+    "POL": 3619581,
     "PUT": 391108,
     "SAR": 4812156,
     "STJ": 2752768,
@@ -662,9 +663,9 @@
      28
     ],
     "DAD": [
-     787277,
-     "11/03/2026 9:31:09 pm",
-     759,
+     788080,
+     "11/03/2026 9:56:30 pm",
+     762,
      773
     ],
     "DES": [
@@ -865,6 +866,12 @@
      263,
      263
     ],
+    "PAL": [
+     571227,
+     "11/03/2026 9:57:26 pm",
+     786,
+     814
+    ],
     "PAS": [
      240663,
      "11/03/2026 9:27:30 pm",
@@ -872,8 +879,8 @@
      122
     ],
     "POL": [
-     252861,
-     "11/03/2026 8:48:20 pm",
+     259553,
+     "11/03/2026 9:55:41 pm",
      177,
      177
     ],
@@ -1001,6 +1008,7 @@
     "OKA",
     "OKE",
     "ORA",
+    "PAL",
     "PAS",
     "POL",
     "PUT",
@@ -1017,9 +1025,9 @@
     "WAL",
     "WAS"
    ],
-   "enr_ok": 59,
-   "enr_rows": 2887,
-   "enr_status_rows": 59,
+   "enr_ok": 60,
+   "enr_rows": 2988,
+   "enr_status_rows": 60,
    "few_contests": 172,
    "few_ed_rows": 68,
    "few_status_rows": 68,
@@ -1107,7 +1115,7 @@
     "CIT": 1196373,
     "CLL": 2897973,
     "CLM": 396690,
-    "DAD": 19636786,
+    "DAD": 19660857,
     "DIX": 80043,
     "FRA": 83287,
     "GAD": 283813,
@@ -1129,7 +1137,7 @@
     "NAS": 0,
     "OKE": 170194,
     "ORA": 7385658,
-    "POL": 3526941,
+    "POL": 3619581,
     "PUT": 391108,
     "SAR": 4812156,
     "STJ": 2752768,
@@ -1433,19 +1441,19 @@
  },
  "open": {
   "source|county_stalled|ENR|stalled|STJ": {
-   "last": "2026-11-03 21:50:14",
-   "n": 2,
+   "last": "2026-11-03 22:00:46",
+   "n": 3,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-214014-001",
-    "count": 4,
+    "count": 5,
     "curr": null,
     "delta": null,
     "detail": "52/55 precincts in, last update 11/03/2026 9:09:38 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STJ",
     "first_seen": "2026-11-03 21:40:25",
-    "headline": "STJ has not updated in 4 pulls (40 min)",
+    "headline": "STJ has not updated in 5 pulls (50 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-213002",
@@ -1454,26 +1462,26 @@
     "scope": "ENR|stalled|STJ",
     "snapshot": "20261103-214014",
     "source": "results",
-    "tier": 3,
+    "tier": 2,
     "validator": "source"
    },
    "source": "results",
-   "tier": 3
+   "tier": 2
   },
   "source|county_stalled|ENR|stalled|STL": {
-   "last": "2026-11-03 21:50:14",
-   "n": 3,
+   "last": "2026-11-03 22:00:46",
+   "n": 4,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-213002-001",
-    "count": 5,
+    "count": 6,
     "curr": null,
     "delta": null,
     "detail": "58/62 precincts in, last update 11/03/2026 8:58:13 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STL",
     "first_seen": "2026-11-03 21:30:14",
-    "headline": "STL has not updated in 5 pulls (50 min)",
+    "headline": "STL has not updated in 6 pulls (60 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-212011",
@@ -2224,11 +2232,53 @@
    "source": "projections",
    "tier": 3,
    "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-220033-002",
+   "count": 101,
+   "curr": null,
+   "delta": null,
+   "detail": "e.g. Ashley Moody; Angie Nixon; Neil J. Gillespie",
+   "event": "raised",
+   "fingerprint": "data|rows_new|ENR|new|20261103-220033",
+   "first_seen": "2026-11-03 22:00:46",
+   "headline": "New in ENR: 101 rows across 1 place",
+   "kind": "rows_new",
+   "prev": null,
+   "prev_snapshot": "20261103-215002",
+   "raised_local": "2026-11-03 22:00:46",
+   "raised_utc": "2026-11-04T03:00:46Z",
+   "scope": "ENR|new",
+   "snapshot": "20261103-220033",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
+  },
+  {
+   "alert_id": "A-20261103-220033-003",
+   "count": 2,
+   "curr": null,
+   "delta": -91,
+   "detail": "PRECINCT 127.0 Margaret Mary ''Margie\u2026 57 \u2192 blank; PRECINCT 127.0 Margaret Mary ''Margie\u2026 34 \u2192 blank",
+   "event": "raised",
+   "fingerprint": "data|parts_down|PREC|DAD|North Miami Beach Group 4 Commissioner|20261103-220033",
+   "first_seen": "2026-11-03 22:00:46",
+   "headline": "A part fell while its total held in DAD precincts \u00b7 North Miami Beach Group 4 Commissioner: \u221291 across 2 numbers",
+   "kind": "parts_down",
+   "prev": 57,
+   "prev_snapshot": "20261103-215002",
+   "raised_local": "2026-11-03 22:00:46",
+   "raised_utc": "2026-11-04T03:00:46Z",
+   "scope": "PREC|DAD|North Miami Beach Group 4 Commissioner",
+   "snapshot": "20261103-220033",
+   "source": "results",
+   "tier": 3,
+   "validator": "data"
   }
  ],
  "stale": {
   "ALA": {
-   "n": 0,
+   "n": 1,
    "sig": [
     103567,
     "11/03/2026 9:49:10 pm",
@@ -2308,11 +2358,11 @@
    ]
   },
   "DAD": {
-   "n": 1,
+   "n": 0,
    "sig": [
-    787277,
-    "11/03/2026 9:31:09 pm",
-    759
+    788080,
+    "11/03/2026 9:56:30 pm",
+    762
    ]
   },
   "DES": {
@@ -2579,6 +2629,14 @@
     263
    ]
   },
+  "PAL": {
+   "n": 0,
+   "sig": [
+    571227,
+    "11/03/2026 9:57:26 pm",
+    786
+   ]
+  },
   "PAS": {
    "n": 0,
    "sig": [
@@ -2590,8 +2648,8 @@
   "POL": {
    "n": 0,
    "sig": [
-    252861,
-    "11/03/2026 8:48:20 pm",
+    259553,
+    "11/03/2026 9:55:41 pm",
     177
    ]
   },
@@ -2620,7 +2678,7 @@
    ]
   },
   "SEM": {
-   "n": 1,
+   "n": 2,
    "sig": [
     194943,
     "11/03/2026 9:39:53 pm",
@@ -2628,7 +2686,7 @@
    ]
   },
   "STJ": {
-   "n": 4,
+   "n": 5,
    "sig": [
     153245,
     "11/03/2026 9:09:38 pm",
@@ -2636,7 +2694,7 @@
    ]
   },
   "STL": {
-   "n": 5,
+   "n": 6,
    "sig": [
     133998,
     "11/03/2026 8:58:13 pm",
@@ -2702,14 +2760,14 @@
  },
  "totals": {
   "1": 7,
-  "2": 135,
-  "3": 336,
+  "2": 136,
+  "3": 338,
   "acked": 394,
-  "alerts": 478
+  "alerts": 481
  },
  "validated": {
   "projections": "20261103-215002",
-  "results": "20261103-215002",
+  "results": "20261103-220033",
   "slow": "20261103-214505",
   "turnout": "20261103-185931"
  },
