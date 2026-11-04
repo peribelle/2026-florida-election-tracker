@@ -1,0 +1,5 @@
+fetched_utc,source,race_key,race,office,district,candidate,party,win_probability,price_cents,bid_cents,ask_cents,volume,source_updated_at,source_url
+2026-11-04T03:50:01+00:00,kalshi,FL-CFO,Chief Financial Officer,CFO,,Annette Taddeo,DEM,0.01,1.0,0.0,91.0,250.55,2026-11-04T03:09:49.490658Z,https://api.elections.kalshi.com/trade-api/v2/events/KXFLCFO-26NOV03
+2026-11-04T03:50:01+00:00,kalshi,FL-CFO,Chief Financial Officer,CFO,,Blaise Ingoglia,GOP,0.99,99.0,60.0,100.0,1559.62,2026-11-04T03:09:49.475124Z,https://api.elections.kalshi.com/trade-api/v2/events/KXFLCFO-26NOV03
+2026-11-04T03:50:01+00:00,kalshi,FL-H13,US House 13,US House,13,Leela Gray,DEM,0.001,0.1,0.1,1.2,106112.24,2026-09-15T21:20:50.850615Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL13-26
+2026-11-04T03:50:01+00:00,kalshi,FL-H13,US House 13,US House,13,Anna Paulina Luna,GOP,0.99,99.0,99.0,99.7,236361.44,2026-10-16T16:31:41.533151Z,https://api.elections.kalshi.com/trade-api/v2/events/HOUSEFL13-26

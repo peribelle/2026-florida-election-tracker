@@ -1441,20 +1441,48 @@
   }
  },
  "open": {
+  "source|county_stalled|ENR|stalled|DAD": {
+   "last": "2026-11-03 22:50:12",
+   "n": 1,
+   "origin": "snapshot",
+   "row": {
+    "alert_id": "A-20261103-225000-001",
+    "count": 3,
+    "curr": null,
+    "delta": null,
+    "detail": "762/773 precincts in, last update 11/03/2026 10:12:15 pm.",
+    "event": "raised",
+    "fingerprint": "source|county_stalled|ENR|stalled|DAD",
+    "first_seen": "2026-11-03 22:50:12",
+    "headline": "DAD has not updated in 3 pulls (30 min)",
+    "kind": "county_stalled",
+    "prev": null,
+    "prev_snapshot": "20261103-224007",
+    "raised_local": "2026-11-03 22:50:12",
+    "raised_utc": "2026-11-04T03:50:12Z",
+    "scope": "ENR|stalled|DAD",
+    "snapshot": "20261103-225000",
+    "source": "results",
+    "tier": 3,
+    "validator": "source"
+   },
+   "source": "results",
+   "tier": 3
+  },
   "source|county_stalled|ENR|stalled|PAL": {
-   "last": "2026-11-03 22:40:20",
-   "n": 2,
+   "last": "2026-11-03 22:50:12",
+   "n": 3,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-223015-001",
-    "count": 4,
+    "count": 5,
     "curr": null,
     "delta": null,
     "detail": "786/814 precincts in, last update 11/03/2026 9:57:26 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|PAL",
     "first_seen": "2026-11-03 22:30:27",
-    "headline": "PAL has not updated in 4 pulls (40 min)",
+    "headline": "PAL has not updated in 5 pulls (50 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-222002",
@@ -1463,26 +1491,26 @@
     "scope": "ENR|stalled|PAL",
     "snapshot": "20261103-223015",
     "source": "results",
-    "tier": 3,
+    "tier": 2,
     "validator": "source"
    },
    "source": "results",
-   "tier": 3
+   "tier": 2
   },
   "source|county_stalled|ENR|stalled|STJ": {
-   "last": "2026-11-03 22:40:20",
-   "n": 7,
+   "last": "2026-11-03 22:50:12",
+   "n": 8,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-214014-001",
-    "count": 9,
+    "count": 10,
     "curr": null,
     "delta": null,
     "detail": "52/55 precincts in, last update 11/03/2026 9:09:38 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STJ",
     "first_seen": "2026-11-03 21:40:25",
-    "headline": "STJ has not updated in 9 pulls (90 min)",
+    "headline": "STJ has not updated in 10 pulls (100 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-213002",
@@ -1498,19 +1526,19 @@
    "tier": 2
   },
   "source|county_stalled|ENR|stalled|STL": {
-   "last": "2026-11-03 22:40:20",
-   "n": 1,
+   "last": "2026-11-03 22:50:12",
+   "n": 2,
    "origin": "snapshot",
    "row": {
     "alert_id": "A-20261103-224007-001",
-    "count": 3,
+    "count": 4,
     "curr": null,
     "delta": null,
     "detail": "61/62 precincts in, last update 11/03/2026 10:07:01 pm.",
     "event": "raised",
     "fingerprint": "source|county_stalled|ENR|stalled|STL",
     "first_seen": "2026-11-03 22:40:20",
-    "headline": "STL has not updated in 3 pulls (30 min)",
+    "headline": "STL has not updated in 4 pulls (40 min)",
     "kind": "county_stalled",
     "prev": null,
     "prev_snapshot": "20261103-223015",
@@ -2118,7 +2146,7 @@
  ],
  "stale": {
   "ALA": {
-   "n": 1,
+   "n": 2,
    "sig": [
     105083,
     "11/03/2026 10:27:32 pm",
@@ -2198,7 +2226,7 @@
    ]
   },
   "DAD": {
-   "n": 2,
+   "n": 3,
    "sig": [
     789466,
     "11/03/2026 10:12:15 pm",
@@ -2470,7 +2498,7 @@
    ]
   },
   "PAL": {
-   "n": 4,
+   "n": 5,
    "sig": [
     571227,
     "11/03/2026 9:57:26 pm",
@@ -2526,7 +2554,7 @@
    ]
   },
   "STJ": {
-   "n": 9,
+   "n": 10,
    "sig": [
     153245,
     "11/03/2026 9:09:38 pm",
@@ -2534,7 +2562,7 @@
    ]
   },
   "STL": {
-   "n": 3,
+   "n": 4,
    "sig": [
     137054,
     "11/03/2026 10:07:01 pm",
@@ -2600,14 +2628,14 @@
  },
  "totals": {
   "1": 7,
-  "2": 136,
-  "3": 341,
+  "2": 137,
+  "3": 342,
   "acked": 394,
-  "alerts": 484
+  "alerts": 486
  },
  "validated": {
-  "projections": "20261103-222002",
-  "results": "20261103-224007",
+  "projections": "20261103-225000",
+  "results": "20261103-225000",
   "slow": "20261103-224500",
   "turnout": "20261103-185931"
  },
